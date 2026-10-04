@@ -4,8 +4,9 @@ Affiche sur l'écran d'accueil iPhone les prochaines séances et événements de
 
 Cette première version (étape 1 du plan) contient :
 
-- `data/events.json` : la vraie programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) et quelques événements **fictifs** pour L'Arsenal (titres préfixés `[Exemple]`, à remplacer à l'étape 3) ;
-- `widget/EventsWidget.js` : le widget (tailles petit / moyen / grand, filtre par lieu, cache hors ligne).
+- `data/events.json` : la programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) et celle de L'Arsenal (Metz) ;
+- `widget/EventsWidget.js` : le widget (tailles petit / moyen / grand, filtre par lieu, cache hors ligne) ;
+- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal et purge des événements passés (voir « Mise à jour automatique »).
 
 ## Installation
 
@@ -52,6 +53,31 @@ Astuce : tu peux ajouter plusieurs widgets avec des paramètres différents (un 
 - Hors ligne, le widget affiche la dernière version reçue (cache local) avec la mention « Hors ligne ».
 - Le widget demande un rafraîchissement toutes les 15 minutes environ, mais c'est iOS qui décide du rythme réel (de 15 minutes à plusieurs heures).
 
+## Mise à jour automatique
+
+Le workflow **Rafraîchir les événements** (`.github/workflows/refresh-scrape.yml`) tourne deux fois par jour (vers 5 h et 15 h, heure de Paris) et peut aussi être lancé à la main : onglet **Actions > Rafraîchir les événements > Run workflow**.
+
+À chaque passage il :
+
+1. récupère la programmation de L'Arsenal sur le site de la Cité musicale-Metz (toutes les pages, 1 requête par seconde, `robots.txt` respecté) et remplace les événements de L'Arsenal ;
+2. **supprime les événements passés** : tout ce qui s'est terminé avant le début de la journée en cours (heure de Paris) disparaît, donc les événements de la veille sont retirés le matin. Une exposition ou un événement sur plusieurs jours reste jusqu'à son dernier jour ;
+3. vérifie que le JSON est valide (jamais de fichier cassé publié), puis le commit si quelque chose a changé.
+
+Si le site de L'Arsenal est inaccessible ou que sa mise en page change au point que plus rien n'est lu, les anciennes données de L'Arsenal sont conservées, la purge a quand même lieu, et le workflow passe en **échec** : GitHub t'envoie alors un e-mail. La Scala n'est pas touchée par ce workflow (ses données viendront de l'étape PDF).
+
+Tester en local (Python 3.11+) :
+
+```
+pip install -r requirements.txt
+python -m unittest discover -s scripts/tests -v     # tests sans réseau
+python scripts/merge.py                              # purge seule
+python scripts/scrape_sources.py                     # scraping + purge
+```
+
+Pour ajouter un lieu : créer `scripts/sources/<nom>.py` (constante `LIEU`, fonction `fetch_events()`) et l'ajouter à la liste `SOURCES` de `scripts/scrape_sources.py`.
+
+Pour inclure aussi la BAM et les Trinitaires (autres salles de la Cité musicale), il faut modifier `scripts/sources/arsenal.py` : pour l'instant seuls les événements de L'Arsenal sont retenus.
+
 ## Format du JSON
 
 ```json
@@ -74,10 +100,12 @@ Astuce : tu peux ajouter plusieurs widgets avec des paramètres différents (un 
 }
 ```
 
-Catégories prévues : `cinema`, `concert`, `spectacle`, `expo`, `festival`. Les champs `duree_min`, `version` et `note` sont facultatifs. Dates en ISO 8601 avec fuseau (`+02:00` en heure d'été, `+01:00` à partir du 25 octobre 2026).
+Catégories prévues : `cinema`, `concert`, `spectacle`, `expo`, `festival`. Les champs `duree_min`, `version`, `note`, `fin` et `jour_entier` sont facultatifs.
+
+Événements sans heure précise ou sur plusieurs jours (exposition, spectacle sur trois jours) : `jour_entier: true`, `debut` à minuit et `fin` à 23:59:59 du dernier jour. Le widget les affiche sous « Aujourd'hui » tant qu'ils sont en cours, avec « → 15 nov. » (ou « journée » pour un seul jour). Dates en ISO 8601 avec fuseau (`+02:00` en heure d'été, `+01:00` à partir du 25 octobre 2026).
 
 ## Prochaines étapes
 
 2. Chaîne PDF vers JSON (extraction avec `pdfplumber`, GitHub Action déclenchée par un dépôt dans `pdf/`).
-3. Scraping automatique de La Scala et de L'Arsenal.
+3. Scraping automatique de La Scala (L'Arsenal est déjà en place).
 4. Lignes cliquables dans le widget pour déclencher une Action GitHub (token fine-grained dans le Keychain).

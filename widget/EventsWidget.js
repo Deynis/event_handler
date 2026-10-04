@@ -95,8 +95,19 @@ function selectEvents(data, filterParam, now) {
   const filters = String(filterParam || "").split(",").map(norm).filter(Boolean);
   const minStart = now.getTime() - GRACE_MINUTES * 60000;
   return data.events
-    .map(function (e) { return Object.assign({}, e, { _d: new Date(e.debut) }); })
-    .filter(function (e) { return !isNaN(e._d.getTime()) && e._d.getTime() >= minStart; })
+    .map(function (e) {
+      const start = new Date(e.debut);
+      // Fin : celle du JSON si elle existe, sinon fin de journée pour un événement
+      // « jour entier », sinon le début lui-même.
+      let end = e.fin ? new Date(e.fin) : start;
+      if (e.jour_entier && !e.fin) end = new Date(start.getFullYear(), start.getMonth(), start.getDate(), 23, 59, 59);
+      return Object.assign({}, e, { _d: start, _end: end });
+    })
+    .filter(function (e) {
+      if (isNaN(e._d.getTime())) return false;
+      // Période ou jour entier : visible jusqu'à sa fin. Séance : jusqu'à 10 min après le début.
+      return (e.jour_entier || e.fin) ? e._end.getTime() >= now.getTime() : e._d.getTime() >= minStart;
+    })
     .filter(function (e) {
       if (filters.length === 0) return true;
       return filters.some(function (f) {
@@ -106,15 +117,25 @@ function selectEvents(data, filterParam, now) {
     .sort(function (a, b) { return a._d - b._d; });
 }
 
+// Texte à droite de la ligne : heure, « -> 15 nov. » pour une période, « journée » sinon.
+function timeLabel(e) {
+  if (!e.jour_entier) return fmtTime(e._d);
+  if (dayKey(e._end) !== dayKey(e._d)) return "→ " + e._end.getDate() + " " + MOIS[e._end.getMonth()];
+  return "journée";
+}
+
 // Regroupe par jour puis par (lieu + titre) : un film = une ligne avec toutes ses heures.
-function groupByDay(events) {
+// Une période déjà commencée (ex. une exposition) est affichée sous « Aujourd'hui ».
+function groupByDay(events, now) {
   const days = [];
   const dayIndex = {};
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   events.forEach(function (e) {
-    const k = dayKey(e._d);
+    const shownDate = (e.jour_entier && e._d < startOfToday) ? now : e._d;
+    const k = dayKey(shownDate);
     if (!(k in dayIndex)) {
       dayIndex[k] = days.length;
-      days.push({ date: e._d, groups: [], index: {} });
+      days.push({ date: shownDate, groups: [], index: {} });
     }
     const day = days[dayIndex[k]];
     const gk = e.lieu + "|" + e.titre;
@@ -122,7 +143,7 @@ function groupByDay(events) {
       day.index[gk] = day.groups.length;
       day.groups.push({ event: e, times: [] });
     }
-    day.groups[day.index[gk]].times.push(fmtTime(e._d));
+    day.groups[day.index[gk]].times.push(timeLabel(e));
   });
   return days;
 }
@@ -181,7 +202,7 @@ function buildWidget(result, filterParam, family) {
   }
 
   const events = selectEvents(result.data, filterParam, now);
-  const days = groupByDay(events);
+  const days = groupByDay(events, now);
 
   if (days.length === 0) {
     const t = w.addText("Aucun événement à venir");

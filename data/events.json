@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-04T18:00:00+02:00",
+  "updated_at": "2026-10-04T20:10:28+02:00",
   "events": [
+    {
+      "id": "l-arsenal-2026-09-13-0000-cimarron",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "expo",
+      "titre": "Cimarron",
+      "debut": "2026-09-13T00:00:00+02:00",
+      "fin": "2026-11-15T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "Charles Fréger",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/cimarron"
+    },
+    {
+      "id": "l-arsenal-2026-10-06-2000-concert-pour-les-etudiants",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Concert pour les étudiants",
+      "debut": "2026-10-06T20:00:00+02:00",
+      "note": "Orchestre national de Metz Grand Est, Louis Schwizgebel",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-pour-les-etudiants-3"
+    },
     {
       "id": "la-scala-2026-10-07-0945-memoire-de-fille",
       "lieu": "La Scala",
@@ -96,6 +118,16 @@
       "debut": "2026-10-07T19:30:00+02:00",
       "duree_min": 159,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "l-arsenal-2026-10-07-2000-l-amour-est-un-crime-parfait",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "cinema",
+      "titre": "L'Amour est un crime parfait",
+      "debut": "2026-10-07T20:00:00+02:00",
+      "note": "Caravaggio",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/lamour-est-un-crime-parfait-1"
     },
     {
       "id": "la-scala-2026-10-07-2020-her-private-hell",
@@ -201,17 +233,6 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
-      "id": "l-arsenal-2026-10-08-2000-exemple-concert-symphonique",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "concert",
-      "titre": "[Exemple] Concert symphonique",
-      "debut": "2026-10-08T20:00:00+02:00",
-      "duree_min": 90,
-      "note": "DONNÉE FICTIVE (exemple)",
-      "url": "https://www.citemusicale-metz.fr/programmation"
-    },
-    {
       "id": "la-scala-2026-10-08-2030-histoires-de-la-nuit",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -305,6 +326,16 @@
       "duree_min": 107,
       "version": "VOST",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "l-arsenal-2026-10-09-2000-sauvage",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Sauvage",
+      "debut": "2026-10-09T20:00:00+02:00",
+      "note": "Mathilde Monnier, Eve Risser, Le Maxiphone",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/sauvage"
     },
     {
       "id": "la-scala-2026-10-09-2015-histoires-de-la-nuit",
@@ -403,6 +434,16 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "l-arsenal-2026-10-10-2000-concert-de-solidarite-des-armees",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Concert de solidarité des Armées",
+      "debut": "2026-10-10T20:00:00+02:00",
+      "note": "Musique de l'Arme Blindée Cavalerie - Dernières places",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concert-de-solidarite-des-armees-2"
+    },
+    {
       "id": "la-scala-2026-10-10-2015-memoire-de-fille",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -411,17 +452,6 @@
       "debut": "2026-10-10T20:15:00+02:00",
       "duree_min": 117,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "l-arsenal-2026-10-10-2030-exemple-spectacle-de-danse",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "[Exemple] Spectacle de danse",
-      "debut": "2026-10-10T20:30:00+02:00",
-      "duree_min": 75,
-      "note": "DONNÉE FICTIVE (exemple)",
-      "url": "https://www.citemusicale-metz.fr/programmation"
     },
     {
       "id": "la-scala-2026-10-11-1320-notre-salut",
@@ -465,17 +495,6 @@
       "version": "VOST",
       "note": "Avant-première",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "l-arsenal-2026-10-11-1700-exemple-recital-de-piano",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "concert",
-      "titre": "[Exemple] Récital de piano",
-      "debut": "2026-10-11T17:00:00+02:00",
-      "duree_min": 80,
-      "note": "DONNÉE FICTIVE (exemple)",
-      "url": "https://www.citemusicale-metz.fr/programmation"
     },
     {
       "id": "la-scala-2026-10-11-1850-la-vie-en-relief-jacques-henri-lartigue",
@@ -708,15 +727,14 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
-      "id": "l-arsenal-2026-10-15-2000-exemple-musique-de-chambre",
+      "id": "l-arsenal-2026-10-15-2000-le-mur",
       "lieu": "L'Arsenal",
       "ville": "Metz",
-      "categorie": "concert",
-      "titre": "[Exemple] Musique de chambre",
+      "categorie": "spectacle",
+      "titre": "Le Mur",
       "debut": "2026-10-15T20:00:00+02:00",
-      "duree_min": 70,
-      "note": "DONNÉE FICTIVE (exemple)",
-      "url": "https://www.citemusicale-metz.fr/programmation"
+      "note": "ou la peau",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/le-mur"
     },
     {
       "id": "la-scala-2026-10-16-2000-insecticide-comment-l-agrochimie-a-tue-les-insectes",
@@ -730,6 +748,16 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "l-arsenal-2026-10-16-2000-a-la-source-du-rai",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "À la source du raï",
+      "debut": "2026-10-16T20:00:00+02:00",
+      "note": "Sofiane Saidi, Théo Ceccaldi",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/a-la-source-du-rai"
+    },
+    {
       "id": "la-scala-2026-10-17-1600-au-fil-de-l-eau-de-l-insouciance-a-la-desobeissance",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -739,6 +767,60 @@
       "duree_min": 52,
       "note": "Festival AlimenTerre - Ciné-débat suivi d'un buffet organisé par l'Association Franco-Africaine de Moselle",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "l-arsenal-2026-10-17-1800-la-villanella",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "La Villanella",
+      "debut": "2026-10-17T18:00:00+02:00",
+      "note": "La naissance du chant napolitain - Complet",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/la-villanella"
+    },
+    {
+      "id": "l-arsenal-2026-10-17-2000-andrei-korobeinikov-rachmaninov",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Andreï Korobeinikov & Rachmaninov",
+      "debut": "2026-10-17T20:00:00+02:00",
+      "note": "Johannes Brahms, Béla Bartók, Orchestre national de Metz Grand Est, dirigé par Kevin John Edusei",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/andrei-korobeinikov-rachmaninov"
+    },
+    {
+      "id": "l-arsenal-2026-10-18-1600-viva-la-gracia",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Viva la Gracia !",
+      "debut": "2026-10-18T16:00:00+02:00",
+      "note": "Concert et Bal",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/viva-la-gracia"
+    },
+    {
+      "id": "l-arsenal-2026-10-20-0000-ile-aux-bebes-musicale",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Île aux bébés musicale",
+      "debut": "2026-10-20T00:00:00+02:00",
+      "fin": "2026-10-20T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "3 mois à 3 ans - Complet",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ile-aux-bebes-musicale-12"
+    },
+    {
+      "id": "l-arsenal-2026-10-21-0000-thaumazein",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Thaumazein",
+      "debut": "2026-10-21T00:00:00+02:00",
+      "fin": "2026-10-22T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "dès 6 ans - Cherchons l'équilibre",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/thaumazein"
     },
     {
       "id": "la-scala-2026-10-21-1000-chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs",
@@ -752,6 +834,52 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "l-arsenal-2026-10-21-1400-visite-l-envers-du-decor",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Visite « L'envers du décor »",
+      "debut": "2026-10-21T14:00:00+02:00",
+      "note": "Dès 7 ans - L'Arsenal",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-13"
+    },
+    {
+      "id": "l-arsenal-2026-10-22-0000-ark-saariaho",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "ARK Saariaho",
+      "debut": "2026-10-22T00:00:00+02:00",
+      "fin": "2026-10-24T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "4 mois à 24 mois - Immersion sensorielle",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ark-saariaho"
+    },
+    {
+      "id": "l-arsenal-2026-10-23-0000-cote-a-cote",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Côte à Côte",
+      "debut": "2026-10-23T00:00:00+02:00",
+      "fin": "2026-10-24T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "dès 3 et 6 ans - Deux cœurs qui se lient",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/cote-a-cote"
+    },
+    {
+      "id": "l-arsenal-2026-10-23-0000-le-bal-des-sorcieres",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Le Bal des sorcières",
+      "debut": "2026-10-23T00:00:00+02:00",
+      "fin": "2026-10-24T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "dès 5 ans - Musiciennes et musiciens de l'Orchestre national de Metz Grand Est, Chloé Meyzie",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/le-bal-des-sorcieres"
+    },
+    {
       "id": "la-scala-2026-10-23-2030-puppet-master-i-ii-iii",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -761,6 +889,88 @@
       "version": "VOST",
       "note": "Le Retour du Bis - présenté par l'équipe de Video Popcorn Edition",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "l-arsenal-2026-11-04-2000-buster-keaton-steamboat-bill-jr",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "cinema",
+      "titre": "Buster Keaton, Steamboat Bill, Jr.",
+      "debut": "2026-11-04T20:00:00+01:00",
+      "note": "Pierre Boespflug Trio",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/cine-cite/buster-keaton-steamboat-bill-jr"
+    },
+    {
+      "id": "l-arsenal-2026-11-05-2000-au-dela-des-pyrenees",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Au-delà des Pyrénées",
+      "debut": "2026-11-05T20:00:00+01:00",
+      "note": "Wilhem Latchoumia",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/au-dela-des-pyrenees"
+    },
+    {
+      "id": "l-arsenal-2026-11-10-1900-diner-de-gala",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Dîner de Gala",
+      "debut": "2026-11-10T19:00:00+01:00",
+      "note": "Musiciennes et musiciens de l'Orchestre national Metz Grand Est",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/diner-de-gala-2"
+    },
+    {
+      "id": "l-arsenal-2026-11-15-1600-su",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Sù !",
+      "debut": "2026-11-15T16:00:00+01:00",
+      "note": "Ballet imaginaire - Œuvres de Claudio Monteverdi",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/extra-dimanche/su"
+    },
+    {
+      "id": "l-arsenal-2026-11-17-2000-cuarteto-casals",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Cuarteto Casals",
+      "debut": "2026-11-17T20:00:00+01:00",
+      "note": "Haydn, Fábregas, Schubert",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/cuarteto-casals"
+    },
+    {
+      "id": "l-arsenal-2026-11-18-2000-tigran-hamasyan",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Tigran Hamasyan",
+      "debut": "2026-11-18T20:00:00+01:00",
+      "note": "Manifeste",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/tigran-hamasyan"
+    },
+    {
+      "id": "l-arsenal-2026-11-21-0000-50-ans-de-l-orchestre-mozart-strauss-ravel",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "50 ans de l'Orchestre : Mozart, Strauss, Ravel",
+      "debut": "2026-11-21T00:00:00+01:00",
+      "fin": "2026-11-22T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "David Reiland, Alena Baeva",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/50-ans-de-lorchestre-mozart-strauss-ravel"
+    },
+    {
+      "id": "l-arsenal-2026-11-21-1500-quatre-saisons",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "QUATRE (saisons)",
+      "debut": "2026-11-21T15:00:00+01:00",
+      "note": "dès 6 ans - Vivaldi dansé - Complet",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/quatre-saisons"
     }
   ]
 }
