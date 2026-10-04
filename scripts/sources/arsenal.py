@@ -21,7 +21,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from common import make_id, norm, paris_iso
+from common import make_id, month_num, norm, paris_iso
 
 LIEU = "L'Arsenal"
 VILLE = "Metz"
@@ -39,23 +39,11 @@ CATEGORY_PREFIXES = (
 )
 BADGE_PREFIXES = ("complet", "dernieres places")
 
-MONTHS = [
-    ("janv", 1), ("fevr", 2), ("mars", 3), ("avr", 4), ("mai", 5), ("juin", 6),
-    ("juil", 7), ("aout", 8), ("sept", 9), ("oct", 10), ("nov", 11), ("dec", 12),
-]
 DATE_PART = re.compile(r"(\d{1,2})\s*(?:er)?\s+([A-Za-zÀ-ÿ]{3,9})\.?(?:\s+(20\d{2}))?")
 TIME_RE = re.compile(r"\b([01]?\d|2[0-3])\s*h\s*([0-5]\d)?\b")
 
 
 # ---------- Dates ----------
-
-def month_num(word: str) -> int | None:
-    w = norm(word).rstrip(".")
-    for prefix, number in MONTHS:
-        if w.startswith(prefix):
-            return number
-    return None
-
 
 def parse_date_line(text: str):
     """Analyse « 6 oct. 2026, 20h », « 20 oct. 2026 » ou « 21 oct. → 22 oct. 2026 ».

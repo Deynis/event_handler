@@ -6,7 +6,8 @@ Cette première version (étape 1 du plan) contient :
 
 - `data/events.json` : la programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) et celle de L'Arsenal (Metz) ;
 - `widget/EventsWidget.js` : le widget (tailles petit / moyen / grand, filtre par lieu, cache hors ligne) ;
-- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal et purge des événements passés (voir « Mise à jour automatique »).
+- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal et purge des événements passés (voir « Mise à jour automatique ») ;
+- `pdf/` + `.github/workflows/import-pdf.yml` : import du programme hebdomadaire PDF de La Scala (voir « Importer le PDF de La Scala »).
 
 ## Installation
 
@@ -71,12 +72,25 @@ Tester en local (Python 3.11+) :
 pip install -r requirements.txt
 python -m unittest discover -s scripts/tests -v     # tests sans réseau
 python scripts/merge.py                              # purge seule
-python scripts/scrape_sources.py                     # scraping + purge
+python scripts/scrape_sources.py                     # scraping de L'Arsenal + purge
+python scripts/extract_pdf.py --dry-run pdf/x.pdf    # test d'un PDF de La Scala
 ```
 
 Pour ajouter un lieu : créer `scripts/sources/<nom>.py` (constante `LIEU`, fonction `fetch_events()`) et l'ajouter à la liste `SOURCES` de `scripts/scrape_sources.py`.
 
 Pour inclure aussi la BAM et les Trinitaires (autres salles de la Cité musicale), il faut modifier `scripts/sources/arsenal.py` : pour l'instant seuls les événements de L'Arsenal sont retenus.
+
+## Importer le PDF de La Scala
+
+Chaque semaine, La Scala publie une grille horaire en PDF (« Horaires du mercredi 30 septembre au mardi 6 octobre 2026 »).
+
+1. Dépose le PDF dans le dossier `pdf/` du dépôt (nom libre, par exemple `scala-2026-10-07.pdf`). Depuis l'iPhone, le plus simple est Safari sur github.com : dépôt > **Add file > Upload files**, puis **Commit changes**.
+2. Le workflow **Importer le programme PDF de La Scala** se lance tout seul (ou à la main : onglet **Actions**, **Run workflow**).
+3. Il lit la grille avec `pdfplumber`, remplace toutes les séances de La Scala de cette semaine-là, ajoute les « Événements à venir » du bas du PDF (ciné-débats, avant-premières...), purge le passé, valide le JSON et le commit.
+
+Ce qui est repris : titre, horaires par jour, durée, version (VOST/VF), et les mentions des bandeaux (« Dernière semaine », « Jeune public », « Avant-première », ciné-club, festival...) dans le champ `note`. Les anciens PDF restent dans `pdf/` sans effet : leurs séances sont passées donc purgées.
+
+Si la mise en page du PDF change au point de ne plus être reconnue, le workflow échoue (e-mail GitHub) et `events.json` n'est pas modifié. Pour vérifier un PDF sans rien écrire : `python scripts/extract_pdf.py --dry-run pdf/mon-fichier.pdf`.
 
 ## Format du JSON
 
@@ -106,6 +120,5 @@ Catégories prévues : `cinema`, `concert`, `spectacle`, `expo`, `festival`. Les
 
 ## Prochaines étapes
 
-2. Chaîne PDF vers JSON (extraction avec `pdfplumber`, GitHub Action déclenchée par un dépôt dans `pdf/`).
-3. Scraping automatique de La Scala (L'Arsenal est déjà en place).
+3. Scraping automatique de La Scala (L'Arsenal est déjà en place) : le PDF reste le moyen fiable en attendant.
 4. Lignes cliquables dans le widget pour déclencher une Action GitHub (token fine-grained dans le Keychain).

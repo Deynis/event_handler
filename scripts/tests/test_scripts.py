@@ -1,7 +1,7 @@
 """Tests sans réseau : python -m unittest discover -s scripts/tests -v"""
 import sys
 import unittest
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -117,6 +117,65 @@ class TestMerge(unittest.TestCase):
         with self.assertRaises(ValueError):
             merge.validate({"events": [self.ev("a", "2026-10-10T20:00:00+02:00"), self.ev("a", "2026-10-11T20:00:00+02:00")]})
         merge.validate({"events": [self.ev("a", "2026-10-10T20:00:00+02:00")]})
+
+
+class TestInfoLines(unittest.TestCase):
+    def test_wrapped_info_line(self):
+        import extract_pdf
+        film = extract_pdf.Film(["Chien bleu"], ["Dominique Pochat, Jean-Christophe Ribot, Benoît", "Laborde - 0h33 - France - dès 3 ans"])
+        (info,) = film.infos()
+        self.assertEqual((info["minutes"], info["country"], info["extras"]), (33, "France", ["dès 3 ans"]))
+
+    def test_several_films_in_one_title(self):
+        import extract_pdf
+        film = extract_pdf.Film(["Puppet Master I, II & III"], [
+            "David Schmoeller - 1h30 - USA - VOST", "David Allen - 1h28 - USA - VOST", "David DeCoteau - 1h26 - USA - VOST"])
+        self.assertEqual(len(film.infos()), 3)
+        minutes, version, _ = extract_pdf.film_summary(film)
+        self.assertEqual((minutes, version), (None, "VOST"))
+
+
+PDF = Path(__file__).resolve().parents[2] / "pdf" / "scala-2026-09-30.pdf"
+
+
+@unittest.skipUnless(PDF.exists(), "PDF d'exemple absent")
+class TestScalaPdf(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import extract_pdf
+        cls.page = extract_pdf.parse_pdf(PDF)
+        cls.by_title = {}
+        for e in cls.page.events:
+            cls.by_title.setdefault(e["titre"], []).append(e)
+
+    def test_week_and_counts(self):
+        self.assertEqual((self.page.week_start, self.page.week_end), (date(2026, 9, 30), date(2026, 10, 6)))
+        self.assertEqual(self.page.warnings, [])
+        in_week = [e for e in self.page.events if e["debut"][:10] <= "2026-10-06"]
+        self.assertEqual(len(in_week), 65)  # nombre d'heures dans la grille du PDF
+
+    def test_memoire_de_fille_columns(self):
+        times = sorted(e["debut"][:16] for e in self.by_title["Mémoire de fille"])
+        self.assertEqual(len(times), 15)
+        self.assertEqual(times[0], "2026-09-30T13:35")
+        self.assertEqual(times[-1], "2026-10-06T13:20")
+        self.assertIn("2026-10-03T14:25", times)  # samedi
+
+    def test_metadata(self):
+        rose = self.by_title["Rose"][0]
+        self.assertEqual((rose["duree_min"], rose["version"], rose["note"]), (94, "VOST", "Dernière semaine"))
+        self.assertEqual(self.by_title["La Vie en relief - Jacques Henri Lartigue"][0]["note"], "3D")
+        self.assertEqual(self.by_title["Mon vieux"][0]["debut"], "2026-10-06T20:00:00+02:00")
+
+    def test_upcoming_events(self):
+        insecticide = self.by_title["Insecticide, comment l'agrochimie a tué les insectes"][0]
+        self.assertEqual(insecticide["debut"], "2026-10-16T20:00:00+02:00")
+        self.assertEqual(insecticide["categorie"], "festival")
+        puppet = self.by_title["Puppet Master I, II & III"][0]
+        self.assertEqual(puppet["categorie"], "cinema")  # pas rattaché au festival
+        self.assertNotIn("duree_min", puppet)
+        buffet = self.by_title["Au fil de l'eau, de l'insouciance à la désobéïssance"][0]
+        self.assertIn("Association Franco-Africaine de Moselle", buffet["note"])
 
 
 if __name__ == "__main__":
