@@ -1,18 +1,6 @@
 {
-  "updated_at": "2026-10-04T20:10:28+02:00",
+  "updated_at": "2026-10-04T20:16:25+02:00",
   "events": [
-    {
-      "id": "l-arsenal-2026-09-13-0000-cimarron",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "expo",
-      "titre": "Cimarron",
-      "debut": "2026-09-13T00:00:00+02:00",
-      "fin": "2026-11-15T23:59:59+01:00",
-      "jour_entier": true,
-      "note": "Charles Fréger",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/cimarron"
-    },
     {
       "id": "l-arsenal-2026-10-06-2000-concert-pour-les-etudiants",
       "lieu": "L'Arsenal",
@@ -20,7 +8,7 @@
       "categorie": "concert",
       "titre": "Concert pour les étudiants",
       "debut": "2026-10-06T20:00:00+02:00",
-      "note": "Orchestre national de Metz Grand Est, Louis Schwizgebel",
+      "note": "Orchestre national de Metz Grand Est, Louis Schwizgebel - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-pour-les-etudiants-3"
     },
     {
@@ -126,7 +114,7 @@
       "categorie": "cinema",
       "titre": "L'Amour est un crime parfait",
       "debut": "2026-10-07T20:00:00+02:00",
-      "note": "Caravaggio",
+      "note": "Caravaggio - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/lamour-est-un-crime-parfait-1"
     },
     {
@@ -334,7 +322,7 @@
       "categorie": "concert",
       "titre": "Sauvage",
       "debut": "2026-10-09T20:00:00+02:00",
-      "note": "Mathilde Monnier, Eve Risser, Le Maxiphone",
+      "note": "Le Maxiphone - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/sauvage"
     },
     {
@@ -440,7 +428,7 @@
       "categorie": "concert",
       "titre": "Concert de solidarité des Armées",
       "debut": "2026-10-10T20:00:00+02:00",
-      "note": "Musique de l'Arme Blindée Cavalerie - Dernières places",
+      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Dernières places",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concert-de-solidarite-des-armees-2"
     },
     {
@@ -733,7 +721,7 @@
       "categorie": "spectacle",
       "titre": "Le Mur",
       "debut": "2026-10-15T20:00:00+02:00",
-      "note": "ou la peau",
+      "note": "ou la peau - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/le-mur"
     },
     {
@@ -754,7 +742,7 @@
       "categorie": "concert",
       "titre": "À la source du raï",
       "debut": "2026-10-16T20:00:00+02:00",
-      "note": "Sofiane Saidi, Théo Ceccaldi",
+      "note": "Sofiane Saidi, Théo Ceccaldi - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/a-la-source-du-rai"
     },
     {
@@ -775,7 +763,7 @@
       "categorie": "concert",
       "titre": "La Villanella",
       "debut": "2026-10-17T18:00:00+02:00",
-      "note": "La naissance du chant napolitain - Complet",
+      "note": "La naissance du chant napolitain - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/la-villanella"
     },
     {
@@ -785,7 +773,7 @@
       "categorie": "concert",
       "titre": "Andreï Korobeinikov & Rachmaninov",
       "debut": "2026-10-17T20:00:00+02:00",
-      "note": "Johannes Brahms, Béla Bartók, Orchestre national de Metz Grand Est, dirigé par Kevin John Edusei",
+      "note": "Johannes Brahms, Béla Bartók, Orchestre national de Metz Grand Est, dirigé par Kevin John Edusei - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/andrei-korobeinikov-rachmaninov"
     },
     {
@@ -795,7 +783,7 @@
       "categorie": "concert",
       "titre": "Viva la Gracia !",
       "debut": "2026-10-18T16:00:00+02:00",
-      "note": "Concert et Bal",
+      "note": "Concert et Bal - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/viva-la-gracia"
     },
     {
@@ -807,20 +795,8 @@
       "debut": "2026-10-20T00:00:00+02:00",
       "fin": "2026-10-20T23:59:59+02:00",
       "jour_entier": true,
-      "note": "3 mois à 3 ans - Complet",
+      "note": "de 3 mois à 3 ans - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ile-aux-bebes-musicale-12"
-    },
-    {
-      "id": "l-arsenal-2026-10-21-0000-thaumazein",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "Thaumazein",
-      "debut": "2026-10-21T00:00:00+02:00",
-      "fin": "2026-10-22T23:59:59+02:00",
-      "jour_entier": true,
-      "note": "dès 6 ans - Cherchons l'équilibre",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/thaumazein"
     },
     {
       "id": "la-scala-2026-10-21-1000-chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs",
@@ -840,44 +816,20 @@
       "categorie": "spectacle",
       "titre": "Visite « L'envers du décor »",
       "debut": "2026-10-21T14:00:00+02:00",
-      "note": "Dès 7 ans - L'Arsenal",
+      "note": "Dès 7 ans - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-13"
     },
     {
-      "id": "l-arsenal-2026-10-22-0000-ark-saariaho",
+      "id": "l-arsenal-2026-10-22-0000-thaumazein",
       "lieu": "L'Arsenal",
       "ville": "Metz",
       "categorie": "spectacle",
-      "titre": "ARK Saariaho",
+      "titre": "Thaumazein",
       "debut": "2026-10-22T00:00:00+02:00",
-      "fin": "2026-10-24T23:59:59+02:00",
+      "fin": "2026-10-22T23:59:59+02:00",
       "jour_entier": true,
-      "note": "4 mois à 24 mois - Immersion sensorielle",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ark-saariaho"
-    },
-    {
-      "id": "l-arsenal-2026-10-23-0000-cote-a-cote",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "Côte à Côte",
-      "debut": "2026-10-23T00:00:00+02:00",
-      "fin": "2026-10-24T23:59:59+02:00",
-      "jour_entier": true,
-      "note": "dès 3 et 6 ans - Deux cœurs qui se lient",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/cote-a-cote"
-    },
-    {
-      "id": "l-arsenal-2026-10-23-0000-le-bal-des-sorcieres",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "Le Bal des sorcières",
-      "debut": "2026-10-23T00:00:00+02:00",
-      "fin": "2026-10-24T23:59:59+02:00",
-      "jour_entier": true,
-      "note": "dès 5 ans - Musiciennes et musiciens de l'Orchestre national de Metz Grand Est, Chloé Meyzie",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/le-bal-des-sorcieres"
+      "note": "dès 6 ans - Cherchons l’équilibre - 21 oct. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/thaumazein"
     },
     {
       "id": "la-scala-2026-10-23-2030-puppet-master-i-ii-iii",
@@ -891,13 +843,49 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "l-arsenal-2026-10-24-0000-ark-saariaho",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "ARK Saariaho",
+      "debut": "2026-10-24T00:00:00+02:00",
+      "fin": "2026-10-24T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "de 4 mois à 24 mois - Immersion sensorielle - 22 oct. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ark-saariaho"
+    },
+    {
+      "id": "l-arsenal-2026-10-24-0000-cote-a-cote",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Côte à Côte",
+      "debut": "2026-10-24T00:00:00+02:00",
+      "fin": "2026-10-24T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "dès 3 et 6 ans - Deux cœurs qui se lient - 23 oct. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/cote-a-cote"
+    },
+    {
+      "id": "l-arsenal-2026-10-24-0000-le-bal-des-sorcieres",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Le Bal des sorcières",
+      "debut": "2026-10-24T00:00:00+02:00",
+      "fin": "2026-10-24T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "dès 5 ans - Musiciennes et musiciens de l’Orchestre national de Metz Grand Est, Chloé Meyzie - 23 oct. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/le-bal-des-sorcieres"
+    },
+    {
       "id": "l-arsenal-2026-11-04-2000-buster-keaton-steamboat-bill-jr",
       "lieu": "L'Arsenal",
       "ville": "Metz",
       "categorie": "cinema",
       "titre": "Buster Keaton, Steamboat Bill, Jr.",
       "debut": "2026-11-04T20:00:00+01:00",
-      "note": "Pierre Boespflug Trio",
+      "note": "Pierre Boespflug Trio - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/cine-cite/buster-keaton-steamboat-bill-jr"
     },
     {
@@ -907,7 +895,7 @@
       "categorie": "concert",
       "titre": "Au-delà des Pyrénées",
       "debut": "2026-11-05T20:00:00+01:00",
-      "note": "Wilhem Latchoumia",
+      "note": "Wilhem Latchoumia - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/au-dela-des-pyrenees"
     },
     {
@@ -917,8 +905,20 @@
       "categorie": "concert",
       "titre": "Dîner de Gala",
       "debut": "2026-11-10T19:00:00+01:00",
-      "note": "Musiciennes et musiciens de l'Orchestre national Metz Grand Est",
+      "note": "Musiciennes et musiciens de l’Orchestre national Metz Grand Est - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/diner-de-gala-2"
+    },
+    {
+      "id": "l-arsenal-2026-11-15-0000-cimarron",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "expo",
+      "titre": "Cimarron",
+      "debut": "2026-11-15T00:00:00+01:00",
+      "fin": "2026-11-15T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "Charles Fréger - 13 sept. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/cimarron"
     },
     {
       "id": "l-arsenal-2026-11-15-1600-su",
@@ -927,7 +927,7 @@
       "categorie": "concert",
       "titre": "Sù !",
       "debut": "2026-11-15T16:00:00+01:00",
-      "note": "Ballet imaginaire - Œuvres de Claudio Monteverdi",
+      "note": "Ballet imaginaire - Œuvres de Claudio Monteverdi - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/extra-dimanche/su"
     },
     {
@@ -937,7 +937,7 @@
       "categorie": "concert",
       "titre": "Cuarteto Casals",
       "debut": "2026-11-17T20:00:00+01:00",
-      "note": "Haydn, Fábregas, Schubert",
+      "note": "Haydn, Fábregas, Schubert - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/cuarteto-casals"
     },
     {
@@ -947,20 +947,8 @@
       "categorie": "concert",
       "titre": "Tigran Hamasyan",
       "debut": "2026-11-18T20:00:00+01:00",
-      "note": "Manifeste",
+      "note": "Manifeste - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/tigran-hamasyan"
-    },
-    {
-      "id": "l-arsenal-2026-11-21-0000-50-ans-de-l-orchestre-mozart-strauss-ravel",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "concert",
-      "titre": "50 ans de l'Orchestre : Mozart, Strauss, Ravel",
-      "debut": "2026-11-21T00:00:00+01:00",
-      "fin": "2026-11-22T23:59:59+01:00",
-      "jour_entier": true,
-      "note": "David Reiland, Alena Baeva",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/50-ans-de-lorchestre-mozart-strauss-ravel"
     },
     {
       "id": "l-arsenal-2026-11-21-1500-quatre-saisons",
@@ -969,8 +957,766 @@
       "categorie": "spectacle",
       "titre": "QUATRE (saisons)",
       "debut": "2026-11-21T15:00:00+01:00",
-      "note": "dès 6 ans - Vivaldi dansé - Complet",
+      "note": "dès 6 ans - Vivaldi dansé - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/quatre-saisons"
+    },
+    {
+      "id": "l-arsenal-2026-11-22-0000-50-ans-de-l-orchestre-mozart-strauss-ravel",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "50 ans de l’Orchestre : Mozart, Strauss, Ravel",
+      "debut": "2026-11-22T00:00:00+01:00",
+      "fin": "2026-11-22T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "David Reiland, Alena Baeva - 21 nov. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/50-ans-de-lorchestre-mozart-strauss-ravel"
+    },
+    {
+      "id": "l-arsenal-2026-11-25-1400-visite-l-envers-du-decor",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Visite « L'envers du décor »",
+      "debut": "2026-11-25T14:00:00+01:00",
+      "note": "dès 7 ans - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-17"
+    },
+    {
+      "id": "l-arsenal-2026-11-26-2000-antigonick",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Antigonick",
+      "debut": "2026-11-26T20:00:00+01:00",
+      "note": "Compagnie Roland Furieux - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/antigonick"
+    },
+    {
+      "id": "l-arsenal-2026-11-27-2000-life-is-a-party-and-i-m-the-pinata",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Life is a party, and I'm the Piñata",
+      "debut": "2026-11-27T20:00:00+01:00",
+      "note": "Compagnie Kosa, Rémi Richaud - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/spectacle/life-is-a-party-and-im-the-pinata"
+    },
+    {
+      "id": "l-arsenal-2026-11-28-0000-born-bad-records",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "expo",
+      "titre": "Born Bad Records",
+      "debut": "2026-11-28T00:00:00+01:00",
+      "fin": "2026-11-28T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "→ - 17 janv. 2027 - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/born-bad-records"
+    },
+    {
+      "id": "l-arsenal-2026-12-05-2000-delay-the-sadness",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Delay the Sadness",
+      "debut": "2026-12-05T20:00:00+01:00",
+      "note": "Sharon Eyal - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/delay-the-sadness"
+    },
+    {
+      "id": "l-arsenal-2026-12-08-2000-nikolai-lugansky",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Nikolaï Lugansky",
+      "debut": "2026-12-08T20:00:00+01:00",
+      "note": "Schumann, Chopin - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/nikolai-lugansky"
+    },
+    {
+      "id": "l-arsenal-2026-12-11-2000-ilse-eerens-sibelius",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Ilse Eerens & Sibelius",
+      "debut": "2026-12-11T20:00:00+01:00",
+      "note": "Edvard Grieg, Hans Abrahamsen, Orchestre national de Metz Grand Est, dirigé par Emilia Hoving - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/ilse-eerens-sibelius"
+    },
+    {
+      "id": "l-arsenal-2026-12-12-1600-et-puis",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Et Puis",
+      "debut": "2026-12-12T16:00:00+01:00",
+      "note": "dès 4 ans - Une histoire imagée - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/et-puis"
+    },
+    {
+      "id": "l-arsenal-2026-12-13-0000-concert-de-noel",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Concert de Noël",
+      "debut": "2026-12-13T00:00:00+01:00",
+      "fin": "2026-12-13T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "Harmonie municipale de Metz - 12 déc. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-de-noel-3"
+    },
+    {
+      "id": "l-arsenal-2026-12-13-1600-vents-d-ete-en-hiver",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Vents d'été en hiver",
+      "debut": "2026-12-13T16:00:00+01:00",
+      "note": "Musiciennes et musiciens de l’Orchestre national de Metz Grand Est - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/vents-dete-en-hiver"
+    },
+    {
+      "id": "l-arsenal-2026-12-16-2000-le-magnificat-de-bach",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Le Magnificat de Bach",
+      "debut": "2026-12-16T20:00:00+01:00",
+      "note": "Insula orchestra, accentus, Laurence Equilbey - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/le-magnificat-de-bach"
+    },
+    {
+      "id": "l-arsenal-2026-12-19-0000-concert-de-noel",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Concert de Noël",
+      "debut": "2026-12-19T00:00:00+01:00",
+      "fin": "2026-12-19T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "dès 6 ans - Orchestre national de Metz Grand Est, Jane Latron - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/concert-de-noel-4"
+    },
+    {
+      "id": "l-arsenal-2026-12-29-1830-reveillon-d-exception",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Réveillon d'exception",
+      "debut": "2026-12-29T18:30:00+01:00",
+      "note": "La Réserve + Concert du Nouvel An - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/reveillon-dexception-2"
+    },
+    {
+      "id": "l-arsenal-2026-12-30-1830-reveillon-d-exception",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Réveillon d'exception",
+      "debut": "2026-12-30T18:30:00+01:00",
+      "note": "La Réserve + Concert du Nouvel An - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/reveillon-dexception-3"
+    },
+    {
+      "id": "l-arsenal-2026-12-31-0000-concert-du-nouvel-an-strauss-rossini-mahler-john-williams-mozart-elgar",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Concert du Nouvel An : Strauss, Rossini, Mahler, John Williams, Mozart, Elgar",
+      "debut": "2026-12-31T00:00:00+01:00",
+      "fin": "2026-12-31T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "Orchestre national de Metz Grand Est, David Reiland - 27 déc. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-du-nouvel-an-strauss-rossini-mahler-john-williams-mozart-elgar"
+    },
+    {
+      "id": "l-arsenal-2027-01-09-2000-titanesque",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Titanesque",
+      "debut": "2027-01-09T20:00:00+01:00",
+      "note": "Orchestre Philharmonique Royal de Liège, Lionel Bringuier, Stéphanie d’Oustrac - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/titanesque"
+    },
+    {
+      "id": "l-arsenal-2027-01-13-2000-folk-songs-bob-dylan-luciano-berio",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Folk Songs Bob Dylan / Luciano Berio",
+      "debut": "2027-01-13T20:00:00+01:00",
+      "note": "Ensemble Miroirs Étendus - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/folk-songs-bob-dylan-luciano-berio"
+    },
+    {
+      "id": "l-arsenal-2027-01-16-2000-rewild",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Rewild",
+      "debut": "2027-01-16T20:00:00+01:00",
+      "note": "Grimal, Frith, Ducret, Silva, Hemingway - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/rewild"
+    },
+    {
+      "id": "l-arsenal-2027-01-17-1600-myotis-x",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "MYOTIS X",
+      "debut": "2027-01-17T16:00:00+01:00",
+      "note": "Performance chorégraphique et musicale - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/myotis-x"
+    },
+    {
+      "id": "l-arsenal-2027-01-19-2000-quintette-syntonia",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Quintette Syntonia",
+      "debut": "2027-01-19T20:00:00+01:00",
+      "note": "Gabriel Pierné, César Franck - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/quintette-syntonia"
+    },
+    {
+      "id": "l-arsenal-2027-01-27-2000-janua-echos-du-dernier-schisme",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Janua, échos du dernier Schisme",
+      "debut": "2027-01-27T20:00:00+01:00",
+      "note": "Ensemble Irini - Saint-Pierre-aux-Nonnains - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/janua-echos-du-dernier-schisme"
+    },
+    {
+      "id": "l-arsenal-2027-01-28-2000-dub",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "DUB",
+      "debut": "2027-01-28T20:00:00+01:00",
+      "note": "Amala Dianor - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/dub"
+    },
+    {
+      "id": "l-arsenal-2027-01-30-1800-apero-concert-mozart",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Apéro-concert : Mozart",
+      "debut": "2027-01-30T18:00:00+01:00",
+      "note": "Orchestre national de Metz Grand Est, Marc Leroy-Calatayud, Claire Le Boulanger, Manon Louis - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/apero-concert-mozart-1"
+    },
+    {
+      "id": "l-arsenal-2027-02-03-2000-le-masque-de-fer",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Le Masque de fer",
+      "debut": "2027-02-03T20:00:00+01:00",
+      "note": "Collectif ARFI - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/le-masque-de-fer"
+    },
+    {
+      "id": "l-arsenal-2027-02-05-2000-anastasia-kobekina-schumann",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Anastasia Kobekina & Schumann",
+      "debut": "2027-02-05T20:00:00+01:00",
+      "note": "Grażyna Bacewicz, Henri Dutilleux, dirigé par Baldur Brönnimann - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/anastasia-kobekina-schumann"
+    },
+    {
+      "id": "l-arsenal-2027-02-07-0000-nacken",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Näcken",
+      "debut": "2027-02-07T00:00:00+01:00",
+      "fin": "2027-02-07T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "dès 8 ans - Spat'Sonore et Söta Sälta - 6 févr. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/nacken"
+    },
+    {
+      "id": "l-arsenal-2027-02-11-2000-chassol",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Chassol",
+      "debut": "2027-02-11T20:00:00+01:00",
+      "note": "Funny How? - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/chassol"
+    },
+    {
+      "id": "l-arsenal-2027-02-12-2000-paradis",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Paradis",
+      "debut": "2027-02-12T20:00:00+01:00",
+      "note": "Sarah Baltzinger + Isaiah Wilson - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/paradis"
+    },
+    {
+      "id": "l-arsenal-2027-02-13-1030-lecon-de-danse",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Leçon de danse",
+      "debut": "2027-02-13T10:30:00+01:00",
+      "note": "Sarah Baltzinger + Isaiah Wilson - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/atelier/lecon-de-danse-5"
+    },
+    {
+      "id": "l-arsenal-2027-02-14-1600-septuors-en-echo",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Septuors en écho",
+      "debut": "2027-02-14T16:00:00+01:00",
+      "note": "Musiciennes et musiciens de l’Orchestre  national de Metz Grand Est - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/septuors-en-echo"
+    },
+    {
+      "id": "l-arsenal-2027-02-15-2000-brad-mehldau",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Brad Mehldau",
+      "debut": "2027-02-15T20:00:00+01:00",
+      "note": "Quatorze Rêveries - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/brad-mehldau"
+    },
+    {
+      "id": "l-arsenal-2027-02-16-2000-du-vent-dans-les-cordes",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Du vent dans les cordes",
+      "debut": "2027-02-16T20:00:00+01:00",
+      "note": "Kammerorchester Basel, Fazıl Say, Lucienne Renaudin Vary - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/du-vent-dans-les-cordes"
+    },
+    {
+      "id": "l-arsenal-2027-03-04-2000-lagon-nwar",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Lagon Nwar",
+      "debut": "2027-03-04T20:00:00+01:00",
+      "note": "Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/lagon-nwar"
+    },
+    {
+      "id": "l-arsenal-2027-03-06-0000-ile-aux-bebes-musicale",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Île aux bébés musicale",
+      "debut": "2027-03-06T00:00:00+01:00",
+      "fin": "2027-03-06T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "de 3 mois à 3 ans - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ile-aux-bebes-musicale-14"
+    },
+    {
+      "id": "l-arsenal-2027-03-10-2000-une-passion-pour-leipzig",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Une Passion pour Leipzig",
+      "debut": "2027-03-10T20:00:00+01:00",
+      "note": "Akademie für Alte Musik Berlin, Voces Suaves - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/une-passion-pour-leipzig"
+    },
+    {
+      "id": "l-arsenal-2027-03-12-2000-ilya-gringolts-beethoven",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Ilya Gringolts & Beethoven",
+      "debut": "2027-03-12T20:00:00+01:00",
+      "note": "Eve Risser, Ralph Vaughan Williams, dirigé par Jessica Cottis - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/ilya-gringolts-beethoven"
+    },
+    {
+      "id": "l-arsenal-2027-03-13-1500-beethoven-metalo-vivace",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Beethoven Métalo Vivace",
+      "debut": "2027-03-13T15:00:00+01:00",
+      "note": "dès 7 ans - Guitare acrobatique - Découvrir - Complet",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/beethoven-metalo-vivace"
+    },
+    {
+      "id": "l-arsenal-2027-03-13-2000-beethoven-folk",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Beethoven Folk",
+      "debut": "2027-03-13T20:00:00+01:00",
+      "note": "Quatuor Zaïde - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/beethoven-folk"
+    },
+    {
+      "id": "l-arsenal-2027-03-14-1600-amicalement-votre-trios-de-beethoven",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Amicalement vôtre : Trios de Beethoven",
+      "debut": "2027-03-14T16:00:00+01:00",
+      "note": "David Grimal, Anne Gastinel, Philippe Cassard - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/amicalement-votre-trios-de-beethoven"
+    },
+    {
+      "id": "l-arsenal-2027-03-17-2000-thirteen-ways-of-being-a-blackbird",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Thirteen ways of being a blackbird",
+      "debut": "2027-03-17T20:00:00+01:00",
+      "note": "Caravaggio, Garth Knox, Diamanda La Berge Dramm - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/thirteen-ways-of-being-a-blackbird"
+    },
+    {
+      "id": "l-arsenal-2027-03-18-2000-deutsche-radio-philharmonie-saarbrucken-kaiserslautern",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Deutsche Radio Philharmonie Saarbrücken Kaiserslautern",
+      "debut": "2027-03-18T20:00:00+01:00",
+      "note": "Des trésors musicaux - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/deutsche-radio-philharmonie-saarbrucken-kaiserslautern"
+    },
+    {
+      "id": "l-arsenal-2027-03-20-0000-cailloux-cailloux",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Cailloux, cailloux",
+      "debut": "2027-03-20T00:00:00+01:00",
+      "fin": "2027-03-20T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "de 9 mois à 5 ans - Des trésors musicaux - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/cailloux-cailloux"
+    },
+    {
+      "id": "l-arsenal-2027-03-21-0000-confluences-arctiques",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "expo",
+      "titre": "Confluences arctiques",
+      "debut": "2027-03-21T00:00:00+01:00",
+      "fin": "2027-03-21T23:59:59+01:00",
+      "jour_entier": true,
+      "note": "Virginie Clément (peintures), Florian Ledoux (photographies) - 27 janv. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/confluences-arctiques"
+    },
+    {
+      "id": "l-arsenal-2027-03-24-1400-visite-l-envers-du-decor",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Visite « L'envers du décor »",
+      "debut": "2027-03-24T14:00:00+01:00",
+      "note": "dès 7 ans - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-16"
+    },
+    {
+      "id": "l-arsenal-2027-03-25-2000-incandescences-sacrees-a-naples",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Incandescences sacrées à Naples",
+      "debut": "2027-03-25T20:00:00+01:00",
+      "note": "Ensemble de l’Encyclopédie, Florent Albrecht, Sandrine Piau, Stéphanie d’Oustrac - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/incandescences-sacrees-a-naples"
+    },
+    {
+      "id": "l-arsenal-2027-03-31-2000-gorgones",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Gorgones",
+      "debut": "2027-03-31T20:00:00+02:00",
+      "note": "Célia Kameni - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/gorgones"
+    },
+    {
+      "id": "l-arsenal-2027-04-02-2000-quatuor-diotima-beethoven",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Quatuor Diotima & Beethoven",
+      "debut": "2027-04-02T20:00:00+02:00",
+      "note": "Johannes Brahms, Sara Glojnarić, John Adams, Orchestre national de Metz Grand Est, dirigés par Victor Jacob - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/quatuor-diotima-beethoven"
+    },
+    {
+      "id": "l-arsenal-2027-04-04-1600-bestiaire-medieval",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Bestiaire médiéval",
+      "debut": "2027-04-04T16:00:00+02:00",
+      "note": "Fresque scénique et musicale - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/extra-dimanche/bestiaire-medieval"
+    },
+    {
+      "id": "l-arsenal-2027-04-07-1900-academie-diotima",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Académie Diotima",
+      "debut": "2027-04-07T19:00:00+02:00",
+      "note": "Concert de restitution de l’Académie Diotima - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/academie-diotima-2"
+    },
+    {
+      "id": "l-arsenal-2027-04-07-2000-le-dictateur",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "cinema",
+      "titre": "Le Dictateur",
+      "debut": "2027-04-07T20:00:00+02:00",
+      "note": "Orchestre national de Metz Grand Est,  Timothy Brock, Charlie Chaplin - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/le-dictateur"
+    },
+    {
+      "id": "l-arsenal-2027-04-10-2000-concerto-danzante",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Concerto danzante",
+      "debut": "2027-04-10T20:00:00+02:00",
+      "note": "CCN-Ballet de Lorraine, Les Arts Florissants - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concerto-danzante"
+    },
+    {
+      "id": "l-arsenal-2027-05-05-2000-laurel-et-hardy",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "cinema",
+      "titre": "Laurel et Hardy",
+      "debut": "2027-05-05T20:00:00+02:00",
+      "note": "Musique de François Narboni - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/cine-cite/laurel-et-hardy"
+    },
+    {
+      "id": "l-arsenal-2027-05-12-2000-fusions-jazz",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Fusions Jazz",
+      "debut": "2027-05-12T20:00:00+02:00",
+      "note": "Louise Knobil - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/fusions-jazz"
+    },
+    {
+      "id": "l-arsenal-2027-05-14-2000-sonates-en-trio-de-bach",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Sonates en trio de Bach",
+      "debut": "2027-05-14T20:00:00+02:00",
+      "note": "Les Curiosités esthétiques - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/sonates-en-trio-de-bach"
+    },
+    {
+      "id": "l-arsenal-2027-05-15-1800-apero-concert-saint-saens",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Apéro-concert : Saint-Saëns",
+      "debut": "2027-05-15T18:00:00+02:00",
+      "note": "Orchestre national de Metz Grand Est, Julien Masmondet, Takeshi Takezawa, NN - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/apero-concert-saint-saens"
+    },
+    {
+      "id": "l-arsenal-2027-05-20-2000-la-edad-de-oro",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "La Edad de Oro",
+      "debut": "2027-05-20T20:00:00+02:00",
+      "note": "Israel Galván - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/spectacle/la-edad-de-oro"
+    },
+    {
+      "id": "l-arsenal-2027-05-22-2000-tigana-santana",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Tiganá Santana",
+      "debut": "2027-05-22T20:00:00+02:00",
+      "note": "Orchestre national de Metz Grand Est, Sonia Ben-Santamaria - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/tigana-santana"
+    },
+    {
+      "id": "l-arsenal-2027-05-27-2000-hatched-ensemble",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Hatched Ensemble",
+      "debut": "2027-05-27T20:00:00+02:00",
+      "note": "Mamela Nyamza - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/spectacle/hatched-ensemble"
+    },
+    {
+      "id": "l-arsenal-2027-05-29-0000-passages-transfestival",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "festival",
+      "titre": "Passages Transfestival",
+      "debut": "2027-05-29T00:00:00+02:00",
+      "fin": "2027-05-29T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "Edition 2027 - 20 mai - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/festival/passages-transfestival-4"
+    },
+    {
+      "id": "l-arsenal-2027-05-29-0000-tec-tec",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "TEC-TEC",
+      "debut": "2027-05-29T00:00:00+02:00",
+      "fin": "2027-05-29T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "dès 5 ans - Concert tropicaliste participatif - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/tec-tec"
+    },
+    {
+      "id": "l-arsenal-2027-05-29-2000-geoffroy-couteau-brahms",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Geoffroy Couteau & Brahms",
+      "debut": "2027-05-29T20:00:00+02:00",
+      "note": "Robert Schumann, Gabriela Ortiz, Eve Risser, dirigé par David Reiland - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/geoffroy-couteau-brahms"
+    },
+    {
+      "id": "l-arsenal-2027-05-30-0000-bresils",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "expo",
+      "titre": "Brésils",
+      "debut": "2027-05-30T00:00:00+02:00",
+      "fin": "2027-05-30T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "Ludovic Carème - 30 mars - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/bresils"
+    },
+    {
+      "id": "l-arsenal-2027-05-30-1600-aimez-vous-brahms",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Aimez-vous Brahms?",
+      "debut": "2027-05-30T16:00:00+02:00",
+      "note": "Musiciennes et musiciens de l’Orchestre national de Metz Grand Est - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/aimez-vous-brahms"
+    },
+    {
+      "id": "l-arsenal-2027-06-05-0000-entre-temps",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Entre-Temps",
+      "debut": "2027-06-05T00:00:00+02:00",
+      "fin": "2027-06-05T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "Compagnie DCA / Philippe Decouflé - 4 juin - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/entre-temps"
+    },
+    {
+      "id": "l-arsenal-2027-06-05-1030-lecon-de-danse",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Leçon de danse",
+      "debut": "2027-06-05T10:30:00+02:00",
+      "note": "avec la Compagnie DCA / Philippe Decouflé - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/lecon-de-danse-4"
+    },
+    {
+      "id": "l-arsenal-2027-06-11-0000-circ-a",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "CIRCÆA",
+      "debut": "2027-06-11T00:00:00+02:00",
+      "fin": "2027-06-11T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "Les Métaboles - Saint-Pierre-aux-Nonnains - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/circaea"
+    },
+    {
+      "id": "l-arsenal-2027-06-12-2000-la-fille-aux-cheveux-de-cuivre",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "La Fille aux cheveux de cuivre",
+      "debut": "2027-06-12T20:00:00+02:00",
+      "note": "Musiciens de l’Orchestre national de Metz Grand Est et de l’Orchestre Philharmonique de Strasbourg - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/la-fille-aux-cheveux-de-cuivre"
+    },
+    {
+      "id": "l-arsenal-2027-06-15-2000-abracadabra",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Abracadabra",
+      "debut": "2027-06-15T20:00:00+02:00",
+      "note": "Beatrice Berrut - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/abracadabra"
+    },
+    {
+      "id": "l-arsenal-2027-06-16-2000-floating",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Floating",
+      "debut": "2027-06-16T20:00:00+02:00",
+      "note": "Émile Parisien, Yaron Herman,   Linda May Han Oh, Prabhu Edouard - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/floating"
+    },
+    {
+      "id": "l-arsenal-2027-06-18-2000-concert-de-cloture-la-symphonie-fantastique-de-berlioz",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Concert de clôture : La Symphonie fantastique de Berlioz",
+      "debut": "2027-06-18T20:00:00+02:00",
+      "note": "Orchestre national de Metz Grand Est, David Reiland, Hanna-Elisabeth Müller - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-de-cloture-la-symphonie-fantastique-de-berlioz"
+    },
+    {
+      "id": "l-arsenal-2027-06-23-2000-prism",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Prism",
+      "debut": "2027-06-23T20:00:00+02:00",
+      "note": "Henri Purcell, Keith Jarrett - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/prism"
+    },
+    {
+      "id": "l-arsenal-2027-06-26-1900-la-nuit-a-la-cite",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "La Nuit à la Cité",
+      "debut": "2027-06-26T19:00:00+02:00",
+      "note": "Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/la-nuit-a-la-cite"
     }
   ]
 }
