@@ -15,7 +15,7 @@
 // ============================================================
 
 // >>> À MODIFIER : URL de ton fichier JSON publié par GitHub Pages
-const JSON_URL = "https://UTILISATEUR.github.io/NOM-DU-REPO/data/events.json";
+const JSON_URL = "https://Deynis.github.io/event_handler/data/events.json";
 
 const REFRESH_MINUTES = 15;   // iOS reste libre de rafraîchir plus tard
 const GRACE_MINUTES = 10;     // une séance commencée depuis < 10 min reste affichée
