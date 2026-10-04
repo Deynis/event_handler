@@ -12,6 +12,12 @@
 //    Metz                -> uniquement les événements à Metz
 //    concert,spectacle   -> uniquement ces catégories
 //    (vide)              -> tout afficher
+//
+//  Un tap sur le widget ouvre dans Scriptable la liste complète des
+//  événements à venir : défilement, filtres (lieu, catégorie, période)
+//  et recherche. Lancé depuis l'app (bouton lecture), le script ouvre
+//  aussi cette liste. Aperçu du widget depuis l'app : ajouter à l'URL
+//  de lancement ?apercu=small|medium|large (utile pour tester).
 // ============================================================
 
 // >>> À MODIFIER : URL de ton fichier JSON publié par GitHub Pages
@@ -191,6 +197,8 @@ function buildWidget(result, filterParam, family) {
   w.backgroundColor = Color.dynamic(new Color("#FFFFFF"), new Color("#1C1C1E"));
   w.setPadding(10, 12, 10, 12);
   w.refreshAfterDate = new Date(now.getTime() + REFRESH_MINUTES * 60000);
+  // Un tap sur le widget ouvre la liste complète (scrollable, filtrable) dans Scriptable.
+  w.url = listUrl(filterParam);
 
   if (!result.data) {
     const t = w.addText("Données indisponibles");
@@ -235,7 +243,6 @@ function buildWidget(result, filterParam, family) {
         budget -= 1;
       }
     }
-    if (events[0].url) w.url = events[0].url;
   }
 
   w.addSpacer();
@@ -264,20 +271,162 @@ function fmtDateTime(d) {
   return d.getDate() + " " + MOIS[d.getMonth()] + " " + fmtTime(d);
 }
 
+// ---------- Liste complète (ouverte par un tap sur le widget) ----------
+
+function listUrl(filterParam) {
+  return "scriptable:///run?scriptName=" + encodeURIComponent(Script.name()) +
+    "&filtre=" + encodeURIComponent(filterParam || "");
+}
+
+const CATEGORY_LABELS = { cinema: "Cinéma", concert: "Concert", spectacle: "Spectacle", expo: "Exposition", festival: "Festival" };
+const PERIODS = [
+  { label: "Tout", days: null },
+  { label: "Aujourd'hui", days: 1 },
+  { label: "7 prochains jours", days: 7 },
+];
+
+async function chooseFrom(title, options) {
+  // options : liste de libellés ; retourne l'index choisi, ou -1 si annulé
+  const a = new Alert();
+  a.title = title;
+  options.forEach(function (o) { a.addAction(o); });
+  a.addCancelAction("Annuler");
+  return await a.presentSheet();
+}
+
+function addControlRow(table, label, value, onTap) {
+  const row = new UITableRow();
+  row.height = 44;
+  row.dismissOnSelect = false;
+  const l = row.addText(label);
+  l.widthWeight = 35;
+  l.titleColor = Color.gray();
+  const v = row.addText(value + "  ›");
+  v.widthWeight = 65;
+  v.rightAligned();
+  v.titleFont = Font.semiboldSystemFont(15);
+  row.onSelect = onTap;
+  table.addRow(row);
+}
+
+function rebuildList(table, result, state) {
+  table.removeAllRows();
+  const now = new Date();
+  const base = selectEvents(result.data, "", now);
+  const lieux = Array.from(new Set(base.map(function (e) { return e.lieu; })));
+  const cats = Array.from(new Set(base.map(function (e) { return e.categorie; })));
+  const choices = [{ label: "Tout", value: "" }]
+    .concat(lieux.map(function (l) { return { label: l, value: l }; }))
+    .concat(cats.map(function (c) { return { label: CATEGORY_LABELS[c] || c, value: c }; }));
+  const filterLabel = (choices.find(function (c) { return c.value === state.filter; }) || { label: state.filter || "Tout" }).label;
+
+  // Contrôles
+  addControlRow(table, "Lieu / genre", filterLabel, async function () {
+    const i = await chooseFrom("Lieu ou catégorie", choices.map(function (c) { return c.label; }));
+    if (i >= 0) { state.filter = choices[i].value; rebuildList(table, result, state); table.reload(); }
+  });
+  addControlRow(table, "Période", PERIODS[state.period].label, async function () {
+    const i = await chooseFrom("Période", PERIODS.map(function (p) { return p.label; }));
+    if (i >= 0) { state.period = i; rebuildList(table, result, state); table.reload(); }
+  });
+  addControlRow(table, "Recherche", state.query || "aucune", async function () {
+    const a = new Alert();
+    a.title = "Rechercher";
+    a.message = "Dans le titre, la note ou le lieu";
+    a.addTextField("ex. Chabrol, concert...", state.query);
+    a.addAction("Rechercher");
+    a.addCancelAction("Annuler");
+    const i = await a.presentAlert();
+    if (i === 0) { state.query = a.textFieldValue(0).trim(); rebuildList(table, result, state); table.reload(); }
+  });
+
+  // Événements filtrés
+  let events = selectEvents(result.data, state.filter, now);
+  const days = PERIODS[state.period].days;
+  if (days) {
+    const limit = new Date(now.getFullYear(), now.getMonth(), now.getDate() + days);
+    events = events.filter(function (e) { return e._d < limit; });
+  }
+  if (state.query) {
+    const q = norm(state.query);
+    events = events.filter(function (e) { return norm(e.titre + " " + (e.note || "") + " " + e.lieu).indexOf(q) >= 0; });
+  }
+
+  if (events.length === 0) {
+    const row = new UITableRow();
+    row.addText("Aucun événement ne correspond.").titleColor = Color.gray();
+    table.addRow(row);
+  }
+
+  groupByDay(events, now).forEach(function (day) {
+    const h = new UITableRow();
+    h.isHeader = true;
+    h.addText(dayLabel(day.date, now).toUpperCase());
+    table.addRow(h);
+
+    day.groups.forEach(function (g) {
+      const e = g.event;
+      const row = new UITableRow();
+      row.dismissOnSelect = false;
+      row.height = 52;
+      const sub = [e.lieu, e.version, e.note].filter(Boolean).join(" · ");
+      const left = row.addText(e.titre, sub);
+      left.widthWeight = 68;
+      left.titleFont = Font.systemFont(15);
+      left.subtitleFont = Font.systemFont(11);
+      left.subtitleColor = Color.gray();
+      const right = row.addText(g.times.join("  "));
+      right.widthWeight = 32;
+      right.rightAligned();
+      right.titleFont = Font.boldSystemFont(13);
+      right.titleColor = colorFor(e.categorie);
+      if (e.url) row.onSelect = function () { Safari.openInApp(e.url, false); };
+      table.addRow(row);
+    });
+  });
+
+  const f = new UITableRow();
+  const stamp = result.data.updated_at ? fmtDateTime(new Date(result.data.updated_at)) : "?";
+  const foot = f.addText((result.offline ? "Hors ligne - données du " : "Mis à jour ") + stamp);
+  foot.titleColor = result.offline ? new Color("#F76B15") : Color.gray();
+  foot.titleFont = Font.systemFont(11);
+  table.addRow(f);
+}
+
+async function showList(initialFilter) {
+  const result = await loadData();
+  if (!result.data) {
+    const a = new Alert();
+    a.title = "Données indisponibles";
+    a.message = "Pas de connexion et aucun cache local.";
+    a.addAction("OK");
+    await a.presentAlert();
+    return;
+  }
+  const state = { filter: initialFilter || "", period: 0, query: "" };
+  const table = new UITable();
+  table.showSeparators = true;
+  rebuildList(table, result, state);
+  await table.present(false);
+}
+
 // ---------- Point d'entrée ----------
 
-const family = config.widgetFamily || "medium";   // en app : aperçu moyen
 const param = args.widgetParameter || "";
-const result = await loadData();
-const widget = buildWidget(result, param, family === "extraLarge" ? "large" : family);
+const query = args.queryParameters || {};
 
 if (config.runsInWidget) {
+  const family = config.widgetFamily || "medium";
+  const widget = buildWidget(await loadData(), param, family === "extraLarge" ? "large" : family);
   Script.setWidget(widget);
-} else if (family === "small") {
-  await widget.presentSmall();
-} else if (family === "large") {
-  await widget.presentLarge();
+} else if (query.apercu) {
+  // Aperçu du widget depuis l'app : ?apercu=small|medium|large
+  const widget = buildWidget(await loadData(), query.filtre || "", query.apercu);
+  if (query.apercu === "small") await widget.presentSmall();
+  else if (query.apercu === "large") await widget.presentLarge();
+  else await widget.presentMedium();
 } else {
-  await widget.presentMedium();
+  // Tap sur le widget, ou bouton lecture dans Scriptable : liste complète
+  await showList(query.filtre || "");
 }
 Script.complete();
