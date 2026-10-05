@@ -1,88 +1,6 @@
 {
-  "updated_at": "2026-10-04T21:13:08+02:00",
+  "updated_at": "2026-10-05T12:36:24+02:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-04-1320-histoires-de-la-nuit",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Histoires De La Nuit",
-      "debut": "2026-10-04T13:20:00+02:00",
-      "duree_min": 114,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-04-1320-les-roches-rouges",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Roches Rouges",
-      "debut": "2026-10-04T13:20:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-04-1515-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-04T15:15:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-04-1535-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-04T15:35:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-04-1735-violette-noziere",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Violette Nozière",
-      "debut": "2026-10-04T17:35:00+02:00",
-      "duree_min": 130,
-      "note": "Cycle Stéphane Audran (chez Claude Chabrol)",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-04-1830-la-vie-d-une-femme",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "La Vie d'une femme",
-      "debut": "2026-10-04T18:30:00+02:00",
-      "duree_min": 98,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-04-2010-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-04T20:10:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-04-2030-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-04T20:30:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "la-scala-2026-10-05-0945-memoire-de-fille",
       "lieu": "La Scala",
@@ -696,7 +614,7 @@
       "categorie": "concert",
       "titre": "Concert de solidarité des Armées",
       "debut": "2026-10-10T20:00:00+02:00",
-      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Dernières places",
+      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concert-de-solidarite-des-armees-2"
     },
     {
