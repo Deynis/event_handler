@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T12:28:34+02:00",
+  "updated_at": "2026-10-06T21:02:43+02:00",
   "events": [
     {
       "id": "la-scala-2026-10-06-0945-notre-salut",
@@ -82,7 +82,7 @@
       "categorie": "concert",
       "titre": "Concert pour les étudiants",
       "debut": "2026-10-06T20:00:00+02:00",
-      "note": "Orchestre national de Metz Grand Est, Louis Schwizgebel - Découvrir",
+      "note": "Orchestre national de Metz Grand Est, Louis Schwizgebel - Découvrir - Dernières places",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-pour-les-etudiants-3"
     },
     {
@@ -210,7 +210,7 @@
       "titre": "L'Amour est un crime parfait",
       "debut": "2026-10-07T20:00:00+02:00",
       "note": "Caravaggio - Découvrir",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/lamour-est-un-crime-parfait-1"
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/cine-cite/lamour-est-un-crime-parfait-1"
     },
     {
       "id": "la-scala-2026-10-07-2020-her-private-hell",
@@ -523,7 +523,7 @@
       "categorie": "concert",
       "titre": "Concert de solidarité des Armées",
       "debut": "2026-10-10T20:00:00+02:00",
-      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Dernières places",
+      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concert-de-solidarite-des-armees-2"
     },
     {
