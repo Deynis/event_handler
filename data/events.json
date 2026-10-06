@@ -1,97 +1,6 @@
 {
-  "updated_at": "2026-10-05T23:13:52+02:00",
+  "updated_at": "2026-10-06T12:28:34+02:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-05-0945-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-05T09:45:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-0945-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-05T09:45:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-1320-les-roches-rouges",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Roches Rouges",
-      "debut": "2026-10-05T13:20:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-1515-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-05T15:15:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-1615-la-vie-d-une-femme",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "La Vie d'une femme",
-      "debut": "2026-10-05T16:15:00+02:00",
-      "duree_min": 98,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-1735-histoires-de-la-nuit",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Histoires De La Nuit",
-      "debut": "2026-10-05T17:35:00+02:00",
-      "duree_min": 114,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-1820-les-roches-rouges",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Roches Rouges",
-      "debut": "2026-10-05T18:20:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-1950-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-05T19:50:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-05-2015-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-05T20:15:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "la-scala-2026-10-06-0945-notre-salut",
       "lieu": "La Scala",
@@ -614,7 +523,7 @@
       "categorie": "concert",
       "titre": "Concert de solidarité des Armées",
       "debut": "2026-10-10T20:00:00+02:00",
-      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Complet",
+      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Dernières places",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concert-de-solidarite-des-armees-2"
     },
     {
@@ -1285,6 +1194,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/concert-de-noel-4"
     },
     {
+      "id": "l-arsenal-2026-12-20-1700-rap-classic",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "Rap & Classic",
+      "debut": "2026-12-20T17:00:00+01:00",
+      "note": "d'EAST Phare - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/rap-classic-1"
+    },
+    {
       "id": "l-arsenal-2026-12-29-1830-reveillon-d-exception",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1893,16 +1812,6 @@
       "debut": "2027-06-23T20:00:00+02:00",
       "note": "Henri Purcell, Keith Jarrett - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/prism"
-    },
-    {
-      "id": "l-arsenal-2027-06-26-1900-la-nuit-a-la-cite",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "concert",
-      "titre": "La Nuit à la Cité",
-      "debut": "2027-06-26T19:00:00+02:00",
-      "note": "Découvrir",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/la-nuit-a-la-cite"
     }
   ]
 }
