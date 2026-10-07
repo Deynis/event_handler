@@ -1,111 +1,6 @@
 {
-  "updated_at": "2026-10-06T21:02:43+02:00",
+  "updated_at": "2026-10-07T12:23:02+02:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-06-0945-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-06T09:45:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-06-0945-violette-noziere",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Violette Nozière",
-      "debut": "2026-10-06T09:45:00+02:00",
-      "duree_min": 130,
-      "note": "Cycle Stéphane Audran (chez Claude Chabrol)",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-06-1320-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-06T13:20:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-06-1540-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-06T15:40:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-06-1610-rose",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Rose",
-      "debut": "2026-10-06T16:10:00+02:00",
-      "duree_min": 94,
-      "version": "VOST",
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-06-1805-la-vie-en-relief-jacques-henri-lartigue",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "La Vie en relief - Jacques Henri Lartigue",
-      "debut": "2026-10-06T18:05:00+02:00",
-      "duree_min": 80,
-      "note": "3D",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-06-1835-les-roches-rouges",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Roches Rouges",
-      "debut": "2026-10-06T18:35:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "l-arsenal-2026-10-06-2000-concert-pour-les-etudiants",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "concert",
-      "titre": "Concert pour les étudiants",
-      "debut": "2026-10-06T20:00:00+02:00",
-      "note": "Orchestre national de Metz Grand Est, Louis Schwizgebel - Découvrir - Dernières places",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-pour-les-etudiants-3"
-    },
-    {
-      "id": "la-scala-2026-10-06-2000-mon-vieux",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mon vieux",
-      "debut": "2026-10-06T20:00:00+02:00",
-      "duree_min": 52,
-      "note": "Ciné-débat organisé par la Mission Handicap Thionville",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-06-2025-histoires-de-la-nuit",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Histoires De La Nuit",
-      "debut": "2026-10-06T20:25:00+02:00",
-      "duree_min": 114,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "la-scala-2026-10-07-0945-memoire-de-fille",
       "lieu": "La Scala",
@@ -1812,6 +1707,16 @@
       "debut": "2027-06-23T20:00:00+02:00",
       "note": "Henri Purcell, Keith Jarrett - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/prism"
+    },
+    {
+      "id": "l-arsenal-2027-06-26-1900-la-nuit-a-la-cite",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "concert",
+      "titre": "La Nuit à la Cité",
+      "debut": "2027-06-26T19:00:00+02:00",
+      "note": "Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/la-nuit-a-la-cite"
     }
   ]
 }
