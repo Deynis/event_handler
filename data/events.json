@@ -1,109 +1,6 @@
 {
-  "updated_at": "2026-10-08T21:25:05+02:00",
+  "updated_at": "2026-10-09T12:41:54+02:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-08-0945-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-08T09:45:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1000-les-roches-rouges",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Roches Rouges",
-      "debut": "2026-10-08T10:00:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1320-her-private-hell",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Her Private Hell",
-      "debut": "2026-10-08T13:20:00+02:00",
-      "duree_min": 110,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1320-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-08T13:20:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1530-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-08T15:30:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1540-les-roches-rouges",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Roches Rouges",
-      "debut": "2026-10-08T15:40:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1730-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-08T17:30:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1825-les-elephants-dans-la-brume",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Éléphants dans la brume",
-      "debut": "2026-10-08T18:25:00+02:00",
-      "duree_min": 107,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-1950-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-08T19:50:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-08-2030-histoires-de-la-nuit",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Histoires De La Nuit",
-      "debut": "2026-10-08T20:30:00+02:00",
-      "duree_min": 114,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "la-scala-2026-10-09-0945-histoires-de-la-nuit",
       "lieu": "La Scala",
@@ -648,6 +545,18 @@
       "debut": "2026-10-17T20:00:00+02:00",
       "note": "Symphonique, Piano - Johannes Brahms, Béla Bartók, Orchestre national de Metz Grand Est, dirigé par Kevin John Edusei - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/andrei-korobeinikov-rachmaninov"
+    },
+    {
+      "id": "l-arsenal-2026-10-18-0000-polyphonies-du-monde",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Polyphonies du monde",
+      "debut": "2026-10-18T00:00:00+02:00",
+      "fin": "2026-10-18T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "14 oct. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/week-end/polyphonies-du-monde"
     },
     {
       "id": "l-arsenal-2026-10-18-1600-viva-la-gracia",
