@@ -1,121 +1,6 @@
 {
-  "updated_at": "2026-10-09T20:58:42+02:00",
+  "updated_at": "2026-10-10T11:58:00+02:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-09-0945-histoires-de-la-nuit",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Histoires De La Nuit",
-      "debut": "2026-10-09T09:45:00+02:00",
-      "duree_min": 114,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-0945-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-09T09:45:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-1320-les-roches-rouges",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Roches Rouges",
-      "debut": "2026-10-09T13:20:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-1330-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-09T13:30:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-1510-her-private-hell",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Her Private Hell",
-      "debut": "2026-10-09T15:10:00+02:00",
-      "duree_min": 110,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-1625-la-vie-en-relief-jacques-henri-lartigue",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "La Vie en relief - Jacques Henri Lartigue",
-      "debut": "2026-10-09T16:25:00+02:00",
-      "duree_min": 80,
-      "note": "3D",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-1720-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-09T17:20:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-1805-les-elephants-dans-la-brume",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Éléphants dans la brume",
-      "debut": "2026-10-09T18:05:00+02:00",
-      "duree_min": 107,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "l-arsenal-2026-10-09-2000-sauvage",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "Sauvage",
-      "debut": "2026-10-09T20:00:00+02:00",
-      "note": "Jazz - Le Maxiphone - Découvrir",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/sauvage"
-    },
-    {
-      "id": "la-scala-2026-10-09-2015-histoires-de-la-nuit",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Histoires De La Nuit",
-      "debut": "2026-10-09T20:15:00+02:00",
-      "duree_min": 114,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-09-2015-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-09T20:15:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "la-scala-2026-10-10-1320-notre-salut",
       "lieu": "La Scala",
@@ -198,7 +83,7 @@
       "categorie": "spectacle",
       "titre": "Concert de solidarité des Armées",
       "debut": "2026-10-10T20:00:00+02:00",
-      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Dernières places",
+      "note": "Musique de l’Arme Blindée Cavalerie - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concert-de-solidarite-des-armees-2"
     },
     {
