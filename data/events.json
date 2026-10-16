@@ -1,16 +1,6 @@
 {
-  "updated_at": "2026-10-15T19:52:42+02:00",
+  "updated_at": "2026-10-16T10:17:48+02:00",
   "events": [
-    {
-      "id": "l-arsenal-2026-10-15-2000-le-mur",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "Le Mur",
-      "debut": "2026-10-15T20:00:00+02:00",
-      "note": "Danse - ou la peau - Découvrir",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/le-mur"
-    },
     {
       "id": "la-scala-2026-10-16-2000-insecticide-comment-l-agrochimie-a-tue-les-insectes",
       "lieu": "La Scala",
