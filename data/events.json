@@ -1,27 +1,6 @@
 {
-  "updated_at": "2026-10-16T19:41:25+02:00",
+  "updated_at": "2026-10-17T09:53:43+02:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-16-2000-insecticide-comment-l-agrochimie-a-tue-les-insectes",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "festival",
-      "titre": "Insecticide, comment l'agrochimie a tué les insectes",
-      "debut": "2026-10-16T20:00:00+02:00",
-      "duree_min": 57,
-      "note": "Festival Alimenterre - Ciné-débat",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "l-arsenal-2026-10-16-2000-a-la-source-du-rai",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "À la source du raï",
-      "debut": "2026-10-16T20:00:00+02:00",
-      "note": "Musiques du monde, Grandes voix, Création et crossover - Sofiane Saidi, Théo Ceccaldi - Découvrir - Dernières places",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/a-la-source-du-rai"
-    },
     {
       "id": "la-scala-2026-10-17-1600-au-fil-de-l-eau-de-l-insouciance-a-la-desobeissance",
       "lieu": "La Scala",
