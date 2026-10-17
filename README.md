@@ -33,6 +33,10 @@ Cette première version (étape 1 du plan) contient :
    - **Script** : `EventsWidget`
    - **Paramètre** : voir ci-dessous (facultatif)
 
+### Liste complète au tap
+
+Un widget iOS ne peut pas défiler ni se filtrer lui-même. À la place, **un tap sur le widget ouvre dans Scriptable la liste complète** des événements à venir : défilement, filtres **Lieu / genre** et **Période** (tout, aujourd'hui, 7 prochains jours), **Recherche** par mot, et un tap sur un événement ouvre sa page. Si le widget a un paramètre (voir ci-dessous), la liste démarre avec ce filtre, modifiable à l'écran. Le bouton lecture dans Scriptable ouvre la même liste.
+
 ### Paramètre du widget (filtre)
 
 Le paramètre est une liste séparée par des virgules, comparée au lieu, à la ville ou à la catégorie (sans tenir compte des majuscules ni des accents) :
@@ -91,6 +95,15 @@ Chaque semaine, La Scala publie une grille horaire en PDF (« Horaires du mercre
 Ce qui est repris : titre, horaires par jour, durée, version (VOST/VF), et les mentions des bandeaux (« Dernière semaine », « Jeune public », « Avant-première », ciné-club, festival...) dans le champ `note`. Les anciens PDF restent dans `pdf/` sans effet : leurs séances sont passées donc purgées.
 
 Si la mise en page du PDF change au point de ne plus être reconnue, le workflow échoue (e-mail GitHub) et `events.json` n'est pas modifié. Pour vérifier un PDF sans rien écrire : `python scripts/extract_pdf.py --dry-run pdf/mon-fichier.pdf`.
+
+## Importer un programme de saison (JSON)
+
+Les programmes de saison (Théâtre de Thionville, Adagio...) sont saisis dans `json/*.json` : `{"source": "<url du PDF>", "events": [...]}`, événements au format ci-dessous. Le même workflow les importe à chaque modification du dossier `json/` (`python scripts/import_json.py`, `--dry-run` pour vérifier).
+
+- Les genres `theatre`, `danse`, `humour` et `conference` deviennent `spectacle`, le genre étant repris dans `note`.
+- `artiste` est ajouté à `note` (le widget affiche la note, pas l'artiste).
+- Sans `url`, l'événement pointe vers la `source` du fichier.
+- Chaque fichier remplace ce qu'il avait importé la fois précédente : on peut le corriger et le recommiter sans créer de doublons.
 
 ## Format du JSON
 

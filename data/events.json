@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-17T18:38:40+02:00",
+  "updated_at": "2026-10-17T18:56:38+02:00",
   "events": [
+    {
+      "id": "la-scala-2026-10-17-1320-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-17T13:20:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-17-1340-her-private-hell",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Her Private Hell",
+      "debut": "2026-10-17T13:40:00+02:00",
+      "duree_min": 110,
+      "version": "VOST",
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-17-1550-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-17T15:50:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
     {
       "id": "la-scala-2026-10-17-1600-au-fil-de-l-eau-de-l-insouciance-a-la-desobeissance",
       "lieu": "La Scala",
@@ -9,7 +42,17 @@
       "titre": "Au fil de l'eau, de l'insouciance à la désobéïssance",
       "debut": "2026-10-17T16:00:00+02:00",
       "duree_min": 52,
-      "note": "Festival Alimenterre - Ciné-débat suivi d'un buffet organisé par l'Association Franco-Africaine de Moselle",
+      "note": "Festival AlimenTerre",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-17-1740-memoire-de-fille",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mémoire de fille",
+      "debut": "2026-10-17T17:40:00+02:00",
+      "duree_min": 117,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -23,6 +66,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/la-villanella"
     },
     {
+      "id": "la-scala-2026-10-17-1800-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-17T18:00:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-17-1950-notre-salut",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Notre salut",
+      "debut": "2026-10-17T19:50:00+02:00",
+      "duree_min": 159,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "l-arsenal-2026-10-17-2000-andrei-korobeinikov-rachmaninov",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -31,6 +94,17 @@
       "debut": "2026-10-17T20:00:00+02:00",
       "note": "Symphonique, Piano - Johannes Brahms, Béla Bartók, Orchestre national de Metz Grand Est, dirigé par Kevin John Edusei - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/andrei-korobeinikov-rachmaninov"
+    },
+    {
+      "id": "la-scala-2026-10-17-2000-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-17T20:00:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "l-arsenal-2026-10-18-0000-polyphonies-du-monde",
@@ -45,6 +119,37 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/week-end/polyphonies-du-monde"
     },
     {
+      "id": "la-scala-2026-10-18-1320-notre-salut",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Notre salut",
+      "debut": "2026-10-18T13:20:00+02:00",
+      "duree_min": 159,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-18-1325-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-18T13:25:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-18-1515-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-18T15:15:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "l-arsenal-2026-10-18-1600-viva-la-gracia",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -53,6 +158,168 @@
       "debut": "2026-10-18T16:00:00+02:00",
       "note": "Musique baroque - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/viva-la-gracia"
+    },
+    {
+      "id": "la-scala-2026-10-18-1615-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-18T16:15:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-18-1750-poulet-au-vinaigre",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Poulet au vinaigre",
+      "debut": "2026-10-18T17:50:00+02:00",
+      "duree_min": 98,
+      "note": "Cycle Stéphane Audran (chez Claude Chabrol)",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-18-1805-memoire-de-fille",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mémoire de fille",
+      "debut": "2026-10-18T18:05:00+02:00",
+      "duree_min": 117,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-18-2000-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-18T20:00:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-18-2025-her-private-hell",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Her Private Hell",
+      "debut": "2026-10-18T20:25:00+02:00",
+      "duree_min": 110,
+      "version": "VOST",
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-0945-her-private-hell",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Her Private Hell",
+      "debut": "2026-10-19T09:45:00+02:00",
+      "duree_min": 110,
+      "version": "VOST",
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1000-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-19T10:00:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1325-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-19T13:25:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1350-les-elephants-dans-la-brume",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Éléphants dans la brume",
+      "debut": "2026-10-19T13:50:00+02:00",
+      "duree_min": 107,
+      "version": "VOST",
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1600-la-vie-en-relief-jacques-henri-lartigue",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Vie en relief - Jacques Henri Lartigue",
+      "debut": "2026-10-19T16:00:00+02:00",
+      "duree_min": 80,
+      "note": "Dernière semaine, 3D",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1600-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-19T16:00:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1740-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-19T17:40:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1750-les-roches-rouges",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Roches Rouges",
+      "debut": "2026-10-19T17:50:00+02:00",
+      "duree_min": 90,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-1940-notre-salut",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Notre salut",
+      "debut": "2026-10-19T19:40:00+02:00",
+      "duree_min": 159,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-19-2015-memoire-de-fille",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mémoire de fille",
+      "debut": "2026-10-19T20:15:00+02:00",
+      "duree_min": 117,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "l-arsenal-2026-10-20-0000-ile-aux-bebes-musicale",
@@ -65,6 +332,123 @@
       "jour_entier": true,
       "note": "Îles aux bébés - de 3 mois à 3 ans - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ile-aux-bebes-musicale-12"
+    },
+    {
+      "id": "la-scala-2026-10-20-0945-les-elephants-dans-la-brume",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Éléphants dans la brume",
+      "debut": "2026-10-20T09:45:00+02:00",
+      "duree_min": 107,
+      "version": "VOST",
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-1000-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-20T10:00:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-1320-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-20T13:20:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-1335-poulet-au-vinaigre",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Poulet au vinaigre",
+      "debut": "2026-10-20T13:35:00+02:00",
+      "duree_min": 98,
+      "note": "Cycle Stéphane Audran (chez Claude Chabrol)",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-1510-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-20T15:10:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-1545-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-10-20T15:45:00+02:00",
+      "duree_min": 90,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-1735-notre-salut",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Notre salut",
+      "debut": "2026-10-20T17:35:00+02:00",
+      "duree_min": 159,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-1745-memoire-de-fille",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mémoire de fille",
+      "debut": "2026-10-20T17:45:00+02:00",
+      "duree_min": 117,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-2005-minotaure",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Minotaure",
+      "debut": "2026-10-20T20:05:00+02:00",
+      "duree_min": 141,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-20-2030-les-roches-rouges",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Roches Rouges",
+      "debut": "2026-10-20T20:30:00+02:00",
+      "duree_min": 90,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-21-1000-chien-bleu",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Chien bleu",
+      "debut": "2026-10-21T10:00:00+02:00",
+      "duree_min": 33,
+      "note": "Atelier Nom d'un chien… bleu ! - dès 3 ans",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "la-scala-2026-10-21-1000-chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs",
@@ -147,6 +531,76 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/le-bal-des-sorcieres"
     },
     {
+      "id": "theatre-2026-10-28-pillowgraphies",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Pillowgraphies",
+      "debut": "2026-10-28T15:00:00+01:00",
+      "note": "Danse - Danses pour fantômes et lumière noire (dès 6 ans)",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "la-scala-2026-10-31-1430-casper",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Casper",
+      "debut": "2026-10-31T14:30:00+01:00",
+      "duree_min": 100,
+      "version": "VF",
+      "note": "Ciné-goûter Halloween - dès 8 ans",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-31-1530-mon-petit-halloween",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mon petit Halloween",
+      "debut": "2026-10-31T15:30:00+01:00",
+      "duree_min": 43,
+      "note": "Ciné-goûter Halloween tout petits - dès 3 ans",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-31-1800-poltergeist",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Poltergeist",
+      "debut": "2026-10-31T18:00:00+01:00",
+      "duree_min": 115,
+      "version": "VF",
+      "note": "Ciné-Culte Spécial Halloween",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-10-31-2030-the-rocky-horror-picture-show",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "The Rocky Horror Picture Show",
+      "debut": "2026-10-31T20:30:00+01:00",
+      "duree_min": 100,
+      "version": "VOST",
+      "note": "Soirée Halloween en partenariat avec Osmose",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "theatre-2026-11-03-une-heure-a-t-attendre",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Une heure à t'attendre",
+      "debut": "2026-11-03T20:00:00+01:00",
+      "duree_min": 70,
+      "note": "Théâtre - Thierry Frémont & Nicolas Vaude",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2026-11-04-2000-buster-keaton-steamboat-bill-jr",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -167,6 +621,28 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/au-dela-des-pyrenees"
     },
     {
+      "id": "theatre-2026-11-05-dalida-diva-tzigane",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Dalida Diva Tzigane",
+      "debut": "2026-11-05T20:00:00+01:00",
+      "note": "Barbara Pravi & Aälma Dili",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "adagio-2026-11-06-anahid",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Anahid",
+      "debut": "2026-11-06T20:00:00+01:00",
+      "note": "Laureen Stoulig-Thinnes & Layla Ramezan",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2026-11-10-1900-diner-de-gala",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -175,6 +651,28 @@
       "debut": "2026-11-10T19:00:00+01:00",
       "note": "Musique de chambre - Musiciennes et musiciens de l’Orchestre national Metz Grand Est - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/diner-de-gala-2"
+    },
+    {
+      "id": "theatre-2026-11-11-tableaux-d-une-exposition",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Les Tableaux d'une Exposition",
+      "debut": "2026-11-11T15:00:00+01:00",
+      "note": "Le Symphonique de Thionville-Moselle",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "theatre-2026-11-13-verino-rodeo",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Verino - Rodéo",
+      "debut": "2026-11-13T20:00:00+01:00",
+      "note": "Humour",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2026-11-15-0000-cimarron",
@@ -217,6 +715,16 @@
       "debut": "2026-11-18T20:00:00+01:00",
       "note": "Jazz, Piano - Manifeste - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/tigran-hamasyan"
+    },
+    {
+      "id": "adagio-2026-11-20-couleur-s-trio",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Couleur.S Trio",
+      "debut": "2026-11-20T20:00:00+01:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2026-11-21-1500-quatre-saisons",
@@ -283,6 +791,39 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/born-bad-records"
     },
     {
+      "id": "adagio-2026-11-29-nectar-percussions",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Nectar Percussions",
+      "debut": "2026-11-29T15:00:00+01:00",
+      "note": "Concert interactif jeux vidéo (dès 5 ans)",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "adagio-2026-12-03-clefs-ecoute-2",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Clefs d'écoute : musiques nocturnes (Chopin, Debussy, Field, Schœnberg...)",
+      "debut": "2026-12-03T19:00:00+01:00",
+      "note": "Conférence",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "adagio-2026-12-04-ode-a-la-nuit",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Ode à la nuit",
+      "debut": "2026-12-04T20:00:00+01:00",
+      "note": "Cello8",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2026-12-05-2000-delay-the-sadness",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -291,6 +832,17 @@
       "debut": "2026-12-05T20:00:00+01:00",
       "note": "Danse - Sharon Eyal - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/delay-the-sadness"
+    },
+    {
+      "id": "theatre-2026-12-06-concert-saint-nicolas",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Concert de la Saint-Nicolas",
+      "debut": "2026-12-06T14:00:00+01:00",
+      "note": "Orchestre Philharmonique de Thionville (gratuit, billet à retirer à l'accueil)",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2026-12-08-2000-nikolai-lugansky",
@@ -311,6 +863,16 @@
       "debut": "2026-12-11T20:00:00+01:00",
       "note": "Symphonique, Grandes voix - Edvard Grieg, Hans Abrahamsen, Orchestre national de Metz Grand Est, dirigé par Emilia Hoving - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/ilse-eerens-sibelius"
+    },
+    {
+      "id": "theatre-2026-12-11-imany",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Imany - Women deserve rage",
+      "debut": "2026-12-11T20:00:00+01:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2026-12-12-1600-et-puis",
@@ -345,6 +907,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/vents-dete-en-hiver"
     },
     {
+      "id": "theatre-2026-12-15-l-experience-theatrale",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "L'expérience théâtrale",
+      "debut": "2026-12-15T20:00:00+01:00",
+      "note": "Théâtre - François Berléand & Max Boublil",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2026-12-16-2000-le-magnificat-de-bach",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -365,6 +938,17 @@
       "jour_entier": true,
       "note": "Symphonique - dès 6 ans - Orchestre national de Metz Grand Est, Jane Latron - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/concert-de-noel-4"
+    },
+    {
+      "id": "saint-pierre-2026-12-19-christmas-in-thionville",
+      "lieu": "Église Saint-Pierre",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Christmas in Thionville #2",
+      "debut": "2026-12-19T20:00:00+01:00",
+      "note": "Le Symphonique de Thionville-Moselle & Maîtrise de la cathédrale de Metz (billet gratuit à retirer au Théâtre)",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2026-12-20-1700-rap-classic",
@@ -409,6 +993,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-du-nouvel-an-strauss-rossini-mahler-john-williams-mozart-elgar"
     },
     {
+      "id": "theatre-2027-01-08-bourgeois-gentilhomme",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Le Bourgeois Gentilhomme",
+      "debut": "2027-01-08T20:00:00+01:00",
+      "note": "Théâtre - Jean-Paul Rouve",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-01-09-2000-titanesque",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -429,6 +1024,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/folk-songs-bob-dylan-luciano-berio"
     },
     {
+      "id": "adagio-2027-01-15-cello-360-break",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Cello 360 Break",
+      "debut": "2027-01-15T20:00:00+01:00",
+      "note": "Christian-Pierre La Marca & Yaman Okur",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-01-16-2000-rewild",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -437,6 +1043,17 @@
       "debut": "2027-01-16T20:00:00+01:00",
       "note": "Jazz - Grimal, Frith, Ducret, Silva, Hemingway - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/rewild"
+    },
+    {
+      "id": "theatre-2027-01-17-concert-nouvel-an",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Concert du Nouvel An",
+      "debut": "2027-01-17T15:00:00+01:00",
+      "note": "Orchestre Philharmonique de Thionville",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-01-17-1600-myotis-x",
@@ -459,6 +1076,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/quintette-syntonia"
     },
     {
+      "id": "theatre-2027-01-22-garou",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Garou",
+      "debut": "2027-01-22T20:00:00+01:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "theatre-2027-01-24-musique-sapeurs-pompiers",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "La Musique des Sapeurs-Pompiers",
+      "debut": "2027-01-24T15:00:00+01:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-01-27-2000-janua-echos-du-dernier-schisme",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -477,6 +1114,16 @@
       "debut": "2027-01-28T20:00:00+01:00",
       "note": "Danse - Amala Dianor - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/dub"
+    },
+    {
+      "id": "adagio-2027-01-29-yse",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Ysé",
+      "debut": "2027-01-29T20:00:00+01:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-01-30-1800-apero-concert-mozart",
@@ -499,6 +1146,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/le-masque-de-fer"
     },
     {
+      "id": "adagio-2027-02-04-clefs-ecoute-3",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Clefs d'écoute : mélodies françaises et Lieder allemands",
+      "debut": "2027-02-04T19:00:00+01:00",
+      "note": "Conférence",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-02-05-2000-anastasia-kobekina-schumann",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -507,6 +1165,27 @@
       "debut": "2027-02-05T20:00:00+01:00",
       "note": "Symphonique - Grażyna Bacewicz, Henri Dutilleux, dirigé par Baldur Brönnimann - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/anastasia-kobekina-schumann"
+    },
+    {
+      "id": "adagio-2027-02-05-litanie-des-cimes",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "La litanie des cimes & Mah Damba",
+      "debut": "2027-02-05T20:00:00+01:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "theatre-2027-02-05-nicolas-canteloup",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Nicolas Canteloup",
+      "debut": "2027-02-05T20:00:00+01:00",
+      "note": "Humour",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-02-07-0000-nacken",
@@ -519,6 +1198,17 @@
       "jour_entier": true,
       "note": "Création et crossover - dès 8 ans - Spat'Sonore et Söta Sälta - 6 févr. - → - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/nacken"
+    },
+    {
+      "id": "theatre-2027-02-09-bigre",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Bigre",
+      "debut": "2027-02-09T20:00:00+01:00",
+      "note": "Théâtre - Compagnie Le Fils du Grand Réseau",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-02-11-2000-chassol",
@@ -551,6 +1241,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/atelier/lecon-de-danse-5"
     },
     {
+      "id": "theatre-2027-02-14-classical-meets-movies",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Classical meets movies",
+      "debut": "2027-02-14T15:00:00+01:00",
+      "note": "Le Symphonique de Thionville-Moselle",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-02-14-1600-septuors-en-echo",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -581,6 +1282,28 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/du-vent-dans-les-cordes"
     },
     {
+      "id": "theatre-2027-02-17-en-therapie",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "En thérapie",
+      "debut": "2027-02-17T20:00:00+01:00",
+      "note": "Théâtre - Francis Huster",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "adagio-2027-02-19-musas",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "MUSAS - Solo, ma non troppo",
+      "debut": "2027-02-19T20:00:00+01:00",
+      "note": "Hélène Escriva",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-03-04-2000-lagon-nwar",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -589,6 +1312,17 @@
       "debut": "2027-03-04T20:00:00+01:00",
       "note": "Jazz, Musiques du monde - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/lagon-nwar"
+    },
+    {
+      "id": "adagio-2027-03-05-little-italy",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Little Italy",
+      "debut": "2027-03-05T20:00:00+01:00",
+      "note": "Harmonie Deschamps & Pierre Cussac",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-03-06-0000-ile-aux-bebes-musicale",
@@ -601,6 +1335,16 @@
       "jour_entier": true,
       "note": "Îles aux bébés - de 3 mois à 3 ans - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ile-aux-bebes-musicale-14"
+    },
+    {
+      "id": "theatre-2027-03-09-journal-edouard-baer",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Le Journal d'Edouard Baer à Thionville",
+      "debut": "2027-03-09T20:00:00+01:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-03-10-2000-une-passion-pour-leipzig",
@@ -641,6 +1385,17 @@
       "debut": "2027-03-13T20:00:00+01:00",
       "note": "Musiques du monde - Quatuor Zaïde - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/beethoven-folk"
+    },
+    {
+      "id": "theatre-2027-03-13-fantome-de-l-opera",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Le fantôme de l'opéra",
+      "debut": "2027-03-13T20:00:00+01:00",
+      "note": "Comédie musicale",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-03-14-1600-amicalement-votre-trios-de-beethoven",
@@ -697,6 +1452,28 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/confluences-arctiques"
     },
     {
+      "id": "adagio-2027-03-21-jonathan-fournel",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Jonathan Fournel",
+      "debut": "2027-03-21T17:00:00+01:00",
+      "note": "Récital de piano solo",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "theatre-2027-03-23-mur-mure",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Mur Mure",
+      "debut": "2027-03-23T20:00:00+01:00",
+      "note": "Théâtre - Clovis Cornillac",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-03-24-1400-visite-l-envers-du-decor",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -727,6 +1504,28 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/gorgones"
     },
     {
+      "id": "theatre-2027-03-31-potiche",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Potiche",
+      "debut": "2027-03-31T20:00:00+02:00",
+      "note": "Théâtre - Clémentine Célarié",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "adagio-2027-04-01-clefs-ecoute-4",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Clefs d'écoute : découverte de la harpe et de sa facture",
+      "debut": "2027-04-01T19:00:00+02:00",
+      "note": "Conférence",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-04-02-2000-quatuor-diotima-beethoven",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -735,6 +1534,16 @@
       "debut": "2027-04-02T20:00:00+02:00",
       "note": "Symphonique, Création et crossover - Johannes Brahms, Sara Glojnarić, John Adams, Orchestre national de Metz Grand Est, dirigés par Victor Jacob - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/quatuor-diotima-beethoven"
+    },
+    {
+      "id": "adagio-2027-04-02-walid-ben-selim",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Walid Ben Selim - Here and Now",
+      "debut": "2027-04-02T20:00:00+02:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-04-04-1600-bestiaire-medieval",
@@ -777,6 +1586,38 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concerto-danzante"
     },
     {
+      "id": "theatre-2027-04-15-le-grand-bal",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Le Grand Bal",
+      "debut": "2027-04-15T20:00:00+02:00",
+      "note": "Danse - Compagnie Dyptik",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "theatre-2027-04-17-hommes-mars-femmes-venus",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Les hommes viennent de Mars, les femmes de Vénus - mise à jour 2.0",
+      "debut": "2027-04-17T20:00:00+02:00",
+      "note": "Paul Dewandre",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "adagio-2027-04-18-duo-thiry-carpino",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Duo Thiry-Carpino",
+      "debut": "2027-04-18T17:00:00+02:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-05-05-2000-laurel-et-hardy",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -785,6 +1626,17 @@
       "debut": "2027-05-05T20:00:00+02:00",
       "note": "Musique de François Narboni - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/cine-cite/laurel-et-hardy"
+    },
+    {
+      "id": "theatre-2027-05-11-couleur-des-souvenirs",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "La couleur des souvenirs",
+      "debut": "2027-05-11T20:00:00+02:00",
+      "note": "Théâtre - Dominique Pinon",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-05-12-2000-fusions-jazz",
@@ -817,6 +1669,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/apero-concert-saint-saens"
     },
     {
+      "id": "theatre-2027-05-16-la-dolce-vita",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "La Dolce Vita",
+      "debut": "2027-05-16T15:00:00+02:00",
+      "note": "Le Symphonique de Thionville-Moselle",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-05-20-2000-la-edad-de-oro",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -827,6 +1690,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/spectacle/la-edad-de-oro"
     },
     {
+      "id": "adagio-2027-05-21-gin-craze",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Gin Craze",
+      "debut": "2027-05-21T20:00:00+02:00",
+      "note": "The Beggar's Ensemble / Augustin Lusson Trio",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-05-22-2000-tigana-santana",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -835,6 +1709,17 @@
       "debut": "2027-05-22T20:00:00+02:00",
       "note": "Symphonique, Musiques du monde - Orchestre national de Metz Grand Est, Sonia Ben-Santamaria - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/tigana-santana"
+    },
+    {
+      "id": "theatre-2027-05-23-cap-a-l-est",
+      "lieu": "Théâtre de Thionville",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Cap à l'Est !",
+      "debut": "2027-05-23T15:00:00+02:00",
+      "note": "Orchestre Philharmonique de Thionville",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-05-27-2000-hatched-ensemble",
@@ -871,6 +1756,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/tec-tec"
     },
     {
+      "id": "adagio-2027-05-29-hermanas-caronni",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Las Hermanas Caronni - El espacio del tiempo (Minifestival Argentina)",
+      "debut": "2027-05-29T17:00:00+02:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-05-29-2000-geoffroy-couteau-brahms",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -879,6 +1774,16 @@
       "debut": "2027-05-29T20:00:00+02:00",
       "note": "Symphonique, Piano - Robert Schumann, Gabriela Ortiz, Eve Risser, dirigé par David Reiland - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/geoffroy-couteau-brahms"
+    },
+    {
+      "id": "adagio-2027-05-29-mandy-lerouge",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Mandy Lerouge - Del Cerro (Minifestival Argentina)",
+      "debut": "2027-05-29T20:00:00+02:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-05-30-0000-bresils",
@@ -903,6 +1808,17 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/aimez-vous-brahms"
     },
     {
+      "id": "adagio-2027-06-03-clefs-ecoute-5",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Clefs d'écoute : l'art de la transcription",
+      "debut": "2027-06-03T19:00:00+02:00",
+      "note": "Conférence",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
+    },
+    {
       "id": "l-arsenal-2027-06-05-0000-entre-temps",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -923,6 +1839,16 @@
       "debut": "2027-06-05T10:30:00+02:00",
       "note": "Danse - avec la Compagnie DCA / Philippe Decouflé - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/lecon-de-danse-4"
+    },
+    {
+      "id": "adagio-2027-06-06-bianco-faulisi",
+      "lieu": "Adagio",
+      "ville": "Thionville",
+      "categorie": "concert",
+      "titre": "Gabriel Bianco & Luka Faulisi",
+      "debut": "2027-06-06T17:00:00+02:00",
+      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
+      "import": "theatre-adagio-2026-2027.json"
     },
     {
       "id": "l-arsenal-2027-06-11-0000-circ-a",

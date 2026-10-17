@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - "pdf/**"
+      - "json/**"
+      - "scripts/extract_pdf.py"
+      - "scripts/import_json.py"
   workflow_dispatch:   # lancement manuel depuis l'onglet Actions
 
 permissions:
@@ -30,6 +33,10 @@ jobs:
       # Les semaines passées sont purgées aussitôt, donc rejouer d'anciens PDF est sans risque.
       - name: Extraction + purge
         run: python scripts/extract_pdf.py
+
+      # Programmes de saison saisis à la main (json/*.json : Théâtre, Adagio...)
+      - name: Import des JSON
+        run: python scripts/import_json.py
 
       - name: Commit si le fichier a changé
         run: |

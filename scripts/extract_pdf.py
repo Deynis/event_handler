@@ -43,7 +43,7 @@ WEEKDAYS = ("lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanc
 DATE_LINE_RE = re.compile(
     r"^(?:%s)\s+(\d{1,2})(?:er)?\s+([^\W\d_]+)\s+(?:à\s+)?(\d{1,2})h(\d{2})?" % "|".join(WEEKDAYS), re.I)
 HEADER_RE = re.compile(
-    r"Horaires du \w+\s+(\d{1,2})(?:er)?\s+([^\W\d_]+)(?:\s+(\d{4}))?\s+au\s+\w+\s+(\d{1,2})(?:er)?\s+([^\W\d_]+)\s+(\d{4})",
+    r"Horaires du \w+\s+(\d{1,2})(?:er)?(?:\s+(?!au\b)([^\W\d_]+))?(?:\s+(\d{4}))?\s+au\s+\w+\s+(\d{1,2})(?:er)?\s+([^\W\d_]+)\s+(\d{4})",
     re.I)
 
 
@@ -181,7 +181,9 @@ def parse_header(text: str):
     if not m:
         raise ValueError("en-tête « Horaires du ... au ... » introuvable : le PDF n'a pas le format attendu")
     d1, mo1, y1, d2, mo2, y2 = m.groups()
-    month1, month2 = month_num(mo1), month_num(mo2)
+    month2 = month_num(mo2)
+    # « du mercredi 14 au mardi 20 octobre » : mois écrit une seule fois
+    month1 = month_num(mo1) if mo1 else month2
     if not month1 or not month2:
         raise ValueError(f"mois illisible dans l'en-tête : {m.group(0)!r}")
     end_year = int(y2)
