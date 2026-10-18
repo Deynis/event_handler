@@ -1,12 +1,12 @@
 # Widget iPhone d'événements culturels
 
-Affiche sur l'écran d'accueil iPhone les prochaines séances et événements de lieux prédéfinis (La Scala à Thionville, L'Arsenal à Metz, etc.). Les données viennent d'un fichier JSON hébergé sur GitHub Pages ; le widget est un script [Scriptable](https://scriptable.app). Aucun Google Calendar impliqué.
+Affiche sur l'écran d'accueil iPhone les prochaines séances et événements de lieux prédéfinis (La Scala à Thionville, L'Arsenal à Metz, la Philharmonie Luxembourg, etc.). Les données viennent d'un fichier JSON hébergé sur GitHub Pages ; le widget est un script [Scriptable](https://scriptable.app). Aucun Google Calendar impliqué.
 
 Cette première version (étape 1 du plan) contient :
 
-- `data/events.json` : la programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) et celle de L'Arsenal (Metz) ;
+- `data/events.json` : la programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) celle de L'Arsenal (Metz) et celle de la Philharmonie Luxembourg ;
 - `widget/EventsWidget.js` : le widget (tailles petit / moyen / grand, filtre par lieu, cache hors ligne) ;
-- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal et purge des événements passés (voir « Mise à jour automatique ») ;
+- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal et de la Philharmonie, et purge des événements passés (voir « Mise à jour automatique ») ;
 - `pdf/` + `.github/workflows/import-pdf.yml` : import du programme hebdomadaire PDF de La Scala (voir « Importer le PDF de La Scala »).
 
 ## Installation
@@ -48,6 +48,7 @@ Le paramètre est une liste séparée par des virgules, comparée au lieu, à la
 | `Metz` | uniquement les événements à Metz |
 | `concert,spectacle` | uniquement ces catégories |
 | `La Scala,L'Arsenal` | ces deux lieux |
+| `Philharmonie` | uniquement la Philharmonie Luxembourg |
 
 Astuce : tu peux ajouter plusieurs widgets avec des paramètres différents (un « Cinéma », un « Concerts »).
 
@@ -65,10 +66,11 @@ Le workflow **Rafraîchir les événements** (`.github/workflows/refresh-scrape.
 À chaque passage il :
 
 1. récupère la programmation de L'Arsenal sur le site de la Cité musicale-Metz (toutes les pages, 1 requête par seconde, `robots.txt` respecté) et remplace les événements de L'Arsenal ;
+   récupère aussi la programmation de la **Philharmonie Luxembourg** (voir ci-dessous) ;
 2. **supprime les événements passés** : tout ce qui s'est terminé avant le début de la journée en cours (heure de Paris) disparaît, donc les événements de la veille sont retirés le matin. Une exposition ou un événement sur plusieurs jours reste jusqu'à son dernier jour ;
 3. vérifie que le JSON est valide (jamais de fichier cassé publié), puis le commit si quelque chose a changé.
 
-Si le site de L'Arsenal est inaccessible ou que sa mise en page change au point que plus rien n'est lu, les anciennes données de L'Arsenal sont conservées, la purge a quand même lieu, et le workflow passe en **échec** : GitHub t'envoie alors un e-mail. La Scala n'est pas touchée par ce workflow (ses données viendront de l'étape PDF).
+Si le site d'une source est inaccessible ou que sa mise en page change au point que plus rien n'est lu, les anciennes données de ce lieu sont conservées, la purge a quand même lieu, et le workflow passe en **échec** : GitHub t'envoie alors un e-mail. La Scala n'est pas touchée par ce workflow (ses données viendront de l'étape PDF).
 
 Tester en local (Python 3.11+) :
 
@@ -76,11 +78,33 @@ Tester en local (Python 3.11+) :
 pip install -r requirements.txt
 python -m unittest discover -s scripts/tests -v     # tests sans réseau
 python scripts/merge.py                              # purge seule
-python scripts/scrape_sources.py                     # scraping de L'Arsenal + purge
+python scripts/scrape_sources.py                     # scraping de L'Arsenal et de la Philharmonie + purge
 python scripts/extract_pdf.py --dry-run pdf/x.pdf    # test d'un PDF de La Scala
 ```
 
 Pour ajouter un lieu : créer `scripts/sources/<nom>.py` (constante `LIEU`, fonction `fetch_events()`) et l'ajouter à la liste `SOURCES` de `scripts/scrape_sources.py`.
+
+### Philharmonie Luxembourg
+
+Le `robots.txt` du site interdit les pages de liste paginées (`/fr/programme?page=2`). Le parseur (`scripts/sources/philharmonie.py`) lit donc le **sitemap**, puis chaque fiche d'événement de la saison en cours (1 requête par seconde) : titre, date et heure, salle (Grand Auditorium, Salle de Musique de Chambre...) dans la note.
+
+- Les événements **jeune public** (Kids' Phil, familles, scolaires, Familljefestival) sont écartés : chaque fiche porte un indicateur « kids » que le parseur lit.
+- Pour ne pas rouvrir les ~400 fiches à chaque passage, `data/philharmonie-cache.json` garde le résultat de chaque fiche avec sa date de modification du sitemap : seules les fiches nouvelles ou modifiées sont relues. Le premier passage prend ~7 minutes, les suivants quelques secondes. Supprimer ce fichier force une relecture complète.
+- Si plus de 20 % des fiches lues sont illisibles, la source est considérée en échec (anciennes données conservées, e-mail de GitHub).
+
+### Kinepolis Thionville (en local)
+
+Le site de Kinepolis bloque les requêtes automatiques (page 403), y compris depuis un navigateur sans fenêtre. `scripts/scrape_kinepolis.py` ouvre donc une **fenêtre Chromium visible** (Playwright), choisit tour à tour chaque date du sélecteur « À la date » et lit les séances affichées : film, version (VF/VOST), salle, heure, durée. Il ne tourne **pas** dans GitHub Actions (l'IP d'un serveur serait bloquée) : il faut le lancer sur ton PC, puis envoyer le fichier mis à jour.
+
+```
+pip install -r requirements-kinepolis.txt
+python -m playwright install chromium
+python scripts/scrape_kinepolis.py --dry-run --max-dates 3   # test, n'écrit rien
+python scripts/scrape_kinepolis.py                           # met à jour data/events.json
+git add data/events.json && git commit -m "Séances Kinepolis" && git push
+```
+
+Chaque lancement remplace toutes les séances du Kinepolis. Paramètre du widget pour ce cinéma seul : `Kinepolis`.
 
 Pour inclure aussi la BAM et les Trinitaires (autres salles de la Cité musicale), il faut modifier `scripts/sources/arsenal.py` : pour l'instant seuls les événements de L'Arsenal sont retenus.
 

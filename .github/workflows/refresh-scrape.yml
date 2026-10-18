@@ -37,13 +37,13 @@ jobs:
 
       - name: Commit si le fichier a changé
         run: |
-          if git diff --quiet -- data/events.json; then
+          if git diff --quiet -- data/events.json data/philharmonie-cache.json && [ -z "$(git ls-files --others --exclude-standard data/)" ]; then
             echo "Aucun changement."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json
+          git add data/events.json data/philharmonie-cache.json
           git commit -m "Mise à jour automatique des événements"
           git pull --rebase
           git push

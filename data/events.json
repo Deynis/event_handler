@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T10:08:41+02:00",
+  "updated_at": "2026-10-18T10:28:53+02:00",
   "events": [
     {
       "id": "l-arsenal-2026-10-18-0000-polyphonies-du-monde",
@@ -63,6 +63,15 @@
       "debut": "2026-10-18T16:15:00+02:00",
       "duree_min": 90,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-18-1700-verdi-otello",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Verdi: Otello",
+      "debut": "2026-10-18T17:00:00+02:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/verdi-otello-000000e9001bcacb"
     },
     {
       "id": "la-scala-2026-10-18-1750-poulet-au-vinaigre",
@@ -197,6 +206,16 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "philharmonie-luxembourg-2026-10-19-1930-janine-jansen-denis-kozhukhin",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Janine Jansen & Denis Kozhukhin",
+      "debut": "2026-10-19T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/janine-jansen-denis-kozhukhin-000000e9001c9988"
+    },
+    {
       "id": "la-scala-2026-10-19-1940-notre-salut",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -313,6 +332,16 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "philharmonie-luxembourg-2026-10-20-1930-wayne-shorter-s-symphonic-legacy",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Wayne Shorter’s Symphonic Legacy",
+      "debut": "2026-10-20T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/wayne-shorter-s-symphonic-legacy-000000e9001bc9c1"
+    },
+    {
       "id": "la-scala-2026-10-20-2005-minotaure",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -357,6 +386,16 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "philharmonie-luxembourg-2026-10-21-1230-lunch-concert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch Concert",
+      "debut": "2026-10-21T12:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d5a"
+    },
+    {
       "id": "l-arsenal-2026-10-21-1400-visite-l-envers-du-decor",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -365,6 +404,25 @@
       "debut": "2026-10-21T14:00:00+02:00",
       "note": "Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-13"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-21-1930-isabelle-faust-le-violon-de-mozart",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Isabelle Faust: le violon de Mozart",
+      "debut": "2026-10-21T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/isabelle-faust-le-violon-de-mozart-000000e9001bcb72"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-21-1930-verdi-otello",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Verdi: Otello",
+      "debut": "2026-10-21T19:30:00+02:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/verdi-otello-000000e9001bcacc"
     },
     {
       "id": "l-arsenal-2026-10-22-0000-thaumazein",
@@ -438,6 +496,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/festival/show-devant-les-enfants-3"
     },
     {
+      "id": "philharmonie-luxembourg-2026-10-26-1930-wien-wien-nur-du-allein",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Wien, Wien, nur du allein",
+      "debut": "2026-10-26T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/wien-wien-nur-du-allein-000000e9001c3e73"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-27-1930-rising-stars-elionor-martinez",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Rising Stars | Elionor Martínez",
+      "debut": "2026-10-27T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-elionor-martinez-000000e9001c8026"
+    },
+    {
       "id": "theatre-2026-10-28-pillowgraphies",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -447,6 +525,46 @@
       "note": "Danse - Danses pour fantômes et lumière noire (dès 6 ans)",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-28-1930-isaiah-collier-quartet",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Isaiah Collier Quartet",
+      "debut": "2026-10-28T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/isaiah-collier-quartet-000000e9001cf9b6"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-29-1930-cherifa-kersit-justin-adams",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Cherifa Kersit & Justin Adams",
+      "debut": "2026-10-29T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/cherifa-kersit-justin-adams-000000e9001cbd26"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-29-1930-romeo-et-juliette",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Roméo et Juliette",
+      "debut": "2026-10-29T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/romeo-et-juliette-000000e9001bc9e7"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-30-1930-cat-power",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Cat Power",
+      "debut": "2026-10-30T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/cat-power-000000e9001c92a0"
     },
     {
       "id": "la-scala-2026-10-31-1430-casper",
@@ -484,6 +602,26 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "philharmonie-luxembourg-2026-10-31-1930-die-12-cellisten-der-berliner-philharmoniker",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Die 12 Cellisten der Berliner Philharmoniker",
+      "debut": "2026-10-31T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/die-12-cellisten-der-berliner-philharmoniker-000000e9001c5c5e"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-10-31-1930-heemspill-featured-blanket-hill-kill-the-innocent",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Featured | Blanket Hill & Kill The Innocent",
+      "debut": "2026-10-31T19:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-blanket-hill-kill-the-innocent-000000e9001ce89c"
+    },
+    {
       "id": "la-scala-2026-10-31-2030-the-rocky-horror-picture-show",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -506,6 +644,15 @@
       "note": "Théâtre - Thierry Frémont & Nicolas Vaude",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-04-1930-romeo-et-juliette",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Roméo et Juliette",
+      "debut": "2026-11-04T19:30:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/romeo-et-juliette-000000e9001be6f1"
     },
     {
       "id": "l-arsenal-2026-11-04-2000-buster-keaton-steamboat-bill-jr",
@@ -539,6 +686,15 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-06-1930-dreams-destiny",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Dreams & Destiny",
+      "debut": "2026-11-06T19:30:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/dreams-destiny-000000e9001be6f2"
+    },
+    {
       "id": "adagio-2026-11-06-anahid",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -550,6 +706,25 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-08-1600-romeo-et-juliette",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Roméo et Juliette",
+      "debut": "2026-11-08T16:00:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/romeo-et-juliette-000000e9001be6f3"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-09-1930-thierry-escaich-a-l-orgue",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Thierry Escaich à l’orgue",
+      "debut": "2026-11-09T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/thierry-escaich-a-l-orgue-000000e9001d01e1"
+    },
+    {
       "id": "l-arsenal-2026-11-10-1900-diner-de-gala",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -558,6 +733,16 @@
       "debut": "2026-11-10T19:00:00+01:00",
       "note": "Musique de chambre - Musiciennes et musiciens de l’Orchestre national Metz Grand Est - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/diner-de-gala-2"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-10-1930-coltrane-100-both-directions-at-once",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Coltrane 100: Both Directions at Once",
+      "debut": "2026-11-10T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/coltrane-100-both-directions-at-once-000000e9001c8b86"
     },
     {
       "id": "theatre-2026-11-11-tableaux-d-une-exposition",
@@ -571,6 +756,26 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-11-1930-huelgas-ensemble",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Huelgas Ensemble",
+      "debut": "2026-11-11T19:30:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/huelgas-ensemble-000000e9001d37e0"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-12-1930-evgeny-kissin-sir-andras-schiff",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Evgeny Kissin & Sir András Schiff",
+      "debut": "2026-11-12T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/evgeny-kissin-sir-andras-schiff-000000e9001a5678"
+    },
+    {
       "id": "theatre-2026-11-13-verino-rodeo",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -580,6 +785,16 @@
       "note": "Humour",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-14-1930-heemspill-community-the-duke-s-singers",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Community | The Duke’s Singers",
+      "debut": "2026-11-14T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-community-the-duke-s-singers-000000e9001d0fce"
     },
     {
       "id": "l-arsenal-2026-11-15-0000-cimarron",
@@ -604,6 +819,45 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/extra-dimanche/su"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-15-1700-les-fous-de-vianden",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Les Fous de Vianden",
+      "debut": "2026-11-15T17:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/les-fous-de-vianden-000000e9001c787e"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-15-1930-britten-war-requiem",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Britten: War Requiem",
+      "debut": "2026-11-15T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/britten-war-requiem-000000e9001bca73"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-16-1930-klaus-makela-conducts-mahler-7",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Klaus Mäkelä conducts Mahler 7",
+      "debut": "2026-11-16T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/klaus-maekelae-conducts-mahler-7-000000e9001a0e85"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-17-1930-l-enfant-soldat-nee-musique",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "L’Enfant-soldat née musique",
+      "debut": "2026-11-17T19:30:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/l-enfant-soldat-nee-musique-000000e9001e0b3f"
+    },
+    {
       "id": "l-arsenal-2026-11-17-2000-cuarteto-casals",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -612,6 +866,25 @@
       "debut": "2026-11-17T20:00:00+01:00",
       "note": "Musique de chambre - Haydn, Fábregas, Schubert - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/cuarteto-casals"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-18-1930-branford-marsalis-dianne-reeves",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Branford Marsalis & Dianne Reeves",
+      "debut": "2026-11-18T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/branford-marsalis-dianne-reeves-000000e9001c9816"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-18-1930-stijn-demeulenaere",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Stijn Demeulenaere",
+      "debut": "2026-11-18T19:30:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/stijn-demeulenaere-000000e9001e0b41"
     },
     {
       "id": "l-arsenal-2026-11-18-2000-tigran-hamasyan",
@@ -624,6 +897,145 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/tigran-hamasyan"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-19-1630-a-blaze-of-mutes",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "A Blaze of Mutes",
+      "debut": "2026-11-19T16:30:00+01:00",
+      "note": "Grand Foyer Specials",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001d8fe8"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-19-1630-black-hole-sun-lab",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Black Hole Sun – Lab",
+      "debut": "2026-11-19T16:30:00+01:00",
+      "note": "Foyer Ciel Ouvert",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0a"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-19-1630-talkback-burnback",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Talkback Burnback",
+      "debut": "2026-11-19T16:30:00+01:00",
+      "note": "Salon PhilaPhil",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/talkback-burnback-000000e9001c8d91"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-19-1715-for-real",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "For Real",
+      "debut": "2026-11-19T17:15:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/for-real-000000e9001d8fe6"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-19-1830-herve-birolini",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Hervé Birolini",
+      "debut": "2026-11-19T18:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/herve-birolini-000000e9001c8da6"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-19-1930-luxembourg-philharmonic-jack-sheen-tamsin-waley-cohen-yarn-wire",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Luxembourg Philharmonic, Jack Sheen, Tamsin Waley-Cohen, Yarn/Wire",
+      "debut": "2026-11-19T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/luxembourg-philharmonic-jack-sheen-tamsin-waley-cohen-yarnwire-000000e9001c2156"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-19-2145-genevieve-strosser-kp-werani",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Geneviève Strosser, KP Werani",
+      "debut": "2026-11-19T21:45:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/genevieve-strosser-kp-werani-000000e9001c8dc3"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-1100-steam-release",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Steam Release",
+      "debut": "2026-11-20T11:00:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/steam-release-000000e9001daa0f"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-1130-a-blaze-of-mutes",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "A Blaze of Mutes",
+      "debut": "2026-11-20T11:30:00+01:00",
+      "note": "Grand Foyer Specials",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001da9d9"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-1130-black-hole-sun-lab",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Black Hole Sun – Lab",
+      "debut": "2026-11-20T11:30:00+01:00",
+      "note": "Foyer Ciel Ouvert",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0d"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-1130-talkback-burnback",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Talkback Burnback",
+      "debut": "2026-11-20T11:30:00+01:00",
+      "note": "Salon PhilaPhil",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/talkback-burnback-000000e9001c8d92"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-1230-lucilin-composition-academy",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lucilin Composition Academy",
+      "debut": "2026-11-20T12:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lucilin-composition-academy-000000e9001c8dc1"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-1730-noise-watchers-x-musiques-recherches",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Noise Watchers x Musiques & Recherches",
+      "debut": "2026-11-20T17:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/noise-watchers-x-musiques-recherches-000000e9001da9b3"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-1830-der-gelbe-klang-sounddramaturgien-kollektiv",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "der/gelbe/klang, Sounddramaturgien-Kollektiv",
+      "debut": "2026-11-20T18:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/dergelbeklang-sounddramaturgien-000000e9001da9ea"
+    },
+    {
       "id": "adagio-2026-11-20-couleur-s-trio",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -634,6 +1046,96 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-20-2015-riot-ensemble-juliet-fraser",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Riot Ensemble, Juliet Fraser",
+      "debut": "2026-11-20T20:15:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/riot-ensemble-juliet-fraser-000000e9001c8d99"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-20-2130-der-gelbe-klang-sounddramaturgien-kollektiv",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "der/gelbe/klang, Sounddramaturgien-Kollektiv",
+      "debut": "2026-11-20T21:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/dergelbeklang-sounddramaturgien-000000e9001c8d8f"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1000-a-blaze-of-mutes",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "A Blaze of Mutes",
+      "debut": "2026-11-21T10:00:00+01:00",
+      "note": "Grand Foyer Specials",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001da9d8"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1000-black-hole-sun-lab",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Black Hole Sun – Lab",
+      "debut": "2026-11-21T10:00:00+01:00",
+      "note": "Foyer Ciel Ouvert",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1000-coffee-with-composers-and-artists",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Coffee with composers and artists",
+      "debut": "2026-11-21T10:00:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/coffee-with-composers-and-artists-000000e9001c8dc9"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1000-rainy-days-cinema",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "rainy days cinema",
+      "debut": "2026-11-21T10:00:00+01:00",
+      "note": "Salon PhilaPhil",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rainy-days-cinema-000000e9001da9ff"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1100-varese-raasakka-parikka",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Varèse, Raasakka/Parikka",
+      "debut": "2026-11-21T11:00:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/varese-raasakkaparikka-000000e9001c8d96"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1145-gertrude-stein-s-the-making-of-americans",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Gertrude Stein’s The Making of Americans",
+      "debut": "2026-11-21T11:45:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/gertrude-stein-s-the-making-of-americans-000000e9001da9ef"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1415-arditti-quartet-yaron-deutsch-stefan-prins-fredi-reiter",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Arditti Quartet, Yaron Deutsch, Stefan Prins, Fredi Reiter",
+      "debut": "2026-11-21T14:15:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/arditti-quartet-yaron-deutsch-stefan-prins-fredi-reiter-000000e9001c8dc7"
+    },
+    {
       "id": "l-arsenal-2026-11-21-1500-quatre-saisons",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -642,6 +1144,76 @@
       "debut": "2026-11-21T15:00:00+01:00",
       "note": "Danse - dès 6 ans - Vivaldi dansé - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/quatre-saisons"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1530-monica-germino-participants-of-the-threshold-frame-violin-project-jaap-peter-kronemeijer",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Monica Germino, Participants of the Threshold frame-violin project, Jaap Peter Kronemeijer",
+      "debut": "2026-11-21T15:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/monica-germino-participants-of-the-threshold-frame-violin-project-jaap-peter-kronemeijer-000000e9001c8dcd"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1700-guilherme-vaz",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Guilherme Vaz",
+      "debut": "2026-11-21T17:00:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/guilherme-vaz-000000e9001c8de7"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1800-zafraan-ensemble",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Zafraan Ensemble",
+      "debut": "2026-11-21T18:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/zafraan-ensemble-000000e9001c8dcf"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-1930-yarn-wire",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yarn/Wire",
+      "debut": "2026-11-21T19:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yarnwire-000000e9001c8dcb"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-2045-patrick-muller-max-mausen-olivier-sliepen",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Patrick Muller, Max Mausen, Olivier Sliepen",
+      "debut": "2026-11-21T20:45:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/patrick-muller-max-mausen-olivier-sliepen-000000e9001da9fc"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-2130-raftside-x-philharmonie-academy",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "RAFTSIDE x Philharmonie Academy",
+      "debut": "2026-11-21T21:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/raftside-x-philharmonie-academy-000000e9001da9f7"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-21-2230-sascha-ley",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Sascha Ley",
+      "debut": "2026-11-21T22:30:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/sascha-ley-000000e9001c8dd8"
     },
     {
       "id": "l-arsenal-2026-11-22-0000-50-ans-de-l-orchestre-mozart-strauss-ravel",
@@ -656,6 +1228,176 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/50-ans-de-lorchestre-mozart-strauss-ravel"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-22-1000-a-blaze-of-mutes",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "A Blaze of Mutes",
+      "debut": "2026-11-22T10:00:00+01:00",
+      "note": "Grand Foyer Specials",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001da9da"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1000-black-hole-sun-lab",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Black Hole Sun – Lab",
+      "debut": "2026-11-22T10:00:00+01:00",
+      "note": "Foyer Ciel Ouvert",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0e"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1000-coffee-with-composers-and-artists",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Coffee with composers and artists",
+      "debut": "2026-11-22T10:00:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/coffee-with-composers-and-artists-000000e9001c8dda"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1000-rainy-days-cinema",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "rainy days cinema",
+      "debut": "2026-11-22T10:00:00+01:00",
+      "note": "Salon PhilaPhil",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rainy-days-cinema-000000e9001c8ddc"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1100-the-log-book",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "The Log Book",
+      "debut": "2026-11-22T11:00:00+01:00",
+      "note": "Grand Foyer Specials",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/the-logbook-000000e9001daa11"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1130-frin-wolter",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Frin Wolter",
+      "debut": "2026-11-22T11:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/frin-wolter-000000e9001c8dea"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1230-zafraan-ensemble",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Zafraan Ensemble",
+      "debut": "2026-11-22T12:30:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/zafraan-ensemble-000000e9001daa00"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1400-sandrine-cantoreggi-luigi-gaggero",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Sandrine Cantoreggi, Luigi Gaggero",
+      "debut": "2026-11-22T14:00:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/sandrine-cantoreggi-luigi-gaggero-000000e9001c8de0"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1500-arditti-quartet-claude-lenners",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Arditti Quartet, Claude Lenners",
+      "debut": "2026-11-22T15:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/arditti-quartet-claude-lenners-000000e9001c8dee"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1615-eunoia-trio-henri-vaxby-catherine-kontz",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Eunoia Trio, Henri Växby, Catherine Kontz",
+      "debut": "2026-11-22T16:15:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/eunoia-trio-henri-vaexby-catherine-kontz-000000e9001daa03"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1730-erwan-keravec",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Erwan Keravec",
+      "debut": "2026-11-22T17:30:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/erwan-keravec-000000e9001daa07"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-1900-andrew-watts-helena-rasker-miles-walter",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Andrew Watts, Helena Rasker, Miles Walter",
+      "debut": "2026-11-22T19:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/andrew-watts-helena-rasker-miles-walter-000000e9001c8de4"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-2000-united-instruments-of-lucilin-ensemble-klang",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "United Instruments of Lucilin, Ensemble Klang",
+      "debut": "2026-11-22T20:00:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/united-instruments-of-lucilin-ensemble-klang-000000e9001c8dd5"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-22-2115-miko-aj-rytowski",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Mikołaj Rytowski",
+      "debut": "2026-11-22T21:15:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/mikolaj-rytowski-000000e9001c8dbf"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-23-1930-baroque-bellows-and-beyond",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Baroque, Bellows, and Beyond",
+      "debut": "2026-11-23T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/baroque-bellows-and-beyond-000000e9001c3e77"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-24-1230-lunch-concert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch Concert",
+      "debut": "2026-11-24T12:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d71"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-24-1930-rising-stars-petar-pejcic",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Rising Stars | Petar Pejčić",
+      "debut": "2026-11-24T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-petar-pejcic-000000e9001c80c1"
+    },
+    {
       "id": "l-arsenal-2026-11-25-1400-visite-l-envers-du-decor",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -666,6 +1408,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-17"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-25-1930-dmitry-shishkin",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Dmitry Shishkin",
+      "debut": "2026-11-25T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/dmitry-shishkin-000000e9001cc1c0"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-26-1930-robert-schumann-dichterliebe",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Robert Schumann: Dichterliebe",
+      "debut": "2026-11-26T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/robert-schumann-dichterliebe-000000e9001ceeb4"
+    },
+    {
       "id": "l-arsenal-2026-11-26-2000-antigonick",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -674,6 +1436,16 @@
       "debut": "2026-11-26T20:00:00+01:00",
       "note": "Théâtre musical, Création et crossover - Compagnie Roland Furieux - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/antigonick"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-27-1930-jakob-bro-trio",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Jakob Bro Trio",
+      "debut": "2026-11-27T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/jakob-bro-trio-000000e9001d3229"
     },
     {
       "id": "l-arsenal-2026-11-27-2000-life-is-a-party-and-i-m-the-pinata",
@@ -698,6 +1470,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/born-bad-records"
     },
     {
+      "id": "philharmonie-luxembourg-2026-11-28-1930-heemspill-featured-lady-live-in-lux",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Featured | Lady Live in Lux",
+      "debut": "2026-11-28T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-lady-live-in-lux-000000e9001d04dc"
+    },
+    {
       "id": "adagio-2026-11-29-nectar-percussions",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -707,6 +1489,56 @@
       "note": "Concert interactif jeux vidéo (dès 5 ans)",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-29-1600-face-a-face-english-song",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Face-à-Face: English Song",
+      "debut": "2026-11-29T16:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/face-a-face-english-song-000000e9001d0a6d"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-29-1930-voices-of-broadway-goes-europe",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Voices of Broadway Goes Europe",
+      "debut": "2026-11-29T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/voices-of-broadway-goes-europe-000000e9001cf40c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-11-30-1930-beatrice-rana-yannick-nezet-seguin",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beatrice Rana & Yannick Nézet-Séguin",
+      "debut": "2026-11-30T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beatrice-rana-yannick-nezet-seguin-000000e9001b7849"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-01-1930-beethoven-4-strings-part-ii",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven 4 Strings: Part II",
+      "debut": "2026-12-01T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-4-strings-part-ii-000000e9001c3e60"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-02-1930-michel-reis-matthieu-bordenave",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Michel Reis & Matthieu Bordenave",
+      "debut": "2026-12-02T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/michel-reis-matthieu-bordenave-000000e9001ca46b"
     },
     {
       "id": "adagio-2026-12-03-clefs-ecoute-2",
@@ -720,6 +1552,26 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2026-12-03-1930-50e-concert-de-gala-sos-villages-d-enfants-monde",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "50e Concert de Gala SOS Villages d’Enfants Monde",
+      "debut": "2026-12-03T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/50e-concert-de-gala-sos-villages-d-enfants-monde-000000e9001afc63"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-04-1930-souad-massi",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Souad Massi",
+      "debut": "2026-12-04T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/souad-massi-000000e9001d0cac"
+    },
+    {
       "id": "adagio-2026-12-04-ode-a-la-nuit",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -731,6 +1583,36 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2026-12-04-2130-houria-aichi",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Houria Aïchi",
+      "debut": "2026-12-04T21:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/houria-aichi-000000e9001d3a02"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-05-1930-heemspill-featured-anima-4tet",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Featured | Anima 4tet",
+      "debut": "2026-12-05T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-anima-4tet-000000e9001d09e0"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-05-1930-opera-gala",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Opera Gala",
+      "debut": "2026-12-05T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/opera-gala-000000e9001d1697"
+    },
+    {
       "id": "l-arsenal-2026-12-05-2000-delay-the-sadness",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -739,6 +1621,16 @@
       "debut": "2026-12-05T20:00:00+01:00",
       "note": "Danse - Sharon Eyal - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/delay-the-sadness"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-06-1100-they-got-rhythm",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "They Got Rhythm",
+      "debut": "2026-12-06T11:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/they-got-rhythm-000000e9001d0a6e"
     },
     {
       "id": "theatre-2026-12-06-concert-saint-nicolas",
@@ -752,6 +1644,36 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2026-12-06-1930-grigory-sokolov",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Grigory Sokolov",
+      "debut": "2026-12-06T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/grigory-sokolov-000000e9001bcb80"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-08-1230-lunch-with-gustavo-gimeno",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch with Gustavo Gimeno",
+      "debut": "2026-12-08T12:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-with-gustavo-gimeno-000000e9001d0d76"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-08-1930-oktett-fantasie",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Oktett & Fantasie",
+      "debut": "2026-12-08T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/oktett-fantasie-000000e9001c9983"
+    },
+    {
       "id": "l-arsenal-2026-12-08-2000-nikolai-lugansky",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -760,6 +1682,36 @@
       "debut": "2026-12-08T20:00:00+01:00",
       "note": "Piano, Musique de chambre, Récital - Schumann, Chopin - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/nikolai-lugansky"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-09-1930-christmas-once-as-i-remember",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Christmas Once As I Remember",
+      "debut": "2026-12-09T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/christmas-once-as-i-remember-000000e9001be6fb"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-10-1930-100-mahler-with-gustavo-gimeno",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "100% Mahler with Gustavo Gimeno",
+      "debut": "2026-12-10T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/100-mahler-with-gustavo-gimeno-000000e9001be714"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-11-1930-cecilia-bartoli-celestial-harmonies",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Cecilia Bartoli: Celestial Harmonies",
+      "debut": "2026-12-11T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/cecilia-bartoli-celestial-harmonies-000000e9001c7cc0"
     },
     {
       "id": "l-arsenal-2026-12-11-2000-ilse-eerens-sibelius",
@@ -792,6 +1744,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/et-puis"
     },
     {
+      "id": "philharmonie-luxembourg-2026-12-12-1930-jazz-at-lincoln-center-orchestra-with-wynton-marsalis",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "debut": "2026-12-12T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/jazz-at-lincoln-center-orchestra-with-wynton-marsalis-000000e9001d22ed"
+    },
+    {
       "id": "l-arsenal-2026-12-13-0000-concert-de-noel",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -804,6 +1766,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-de-noel-3"
     },
     {
+      "id": "philharmonie-luxembourg-2026-12-13-1600-duel-d-improvisation",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Duel d’improvisation",
+      "debut": "2026-12-13T16:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/duel-d-improvisation-000000e9001d68ec"
+    },
+    {
       "id": "l-arsenal-2026-12-13-1600-vents-d-ete-en-hiver",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -812,6 +1784,46 @@
       "debut": "2026-12-13T16:00:00+01:00",
       "note": "Musique de chambre - Musiciennes et musiciens de l’Orchestre national de Metz Grand Est - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/vents-dete-en-hiver"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-14-1930-christmas-a-la-hollywood-ii",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Christmas à la Hollywood II",
+      "debut": "2026-12-14T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/christmas-a-la-hollywood-ii-000000e9001be2be"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-14-1930-dancing-waters",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Dancing Waters",
+      "debut": "2026-12-14T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/dancing-waters-000000e9001d77c5"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-15-1230-midi-baroque-elisabeth-jacquet-de-la-guerre",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Midi baroque: Élisabeth Jacquet de La Guerre",
+      "debut": "2026-12-15T12:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/midi-baroque-elisabeth-jacquet-de-la-guerre-000000e9001d2296"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-15-1930-farinelli",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Farinelli",
+      "debut": "2026-12-15T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/farinelli-000000e9001d2a35"
     },
     {
       "id": "theatre-2026-12-15-l-experience-theatrale",
@@ -835,6 +1847,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/le-magnificat-de-bach"
     },
     {
+      "id": "philharmonie-luxembourg-2026-12-18-1930-home-alone",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Home Alone",
+      "debut": "2026-12-18T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/home-alone-000000e9001c6828"
+    },
+    {
       "id": "l-arsenal-2026-12-19-0000-concert-de-noel",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -845,6 +1867,16 @@
       "jour_entier": true,
       "note": "Symphonique - dès 6 ans - Orchestre national de Metz Grand Est, Jane Latron - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/concert-de-noel-4"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-19-1930-maman-j-ai-rate-l-avion",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Maman, j’ai raté l’avion!",
+      "debut": "2026-12-19T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/maman-j-ai-rate-l-avion-000000e9001c6829"
     },
     {
       "id": "saint-pierre-2026-12-19-christmas-in-thionville",
@@ -866,6 +1898,26 @@
       "debut": "2026-12-20T17:00:00+01:00",
       "note": "d'EAST Phare - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/rap-classic-1"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-21-1930-chreschtconcert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Chrëschtconcert",
+      "debut": "2026-12-21T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/chreschtconcert-000000e9001be737"
+    },
+    {
+      "id": "philharmonie-luxembourg-2026-12-22-1930-chreschtconcert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Chrëschtconcert",
+      "debut": "2026-12-22T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/chreschtconcert-000000e9001be738"
     },
     {
       "id": "l-arsenal-2026-12-29-1830-reveillon-d-exception",
@@ -900,6 +1952,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-du-nouvel-an-strauss-rossini-mahler-john-williams-mozart-elgar"
     },
     {
+      "id": "philharmonie-luxembourg-2027-01-06-1930-neijoersconcert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Neijoersconcert",
+      "debut": "2027-01-06T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/neijoersconcert-000000e9001be743"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-07-1930-mitsuko-uchida",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Mitsuko Uchida",
+      "debut": "2027-01-07T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/mitsuko-uchida-000000e9001be6f9"
+    },
+    {
       "id": "theatre-2027-01-08-bourgeois-gentilhomme",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -921,6 +1993,46 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/titanesque"
     },
     {
+      "id": "philharmonie-luxembourg-2027-01-11-1930-la-morte-della-ragione",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "La Morte della Ragione",
+      "debut": "2027-01-11T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/la-morte-della-ragione-000000e9001cd4af"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-12-1230-midi-baroque-la-naissance-du-violoncelle",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Midi baroque: la naissance du violoncelle",
+      "debut": "2027-01-12T12:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/midi-baroque-la-naissance-du-violoncelle-000000e9001cd547"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-13-1215-yoga-brahms",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Brahms",
+      "debut": "2027-01-13T12:15:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-brahms-000000e9001d4a1c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-13-1730-yoga-brahms",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Brahms",
+      "debut": "2027-01-13T17:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-brahms-000000e9001d4a1e"
+    },
+    {
       "id": "l-arsenal-2027-01-13-2000-folk-songs-bob-dylan-luciano-berio",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -929,6 +2041,46 @@
       "debut": "2027-01-13T20:00:00+01:00",
       "note": "Création et crossover - Ensemble Miroirs Étendus - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/folk-songs-bob-dylan-luciano-berio"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-13-2000-yoga-brahms",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Brahms",
+      "debut": "2027-01-13T20:00:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-brahms-000000e9001d4a1f"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-14-1930-yacine-boulares",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yacine Boularès",
+      "debut": "2027-01-14T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yacine-boulares-000000e9001d38be"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-15-1930-alexandra-grimal",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Alexandra Grimal",
+      "debut": "2027-01-15T19:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/alexandra-grimal-000000e9001ca465"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-15-1930-masters-of-invention",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Masters of Invention",
+      "debut": "2027-01-15T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/masters-of-invention-000000e9001be759"
     },
     {
       "id": "adagio-2027-01-15-cello-360-break",
@@ -940,6 +2092,16 @@
       "note": "Christian-Pierre La Marca & Yaman Okur",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-16-1930-camille",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "- Camille -",
+      "debut": "2027-01-16T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/camille-000000e9001d15b2"
     },
     {
       "id": "l-arsenal-2027-01-16-2000-rewild",
@@ -973,6 +2135,75 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/myotis-x"
     },
     {
+      "id": "philharmonie-luxembourg-2027-01-17-1600-mon-ami-debussy",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Mon ami Debussy",
+      "debut": "2027-01-17T16:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/mon-ami-debussy-000000e9001d3be4"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-17-1700-orchestre-place-de-l-europe",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Orchestre Place de l’Europe",
+      "debut": "2027-01-17T17:00:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/orchestre-place-de-l-europe-000000e9001d09ac"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-17-1930-sir-simon-rattle-celebrates-john-adams",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Sir Simon Rattle celebrates John Adams",
+      "debut": "2027-01-17T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/sir-simon-rattle-celebrates-john-adams-000000e9001aab86"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-18-1930-bridges-2-virtuoso",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Bridges 2 / Virtuoso",
+      "debut": "2027-01-18T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/bridges-2-virtuoso-000000e9001db24c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-18-1930-chicago-symphony-orchestra-klaus-makela",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Chicago Symphony Orchestra & Klaus Mäkelä",
+      "debut": "2027-01-18T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/chicago-symphony-orchestra-klaus-maekelae-000000e9001aabcc"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-19-1230-lunch-concert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch Concert",
+      "debut": "2027-01-19T12:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d79"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-19-1930-klaus-makela-conducts-mahler-9",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Klaus Mäkelä conducts Mahler 9",
+      "debut": "2027-01-19T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/klaus-maekelae-conducts-mahler-9-000000e9001aabcd"
+    },
+    {
       "id": "l-arsenal-2027-01-19-2000-quintette-syntonia",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -981,6 +2212,26 @@
       "debut": "2027-01-19T20:00:00+01:00",
       "note": "Musique de chambre - Gabriel Pierné, César Franck - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/quintette-syntonia"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-21-1930-emile-parisien",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Émile Parisien",
+      "debut": "2027-01-21T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/emile-parisien-000000e9001d437c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-22-1930-live-cinema-sunrise",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Live Cinema: Sunrise",
+      "debut": "2027-01-22T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/live-cinema-sunrise-000000e9001be763"
     },
     {
       "id": "theatre-2027-01-22-garou",
@@ -993,6 +2244,36 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-01-23-1930-heemspill-u30-the-courage-to-sing-in-the-light",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill U30 | The Courage to Sing in the Light",
+      "debut": "2027-01-23T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-u30-the-courage-to-sing-in-the-light-000000e9001d0a43"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-23-1930-punch-brothers",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Punch Brothers",
+      "debut": "2027-01-23T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/punch-brothers-000000e9001d3edf"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-24-1100-spirited-strings",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Spirited Strings",
+      "debut": "2027-01-24T11:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/spirited-strings-000000e9001d0a71"
+    },
+    {
       "id": "theatre-2027-01-24-musique-sapeurs-pompiers",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -1001,6 +2282,56 @@
       "debut": "2027-01-24T15:00:00+01:00",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-24-1900-wiener-johann-strau-konzert-gala",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Wiener Johann Strauß Konzert-Gala",
+      "debut": "2027-01-24T19:00:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/wiener-johann-strauss-konzert-gala-000000e9001de610"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-24-1930-luxembourg-philharmonic-academy-xavier-de-maistre",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Luxembourg Philharmonic Academy & Xavier de Maistre",
+      "debut": "2027-01-24T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/luxembourg-philharmonic-academy-xavier-de-maistre-000000e9001d4404"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-25-1930-der-alte-und-der-junge-brummbar",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Der alte und der junge Brummbär",
+      "debut": "2027-01-25T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/der-alte-und-der-junge-brummbaer-000000e9001c7872"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-25-1930-tsotne-zedginidze-musical-prodigy",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Tsotne Zedginidze: Musical Prodigy",
+      "debut": "2027-01-25T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/tsotne-zedginidze-musical-prodigy-000000e9001e9672"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-01-26-1930-beethoven-4-strings-part-iii",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven 4 Strings: Part III",
+      "debut": "2027-01-26T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-4-strings-part-iii-000000e9001c3e62"
     },
     {
       "id": "l-arsenal-2027-01-27-2000-janua-echos-du-dernier-schisme",
@@ -1023,6 +2354,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/dub"
     },
     {
+      "id": "philharmonie-luxembourg-2027-01-29-1930-beethoven-in-d-major",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven in D Major",
+      "debut": "2027-01-29T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-in-d-major-000000e9001be766"
+    },
+    {
       "id": "adagio-2027-01-29-yse",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -1041,6 +2382,46 @@
       "debut": "2027-01-30T18:00:00+01:00",
       "note": "Symphonique - Orchestre national de Metz Grand Est, Marc Leroy-Calatayud, Claire Le Boulanger, Manon Louis - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/apero-concert-mozart-1"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-02-1230-lunch-concert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch Concert",
+      "debut": "2027-02-02T12:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d7c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-02-1930-julia-lezhneva-alexander-melnikov",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Julia Lezhneva & Alexander Melnikov",
+      "debut": "2027-02-02T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/julia-lezhneva-alexander-melnikov-000000e9001cef1e"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-03-1930-a-thousand-possible-ends-of-the-world",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "A Thousand Possible Ends of the World",
+      "debut": "2027-02-03T19:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/a-thousand-possible-ends-of-the-world-000000e9001d31cf"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-03-1930-rising-stars-amelio-trio",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Rising Stars | Amelio Trio",
+      "debut": "2027-02-03T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-amelio-trio-000000e9001c80c7"
     },
     {
       "id": "l-arsenal-2027-02-03-2000-le-masque-de-fer",
@@ -1062,6 +2443,26 @@
       "note": "Conférence",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-04-1930-heemspill-featured-andy-houscheid-feat-rhani-krija",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Featured | Andy Houscheid feat. Rhani Krija",
+      "debut": "2027-02-04T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-andy-houscheid-feat-rhani-krija-000000e9001d0fd3"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-05-1930-anouar-brahem",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Anouar Brahem",
+      "debut": "2027-02-05T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/anouar-brahem-000000e9001d2273"
     },
     {
       "id": "l-arsenal-2027-02-05-2000-anastasia-kobekina-schumann",
@@ -1093,6 +2494,16 @@
       "note": "Humour",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-05-2130-walid-ben-selim-marie-marguerite-cano",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Walid Ben Selim & Marie-Marguerite Cano",
+      "debut": "2027-02-05T21:30:00+01:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/walid-ben-selim-marie-marguerite-cano-000000e9001d108f"
     },
     {
       "id": "l-arsenal-2027-02-07-0000-nacken",
@@ -1179,6 +2590,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/brad-mehldau"
     },
     {
+      "id": "philharmonie-luxembourg-2027-02-16-1930-helene-grimaud",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Hélène Grimaud",
+      "debut": "2027-02-16T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/helene-grimaud-000000e9001aaa18"
+    },
+    {
       "id": "l-arsenal-2027-02-16-2000-du-vent-dans-les-cordes",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1187,6 +2608,16 @@
       "debut": "2027-02-16T20:00:00+01:00",
       "note": "Symphonique, Piano - Kammerorchester Basel, Fazıl Say, Lucienne Renaudin Vary - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/du-vent-dans-les-cordes"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-17-1930-the-tallis-scholars",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "The Tallis Scholars",
+      "debut": "2027-02-17T19:30:00+01:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/the-tallis-scholars-000000e9001d2226"
     },
     {
       "id": "theatre-2027-02-17-en-therapie",
@@ -1200,6 +2631,26 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-02-18-1930-turning-points",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Turning Points",
+      "debut": "2027-02-18T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/turning-points-000000e9001bcb8c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-19-1930-daniil-trifonov-period",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Daniil Trifonov: Period",
+      "debut": "2027-02-19T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/daniil-trifonov-period-000000e9001b6d69"
+    },
+    {
       "id": "adagio-2027-02-19-musas",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -1211,6 +2662,145 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-02-20-1930-stefano-bollani-quintet",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Stefano Bollani Quintet",
+      "debut": "2027-02-20T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/stefano-bollani-quintet-000000e9001d5955"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-21-1930-jan-liebermann",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Jan Liebermann",
+      "debut": "2027-02-21T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/jan-liebermann-000000e9001cd6d5"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-22-1930-vivaldi-co-die-3-jahreszeiten-und-eine-rakete",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Vivaldi & Co. – Die 3½ Jahreszeiten und eine Rakete",
+      "debut": "2027-02-22T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/vivaldi-co-die-3-jahreszeiten-und-eine-rakete-000000e9001c3bb6"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-23-1930-beethoven-4-strings-part-iv",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven 4 Strings: Part IV",
+      "debut": "2027-02-23T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-4-strings-part-iv-000000e9001c3e64"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-24-1930-bach-l-offrande-musicale",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Bach: L’Offrande musicale",
+      "debut": "2027-02-24T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/bach-l-offrande-musicale-000000e9001cd6b2"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-26-1930-missa-solemnis",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Missa solemnis",
+      "debut": "2027-02-26T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/missa-solemnis-000000e9001be783"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-27-1930-heemspill-featured-serge-tonnar",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Featured | Serge Tonnar",
+      "debut": "2027-02-27T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-serge-tonnar-000000e9001d16be"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-28-1100-jeux-de-contrastes",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Jeux de contrastes",
+      "debut": "2027-02-28T11:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/jeux-de-contrastes-000000e9001d0a6f"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-02-28-1600-face-a-face-melodies-francaises",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Face-à-Face: mélodies françaises",
+      "debut": "2027-02-28T16:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/face-a-face-melodies-francaises-000000e9001d5a5f"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-02-1930-raphael-pichon-pygmalion",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Raphaël Pichon & Pygmalion",
+      "debut": "2027-03-02T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/raphael-pichon-pygmalion-000000e9001c1f81"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-02-2000-concert-des-laureats-des-conservatoires",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Concert des lauréats des conservatoires",
+      "debut": "2027-03-02T20:00:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/concert-des-laureats-des-conservatoires-000000e9001be788"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-03-1930-zoltan-fejervari",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Zoltán Fejérvári",
+      "debut": "2027-03-03T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/zoltan-fejervari-000000e9001cd3ca"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-04-1230-lunch-with-the-luxembourg-philharmonic",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch with the Luxembourg Philharmonic",
+      "debut": "2027-03-04T12:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-with-the-luxembourg-philharmonic-000000e9001d1b3f"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-04-1930-illusions-classiques",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Illusions classiques?",
+      "debut": "2027-03-04T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/illusions-classiques-000000e9001c787f"
+    },
+    {
       "id": "l-arsenal-2027-03-04-2000-lagon-nwar",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1219,6 +2809,16 @@
       "debut": "2027-03-04T20:00:00+01:00",
       "note": "Jazz, Musiques du monde - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/lagon-nwar"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-05-1930-oum",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Oum",
+      "debut": "2027-03-05T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/oum-000000e9001d2fd2"
     },
     {
       "id": "adagio-2027-03-05-little-italy",
@@ -1244,6 +2844,46 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/ile-aux-bebes-musicale-14"
     },
     {
+      "id": "philharmonie-luxembourg-2027-03-06-1930-mozart-requiem",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Mozart Requiem",
+      "debut": "2027-03-06T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/mozart-requiem-000000e9001d169c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-07-1700-heemspill-featured-ilze-lejina-iveta-calite",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Featured | Ilze Lejiņa & Iveta Cālīte",
+      "debut": "2027-03-07T17:00:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-ilze-lejina-iveta-calite-000000e9001cf472"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-08-1930-beatrice-rana-fantasy-virtuosity",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beatrice Rana: Fantasy & Virtuosity",
+      "debut": "2027-03-08T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beatrice-rana-fantasy-virtuosity-000000e9001ad49c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-09-1930-rising-stars-ava-bahari",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Rising Stars | Ava Bahari",
+      "debut": "2027-03-09T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-ava-bahari-000000e9001c80e9"
+    },
+    {
       "id": "theatre-2027-03-09-journal-edouard-baer",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -1254,6 +2894,26 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-03-10-1930-beethoven-s-fives",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven’s Fives",
+      "debut": "2027-03-10T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-s-fives-000000e9001be792"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-10-1930-franco-fagioli-michele-d-elia",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Franco Fagioli & Michele D’Elia",
+      "debut": "2027-03-10T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/franco-fagioli-michele-d-elia-000000e9001d31d4"
+    },
+    {
       "id": "l-arsenal-2027-03-10-2000-une-passion-pour-leipzig",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1262,6 +2922,16 @@
       "debut": "2027-03-10T20:00:00+01:00",
       "note": "Musique baroque, Chœurs - Akademie für Alte Musik Berlin, Voces Suaves - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/une-passion-pour-leipzig"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-11-1930-bach-matthauspassion",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Bach: Matthäuspassion",
+      "debut": "2027-03-11T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/bach-matthaeuspassion-000000e9001aec0c"
     },
     {
       "id": "l-arsenal-2027-03-12-2000-ilya-gringolts-beethoven",
@@ -1282,6 +2952,16 @@
       "debut": "2027-03-13T15:00:00+01:00",
       "note": "Cirque musical - dès 7 ans - Guitare acrobatique - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/beethoven-metalo-vivace"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-13-1930-till-bronner-quintet",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Till Brönner Quintet",
+      "debut": "2027-03-13T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/till-broenner-quintet-000000e9001c3d62"
     },
     {
       "id": "l-arsenal-2027-03-13-2000-beethoven-folk",
@@ -1315,6 +2995,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/amicalement-votre-trios-de-beethoven"
     },
     {
+      "id": "philharmonie-luxembourg-2027-03-14-1930-heemspill-featured-bach-re-invented-re-mixed",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Featured | Bach: (re)invented & (re)mixed",
+      "debut": "2027-03-14T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-bach-re-invented-re-mixed-000000e9001d193d"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-15-1930-romantische-raritaten",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Romantische Raritäten",
+      "debut": "2027-03-15T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/romantische-raritaeten-000000e9001c680f"
+    },
+    {
       "id": "l-arsenal-2027-03-17-2000-thirteen-ways-of-being-a-blackbird",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1325,6 +3025,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/thirteen-ways-of-being-a-blackbird"
     },
     {
+      "id": "philharmonie-luxembourg-2027-03-18-1930-stravinsky-et-les-ballets-russes",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Stravinsky et les Ballets Russes",
+      "debut": "2027-03-18T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/stravinsky-et-les-ballets-russes-000000e9001befce"
+    },
+    {
       "id": "l-arsenal-2027-03-18-2000-deutsche-radio-philharmonie-saarbrucken-kaiserslautern",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1333,6 +3043,26 @@
       "debut": "2027-03-18T20:00:00+01:00",
       "note": "Symphonique - Des trésors musicaux - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/deutsche-radio-philharmonie-saarbrucken-kaiserslautern"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-19-1930-dhafer-youssef",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Dhafer Youssef",
+      "debut": "2027-03-19T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/dhafer-youssef-000000e9001d108d"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-19-2130-khalil-epi",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Khalil Epi",
+      "debut": "2027-03-19T21:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/khalil-epi-000000e9001d7b5e"
     },
     {
       "id": "l-arsenal-2027-03-20-0000-cailloux-cailloux",
@@ -1370,6 +3100,26 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-03-21-1930-buster-keaton-college",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Buster Keaton: College",
+      "debut": "2027-03-21T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/buster-keaton-college-000000e9001d493c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-22-1930-beethoven-shostakovich",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven & Shostakovich",
+      "debut": "2027-03-22T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-shostakovich-000000e9001be848"
+    },
+    {
       "id": "theatre-2027-03-23-mur-mure",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -1391,6 +3141,45 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-16"
     },
     {
+      "id": "philharmonie-luxembourg-2027-03-24-1930-jordi-savall-te-deum-s",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Jordi Savall: Te Deum(s)",
+      "debut": "2027-03-24T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/jordi-savall-te-deum-s-000000e9001c0520"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-25-1930-anna-lapwood",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Anna Lapwood",
+      "debut": "2027-03-25T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/anna-lapwood-000000e9001c6b00"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-25-1930-beethoven-in-d-major",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven in D Major",
+      "debut": "2027-03-25T19:30:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-in-d-major-000000e9001be7e5"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-25-1930-lars-danielsson-liberetto",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lars Danielsson Liberetto",
+      "debut": "2027-03-25T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lars-danielsson-liberetto-000000e9001d603f"
+    },
+    {
       "id": "l-arsenal-2027-03-25-2000-incandescences-sacrees-a-naples",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1399,6 +3188,54 @@
       "debut": "2027-03-25T20:00:00+01:00",
       "note": "Musique baroque, Grandes voix - Ensemble de l’Encyclopédie, Florent Albrecht, Sandrine Piau, Stéphanie d’Oustrac - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/incandescences-sacrees-a-naples"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-26-1930-anna-lapwood",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Anna Lapwood",
+      "debut": "2027-03-26T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/anna-lapwood-000000e9001c6d55"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-26-1930-beethoven-in-c-major",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven in C Major",
+      "debut": "2027-03-26T19:30:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-in-c-major-000000e9001be7e8"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-27-1930-beethoven-s-fives",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven’s Fives",
+      "debut": "2027-03-27T19:30:00+01:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-s-fives-000000e9001be7e9"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-27-1930-heemspill-u30-cyprien-keiser-reed-tetzloff",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill U30 | Cyprien Keiser & Reed Tetzloff",
+      "debut": "2027-03-27T19:30:00+01:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-u30-cyprien-keiser-reed-tetzloff-000000e9001d175a"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-03-27-1930-sophie-hunger",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Sophie Hunger",
+      "debut": "2027-03-27T19:30:00+01:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/sophie-hunger-000000e9001d3cda"
     },
     {
       "id": "l-arsenal-2027-03-31-2000-gorgones",
@@ -1493,6 +3330,36 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/concerto-danzante"
     },
     {
+      "id": "philharmonie-luxembourg-2027-04-11-1930-the-great-dictator",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "The Great Dictator",
+      "debut": "2027-04-11T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/the-great-dictator-000000e9001d4a0c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-13-1930-la-musikfest",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "La Musikfest",
+      "debut": "2027-04-13T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/la-musikfest-000000e9001ce51b"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-14-1930-the-martin-hayes-trio",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "The Martin Hayes Trio",
+      "debut": "2027-04-14T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/the-martin-hayes-trio-000000e9001cf410"
+    },
+    {
       "id": "theatre-2027-04-15-le-grand-bal",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -1502,6 +3369,26 @@
       "note": "Danse - Compagnie Dyptik",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-16-1930-die-walkure-other-love-stories",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Die Walküre & Other Love Stories",
+      "debut": "2027-04-16T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/die-walkuere-other-love-stories-000000e9001bcb59"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-17-1930-pascal-schumacher-danae-dorken",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Pascal Schumacher & Danae Dörken",
+      "debut": "2027-04-17T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/pascal-schumacher-danae-doerken-000000e9001d4302"
     },
     {
       "id": "theatre-2027-04-17-hommes-mars-femmes-venus",
@@ -1515,6 +3402,16 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-04-18-1100-cordes-sensibles",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Cordes sensibles",
+      "debut": "2027-04-18T11:00:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/cordes-sensibles-000000e9001d16a3"
+    },
+    {
       "id": "adagio-2027-04-18-duo-thiry-carpino",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -1525,6 +3422,166 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-04-19-1930-wiener-philharmoniker",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Wiener Philharmoniker",
+      "debut": "2027-04-19T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/wiener-philharmoniker-000000e9001bb319"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-21-1930-lang-lang",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lang Lang",
+      "debut": "2027-04-21T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lang-lang-000000e9001c0f6e"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-26-1930-von-wien-nach-st-petersburg",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Von Wien nach St. Petersburg",
+      "debut": "2027-04-26T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/von-wien-nach-st-petersburg-000000e9001c3e7f"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-27-1930-beethoven-4-strings-part-v",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven 4 Strings: Part V",
+      "debut": "2027-04-27T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-4-strings-part-v-000000e9001c3e66"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-28-1215-yoga-schubert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Schubert",
+      "debut": "2027-04-28T12:15:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-schubert-000000e9001d4a20"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-28-1230-lunch-concert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch Concert",
+      "debut": "2027-04-28T12:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d80"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-28-1730-yoga-schubert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Schubert",
+      "debut": "2027-04-28T17:30:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-schubert-000000e9001d4a22"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-28-1930-rising-stars-camila-mandillo",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Rising Stars | Camila Mandillo",
+      "debut": "2027-04-28T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-camila-mandillo-000000e9001c80ee"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-28-2000-yoga-schubert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Schubert",
+      "debut": "2027-04-28T20:00:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-schubert-000000e9001d4a23"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-04-29-1930-mette-henriette-trio",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Mette Henriette Trio",
+      "debut": "2027-04-29T19:30:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/mette-henriette-trio-000000e9001d692e"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-02-1600-french-touch",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "French Touch",
+      "debut": "2027-05-02T16:00:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/french-touch-000000e9001d4d27"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-02-1930-lila-downs",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lila Downs",
+      "debut": "2027-05-02T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lila-downs-000000e9001d17e4"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-03-1930-majestic-mozart",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Majestic Mozart",
+      "debut": "2027-05-03T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/majestic-mozart-000000e9001bc6cb"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-04-1230-candide-ou-le-ballet-de-l-optimisme",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Candide ou le Ballet de l’optimisme",
+      "debut": "2027-05-04T12:30:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/candide-ou-le-ballet-de-l-optimisme-000000e9001d30b1"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-04-1930-roman-borisov",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Roman Borisov",
+      "debut": "2027-05-04T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/roman-borisov-000000e9001c3c1c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-05-1930-dee-dee-bridgewater-gast-waltzing",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Dee Dee Bridgewater & Gast Waltzing",
+      "debut": "2027-05-05T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/dee-dee-bridgewater-gast-waltzing-000000e9001be8ea"
+    },
+    {
       "id": "l-arsenal-2027-05-05-2000-laurel-et-hardy",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1533,6 +3590,46 @@
       "debut": "2027-05-05T20:00:00+02:00",
       "note": "Musique de François Narboni - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/cine-cite/laurel-et-hardy"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-06-1930-schumann-meets-faust",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Schumann meets Faust",
+      "debut": "2027-05-06T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/schumann-meets-faust-000000e9001c050b"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-09-1930-europaconcert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "!Europaconcert",
+      "debut": "2027-05-09T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/europaconcert-000000e9001d16a5"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-10-1930-yuja-wang",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yuja Wang",
+      "debut": "2027-05-10T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yuja-wang-000000e9001be8fa"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-11-1930-beethoven-4-strings-part-vi",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven 4 Strings: Part VI",
+      "debut": "2027-05-11T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-4-strings-part-vi-000000e9001c3e68"
     },
     {
       "id": "theatre-2027-05-11-couleur-des-souvenirs",
@@ -1546,6 +3643,26 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-05-12-1230-lunch-concert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch Concert",
+      "debut": "2027-05-12T12:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d83"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-12-1930-magdalena-kozena-baroque-arias",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Magdalena Kožená: Baroque Arias",
+      "debut": "2027-05-12T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/magdalena-kozena-baroque-arias-000000e9001c0522"
+    },
+    {
       "id": "l-arsenal-2027-05-12-2000-fusions-jazz",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1554,6 +3671,16 @@
       "debut": "2027-05-12T20:00:00+02:00",
       "note": "Jazz - Louise Knobil - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/fusions-jazz"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-13-1930-anne-sophie-mutter-the-bow-and-the-baton",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Anne-Sophie Mutter: The Bow and the Baton",
+      "debut": "2027-05-13T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/anne-sophie-mutter-the-bow-and-the-baton-000000e9001be903"
     },
     {
       "id": "l-arsenal-2027-05-14-2000-sonates-en-trio-de-bach",
@@ -1576,6 +3703,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/apero-concert-saint-saens"
     },
     {
+      "id": "philharmonie-luxembourg-2027-05-15-1930-john-malkovich",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "John Malkovich",
+      "debut": "2027-05-15T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/john-malkovich-000000e9001d2bdf"
+    },
+    {
       "id": "theatre-2027-05-16-la-dolce-vita",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -1587,6 +3724,56 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-05-16-1930-aranjuez-reflet-d-un-oiseau-rebelle",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Aranjuez, reflet d'un oiseau rebelle",
+      "debut": "2027-05-16T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/aranjuez-reflet-dun-oiseau-rebelle-000000e9001ced9b"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-18-1930-beethoven-circa-1808",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Beethoven circa 1808",
+      "debut": "2027-05-18T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-circa-1808-000000e9001beff3"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-19-1930-allegro-tremolos",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Allegro & trémolos",
+      "debut": "2027-05-19T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/allegro-tremolos-000000e9001be911"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-19-1930-johanna-summer",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Johanna Summer",
+      "debut": "2027-05-19T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/johanna-summer-000000e9001d603a"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-20-1930-vox-luminis",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Vox Luminis",
+      "debut": "2027-05-20T19:30:00+02:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/vox-luminis-000000e9001c9ca8"
+    },
+    {
       "id": "l-arsenal-2027-05-20-2000-la-edad-de-oro",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1595,6 +3782,15 @@
       "debut": "2027-05-20T20:00:00+02:00",
       "note": "Danse, Musiques du monde - Israel Galván - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/spectacle/la-edad-de-oro"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-21-1930-il-viaggio-dante",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Il Viaggio, Dante",
+      "debut": "2027-05-21T19:30:00+02:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/il-viaggio-dante-000000e9001b7b50"
     },
     {
       "id": "adagio-2027-05-21-gin-craze",
@@ -1629,6 +3825,55 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "philharmonie-luxembourg-2027-05-23-1600-face-a-face-schubert-lieder",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Face-à-Face: Schubert-Lieder",
+      "debut": "2027-05-23T16:00:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/face-a-face-schubert-lieder-000000e9001d1fc2"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-23-1700-il-viaggio-dante",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Il Viaggio, Dante",
+      "debut": "2027-05-23T17:00:00+02:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/il-viaggio-dante-000000e9001b7b51"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-24-1930-verborgene-verbindungen",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Verborgene Verbindungen",
+      "debut": "2027-05-24T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/verborgene-verbindungen-000000e9001c3bb8"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-25-1930-rising-stars-javus-quartett",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Rising Stars | Javus Quartett",
+      "debut": "2027-05-25T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-javus-quartett-000000e9001c80f3"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-27-1930-josh-island",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Josh Island",
+      "debut": "2027-05-27T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/josh-island-000000e9001d5bf3"
+    },
+    {
       "id": "l-arsenal-2027-05-27-2000-hatched-ensemble",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1637,6 +3882,16 @@
       "debut": "2027-05-27T20:00:00+02:00",
       "note": "Danse - Mamela Nyamza - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/spectacle/hatched-ensemble"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-05-28-1930-tableaux-orchestraux",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Tableaux orchestraux",
+      "debut": "2027-05-28T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/tableaux-orchestraux-000000e9001be919"
     },
     {
       "id": "l-arsenal-2027-05-29-0000-passages-transfestival",
@@ -1715,6 +3970,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/aimez-vous-brahms"
     },
     {
+      "id": "philharmonie-luxembourg-2027-05-30-1700-heemspill-community-hear-the-music",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Community | Hear the Music!",
+      "debut": "2027-05-30T17:00:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-community-hear-the-music-000000e9001cf007"
+    },
+    {
       "id": "adagio-2027-06-03-clefs-ecoute-5",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -1738,6 +4003,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/entre-temps"
     },
     {
+      "id": "philharmonie-luxembourg-2027-06-05-0930-heemspill-community-4e-concours-europeen",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Community | 4e Concours européen",
+      "debut": "2027-06-05T09:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-community-4e-concours-europeen-000000e9001c2d1e"
+    },
+    {
       "id": "l-arsenal-2027-06-05-1030-lecon-de-danse",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1748,6 +4023,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/evenement/lecon-de-danse-4"
     },
     {
+      "id": "philharmonie-luxembourg-2027-06-06-1000-heemspill-community-4e-concours-europeen",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Community | 4e Concours européen",
+      "debut": "2027-06-06T10:00:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-community-4e-concours-europeen-000000e9001c2d20"
+    },
+    {
       "id": "adagio-2027-06-06-bianco-faulisi",
       "lieu": "Adagio",
       "ville": "Thionville",
@@ -1756,6 +4041,56 @@
       "debut": "2027-06-06T17:00:00+02:00",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-06-1800-heemspill-community-4e-concours-europeen",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Heemspill Community | 4e Concours européen",
+      "debut": "2027-06-06T18:00:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-community-4e-concours-europeen-000000e9001d4971"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-08-1230-lunch-concert",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Lunch Concert",
+      "debut": "2027-06-08T12:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d85"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-08-1930-tis-the-wind-and-nothing-more",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "«’Tis the Wind and Nothing More»",
+      "debut": "2027-06-08T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/tis-the-wind-and-nothing-more-000000e9001d1604"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-09-1930-piano-trios",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Piano Trios",
+      "debut": "2027-06-09T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/piano-trios-000000e9001d03ae"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-10-1930-the-luxembourg-philharmonic-academy",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "The Luxembourg Philharmonic Academy",
+      "debut": "2027-06-10T19:30:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/the-luxembourg-philharmonic-academy-000000e9001d47ad"
     },
     {
       "id": "l-arsenal-2027-06-11-0000-circ-a",
@@ -1770,6 +4105,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/circaea"
     },
     {
+      "id": "philharmonie-luxembourg-2027-06-11-1930-interstellar",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Interstellar",
+      "debut": "2027-06-11T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/interstellar-000000e9001c6e6b"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-12-1930-interstellar",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Interstellar",
+      "debut": "2027-06-12T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/interstellar-000000e9001d0249"
+    },
+    {
       "id": "l-arsenal-2027-06-12-2000-la-fille-aux-cheveux-de-cuivre",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1778,6 +4133,36 @@
       "debut": "2027-06-12T20:00:00+02:00",
       "note": "Musique de chambre - Musiciens de l’Orchestre national de Metz Grand Est et de l’Orchestre Philharmonique de Strasbourg - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/la-fille-aux-cheveux-de-cuivre"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-13-1100-vents-slaves",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Vents slaves",
+      "debut": "2027-06-13T11:00:00+02:00",
+      "note": "Salle de Musique de Chambre",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/vents-slaves-000000e9001d0a63"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-15-1215-yoga-bonis",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Bonis",
+      "debut": "2027-06-15T12:15:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-bonis-000000e9001d4a24"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-15-1730-yoga-bonis",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Bonis",
+      "debut": "2027-06-15T17:30:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-bonis-000000e9001d4a26"
     },
     {
       "id": "l-arsenal-2027-06-15-2000-abracadabra",
@@ -1790,6 +4175,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/abracadabra"
     },
     {
+      "id": "philharmonie-luxembourg-2027-06-15-2000-yoga-bonis",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Yoga & Bonis",
+      "debut": "2027-06-15T20:00:00+02:00",
+      "note": "Espace Découverte",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/yoga-bonis-000000e9001d4a27"
+    },
+    {
       "id": "l-arsenal-2027-06-16-2000-floating",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1800,6 +4195,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/floating"
     },
     {
+      "id": "philharmonie-luxembourg-2027-06-17-1930-hisaishi-conducts-hisaishi",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Hisaishi conducts Hisaishi",
+      "debut": "2027-06-17T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/hisaishi-conducts-hisaishi-000000e9001be922"
+    },
+    {
       "id": "l-arsenal-2027-06-18-2000-concert-de-cloture-la-symphonie-fantastique-de-berlioz",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1808,6 +4213,16 @@
       "debut": "2027-06-18T20:00:00+02:00",
       "note": "Symphonique - Orchestre national de Metz Grand Est, David Reiland, Hanna-Elisabeth Müller - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-de-cloture-la-symphonie-fantastique-de-berlioz"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-20-1930-kirill-petrenko-conducts-mahler-5",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Kirill Petrenko conducts Mahler 5",
+      "debut": "2027-06-20T19:30:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/kirill-petrenko-conducts-mahler-5-000000e9001b9df8"
     },
     {
       "id": "l-arsenal-2027-06-23-2000-prism",
@@ -1828,6 +4243,35 @@
       "debut": "2027-06-26T19:00:00+02:00",
       "note": "Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/la-nuit-a-la-cite"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-06-27-1700-orchestre-place-de-l-europe",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Orchestre Place de l’Europe",
+      "debut": "2027-06-27T17:00:00+02:00",
+      "note": "Grand Auditorium",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/orchestre-place-de-l-europe-000000e9001d09ae"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-07-03-2100-summerconcert-op-der-kinnekswiss",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "Summerconcert op der Kinnekswiss",
+      "debut": "2027-07-03T21:00:00+02:00",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/summerconcert-op-der-kinnekswiss-000000e9001be92c"
+    },
+    {
+      "id": "philharmonie-luxembourg-2027-07-03-2200-end-of-season-party-2027",
+      "lieu": "Philharmonie Luxembourg",
+      "ville": "Luxembourg",
+      "categorie": "concert",
+      "titre": "End-of-Season Party 2027",
+      "debut": "2027-07-03T22:00:00+02:00",
+      "note": "Grand Foyer",
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/end-of-season-party-2027-000000e9001d31c9"
     }
   ]
 }

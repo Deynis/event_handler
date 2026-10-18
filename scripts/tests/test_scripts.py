@@ -7,8 +7,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import merge  # noqa: E402
+import scrape_kinepolis  # noqa: E402
 from common import TZ  # noqa: E402
-from sources import arsenal  # noqa: E402
+from sources import arsenal, philharmonie  # noqa: E402
 
 # Deux mises en page plausibles : lien qui enveloppe toute la carte, ou lien sur le titre seul.
 HTML_WRAPPED = """
@@ -176,6 +177,82 @@ class TestScalaPdf(unittest.TestCase):
         self.assertNotIn("duree_min", puppet)
         buffet = self.by_title["Au fil de l'eau, de l'insouciance à la désobéïssance"][0]
         self.assertIn("Association Franco-Africaine de Moselle", buffet["note"])
+
+
+PHIL_SITEMAP = """<urlset>
+<url><loc>https://www.philharmonie.lu/fr/programme/2026-27/mozart-requiem-000000e9001d169c</loc><lastmod>2026-10-01T00:00:00+02:00</lastmod></url>
+<url><loc>https://www.philharmonie.lu/fr/programme/2026-27/abonnements/pick-mix-0000013e0000057a</loc><lastmod>2026-10-01T00:00:00+02:00</lastmod></url>
+<url><loc>https://www.philharmonie.lu/fr/programme/2025-26/vieux-concert-000000e9001a0001</loc><lastmod>2025-10-01T00:00:00+02:00</lastmod></url>
+<url><loc>https://www.philharmonie.lu/fr/programme</loc></url>
+</urlset>"""
+
+PHIL_PAGE = """<html><head>
+<meta property="og:title" content="{og}" /></head><body>
+<h1 class="hero__title" data-is-kids="{kids}">M<span>oz</span>art Requiem</h1>
+<ul class="event-details__specs">
+ <li class="event-details__spec"><span class="event-details__spec-label">Date</span><span class="event-details__spec-value">samedi 06.03.27</span></li>
+ <li class="event-details__spec"><span class="event-details__spec-label">Salle</span><span class="event-details__spec-value">Grand Auditorium</span></li>
+</ul></body></html>"""
+
+
+class TestPhilharmonie(unittest.TestCase):
+    URL = "https://www.philharmonie.lu/fr/programme/2026-27/mozart-requiem-000000e9001d169c"
+
+    def test_sitemap_keeps_current_season_event_pages_only(self):
+        entries = philharmonie.parse_sitemap(PHIL_SITEMAP, date(2026, 10, 18))
+        self.assertEqual(list(entries), [self.URL])
+
+    def test_season_end(self):
+        self.assertTrue(philharmonie.season_is_current(2026, 27, date(2027, 7, 31)))
+        self.assertFalse(philharmonie.season_is_current(2025, 26, date(2026, 10, 18)))
+        self.assertTrue(philharmonie.season_is_current(2099, 0, date(2099, 10, 1)))
+
+    def test_event_page(self):
+        html = PHIL_PAGE.format(og="Mozart Requiem | 06.03.2027 19:30", kids="False")
+        e = philharmonie.parse_event_page(html, self.URL)
+        self.assertEqual(e["titre"], "Mozart Requiem")
+        self.assertEqual(e["debut"], "2027-03-06T19:30:00+01:00")
+        self.assertEqual((e["lieu"], e["ville"], e["categorie"]), ("Philharmonie Luxembourg", "Luxembourg", "concert"))
+        self.assertEqual(e["note"], "Grand Auditorium")
+        self.assertNotIn("fin", e)
+
+    def test_title_with_pipe_and_no_time(self):
+        html = PHIL_PAGE.format(og="Jazz | Late Night | 25.10.2026", kids="False")
+        e = philharmonie.parse_event_page(html, self.URL)
+        self.assertEqual(e["titre"], "Jazz | Late Night")
+        self.assertTrue(e["jour_entier"])
+        self.assertEqual(e["fin"], "2026-10-25T23:59:59+01:00")
+
+    def test_kids_event_is_skipped(self):
+        html = PHIL_PAGE.format(og="Hopeless at Horror | 25.10.2026 11:00", kids="True")
+        self.assertIsNone(philharmonie.parse_event_page(html, self.URL))
+
+    def test_unexpected_page_raises(self):
+        with self.assertRaises(ValueError):
+            philharmonie.parse_event_page("<html><h1>Rien</h1></html>", self.URL)
+
+
+class TestKinepolis(unittest.TestCase):
+    CARDS = [
+        {"titre": "Les Misérables", "href": "/movies/detail/36821/HO00014610/0/les-miserables",
+         "salles": [{"version": "Version Française", "salle": "Salle 3", "heures": ["10:30"]},
+                    {"version": "Version Originale Sous-Titrée", "salle": "Salle 10", "heures": ["13:40", "19:50"]}]},
+        {"titre": "", "href": None, "salles": []},
+    ]
+
+    def test_build_events(self):
+        events = scrape_kinepolis.build_events(date(2026, 10, 18), self.CARDS, {"36821": 179})
+        self.assertEqual([e["debut"] for e in events],
+                         ["2026-10-18T10:30:00+02:00", "2026-10-18T13:40:00+02:00", "2026-10-18T19:50:00+02:00"])
+        first = events[0]
+        self.assertEqual((first["lieu"], first["categorie"], first["version"], first["note"], first["duree_min"]),
+                         ("Kinepolis Thionville", "cinema", "VF", "Salle 3", 179))
+        self.assertEqual(events[1]["version"], "VOST")
+        self.assertEqual(first["url"], "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables")
+
+    def test_corporate_id(self):
+        self.assertEqual(scrape_kinepolis.corporate_id("/movies/detail/36821/HO00014610/0/x"), 36821)
+        self.assertIsNone(scrape_kinepolis.corporate_id(None))
 
 
 if __name__ == "__main__":
