@@ -23,6 +23,11 @@
 // >>> À MODIFIER : URL de ton fichier JSON publié par GitHub Pages
 const JSON_URL = "https://Deynis.github.io/event_handler/data/events.json";
 
+// Mise à jour automatique : le script se remplace par la version publiée sur GitHub Pages.
+const SCRIPT_URL = "https://Deynis.github.io/event_handler/widget/EventsWidget.js";
+const UPDATE_HOURS = 24;      // au plus une vérification par jour
+const UPDATE_STAMP = "events-widget-update.txt";
+
 const REFRESH_MINUTES = 15;   // iOS reste libre de rafraîchir plus tard
 const GRACE_MINUTES = 10;     // une séance commencée depuis < 10 min reste affichée
 const CACHE_FILE = "events-cache.json";
@@ -412,6 +417,34 @@ async function showList(initialFilter) {
   await table.present(false);
 }
 
+// ---------- Mise à jour du script ----------
+
+// Télécharge la version publiée et réécrit ce fichier si elle a changé : la nouvelle
+// version s'applique au lancement suivant. Au moindre doute (réseau, réponse
+// inattendue), on ne touche à rien.
+async function selfUpdate() {
+  try {
+    const local = FileManager.local();
+    const stamp = local.joinPath(local.documentsDirectory(), UPDATE_STAMP);
+    if (local.fileExists(stamp) && Date.now() - Number(local.readString(stamp)) < UPDATE_HOURS * 3600000) return;
+
+    const req = new Request(SCRIPT_URL + "?t=" + Date.now());
+    req.timeoutInterval = 10;
+    const code = await req.loadString();
+    if (req.response.statusCode !== 200) return;
+    if (code.indexOf("Widget « Prochains événements culturels »") < 0 || code.indexOf("Script.complete()") < 0) return;
+    local.writeString(stamp, String(Date.now()));
+
+    // Le script vit dans iCloud Drive/Scriptable si iCloud est activé, sinon en local.
+    let fm = local;
+    try {
+      const icloud = FileManager.iCloud();
+      if (module.filename.indexOf(icloud.documentsDirectory()) === 0) fm = icloud;
+    } catch (e) { /* iCloud désactivé */ }
+    if (fm.readString(module.filename) !== code) fm.writeString(module.filename, code);
+  } catch (e) { /* on réessaiera au prochain lancement */ }
+}
+
 // ---------- Point d'entrée ----------
 
 const param = args.widgetParameter || "";
@@ -431,4 +464,5 @@ if (config.runsInWidget) {
   // Tap sur le widget, ou bouton lecture dans Scriptable : liste complète
   await showList(query.filtre || "");
 }
+await selfUpdate();
 Script.complete();

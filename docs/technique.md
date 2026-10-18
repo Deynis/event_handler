@@ -96,6 +96,14 @@ Principes :
 
 Aperçu d'une taille précise depuis l'app : ajouter `?apercu=small|medium|large` à l'URL de lancement.
 
+**Mise à jour automatique** (`selfUpdate`, en fin d'exécution) :
+
+- Au plus une fois toutes les 24 h, le script télécharge `widget/EventsWidget.js` depuis GitHub Pages (`SCRIPT_URL`).
+- Si la version reçue diffère de la sienne, il réécrit son propre fichier (`module.filename`, dans iCloud Drive/Scriptable ou en local), et la nouvelle version s'applique au lancement suivant.
+- Rien n'est écrit si la réponse n'est pas un HTTP 200 ou si le fichier reçu ne contient pas le titre du widget et `Script.complete()`. Les erreurs sont ignorées : nouvel essai au lancement suivant.
+- Comptez jusqu'à environ 10 minutes après un push (cache de GitHub Pages), plus le délai de 24 h. Pour forcer une vérification, supprimer `events-widget-update.txt` dans les documents locaux de Scriptable.
+- Conséquence : le téléphone exécute ce qui est publié sur `main`. Seul le propriétaire du dépôt peut y pousser, et une règle (« Protéger main ») y interdit les force-push et la suppression de la branche.
+
 ## Sources
 
 ### Mises à jour automatiques (`refresh-scrape.yml`)

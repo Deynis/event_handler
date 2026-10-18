@@ -34,6 +34,8 @@ Le widget n'affiche jamais les événements passés ; ils sont retirés du fichi
 3. Remplace l'adresse de la ligne `JSON_URL`, en haut du script, par celle de l'étape 1.
 4. Appuie sur le bouton lecture : si la liste des événements s'affiche, c'est bon.
 
+Tu n'as à coller le script qu'une seule fois : il se met ensuite à jour tout seul à partir de la version publiée sur GitHub, au plus une fois par jour.
+
 ### 3. Ajouter le widget à l'écran d'accueil
 
 1. Appui long sur l'écran d'accueil, bouton **+**, cherche **Scriptable**, choisis une taille (petit, moyen ou grand) puis **Ajouter le widget**.
