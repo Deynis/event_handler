@@ -1,170 +1,90 @@
 # Widget iPhone d'événements culturels
 
-Affiche sur l'écran d'accueil iPhone les prochaines séances et événements de lieux prédéfinis (La Scala à Thionville, L'Arsenal à Metz, la Philharmonie Luxembourg, le NEST, etc.). Les données viennent d'un fichier JSON hébergé sur GitHub Pages ; le widget est un script [Scriptable](https://scriptable.app). Aucun Google Calendar impliqué.
+Un widget pour l'écran d'accueil de l'iPhone qui affiche les **prochaines séances de cinéma, concerts et spectacles** de quelques lieux autour de Thionville, Metz et Luxembourg. Un tap sur le widget ouvre la liste complète, avec filtres et recherche.
 
-Cette première version (étape 1 du plan) contient :
+Le principe : ce dépôt rassemble les programmes de chaque lieu dans un seul fichier, `data/events.json`, publié gratuitement par GitHub Pages et mis à jour automatiquement. Sur l'iPhone, un script [Scriptable](https://scriptable.app) lit ce fichier et dessine le widget. Pas de serveur, pas d'abonnement, pas de compte Google.
 
-- `data/events.json` : la programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) celle de L'Arsenal (Metz), de la Philharmonie Luxembourg et du NEST (Thionville) ;
-- `widget/EventsWidget.js` : le widget (tailles petit / moyen / grand, filtre par lieu, cache hors ligne) ;
-- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal, de la Philharmonie et du NEST, et purge des événements passés (voir « Mise à jour automatique ») ;
-- `pdf/` + `.github/workflows/import-pdf.yml` : import du programme hebdomadaire PDF de La Scala (voir « Importer le PDF de La Scala »).
+## Lieux suivis
+
+| Lieu | Ville | Contenu | Mise à jour |
+|---|---|---|---|
+| La Scala | Thionville | cinéma | dépôt du PDF hebdomadaire dans `pdf/` |
+| Kinepolis Thionville | Thionville | cinéma | script à lancer sur ton PC |
+| Théâtre de Thionville, Adagio | Thionville | spectacles, concerts | programme de saison saisi dans `json/` |
+| NEST (CDN) | Thionville et alentours | théâtre | automatique, chaque lundi |
+| L'Arsenal | Metz | concerts, spectacles, expos | automatique, chaque lundi |
+| Philharmonie Luxembourg | Luxembourg | concerts (sans le jeune public) | automatique, chaque lundi |
+
+Le widget n'affiche jamais les événements passés ; ils sont retirés du fichier à chaque mise à jour.
 
 ## Installation
 
-### 1. Publier le JSON sur GitHub Pages
+### 1. Publier les données sur GitHub Pages
 
-1. Crée un dépôt **public** sur GitHub (par exemple `culture-widget`) et envoie-y le contenu de ce dossier.
+1. Crée un dépôt **public** sur GitHub et envoie-y le contenu de ce dossier.
 2. Dans le dépôt : **Settings > Pages > Build and deployment**, source **Deploy from a branch**, branche `main`, dossier `/ (root)`, puis **Save**.
-3. Après une ou deux minutes, le fichier est disponible à l'adresse :
-   `https://<ton-pseudo>.github.io/<nom-du-depot>/data/events.json`
-   Ouvre-la dans Safari pour vérifier qu'elle affiche bien le JSON.
+3. Après une ou deux minutes, le fichier est en ligne à l'adresse
+   `https://<ton-pseudo>.github.io/<nom-du-depot>/data/events.json`.
+   Ouvre-la dans Safari pour vérifier.
 
 ### 2. Installer le widget sur l'iPhone
 
 1. Installe **Scriptable** depuis l'App Store.
-2. Dans Scriptable, appuie sur **+** pour créer un script, nomme-le `EventsWidget`, et colle le contenu de `widget/EventsWidget.js`.
-3. Modifie la ligne `JSON_URL` en haut du script avec l'adresse de l'étape précédente.
-4. Appuie sur le bouton lecture : un aperçu moyen s'affiche. Si tu vois les séances, c'est bon.
+2. Dans Scriptable, appuie sur **+**, nomme le script `EventsWidget` et colle le contenu de `widget/EventsWidget.js`.
+3. Remplace l'adresse de la ligne `JSON_URL`, en haut du script, par celle de l'étape 1.
+4. Appuie sur le bouton lecture : si la liste des événements s'affiche, c'est bon.
 
 ### 3. Ajouter le widget à l'écran d'accueil
 
-1. Appui long sur l'écran d'accueil, bouton **+**, cherche **Scriptable**, choisis la taille (petit, moyen ou grand) et **Ajouter le widget**.
-2. Appuie sur le widget pour le modifier :
-   - **Script** : `EventsWidget`
-   - **Paramètre** : voir ci-dessous (facultatif)
+1. Appui long sur l'écran d'accueil, bouton **+**, cherche **Scriptable**, choisis une taille (petit, moyen ou grand) puis **Ajouter le widget**.
+2. Appuie sur le widget pour le configurer : **Script** `EventsWidget`, et éventuellement un **Paramètre** (voir ci-dessous).
 
-### Liste complète au tap
+## Utilisation
 
-Un widget iOS ne peut pas défiler ni se filtrer lui-même. À la place, **un tap sur le widget ouvre dans Scriptable la liste complète** des événements à venir : défilement, filtres **Lieu / genre** et **Période** (tout, aujourd'hui, 7 prochains jours), **Recherche** par mot, et un tap sur un événement ouvre sa page. Si le widget a un paramètre (voir ci-dessous), la liste démarre avec ce filtre, modifiable à l'écran. Le bouton lecture dans Scriptable ouvre la même liste.
+### Filtrer un widget
 
-### Paramètre du widget (filtre)
-
-Le paramètre est une liste séparée par des virgules, comparée au lieu, à la ville ou à la catégorie (sans tenir compte des majuscules ni des accents) :
+Le paramètre du widget est une liste séparée par des virgules, comparée au lieu, à la ville ou à la catégorie (majuscules et accents ignorés) :
 
 | Paramètre | Résultat |
 |---|---|
 | *(vide)* | tous les événements |
 | `La Scala` | uniquement La Scala |
-| `Metz` | uniquement les événements à Metz |
-| `concert,spectacle` | uniquement ces catégories |
-| `La Scala,L'Arsenal` | ces deux lieux |
+| `Kinepolis` | uniquement le Kinepolis |
+| `NEST` | le NEST, y compris ses tournées hors de Thionville |
 | `Philharmonie` | uniquement la Philharmonie Luxembourg |
-| `NEST` | uniquement le NEST (y compris ses tournées hors de Thionville) |
+| `Metz` | tout ce qui se passe à Metz |
+| `cinema` | toutes les séances de cinéma |
+| `concert,spectacle` | ces deux catégories |
+| `La Scala,Kinepolis` | ces deux cinémas |
 
-Astuce : tu peux ajouter plusieurs widgets avec des paramètres différents (un « Cinéma », un « Concerts »).
+Tu peux ajouter plusieurs widgets avec des paramètres différents, par exemple un « Cinéma » et un « Concerts ».
 
-## Comportement
+### Ce qu'affiche le widget
 
-- Les séances du jour s'affichent d'abord, puis celles des jours suivants. Un même film est regroupé sur une ligne avec toutes ses heures de la journée.
+- Les événements du jour d'abord, puis ceux des jours suivants. Un même film est regroupé sur une ligne avec toutes ses heures de la journée.
 - Une séance reste affichée 10 minutes après son début.
-- Hors ligne, le widget affiche la dernière version reçue (cache local) avec la mention « Hors ligne ».
-- Le widget demande un rafraîchissement toutes les 15 minutes environ, mais c'est iOS qui décide du rythme réel (de 15 minutes à plusieurs heures).
+- Un tap ouvre la **liste complète** : défilement, filtres par lieu ou genre et par période (tout, aujourd'hui, 7 jours), recherche, et un tap sur un événement ouvre sa page.
+- Hors connexion, le widget affiche la dernière version reçue, avec la mention « Hors ligne ».
+- iOS rafraîchit le widget à son rythme, de toutes les 15 minutes à toutes les quelques heures.
 
-## Mise à jour automatique
+## Tenir les programmes à jour
 
-Le workflow **Rafraîchir les événements** (`.github/workflows/refresh-scrape.yml`) tourne deux fois par jour (vers 5 h et 15 h, heure de Paris) et peut aussi être lancé à la main : onglet **Actions > Rafraîchir les événements > Run workflow**.
+La plupart des lieux se mettent à jour seuls. Il reste deux gestes manuels :
 
-À chaque passage il :
+- **La Scala, chaque semaine :** dépose le PDF des horaires dans le dossier `pdf/` du dépôt. Depuis l'iPhone : github.com dans Safari, dépôt > **Add file > Upload files** > **Commit changes**. L'import se fait tout seul en une minute.
+- **Kinepolis, idéalement chaque mercredi :** le site bloque les robots, donc le script ouvre un vrai navigateur sur ton PC. La première fois, installe les outils :
+  ```
+  pip install -r requirements-kinepolis.txt
+  python -m playwright install chromium
+  ```
+  Ensuite, à chaque mise à jour :
+  ```
+  python scripts/scrape_kinepolis.py
+  git add data/events.json && git commit -m "Séances Kinepolis" && git push
+  ```
 
-1. récupère la programmation de L'Arsenal sur le site de la Cité musicale-Metz (toutes les pages, 1 requête par seconde, `robots.txt` respecté) et remplace les événements de L'Arsenal ;
-   récupère aussi la programmation de la **Philharmonie Luxembourg** et du **NEST** (voir ci-dessous) ;
-2. **supprime les événements passés** : tout ce qui s'est terminé avant le début de la journée en cours (heure de Paris) disparaît, donc les événements de la veille sont retirés le matin. Une exposition ou un événement sur plusieurs jours reste jusqu'à son dernier jour ;
-3. vérifie que le JSON est valide (jamais de fichier cassé publié), puis le commit si quelque chose a changé.
+Une nouvelle saison du Théâtre de Thionville ou de l'Adagio se saisit dans un fichier du dossier `json/`. Si une mise à jour automatique échoue (site en panne ou modifié), les anciennes données sont conservées et GitHub t'envoie un e-mail.
 
-Si le site d'une source est inaccessible ou que sa mise en page change au point que plus rien n'est lu, les anciennes données de ce lieu sont conservées, la purge a quand même lieu, et le workflow passe en **échec** : GitHub t'envoie alors un e-mail. La Scala n'est pas touchée par ce workflow (ses données viendront de l'étape PDF).
+## Pour aller plus loin
 
-Tester en local (Python 3.11+) :
-
-```
-pip install -r requirements.txt
-python -m unittest discover -s scripts/tests -v     # tests sans réseau
-python scripts/merge.py                              # purge seule
-python scripts/scrape_sources.py                     # scraping de L'Arsenal, de la Philharmonie et du NEST + purge
-python scripts/extract_pdf.py --dry-run pdf/x.pdf    # test d'un PDF de La Scala
-```
-
-Pour ajouter un lieu : créer `scripts/sources/<nom>.py` (constante `LIEU`, fonction `fetch_events()`) et l'ajouter à la liste `SOURCES` de `scripts/scrape_sources.py`.
-
-### Philharmonie Luxembourg
-
-Le `robots.txt` du site interdit les pages de liste paginées (`/fr/programme?page=2`). Le parseur (`scripts/sources/philharmonie.py`) lit donc le **sitemap**, puis chaque fiche d'événement de la saison en cours (1 requête par seconde) : titre, date et heure, salle (Grand Auditorium, Salle de Musique de Chambre...) dans la note.
-
-- Les événements **jeune public** (Kids' Phil, familles, scolaires, Familljefestival) sont écartés : chaque fiche porte un indicateur « kids » que le parseur lit.
-- Pour ne pas rouvrir les ~400 fiches à chaque passage, `data/philharmonie-cache.json` garde le résultat de chaque fiche avec sa date de modification du sitemap : seules les fiches nouvelles ou modifiées sont relues. Le premier passage prend ~7 minutes, les suivants quelques secondes. Supprimer ce fichier force une relecture complète.
-- Si plus de 20 % des fiches lues sont illisibles, la source est considérée en échec (anciennes données conservées, e-mail de GitHub).
-
-### NEST (CDN de Thionville)
-
-`scripts/sources/nest.py` lit la page de saison du NEST (lien trouvé sur l'accueil, donc la saison suivante est prise en compte dès qu'elle est publiée), puis la fiche de chaque spectacle (1 requête par seconde). Le bloc « Séances » de la fiche donne chaque représentation, avec son lieu et son heure.
-
-- **Tournées :** beaucoup de spectacles tournent dans les villages (Boulange, Rettel, Yutz...). Ils restent sous le lieu `NEST`, mais la `ville` est celle de la représentation quand la fiche l'indique (« Espace Riom, Boulange » → Boulange), sinon « Environs de Thionville ». Le lieu exact et le genre sont dans la note.
-- **Séances sans heure :** une séance « à 00h » avec un lieu devient un événement « journée entière ». Sans lieu, c'est la borne d'une période de tournée (lycées) : elle est ignorée.
-- Les séances n'ont pas d'année sur le site : elle est déduite de la saison (août à décembre → première année, janvier à juillet → seconde).
-
-### Kinepolis Thionville (en local)
-
-Le site de Kinepolis bloque les requêtes automatiques (page 403), y compris depuis un navigateur sans fenêtre. `scripts/scrape_kinepolis.py` ouvre donc une **fenêtre Chromium visible** (Playwright), choisit tour à tour chaque date du sélecteur « À la date » et lit les séances affichées : film, version (VF/VOST), salle, heure, durée. Il ne tourne **pas** dans GitHub Actions (l'IP d'un serveur serait bloquée) : il faut le lancer sur ton PC, puis envoyer le fichier mis à jour.
-
-```
-pip install -r requirements-kinepolis.txt
-python -m playwright install chromium
-python scripts/scrape_kinepolis.py --dry-run --max-dates 3   # test, n'écrit rien
-python scripts/scrape_kinepolis.py                           # met à jour data/events.json
-git add data/events.json && git commit -m "Séances Kinepolis" && git push
-```
-
-Chaque lancement remplace toutes les séances du Kinepolis. Paramètre du widget pour ce cinéma seul : `Kinepolis`.
-
-Pour inclure aussi la BAM et les Trinitaires (autres salles de la Cité musicale), il faut modifier `scripts/sources/arsenal.py` : pour l'instant seuls les événements de L'Arsenal sont retenus.
-
-## Importer le PDF de La Scala
-
-Chaque semaine, La Scala publie une grille horaire en PDF (« Horaires du mercredi 30 septembre au mardi 6 octobre 2026 »).
-
-1. Dépose le PDF dans le dossier `pdf/` du dépôt (nom libre, par exemple `scala-2026-10-07.pdf`). Depuis l'iPhone, le plus simple est Safari sur github.com : dépôt > **Add file > Upload files**, puis **Commit changes**.
-2. Le workflow **Importer le programme PDF de La Scala** se lance tout seul (ou à la main : onglet **Actions**, **Run workflow**).
-3. Il lit la grille avec `pdfplumber`, remplace toutes les séances de La Scala de cette semaine-là, ajoute les « Événements à venir » du bas du PDF (ciné-débats, avant-premières...), purge le passé, valide le JSON et le commit.
-
-Ce qui est repris : titre, horaires par jour, durée, version (VOST/VF), et les mentions des bandeaux (« Dernière semaine », « Jeune public », « Avant-première », ciné-club, festival...) dans le champ `note`. Les anciens PDF restent dans `pdf/` sans effet : leurs séances sont passées donc purgées.
-
-Si la mise en page du PDF change au point de ne plus être reconnue, le workflow échoue (e-mail GitHub) et `events.json` n'est pas modifié. Pour vérifier un PDF sans rien écrire : `python scripts/extract_pdf.py --dry-run pdf/mon-fichier.pdf`.
-
-## Importer un programme de saison (JSON)
-
-Les programmes de saison (Théâtre de Thionville, Adagio...) sont saisis dans `json/*.json` : `{"source": "<url du PDF>", "events": [...]}`, événements au format ci-dessous. Le même workflow les importe à chaque modification du dossier `json/` (`python scripts/import_json.py`, `--dry-run` pour vérifier).
-
-- Les genres `theatre`, `danse`, `humour` et `conference` deviennent `spectacle`, le genre étant repris dans `note`.
-- `artiste` est ajouté à `note` (le widget affiche la note, pas l'artiste).
-- Sans `url`, l'événement pointe vers la `source` du fichier.
-- Chaque fichier remplace ce qu'il avait importé la fois précédente : on peut le corriger et le recommiter sans créer de doublons.
-
-## Format du JSON
-
-```json
-{
-  "updated_at": "2026-10-04T18:00:00+02:00",
-  "events": [
-    {
-      "id": "la-scala-2026-10-07-2020-her-private-hell",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Her Private Hell",
-      "debut": "2026-10-07T20:20:00+02:00",
-      "duree_min": 110,
-      "version": "VOST",
-      "note": "texte libre facultatif",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    }
-  ]
-}
-```
-
-Catégories prévues : `cinema`, `concert`, `spectacle`, `expo`, `festival`. Les champs `duree_min`, `version`, `note`, `fin` et `jour_entier` sont facultatifs.
-
-Événements sans heure précise ou sur plusieurs jours (exposition, spectacle sur trois jours) : `jour_entier: true`, `debut` à minuit et `fin` à 23:59:59 du dernier jour. Le widget les affiche sous « Aujourd'hui » tant qu'ils sont en cours, avec « → 15 nov. » (ou « journée » pour un seul jour). Dates en ISO 8601 avec fuseau (`+02:00` en heure d'été, `+01:00` à partir du 25 octobre 2026).
-
-## Prochaines étapes
-
-3. Scraping automatique de La Scala (L'Arsenal est déjà en place) : le PDF reste le moyen fiable en attendant.
-4. Lignes cliquables dans le widget pour déclencher une Action GitHub (token fine-grained dans le Keychain).
+Le fonctionnement interne (architecture, format des données, détail de chaque source, ajout d'un lieu, tests) est décrit dans [`docs/technique.md`](docs/technique.md).

@@ -2,10 +2,8 @@ name: Rafraîchir les événements
 
 on:
   schedule:
-    # Deux passages par jour (heures UTC, soit ~5h et ~15h à Paris).
-    # Le premier supprime les événements de la veille.
-    - cron: "17 3 * * *"
-    - cron: "43 13 * * *"
+    # Un passage par semaine, le lundi (heure UTC, soit ~5h à Paris).
+    - cron: "17 3 * * 1"
   workflow_dispatch:   # lancement manuel depuis l'onglet Actions
 
 permissions:

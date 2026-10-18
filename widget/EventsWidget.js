@@ -116,8 +116,10 @@ function selectEvents(data, filterParam, now) {
     })
     .filter(function (e) {
       if (filters.length === 0) return true;
+      // Lieu : nom complet ou mots entiers du nom (« Philharmonie » -> « Philharmonie Luxembourg »).
+      const lieu = " " + norm(e.lieu) + " ";
       return filters.some(function (f) {
-        return norm(e.lieu) === f || norm(e.ville) === f || norm(e.categorie) === f;
+        return lieu.indexOf(" " + f + " ") >= 0 || norm(e.ville) === f || norm(e.categorie) === f;
       });
     })
     .sort(function (a, b) { return a._d - b._d; });
