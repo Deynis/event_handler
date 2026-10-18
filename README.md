@@ -58,6 +58,7 @@ Le paramètre du widget est une liste séparée par des virgules, comparée au l
 | `cinema` | toutes les séances de cinéma |
 | `concert,spectacle` | ces deux catégories |
 | `La Scala,Kinepolis` | ces deux cinémas |
+| `favoris` | uniquement tes favoris ★ |
 
 Tu peux ajouter plusieurs widgets avec des paramètres différents, par exemple un « Cinéma » et un « Concerts ».
 
@@ -66,6 +67,8 @@ Tu peux ajouter plusieurs widgets avec des paramètres différents, par exemple 
 - Les événements du jour d'abord, puis ceux des jours suivants. Un même film est regroupé sur une ligne avec toutes ses heures de la journée.
 - Une séance reste affichée 10 minutes après son début.
 - Un tap ouvre la **liste complète** : défilement, filtres par lieu ou genre et par période (tout, aujourd'hui, 7 jours), recherche, et un tap sur un événement ouvre sa page.
+- Dans la liste, **glisse un événement vers la gauche pour le masquer**, ou **vers la droite pour le mettre en favori ★** (glisser à nouveau le retire). Le choix vaut pour toutes les séances d'un même film dans ce cinéma. Un bouton « Annuler » apparaît quelques secondes. Les films masqués se retrouvent dans le filtre « Masqués », où on les glisse pour les réafficher.
+- Le widget suit ces choix : les films masqués n'y apparaissent plus et les favoris ont leur ★.
 - Hors connexion, le widget affiche la dernière version reçue, avec la mention « Hors ligne ».
 - iOS rafraîchit le widget à son rythme, de toutes les 15 minutes à toutes les quelques heures.
 

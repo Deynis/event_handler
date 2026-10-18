@@ -92,6 +92,15 @@ Principes :
 - **dans le widget** : les événements à venir, regroupés par jour. Un film est regroupé sur une ligne avec toutes ses heures de la journée. Une séance reste visible 10 minutes après son début, un événement « jour entier » jusqu'à sa fin ;
 - **au tap** (ou au bouton lecture) : une liste complète avec filtres lieu / genre, période et recherche.
 
+**Liste à swipe.** La liste est une page HTML affichée dans une `WebView` : le tableau natif de Scriptable (`UITable`) ne gère pas les swipes.
+
+- Le script construit la page (`listHtml`) avec les événements à venir, y compris les masqués, et les choix de l'utilisateur. Le filtrage, le regroupement et les gestes se font ensuite dans la page.
+- Les données sont injectées avec `<` échappé, et tout le texte passe par `textContent`. Un titre récupéré sur un site ne peut donc pas injecter de HTML.
+- Swipe à gauche au-delà de 80 px : masquer. Swipe à droite : basculer le favori. Un toast propose « Annuler » pendant 4 s. Dans la vue « Masqués », un swipe dans un sens ou dans l'autre réaffiche le film.
+- La page empile ses messages (`hide`, `unhide`, `fav`, `unfav`, `open`). Le script les lit en boucle avec `evaluateJavaScript("nextMessage(completion)", true)` jusqu'à la fermeture de la vue, et enregistre chaque choix aussitôt. `open` ouvre la page de l'événement dans Safari.
+- Les choix sont stockés dans `events-prefs.json`, dans les documents locaux de Scriptable : `{ "hidden": {clé: true}, "favorites": {clé: true} }`. La clé vaut `lieu|titre` normalisés (`eventKey`), donc un choix couvre toutes les séances d'un film dans un lieu. Ce fichier n'est pas touché par la mise à jour automatique du script.
+- Le widget lit les mêmes choix : il écarte les films masqués, préfixe les favoris d'une ★, et le terme de filtre `favoris` ne garde que ceux-ci.
+
 **Filtre** (paramètre du widget) : liste séparée par des virgules, en ignorant les majuscules et les accents. Un événement est retenu si un des termes est égal à sa `ville` ou à sa `categorie`, ou s'il correspond au nom de son `lieu`, complet ou en mots entiers : `Philharmonie` trouve « Philharmonie Luxembourg », mais `Phil` ne trouve rien.
 
 Aperçu d'une taille précise depuis l'app : ajouter `?apercu=small|medium|large` à l'URL de lancement.

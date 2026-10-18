@@ -31,6 +31,7 @@ const UPDATE_STAMP = "events-widget-update.txt";
 const REFRESH_MINUTES = 15;   // iOS reste libre de rafraîchir plus tard
 const GRACE_MINUTES = 10;     // une séance commencée depuis < 10 min reste affichée
 const CACHE_FILE = "events-cache.json";
+const PREFS_FILE = "events-prefs.json";   // films masqués et favoris (sur l'iPhone)
 
 const CATEGORY_COLORS = {
   cinema: "#E5484D",
@@ -100,9 +101,40 @@ async function loadData() {
   }
 }
 
+// ---------- Masqués et favoris ----------
+
+// Un choix vaut pour toutes les séances d'un même titre dans un même lieu (le film entier).
+function eventKey(e) {
+  return norm(e.lieu) + "|" + norm(e.titre);
+}
+
+function prefsPath() {
+  const fm = FileManager.local();
+  return fm.joinPath(fm.documentsDirectory(), PREFS_FILE);
+}
+
+function loadPrefs() {
+  try {
+    const fm = FileManager.local();
+    if (fm.fileExists(prefsPath())) {
+      const p = JSON.parse(fm.readString(prefsPath()));
+      return { hidden: p.hidden || {}, favorites: p.favorites || {} };
+    }
+  } catch (e) { /* fichier illisible : on repart de zéro */ }
+  return { hidden: {}, favorites: {} };
+}
+
+function savePrefs(prefs) {
+  FileManager.local().writeString(prefsPath(), JSON.stringify(prefs));
+}
+
 // ---------- Sélection et regroupement ----------
 
-function selectEvents(data, filterParam, now) {
+// Filtre : termes séparés par des virgules. « favoris » garde les favoris ; sinon un terme
+// vaut pour la ville, la catégorie, ou le nom du lieu (complet ou mots entiers).
+// Les films masqués sont écartés, sauf si includeHidden.
+function selectEvents(data, filterParam, now, prefs, includeHidden) {
+  prefs = prefs || { hidden: {}, favorites: {} };
   const filters = String(filterParam || "").split(",").map(norm).filter(Boolean);
   const minStart = now.getTime() - GRACE_MINUTES * 60000;
   return data.events
@@ -120,10 +152,14 @@ function selectEvents(data, filterParam, now) {
       return (e.jour_entier || e.fin) ? e._end.getTime() >= now.getTime() : e._d.getTime() >= minStart;
     })
     .filter(function (e) {
+      return includeHidden || !prefs.hidden[eventKey(e)];
+    })
+    .filter(function (e) {
       if (filters.length === 0) return true;
       // Lieu : nom complet ou mots entiers du nom (« Philharmonie » -> « Philharmonie Luxembourg »).
       const lieu = " " + norm(e.lieu) + " ";
       return filters.some(function (f) {
+        if (f === "favoris") return !!prefs.favorites[eventKey(e)];
         return lieu.indexOf(" " + f + " ") >= 0 || norm(e.ville) === f || norm(e.categorie) === f;
       });
     })
@@ -163,25 +199,26 @@ function groupByDay(events, now) {
 
 // ---------- Construction du widget ----------
 
-function addRow(w, group, family, showLieu) {
+function addRow(w, group, family, showLieu, prefs) {
   const e = group.event;
   const row = w.addStack();
   row.centerAlignContent();
   row.spacing = 5;
 
   const color = colorFor(e.categorie);
+  const titre = (prefs.favorites[eventKey(e)] ? "★ " : "") + e.titre;
 
   if (family === "small") {
     // Petit format : première heure + titre
     const t = row.addText(group.times[0]);
     t.font = Font.boldSystemFont(11);
     t.textColor = color;
-    const title = row.addText(e.titre);
+    const title = row.addText(titre);
     title.font = Font.systemFont(11);
     title.lineLimit = 1;
     title.minimumScaleFactor = 0.8;
   } else {
-    const title = row.addText(e.titre);
+    const title = row.addText(titre);
     title.font = Font.systemFont(12);
     title.lineLimit = 1;
     if (showLieu) {
@@ -216,7 +253,8 @@ function buildWidget(result, filterParam, family) {
     return w;
   }
 
-  const events = selectEvents(result.data, filterParam, now);
+  const prefs = loadPrefs();
+  const events = selectEvents(result.data, filterParam, now, prefs);
   const days = groupByDay(events, now);
 
   if (days.length === 0) {
@@ -246,7 +284,7 @@ function buildWidget(result, filterParam, family) {
       budget -= 1;
 
       for (let j = 0; j < day.groups.length && budget > 0; j++) {
-        addRow(w, day.groups[j], family, showLieu);
+        addRow(w, day.groups[j], family, showLieu, prefs);
         budget -= 1;
       }
     }
@@ -286,118 +324,276 @@ function listUrl(filterParam) {
 }
 
 const CATEGORY_LABELS = { cinema: "Cinéma", concert: "Concert", spectacle: "Spectacle", expo: "Exposition", festival: "Festival" };
-const PERIODS = [
-  { label: "Tout", days: null },
-  { label: "Aujourd'hui", days: 1 },
-  { label: "7 prochains jours", days: 7 },
-];
 
-async function chooseFrom(title, options) {
-  // options : liste de libellés ; retourne l'index choisi, ou -1 si annulé
-  const a = new Alert();
-  a.title = title;
-  options.forEach(function (o) { a.addAction(o); });
-  a.addCancelAction("Annuler");
-  return await a.presentSheet();
+// La liste est une page web (WebView) : c'est le seul moyen de gérer les swipes.
+// Swipe à gauche : masquer le film ; à droite : favori ★. La page envoie chaque geste
+// au script (file de messages lue par evaluateJavaScript), qui l'enregistre.
+
+function listItems(data, prefs, now) {
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return selectEvents(data, "", now, prefs, true).map(function (e) {
+    const shown = (e.jour_entier && e._d < startOfToday) ? now : e._d;
+    return {
+      key: eventKey(e),
+      titre: e.titre,
+      lieu: e.lieu,
+      ville: e.ville,
+      cat: e.categorie,
+      color: CATEGORY_COLORS[e.categorie] || DEFAULT_COLOR,
+      sub: [e.lieu, e.version, e.note].filter(Boolean).join(" · "),
+      url: e.url || "",
+      day: dayKey(shown),
+      dayLabel: dayLabel(shown, now).toUpperCase(),
+      time: timeLabel(e),
+      start: e._d.getTime(),
+    };
+  });
 }
 
-function addControlRow(table, label, value, onTap) {
-  const row = new UITableRow();
-  row.height = 44;
-  row.dismissOnSelect = false;
-  const l = row.addText(label);
-  l.widthWeight = 35;
-  l.titleColor = Color.gray();
-  const v = row.addText(value + "  ›");
-  v.widthWeight = 65;
-  v.rightAligned();
-  v.titleFont = Font.semiboldSystemFont(15);
-  row.onSelect = onTap;
-  table.addRow(row);
-}
-
-function rebuildList(table, result, state) {
-  table.removeAllRows();
+function listHtml(result, prefs, initialFilter) {
   const now = new Date();
-  const base = selectEvents(result.data, "", now);
-  const lieux = Array.from(new Set(base.map(function (e) { return e.lieu; })));
-  const cats = Array.from(new Set(base.map(function (e) { return e.categorie; })));
-  const choices = [{ label: "Tout", value: "" }]
-    .concat(lieux.map(function (l) { return { label: l, value: l }; }))
-    .concat(cats.map(function (c) { return { label: CATEGORY_LABELS[c] || c, value: c }; }));
-  const filterLabel = (choices.find(function (c) { return c.value === state.filter; }) || { label: state.filter || "Tout" }).label;
-
-  // Contrôles
-  addControlRow(table, "Lieu / genre", filterLabel, async function () {
-    const i = await chooseFrom("Lieu ou catégorie", choices.map(function (c) { return c.label; }));
-    if (i >= 0) { state.filter = choices[i].value; rebuildList(table, result, state); table.reload(); }
-  });
-  addControlRow(table, "Période", PERIODS[state.period].label, async function () {
-    const i = await chooseFrom("Période", PERIODS.map(function (p) { return p.label; }));
-    if (i >= 0) { state.period = i; rebuildList(table, result, state); table.reload(); }
-  });
-  addControlRow(table, "Recherche", state.query || "aucune", async function () {
-    const a = new Alert();
-    a.title = "Rechercher";
-    a.message = "Dans le titre, la note ou le lieu";
-    a.addTextField("ex. Chabrol, concert...", state.query);
-    a.addAction("Rechercher");
-    a.addCancelAction("Annuler");
-    const i = await a.presentAlert();
-    if (i === 0) { state.query = a.textFieldValue(0).trim(); rebuildList(table, result, state); table.reload(); }
-  });
-
-  // Événements filtrés
-  let events = selectEvents(result.data, state.filter, now);
-  const days = PERIODS[state.period].days;
-  if (days) {
-    const limit = new Date(now.getFullYear(), now.getMonth(), now.getDate() + days);
-    events = events.filter(function (e) { return e._d < limit; });
-  }
-  if (state.query) {
-    const q = norm(state.query);
-    events = events.filter(function (e) { return norm(e.titre + " " + (e.note || "") + " " + e.lieu).indexOf(q) >= 0; });
-  }
-
-  if (events.length === 0) {
-    const row = new UITableRow();
-    row.addText("Aucun événement ne correspond.").titleColor = Color.gray();
-    table.addRow(row);
-  }
-
-  groupByDay(events, now).forEach(function (day) {
-    const h = new UITableRow();
-    h.isHeader = true;
-    h.addText(dayLabel(day.date, now).toUpperCase());
-    table.addRow(h);
-
-    day.groups.forEach(function (g) {
-      const e = g.event;
-      const row = new UITableRow();
-      row.dismissOnSelect = false;
-      row.height = 52;
-      const sub = [e.lieu, e.version, e.note].filter(Boolean).join(" · ");
-      const left = row.addText(e.titre, sub);
-      left.widthWeight = 68;
-      left.titleFont = Font.systemFont(15);
-      left.subtitleFont = Font.systemFont(11);
-      left.subtitleColor = Color.gray();
-      const right = row.addText(g.times.join("  "));
-      right.widthWeight = 32;
-      right.rightAligned();
-      right.titleFont = Font.boldSystemFont(13);
-      right.titleColor = colorFor(e.categorie);
-      if (e.url) row.onSelect = function () { Safari.openInApp(e.url, false); };
-      table.addRow(row);
-    });
-  });
-
-  const f = new UITableRow();
   const stamp = result.data.updated_at ? fmtDateTime(new Date(result.data.updated_at)) : "?";
-  const foot = f.addText((result.offline ? "Hors ligne - données du " : "Mis à jour ") + stamp);
-  foot.titleColor = result.offline ? new Color("#F76B15") : Color.gray();
-  foot.titleFont = Font.systemFont(11);
-  table.addRow(f);
+  const payload = {
+    items: listItems(result.data, prefs, now),
+    prefs: prefs,
+    filter: initialFilter || "",
+    catLabels: CATEGORY_LABELS,
+    todayStart: new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime(),
+    foot: (result.offline ? "Hors ligne - données du " : "Mis à jour ") + stamp,
+    offline: result.offline,
+  };
+  // « < » échappé : un titre contenant </script> ne peut pas casser la page.
+  const json = JSON.stringify(payload).replace(/</g, "\\u003c");
+  return LIST_PAGE.replace("__DATA__", function () { return json; });
+}
+
+const LIST_PAGE = `<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+:root { --bg:#F2F2F7; --card:#FFFFFF; --text:#000000; --muted:#8E8E93; --sep:#E5E5EA; --hide:#E5484D; --fav:#F5A623; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --card:#1C1C1E; --text:#FFFFFF; --sep:#38383A; } }
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+body { margin:0; background:var(--bg); color:var(--text); font:15px -apple-system, system-ui, sans-serif; padding-bottom:calc(80px + env(safe-area-inset-bottom)); }
+header { position:sticky; top:0; z-index:2; background:var(--bg); padding:calc(10px + env(safe-area-inset-top)) 12px 8px; border-bottom:1px solid var(--sep); }
+.controls { display:flex; gap:8px; margin-bottom:8px; }
+select, input { font:inherit; color:var(--text); background:var(--card); border:1px solid var(--sep); border-radius:10px; padding:8px 10px; min-width:0; flex:1; -webkit-appearance:none; appearance:none; }
+input { width:100%; }
+.hint { font-size:11px; color:var(--muted); margin-top:6px; text-align:center; }
+h2 { font-size:12px; font-weight:600; color:var(--muted); margin:18px 16px 6px; letter-spacing:.03em; }
+.row { position:relative; overflow:hidden; border-bottom:1px solid var(--sep); }
+.row.gone { transition:max-height .25s, opacity .25s; max-height:0 !important; opacity:0; }
+.bg { position:absolute; inset:0; display:flex; align-items:center; padding:0 20px; font-weight:600; color:#FFFFFF; }
+.content { position:relative; background:var(--card); display:flex; align-items:center; gap:10px; padding:10px 16px; min-height:58px; transition:transform .2s; }
+.content.dragging { transition:none; }
+.text { flex:1; min-width:0; }
+.title, .sub { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.sub { font-size:12px; color:var(--muted); margin-top:2px; }
+.times { font-weight:700; font-size:13px; text-align:right; max-width:42%; }
+.star { color:var(--fav); }
+.empty, .foot { color:var(--muted); text-align:center; padding:32px 16px; }
+.foot { font-size:11px; padding:16px; }
+.foot.offline { color:#F76B15; }
+.toast { position:fixed; left:12px; right:12px; bottom:calc(16px + env(safe-area-inset-bottom)); background:#333333; color:#FFFFFF; border-radius:12px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center; gap:12px; transform:translateY(200%); transition:transform .25s; z-index:5; }
+.toast.show { transform:none; }
+.toast span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.toast button { background:none; border:0; color:#FFD60A; font:inherit; font-weight:600; padding:0; }
+</style></head><body>
+<header>
+  <div class="controls"><select id="filter"></select>
+    <select id="period"><option value="0">Toutes dates</option><option value="1">Aujourd'hui</option><option value="7">7 jours</option></select></div>
+  <input id="q" type="search" placeholder="Rechercher (titre, lieu, note...)">
+  <div class="hint" id="hint"></div>
+</header>
+<main id="list"></main>
+<div class="foot" id="foot"></div>
+<div class="toast" id="toast"><span id="toastText"></span><button id="undo">Annuler</button></div>
+<script>
+var DATA = __DATA__;
+var items = DATA.items, prefs = DATA.prefs;
+var THRESHOLD = 80;
+
+// File de messages vers Scriptable : il appelle nextMessage(completion) en boucle.
+var queue = [], waiter = null;
+function send(msg) {
+  var s = JSON.stringify(msg);
+  if (waiter) { var w = waiter; waiter = null; w(s); } else queue.push(s);
+}
+function nextMessage(cb) { if (queue.length) cb(queue.shift()); else waiter = cb; }
+
+function norm(s) { return String(s || "").normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().trim(); }
+function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+var sel = document.getElementById("filter"), per = document.getElementById("period"), qi = document.getElementById("q");
+
+function matches(it, filter) {
+  if (filter === "__hidden") return !!prefs.hidden[it.key];
+  if (prefs.hidden[it.key]) return false;
+  var terms = filter.split(",").map(norm).filter(Boolean);
+  if (!terms.length) return true;
+  var lieu = " " + norm(it.lieu) + " ";
+  return terms.some(function (f) {
+    if (f === "favoris") return !!prefs.favorites[it.key];
+    return lieu.indexOf(" " + f + " ") >= 0 || norm(it.ville) === f || norm(it.cat) === f;
+  });
+}
+
+function buildFilter() {
+  var current = sel.options.length ? sel.value : DATA.filter;
+  var lieux = [], cats = [], hiddenKeys = {};
+  items.forEach(function (it) {
+    if (lieux.indexOf(it.lieu) < 0) lieux.push(it.lieu);
+    if (cats.indexOf(it.cat) < 0) cats.push(it.cat);
+    if (prefs.hidden[it.key]) hiddenKeys[it.key] = true;
+  });
+  var opts = [["", "Tous les lieux"], ["favoris", "★ Favoris"]]
+    .concat(lieux.map(function (l) { return [l, l]; }))
+    .concat(cats.map(function (c) { return [c, DATA.catLabels[c] || c]; }))
+    .concat([["__hidden", "Masqués (" + Object.keys(hiddenKeys).length + ")"]]);
+  // Le filtre du widget (« Kinepolis », « concert,spectacle »...) reste toujours proposé.
+  [DATA.filter, current].forEach(function (f) {
+    if (f && !opts.some(function (o) { return o[0] === f; })) opts.splice(1, 0, [f, f]);
+  });
+  sel.textContent = "";
+  opts.forEach(function (o) { var op = el("option", null, o[1]); op.value = o[0]; sel.appendChild(op); });
+  sel.value = current;
+}
+
+function render() {
+  buildFilter();
+  var filter = sel.value, period = Number(per.value), q = norm(qi.value);
+  var limit = period ? DATA.todayStart + period * 86400000 : Infinity;
+  var hiddenView = filter === "__hidden";
+  document.getElementById("hint").textContent = hiddenView
+    ? "Glisser un film pour le réafficher" : "← glisser pour masquer · glisser pour ★ favori →";
+
+  // Regroupement par jour puis par film (un film = une ligne avec toutes ses heures).
+  var days = [], dayIndex = {};
+  items.forEach(function (it) {
+    if (!matches(it, filter) || it.start >= limit) return;
+    if (q && norm(it.titre + " " + it.sub).indexOf(q) < 0) return;
+    if (!(it.day in dayIndex)) { dayIndex[it.day] = days.length; days.push({ label: it.dayLabel, groups: [], index: {} }); }
+    var day = days[dayIndex[it.day]];
+    if (!(it.key in day.index)) { day.index[it.key] = day.groups.length; day.groups.push({ it: it, times: [] }); }
+    day.groups[day.index[it.key]].times.push(it.time);
+  });
+
+  var list = document.getElementById("list");
+  list.textContent = "";
+  if (!days.length) list.appendChild(el("div", "empty", hiddenView ? "Aucun film masqué." : "Aucun événement ne correspond."));
+  days.forEach(function (day) {
+    list.appendChild(el("h2", null, day.label));
+    day.groups.forEach(function (g) { list.appendChild(makeRow(g, hiddenView)); });
+  });
+}
+
+function makeRow(g, hiddenView) {
+  var it = g.it;
+  var row = el("div", "row"), bg = el("div", "bg"), content = el("div", "content");
+  var text = el("div", "text"), title = el("div", "title");
+  if (prefs.favorites[it.key]) title.appendChild(el("span", "star", "★ "));
+  title.appendChild(document.createTextNode(it.titre));
+  text.appendChild(title);
+  text.appendChild(el("div", "sub", it.sub));
+  var times = el("div", "times", g.times.join("  "));
+  times.style.color = it.color;
+  content.appendChild(text);
+  content.appendChild(times);
+  row.appendChild(bg);
+  row.appendChild(content);
+
+  var x0 = 0, y0 = 0, dx = 0, mode = null;
+  function paint() {
+    var fav = !!prefs.favorites[it.key];
+    if (hiddenView) { bg.style.background = "#30A46C"; bg.textContent = "Réafficher"; }
+    else if (dx > 0) { bg.style.background = "var(--fav)"; bg.textContent = fav ? "☆ Retirer des favoris" : "★ Favori"; }
+    else { bg.style.background = "var(--hide)"; bg.textContent = "Masquer"; }
+    bg.style.justifyContent = dx > 0 ? "flex-start" : "flex-end";
+    bg.style.opacity = Math.min(1, Math.abs(dx) / THRESHOLD);
+  }
+  function snap() { content.style.transform = ""; }
+  function collapse(then) {
+    row.style.maxHeight = row.offsetHeight + "px";
+    content.style.transform = "translateX(" + (dx > 0 ? "" : "-") + "100%)";
+    void row.offsetHeight;
+    row.classList.add("gone");
+    setTimeout(then, 260);
+  }
+
+  content.addEventListener("touchstart", function (e) {
+    var t = e.touches[0]; x0 = t.clientX; y0 = t.clientY; dx = 0; mode = null;
+  }, { passive: true });
+  content.addEventListener("touchmove", function (e) {
+    var t = e.touches[0], mx = t.clientX - x0, my = t.clientY - y0;
+    if (!mode) {
+      if (Math.abs(mx) > 10 && Math.abs(mx) > Math.abs(my)) mode = "h";
+      else if (Math.abs(my) > 10) mode = "v";
+    }
+    if (mode !== "h") return;
+    e.preventDefault();
+    dx = mx;
+    content.classList.add("dragging");
+    content.style.transform = "translateX(" + dx + "px)";
+    paint();
+  }, { passive: false });
+  content.addEventListener("touchend", function () {
+    content.classList.remove("dragging");
+    if (mode !== "h") return;
+    mode = "done";
+    if (Math.abs(dx) < THRESHOLD) { snap(); return; }
+    if (hiddenView) {
+      delete prefs.hidden[it.key]; send({ type: "unhide", key: it.key });
+      collapse(render);
+      toast("« " + it.titre + " » réaffiché", function () { prefs.hidden[it.key] = true; send({ type: "hide", key: it.key }); render(); });
+    } else if (dx < 0) {
+      prefs.hidden[it.key] = true; send({ type: "hide", key: it.key });
+      collapse(render);
+      toast("« " + it.titre + " » masqué", function () { delete prefs.hidden[it.key]; send({ type: "unhide", key: it.key }); render(); });
+    } else {
+      var fav = !prefs.favorites[it.key];
+      if (fav) prefs.favorites[it.key] = true; else delete prefs.favorites[it.key];
+      send({ type: fav ? "fav" : "unfav", key: it.key });
+      snap();
+      setTimeout(render, 220);
+    }
+  });
+  content.addEventListener("click", function () {
+    if (mode === "done") { mode = null; return; } // fin d'un swipe, pas un tap
+    if (it.url) send({ type: "open", url: it.url });
+  });
+  return row;
+}
+
+var toastTimer = null, undoAction = null;
+function toast(text, undo) {
+  document.getElementById("toastText").textContent = text;
+  undoAction = undo;
+  document.getElementById("toast").classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { document.getElementById("toast").classList.remove("show"); undoAction = null; }, 4000);
+}
+document.getElementById("undo").addEventListener("click", function () {
+  document.getElementById("toast").classList.remove("show");
+  if (undoAction) { var u = undoAction; undoAction = null; u(); }
+});
+
+var foot = document.getElementById("foot");
+foot.textContent = DATA.foot;
+if (DATA.offline) foot.classList.add("offline");
+sel.addEventListener("change", render);
+per.addEventListener("change", render);
+qi.addEventListener("input", render);
+render();
+</script></body></html>`;
+
+function handleListMessage(msg, prefs) {
+  if (msg.type === "open") { Safari.openInApp(msg.url, false); return; }
+  if (msg.type === "hide") prefs.hidden[msg.key] = true;
+  else if (msg.type === "unhide") delete prefs.hidden[msg.key];
+  else if (msg.type === "fav") prefs.favorites[msg.key] = true;
+  else if (msg.type === "unfav") delete prefs.favorites[msg.key];
+  else return;
+  savePrefs(prefs);
 }
 
 async function showList(initialFilter) {
@@ -410,11 +606,22 @@ async function showList(initialFilter) {
     await a.presentAlert();
     return;
   }
-  const state = { filter: initialFilter || "", period: 0, query: "" };
-  const table = new UITable();
-  table.showSeparators = true;
-  rebuildList(table, result, state);
-  await table.present(false);
+  const prefs = loadPrefs();
+  const wv = new WebView();
+  await wv.loadHTML(listHtml(result, prefs, initialFilter));
+  let open = true;
+  const closed = wv.present(true).then(function () { open = false; return null; });
+  let errors = 0;
+  while (open && errors < 5) {
+    try {
+      const msg = await Promise.race([closed, wv.evaluateJavaScript("nextMessage(completion)", true)]);
+      if (!msg) break;
+      handleListMessage(JSON.parse(msg), prefs);
+      errors = 0;
+    } catch (e) {
+      errors += 1;
+    }
+  }
 }
 
 // ---------- Mise à jour du script ----------
