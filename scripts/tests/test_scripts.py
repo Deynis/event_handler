@@ -250,6 +250,13 @@ class TestKinepolis(unittest.TestCase):
         self.assertEqual(events[1]["version"], "VOST")
         self.assertEqual(first["url"], "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables")
 
+    def test_versions(self):
+        cases = {"Version Française": "VF", "Version Originale Sous-Titrée": "VOST", "Version Originale": "VO",
+                 "Version Allemande (Sous-tîtres : Français)": "VOST", "(Sous-titres - Anglais)": "VO ST anglais",
+                 "": None}
+        for label, expected in cases.items():
+            self.assertEqual(scrape_kinepolis.map_version(label), expected, label)
+
     def test_corporate_id(self):
         self.assertEqual(scrape_kinepolis.corporate_id("/movies/detail/36821/HO00014610/0/x"), 36821)
         self.assertIsNone(scrape_kinepolis.corporate_id(None))

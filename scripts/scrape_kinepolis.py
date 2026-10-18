@@ -16,6 +16,7 @@ puis commit + push de data/events.json.
 """
 from __future__ import annotations
 
+import re
 import sys
 from datetime import date, datetime
 
@@ -61,10 +62,12 @@ def map_version(label: str | None) -> str | None:
     n = norm(label or "")
     if not n:
         return None
-    if "originale" in n:
-        return "VOST" if "sous" in n else "VO"
-    if "francaise" in n:
+    if n.startswith("version francaise"):
         return "VF"
+    if "sous" in n:  # « Version Allemande (Sous-titres : Français) », « (Sous-titres - Anglais) »
+        return "VO ST anglais" if "anglais" in n else "VOST"
+    if "originale" in n:
+        return "VO"
     return label
 
 
@@ -79,7 +82,8 @@ def corporate_id(href: str | None) -> int | None:
 def build_events(day: date, cards: list[dict], durations: dict) -> list[dict]:
     events = []
     for card in cards:
-        if not card.get("titre"):
+        titre = re.sub(r"\s+", " ", card.get("titre") or "").strip()
+        if not titre:
             continue
         url = BASE + card["href"] if card.get("href") else PAGE_URL
         duration = durations.get(str(corporate_id(card.get("href"))))
@@ -91,11 +95,11 @@ def build_events(day: date, cards: list[dict], durations: dict) -> list[dict]:
                     continue
                 start = datetime(day.year, day.month, day.day, h, m)
                 event = {
-                    "id": make_id(LIEU, start, card["titre"]),
+                    "id": make_id(LIEU, start, titre),
                     "lieu": LIEU,
                     "ville": VILLE,
                     "categorie": "cinema",
-                    "titre": card["titre"],
+                    "titre": titre,
                     "debut": paris_iso(start),
                 }
                 if duration:
