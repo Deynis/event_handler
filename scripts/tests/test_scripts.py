@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import merge  # noqa: E402
 import scrape_kinepolis  # noqa: E402
 from common import TZ  # noqa: E402
-from sources import arsenal, philharmonie  # noqa: E402
+from sources import arsenal, nest, philharmonie  # noqa: E402
 
 # Deux mises en page plausibles : lien qui enveloppe toute la carte, ou lien sur le titre seul.
 HTML_WRAPPED = """
@@ -260,6 +260,53 @@ class TestKinepolis(unittest.TestCase):
     def test_corporate_id(self):
         self.assertEqual(scrape_kinepolis.corporate_id("/movies/detail/36821/HO00014610/0/x"), 36821)
         self.assertIsNone(scrape_kinepolis.corporate_id(None))
+
+
+NEST_SAISON = """<div class="bloc-prog">
+<article class="item"><a href="https://www.nest-theatre.fr/saison/26-27/tadam-960"><h1>Tadam</h1>
+ <p class="tag"><span><span>Théâtre</span><span>En famille</span></span></p></a></article>
+<a href="https://www.nest-theatre.fr/saison/26-27">Saison</a>
+</div>"""
+
+NEST_FICHE = """<header class="header_fiche"><h1>Huit Rois  - Sarkhollande</h1></header>
+<div class="pratique"><div class="pratique_sub_section"><p class="lieu">Théâtre de Thionville - grande salle</p></div>
+<div class="pratique_sub_section"><h4>Séances</h4><ul>
+ <li><a><strong>Théâtre de Thionville - grande salle</strong><br/><span>mardi  4 mai &agrave; 20<abbr title='heure'>h</abbr>30</span></a></li>
+ <li><a><strong>Escher Theater – Théâtre d'Esch, Esch-sur-Alzette</strong><br/><span>jeudi 14 janvier &agrave; 20<abbr>h</abbr></span></a></li>
+ <li><a><strong>En attente</strong><br/><span>vendredi 2 juillet &agrave; 00<abbr>h</abbr></span></a></li>
+ <li><a><span>lundi 18 janvier &agrave; 00<abbr>h</abbr></span></a></li>
+</ul></div></div>
+<div class="footer"><p class="tag"><span><span>Autre spectacle</span></span></p></div>"""
+
+
+class TestNest(unittest.TestCase):
+    URL = "https://www.nest-theatre.fr/saison/26-27/huit-rois-sarkhollande-964"
+
+    def test_season_page(self):
+        self.assertEqual(nest.season_years(NEST_SAISON), [("https://www.nest-theatre.fr/saison/26-27", 2026)])
+        self.assertEqual(nest.show_links(NEST_SAISON),
+                         {"https://www.nest-theatre.fr/saison/26-27/tadam-960": ["Théâtre", "En famille"]})
+
+    def test_seance_year_from_season(self):
+        self.assertEqual(nest.parse_seance("mardi 3 novembre à 20h", 2026), (datetime(2026, 11, 3, 20, 0), True))
+        self.assertEqual(nest.parse_seance("mardi 4 mai à 20 h 30", 2026), (datetime(2027, 5, 4, 20, 30), True))
+        self.assertEqual(nest.parse_seance("lundi 18 janvier à 00h", 2026), (datetime(2027, 1, 18), False))
+        self.assertIsNone(nest.parse_seance("bientôt", 2026))
+
+    def test_show_page(self):
+        events = nest.parse_show(NEST_FICHE, self.URL, 2026, ["Théâtre"])
+        self.assertEqual([e["debut"] for e in events],
+                         ["2027-05-04T20:30:00+02:00", "2027-01-14T20:00:00+01:00", "2027-07-02T00:00:00+02:00"])
+        first, esch, unknown = events
+        self.assertEqual((first["titre"], first["lieu"], first["ville"]), ("Huit Rois - Sarkhollande", "NEST", "Thionville"))
+        self.assertEqual(first["note"], "Théâtre de Thionville - grande salle - Théâtre")
+        self.assertEqual(esch["ville"], "Esch-sur-Alzette")
+        self.assertTrue(unknown["jour_entier"])
+        self.assertEqual((unknown["ville"], unknown["note"]), ("Environs de Thionville", "Lieu à confirmer - Théâtre"))
+
+    def test_ville(self):
+        self.assertEqual(nest.ville_of("salle des fêtes de Fontoy"), "Environs de Thionville")
+        self.assertEqual(nest.ville_of("Centre-ville de Thionville"), "Thionville")
 
 
 if __name__ == "__main__":

@@ -1,12 +1,12 @@
 # Widget iPhone d'événements culturels
 
-Affiche sur l'écran d'accueil iPhone les prochaines séances et événements de lieux prédéfinis (La Scala à Thionville, L'Arsenal à Metz, la Philharmonie Luxembourg, etc.). Les données viennent d'un fichier JSON hébergé sur GitHub Pages ; le widget est un script [Scriptable](https://scriptable.app). Aucun Google Calendar impliqué.
+Affiche sur l'écran d'accueil iPhone les prochaines séances et événements de lieux prédéfinis (La Scala à Thionville, L'Arsenal à Metz, la Philharmonie Luxembourg, le NEST, etc.). Les données viennent d'un fichier JSON hébergé sur GitHub Pages ; le widget est un script [Scriptable](https://scriptable.app). Aucun Google Calendar impliqué.
 
 Cette première version (étape 1 du plan) contient :
 
-- `data/events.json` : la programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) celle de L'Arsenal (Metz) et celle de la Philharmonie Luxembourg ;
+- `data/events.json` : la programmation de La Scala du 7 au 13 octobre 2026 (+ les événements à venir du PDF) celle de L'Arsenal (Metz), de la Philharmonie Luxembourg et du NEST (Thionville) ;
 - `widget/EventsWidget.js` : le widget (tailles petit / moyen / grand, filtre par lieu, cache hors ligne) ;
-- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal et de la Philharmonie, et purge des événements passés (voir « Mise à jour automatique ») ;
+- `scripts/` + `.github/workflows/refresh-scrape.yml` : mise à jour automatique de L'Arsenal, de la Philharmonie et du NEST, et purge des événements passés (voir « Mise à jour automatique ») ;
 - `pdf/` + `.github/workflows/import-pdf.yml` : import du programme hebdomadaire PDF de La Scala (voir « Importer le PDF de La Scala »).
 
 ## Installation
@@ -49,6 +49,7 @@ Le paramètre est une liste séparée par des virgules, comparée au lieu, à la
 | `concert,spectacle` | uniquement ces catégories |
 | `La Scala,L'Arsenal` | ces deux lieux |
 | `Philharmonie` | uniquement la Philharmonie Luxembourg |
+| `NEST` | uniquement le NEST (y compris ses tournées hors de Thionville) |
 
 Astuce : tu peux ajouter plusieurs widgets avec des paramètres différents (un « Cinéma », un « Concerts »).
 
@@ -66,7 +67,7 @@ Le workflow **Rafraîchir les événements** (`.github/workflows/refresh-scrape.
 À chaque passage il :
 
 1. récupère la programmation de L'Arsenal sur le site de la Cité musicale-Metz (toutes les pages, 1 requête par seconde, `robots.txt` respecté) et remplace les événements de L'Arsenal ;
-   récupère aussi la programmation de la **Philharmonie Luxembourg** (voir ci-dessous) ;
+   récupère aussi la programmation de la **Philharmonie Luxembourg** et du **NEST** (voir ci-dessous) ;
 2. **supprime les événements passés** : tout ce qui s'est terminé avant le début de la journée en cours (heure de Paris) disparaît, donc les événements de la veille sont retirés le matin. Une exposition ou un événement sur plusieurs jours reste jusqu'à son dernier jour ;
 3. vérifie que le JSON est valide (jamais de fichier cassé publié), puis le commit si quelque chose a changé.
 
@@ -78,7 +79,7 @@ Tester en local (Python 3.11+) :
 pip install -r requirements.txt
 python -m unittest discover -s scripts/tests -v     # tests sans réseau
 python scripts/merge.py                              # purge seule
-python scripts/scrape_sources.py                     # scraping de L'Arsenal et de la Philharmonie + purge
+python scripts/scrape_sources.py                     # scraping de L'Arsenal, de la Philharmonie et du NEST + purge
 python scripts/extract_pdf.py --dry-run pdf/x.pdf    # test d'un PDF de La Scala
 ```
 
@@ -91,6 +92,14 @@ Le `robots.txt` du site interdit les pages de liste paginées (`/fr/programme?pa
 - Les événements **jeune public** (Kids' Phil, familles, scolaires, Familljefestival) sont écartés : chaque fiche porte un indicateur « kids » que le parseur lit.
 - Pour ne pas rouvrir les ~400 fiches à chaque passage, `data/philharmonie-cache.json` garde le résultat de chaque fiche avec sa date de modification du sitemap : seules les fiches nouvelles ou modifiées sont relues. Le premier passage prend ~7 minutes, les suivants quelques secondes. Supprimer ce fichier force une relecture complète.
 - Si plus de 20 % des fiches lues sont illisibles, la source est considérée en échec (anciennes données conservées, e-mail de GitHub).
+
+### NEST (CDN de Thionville)
+
+`scripts/sources/nest.py` lit la page de saison du NEST (lien trouvé sur l'accueil, donc la saison suivante est prise en compte dès qu'elle est publiée), puis la fiche de chaque spectacle (1 requête par seconde). Le bloc « Séances » de la fiche donne chaque représentation, avec son lieu et son heure.
+
+- **Tournées :** beaucoup de spectacles tournent dans les villages (Boulange, Rettel, Yutz...). Ils restent sous le lieu `NEST`, mais la `ville` est celle de la représentation quand la fiche l'indique (« Espace Riom, Boulange » → Boulange), sinon « Environs de Thionville ». Le lieu exact et le genre sont dans la note.
+- **Séances sans heure :** une séance « à 00h » avec un lieu devient un événement « journée entière ». Sans lieu, c'est la borne d'une période de tournée (lycées) : elle est ignorée.
+- Les séances n'ont pas d'année sur le site : elle est déduite de la saison (août à décembre → première année, janvier à juillet → seconde).
 
 ### Kinepolis Thionville (en local)
 

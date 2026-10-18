@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T12:28:22+02:00",
+  "updated_at": "2026-10-18T17:52:23+02:00",
   "events": [
     {
       "id": "l-arsenal-2026-10-18-0000-polyphonies-du-monde",
@@ -10,7 +10,7 @@
       "debut": "2026-10-18T00:00:00+02:00",
       "fin": "2026-10-18T23:59:59+02:00",
       "jour_entier": true,
-      "note": "14 oct. - → - Découvrir",
+      "note": "14 oct. - → - Découvrir - Complet",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/week-end/polyphonies-du-monde"
     },
     {
@@ -367,16 +367,6 @@
       "version": "VF",
       "note": "Salle 6",
       "url": "https://kinepolis.fr/movies/detail/38383/HO00015948/0/ni-vue-ni-connue"
-    },
-    {
-      "id": "l-arsenal-2026-10-18-1600-viva-la-gracia",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "concert",
-      "titre": "Viva la Gracia !",
-      "debut": "2026-10-18T16:00:00+02:00",
-      "note": "Musique baroque - Découvrir",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/viva-la-gracia"
     },
     {
       "id": "la-scala-2026-10-18-1615-le-corset",
@@ -2854,6 +2844,16 @@
       "url": "https://kinepolis.fr/movies/detail/1371/HO00010849/0000000035/kultissime-hunger-games---la-revolte-part-2"
     },
     {
+      "id": "nest-2026-11-03-2000-terre-ville",
+      "lieu": "NEST",
+      "ville": "Terville",
+      "categorie": "spectacle",
+      "titre": "Terre-Ville",
+      "debut": "2026-11-03T20:00:00+01:00",
+      "note": "Le 112, Terville - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/terre-ville-957"
+    },
+    {
       "id": "theatre-2026-11-03-une-heure-a-t-attendre",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -3048,6 +3048,16 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "nest-2026-11-11-1900-l-art-d-avoir-toujours-raison",
+      "lieu": "NEST",
+      "ville": "Boulange",
+      "categorie": "spectacle",
+      "titre": "L'art d'avoir toujours raison",
+      "debut": "2026-11-11T19:00:00+01:00",
+      "note": "Espace Riom, Boulange - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/l-art-d-avoir-toujours-raison-958"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-11-1930-huelgas-ensemble",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -3080,6 +3090,26 @@
       "url": "https://kinepolis.fr/movies/detail/38886/HO00016738/0000000038/george-michael-the-faith-tour"
     },
     {
+      "id": "nest-2026-11-12-2000-l-art-d-avoir-toujours-raison",
+      "lieu": "NEST",
+      "ville": "Entrange",
+      "categorie": "spectacle",
+      "titre": "L'art d'avoir toujours raison",
+      "debut": "2026-11-12T20:00:00+01:00",
+      "note": "Espace Charles Ferdinand, Entrange - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/l-art-d-avoir-toujours-raison-958"
+    },
+    {
+      "id": "nest-2026-11-13-2000-l-art-d-avoir-toujours-raison",
+      "lieu": "NEST",
+      "ville": "Mondorff",
+      "categorie": "spectacle",
+      "titre": "L'art d'avoir toujours raison",
+      "debut": "2026-11-13T20:00:00+01:00",
+      "note": "Foyer socio-éducatif  L'Altbach, Mondorff - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/l-art-d-avoir-toujours-raison-958"
+    },
+    {
       "id": "theatre-2026-11-13-verino-rodeo",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -3099,6 +3129,16 @@
       "debut": "2026-11-14T19:30:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-community-the-duke-s-singers-000000e9001d0fce"
+    },
+    {
+      "id": "nest-2026-11-14-2000-l-art-d-avoir-toujours-raison",
+      "lieu": "NEST",
+      "ville": "Ranguevaux",
+      "categorie": "spectacle",
+      "titre": "L'art d'avoir toujours raison",
+      "debut": "2026-11-14T20:00:00+01:00",
+      "note": "Foyer socio culturel Lucien Perera, Ranguevaux - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/l-art-d-avoir-toujours-raison-958"
     },
     {
       "id": "l-arsenal-2026-11-15-0000-cimarron",
@@ -3762,6 +3802,16 @@
       "url": "https://kinepolis.fr/movies/detail/3532/HO00016735/0000000035/kultissime-taxi-driver"
     },
     {
+      "id": "nest-2026-11-24-2000-pas-de-souci",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Pas de souci",
+      "debut": "2026-11-24T20:00:00+01:00",
+      "note": "Théâtre de Thionville - petite salle - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/pas-de-souci-959"
+    },
+    {
       "id": "l-arsenal-2026-11-25-1400-visite-l-envers-du-decor",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -3770,6 +3820,16 @@
       "debut": "2026-11-25T14:00:00+01:00",
       "note": "Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/visite-lenvers-du-decor-17"
+    },
+    {
+      "id": "nest-2026-11-25-1900-pas-de-souci",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Pas de souci",
+      "debut": "2026-11-25T19:00:00+01:00",
+      "note": "Théâtre de Thionville - petite salle - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/pas-de-souci-959"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-25-1930-dmitry-shishkin",
@@ -3802,6 +3862,36 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/antigonick"
     },
     {
+      "id": "nest-2026-11-26-2000-pas-de-souci",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Pas de souci",
+      "debut": "2026-11-26T20:00:00+01:00",
+      "note": "Théâtre de Thionville - petite salle - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/pas-de-souci-959"
+    },
+    {
+      "id": "nest-2026-11-27-1000-tadam",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Tadam",
+      "debut": "2026-11-27T10:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / En famille",
+      "url": "https://www.nest-theatre.fr/saison/26-27/tadam-960"
+    },
+    {
+      "id": "nest-2026-11-27-1430-tadam",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Tadam",
+      "debut": "2026-11-27T14:30:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / En famille",
+      "url": "https://www.nest-theatre.fr/saison/26-27/tadam-960"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-27-1930-jakob-bro-trio",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -3820,6 +3910,16 @@
       "debut": "2026-11-27T20:00:00+01:00",
       "note": "Danse - Compagnie Kosa, Rémi Richaud - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/spectacle/life-is-a-party-and-im-the-pinata"
+    },
+    {
+      "id": "nest-2026-11-27-2000-pas-de-souci",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Pas de souci",
+      "debut": "2026-11-27T20:00:00+01:00",
+      "note": "Théâtre de Thionville - petite salle - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/pas-de-souci-959"
     },
     {
       "id": "l-arsenal-2026-11-28-0000-born-bad-records",
@@ -3842,6 +3942,16 @@
       "debut": "2026-11-28T19:30:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-lady-live-in-lux-000000e9001d04dc"
+    },
+    {
+      "id": "nest-2026-11-29-1100-tadam",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Tadam",
+      "debut": "2026-11-29T11:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / En famille",
+      "url": "https://www.nest-theatre.fr/saison/26-27/tadam-960"
     },
     {
       "id": "adagio-2026-11-29-nectar-percussions",
@@ -4142,6 +4252,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-de-noel-3"
     },
     {
+      "id": "nest-2026-12-13-1000-textes-sans-frontieres",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Textes sans frontières",
+      "debut": "2026-12-13T10:00:00+01:00",
+      "note": "Théâtre de Thionville - Lecture",
+      "url": "https://www.nest-theatre.fr/saison/26-27/textes-sans-frontieres-1000"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-12-13-1600-duel-d-improvisation",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -4343,6 +4463,16 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "nest-2026-12-18-1000-ultra-saucisse",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Ultra Saucisse",
+      "debut": "2026-12-18T10:00:00+01:00",
+      "note": "Théâtre de Thionville - Marché",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ultra-saucisse-986"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-18-1330-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -4367,6 +4497,16 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "nest-2026-12-18-1730-ultra-saucisse",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Ultra Saucisse",
+      "debut": "2026-12-18T17:30:00+01:00",
+      "note": "Théâtre de Thionville - Marché",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ultra-saucisse-986"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-12-18-1930-home-alone",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -4375,6 +4515,16 @@
       "debut": "2026-12-18T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/home-alone-000000e9001c6828"
+    },
+    {
+      "id": "nest-2026-12-18-2000-d-autres-familles-que-la-mienne",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "D'autres familles que la mienne",
+      "debut": "2026-12-18T20:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Marché / Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/d-autres-familles-que-la-mienne-985"
     },
     {
       "id": "kinepolis-thionville-2026-12-18-2025-avengers-doomsday",
@@ -4413,6 +4563,16 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "nest-2026-12-19-1600-ultra-saucisse",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Ultra Saucisse",
+      "debut": "2026-12-19T16:00:00+01:00",
+      "note": "Théâtre de Thionville - Marché",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ultra-saucisse-986"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-19-1655-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -4444,6 +4604,16 @@
       "note": "Le Symphonique de Thionville-Moselle & Maîtrise de la cathédrale de Metz (billet gratuit à retirer au Théâtre)",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "nest-2026-12-19-2000-d-autres-familles-que-la-mienne",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "D'autres familles que la mienne",
+      "debut": "2026-12-19T20:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Marché / Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/d-autres-familles-que-la-mienne-985"
     },
     {
       "id": "kinepolis-thionville-2026-12-19-2025-avengers-doomsday",
@@ -4739,6 +4909,16 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/yacine-boulares-000000e9001d38be"
     },
     {
+      "id": "nest-2027-01-14-2000-hokuspokus",
+      "lieu": "NEST",
+      "ville": "Esch-sur-Alzette",
+      "categorie": "spectacle",
+      "titre": "Hokuspokus",
+      "debut": "2027-01-14T20:00:00+01:00",
+      "note": "Escher Theater – Théâtre d'Esch, Esch-sur-Alzette - Théâtre d'objets et marionnette",
+      "url": "https://www.nest-theatre.fr/saison/26-27/hokuspokus-974"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-01-15-1930-alexandra-grimal",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -5022,6 +5202,26 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-4-strings-part-iii-000000e9001c3e62"
     },
     {
+      "id": "nest-2027-01-26-2000-huit-rois-le-diner-chez-les-francais-de-v-giscard-d-estaing",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Huit Rois - Le Diner chez les Français de V. Giscard D'Estaing",
+      "debut": "2027-01-26T20:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/huit-rois-le-diner-chez-les-francais-de-v-giscard-d-estaing-963"
+    },
+    {
+      "id": "nest-2027-01-27-1900-huit-rois-generation-mitterand",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Huit Rois - Génération Mitterand",
+      "debut": "2027-01-27T19:00:00+01:00",
+      "note": "Théâtre de Thionville - petite salle - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/huit-rois-generation-mitterand-962"
+    },
+    {
       "id": "l-arsenal-2027-01-27-2000-janua-echos-du-dernier-schisme",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -5040,6 +5240,16 @@
       "debut": "2027-01-28T20:00:00+01:00",
       "note": "Danse - Amala Dianor - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/dub"
+    },
+    {
+      "id": "nest-2027-01-28-2000-huit-rois-sarkhollande",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Huit Rois - Sarkhollande",
+      "debut": "2027-01-28T20:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / Clown",
+      "url": "https://www.nest-theatre.fr/saison/26-27/huit-rois-sarkhollande-964"
     },
     {
       "id": "philharmonie-luxembourg-2027-01-29-1930-beethoven-in-d-major",
@@ -5090,6 +5300,26 @@
       "debut": "2027-02-02T19:30:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/julia-lezhneva-alexander-melnikov-000000e9001cef1e"
+    },
+    {
+      "id": "nest-2027-02-02-2000-au-secours-la-realite",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Au secours la réalité",
+      "debut": "2027-02-02T20:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/au-secours-la-realite-965"
+    },
+    {
+      "id": "nest-2027-02-03-1900-au-secours-la-realite",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Au secours la réalité",
+      "debut": "2027-02-03T19:00:00+01:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/au-secours-la-realite-965"
     },
     {
       "id": "philharmonie-luxembourg-2027-02-03-1930-a-thousand-possible-ends-of-the-world",
@@ -5206,6 +5436,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/nacken"
     },
     {
+      "id": "nest-2027-02-09-1800-huit-rois-la-vie-et-la-mort-de-j-chirac-roi-des-francais",
+      "lieu": "NEST",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Huit rois - La vie et la mort de J. Chirac roi des Français",
+      "debut": "2027-02-09T18:00:00+01:00",
+      "note": "Théâtre Bernard-Marie Koltès, Metz - Théâtre / Clown",
+      "url": "https://www.nest-theatre.fr/saison/26-27/huit-rois-la-vie-et-la-mort-de-j-chirac-roi-des-francais-978"
+    },
+    {
       "id": "theatre-2027-02-09-bigre",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -5215,6 +5455,26 @@
       "note": "Théâtre - Compagnie Le Fils du Grand Réseau",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "nest-2027-02-10-1400-huit-rois-la-vie-et-la-mort-de-j-chirac-roi-des-francais",
+      "lieu": "NEST",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Huit rois - La vie et la mort de J. Chirac roi des Français",
+      "debut": "2027-02-10T14:00:00+01:00",
+      "note": "Théâtre Bernard-Marie Koltès, Metz - Théâtre / Clown",
+      "url": "https://www.nest-theatre.fr/saison/26-27/huit-rois-la-vie-et-la-mort-de-j-chirac-roi-des-francais-978"
+    },
+    {
+      "id": "nest-2027-02-10-1900-huit-rois-la-vie-et-la-mort-de-j-chirac-roi-des-francais",
+      "lieu": "NEST",
+      "ville": "Metz",
+      "categorie": "spectacle",
+      "titre": "Huit rois - La vie et la mort de J. Chirac roi des Français",
+      "debut": "2027-02-10T19:00:00+01:00",
+      "note": "Théâtre Bernard-Marie Koltès, Metz - Théâtre / Clown",
+      "url": "https://www.nest-theatre.fr/saison/26-27/huit-rois-la-vie-et-la-mort-de-j-chirac-roi-des-francais-978"
     },
     {
       "id": "l-arsenal-2027-02-11-2000-chassol",
@@ -5298,6 +5558,26 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/du-vent-dans-les-cordes"
     },
     {
+      "id": "nest-2027-02-16-2000-ulysses",
+      "lieu": "NEST",
+      "ville": "Yutz",
+      "categorie": "spectacle",
+      "titre": "Ulysses",
+      "debut": "2027-02-16T20:00:00+01:00",
+      "note": "Salle Bestien, Yutz - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ulysses-966"
+    },
+    {
+      "id": "nest-2027-02-17-1900-ulysses",
+      "lieu": "NEST",
+      "ville": "Angevillers",
+      "categorie": "spectacle",
+      "titre": "Ulysses",
+      "debut": "2027-02-17T19:00:00+01:00",
+      "note": "Salle socioculturelle, Angevillers - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ulysses-966"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-02-17-1930-the-tallis-scholars",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -5329,6 +5609,16 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/turning-points-000000e9001bcb8c"
     },
     {
+      "id": "nest-2027-02-18-2000-ulysses",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Ulysses",
+      "debut": "2027-02-18T20:00:00+01:00",
+      "note": "Maison des Quartiers Côte des Roses, Thionville - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ulysses-966"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-02-19-1930-daniil-trifonov-period",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -5350,6 +5640,16 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "nest-2027-02-19-2000-ulysses",
+      "lieu": "NEST",
+      "ville": "Environs de Thionville",
+      "categorie": "spectacle",
+      "titre": "Ulysses",
+      "debut": "2027-02-19T20:00:00+01:00",
+      "note": "Lieu à confirmer - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ulysses-966"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-02-20-1930-stefano-bollani-quintet",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -5358,6 +5658,16 @@
       "debut": "2027-02-20T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/stefano-bollani-quintet-000000e9001d5955"
+    },
+    {
+      "id": "nest-2027-02-20-2000-ulysses",
+      "lieu": "NEST",
+      "ville": "Environs de Thionville",
+      "categorie": "spectacle",
+      "titre": "Ulysses",
+      "debut": "2027-02-20T20:00:00+01:00",
+      "note": "Espace Ottange Nondkeil - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/ulysses-966"
     },
     {
       "id": "philharmonie-luxembourg-2027-02-21-1930-jan-liebermann",
@@ -5890,6 +6200,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/incandescences-sacrees-a-naples"
     },
     {
+      "id": "nest-2027-03-25-2000-l-odeur-des-tissus",
+      "lieu": "NEST",
+      "ville": "Nancy",
+      "categorie": "spectacle",
+      "titre": "L'Odeur des tissus",
+      "debut": "2027-03-25T20:00:00+01:00",
+      "note": "Théâtre La Manufacture, Nancy - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/l-odeur-des-tissus-975"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-03-26-1930-anna-lapwood",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -6296,6 +6616,26 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/roman-borisov-000000e9001c3c1c"
     },
     {
+      "id": "nest-2027-05-04-2000-l-ennemie-du-peuple",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "L'Ennemie du peuple",
+      "debut": "2027-05-04T20:00:00+02:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/l-ennemie-du-peuple-968"
+    },
+    {
+      "id": "nest-2027-05-05-1900-l-ennemie-du-peuple",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "L'Ennemie du peuple",
+      "debut": "2027-05-05T19:00:00+02:00",
+      "note": "Théâtre de Thionville - grande salle - Théâtre / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/l-ennemie-du-peuple-968"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-05-05-1930-dee-dee-bridgewater-gast-waltzing",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -6326,6 +6666,16 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/schumann-meets-faust-000000e9001c050b"
     },
     {
+      "id": "nest-2027-05-09-1100-foudroyantes",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Foudroyantes",
+      "debut": "2027-05-09T11:00:00+02:00",
+      "note": "Maison des Quartiers Côte des Roses, Thionville - Théâtre / En famille / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/foudroyantes-969"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-05-09-1930-europaconcert",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -6334,6 +6684,26 @@
       "debut": "2027-05-09T19:30:00+02:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/europaconcert-000000e9001d16a5"
+    },
+    {
+      "id": "nest-2027-05-10-1000-foudroyantes",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Foudroyantes",
+      "debut": "2027-05-10T10:00:00+02:00",
+      "note": "Maison des Quartiers Côte des Roses, Thionville - Théâtre / En famille / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/foudroyantes-969"
+    },
+    {
+      "id": "nest-2027-05-10-1430-foudroyantes",
+      "lieu": "NEST",
+      "ville": "Thionville",
+      "categorie": "spectacle",
+      "titre": "Foudroyantes",
+      "debut": "2027-05-10T14:30:00+02:00",
+      "note": "Maison des Quartiers Côte des Roses, Thionville - Théâtre / En famille / Création",
+      "url": "https://www.nest-theatre.fr/saison/26-27/foudroyantes-969"
     },
     {
       "id": "philharmonie-luxembourg-2027-05-10-1930-yuja-wang",
@@ -6715,6 +7085,26 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "nest-2027-06-03-2000-la-pastasciutta-antifascista-de-casa-cervi",
+      "lieu": "NEST",
+      "ville": "Environs de Thionville",
+      "categorie": "spectacle",
+      "titre": "La Pastasciutta Antifascista de Casa Cervi",
+      "debut": "2027-06-03T20:00:00+02:00",
+      "note": "Lieu à confirmer - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/la-pastasciutta-antifascista-de-casa-cervi-970"
+    },
+    {
+      "id": "nest-2027-06-04-2000-la-pastasciutta-antifascista-de-casa-cervi",
+      "lieu": "NEST",
+      "ville": "Environs de Thionville",
+      "categorie": "spectacle",
+      "titre": "La Pastasciutta Antifascista de Casa Cervi",
+      "debut": "2027-06-04T20:00:00+02:00",
+      "note": "Lieu à confirmer - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/la-pastasciutta-antifascista-de-casa-cervi-970"
+    },
+    {
       "id": "l-arsenal-2027-06-05-0000-entre-temps",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -6757,6 +7147,16 @@
       "version": "VOST",
       "note": "Salle 3",
       "url": "https://kinepolis.fr/movies/detail/38157/HO00015753/0000000024/saison-26-27-parsifal"
+    },
+    {
+      "id": "nest-2027-06-05-2000-la-pastasciutta-antifascista-de-casa-cervi",
+      "lieu": "NEST",
+      "ville": "Environs de Thionville",
+      "categorie": "spectacle",
+      "titre": "La Pastasciutta Antifascista de Casa Cervi",
+      "debut": "2027-06-05T20:00:00+02:00",
+      "note": "Lieu à confirmer - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/la-pastasciutta-antifascista-de-casa-cervi-970"
     },
     {
       "id": "philharmonie-luxembourg-2027-06-06-1000-heemspill-community-4e-concours-europeen",
@@ -6931,6 +7331,16 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/floating"
     },
     {
+      "id": "nest-2027-06-17-1900-la-nuit-des-temps-partie-2",
+      "lieu": "NEST",
+      "ville": "Rettel",
+      "categorie": "spectacle",
+      "titre": "La Nuit des temps - Partie 2",
+      "debut": "2027-06-17T19:00:00+02:00",
+      "note": "Ferme du Chambeyron, Rettel - Théâtre / Création / Marché",
+      "url": "https://www.nest-theatre.fr/saison/26-27/la-nuit-des-temps-partie-2-971"
+    },
+    {
       "id": "philharmonie-luxembourg-2027-06-17-1930-hisaishi-conducts-hisaishi",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -6941,6 +7351,26 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/hisaishi-conducts-hisaishi-000000e9001be922"
     },
     {
+      "id": "nest-2027-06-18-1730-nenna",
+      "lieu": "NEST",
+      "ville": "Rettel",
+      "categorie": "spectacle",
+      "titre": "Nenna",
+      "debut": "2027-06-18T17:30:00+02:00",
+      "note": "Ferme du Chambeyron, Rettel - Marché / Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/nenna-972"
+    },
+    {
+      "id": "nest-2027-06-18-1900-la-nuit-des-temps-partie-2",
+      "lieu": "NEST",
+      "ville": "Rettel",
+      "categorie": "spectacle",
+      "titre": "La Nuit des temps - Partie 2",
+      "debut": "2027-06-18T19:00:00+02:00",
+      "note": "Ferme du Chambeyron, Rettel - Théâtre / Création / Marché",
+      "url": "https://www.nest-theatre.fr/saison/26-27/la-nuit-des-temps-partie-2-971"
+    },
+    {
       "id": "l-arsenal-2027-06-18-2000-concert-de-cloture-la-symphonie-fantastique-de-berlioz",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -6949,6 +7379,16 @@
       "debut": "2027-06-18T20:00:00+02:00",
       "note": "Symphonique - Orchestre national de Metz Grand Est, David Reiland, Hanna-Elisabeth Müller - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-de-cloture-la-symphonie-fantastique-de-berlioz"
+    },
+    {
+      "id": "nest-2027-06-19-1900-la-nuit-des-temps-partie-2",
+      "lieu": "NEST",
+      "ville": "Rettel",
+      "categorie": "spectacle",
+      "titre": "La Nuit des temps - Partie 2",
+      "debut": "2027-06-19T19:00:00+02:00",
+      "note": "Ferme du Chambeyron, Rettel - Théâtre / Création / Marché",
+      "url": "https://www.nest-theatre.fr/saison/26-27/la-nuit-des-temps-partie-2-971"
     },
     {
       "id": "philharmonie-luxembourg-2027-06-20-1930-kirill-petrenko-conducts-mahler-5",
@@ -6989,6 +7429,26 @@
       "debut": "2027-06-27T17:00:00+02:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/orchestre-place-de-l-europe-000000e9001d09ae"
+    },
+    {
+      "id": "nest-2027-07-02-1400-petit-quelqu-un",
+      "lieu": "NEST",
+      "ville": "Environs de Thionville",
+      "categorie": "spectacle",
+      "titre": "Petit quelqu'un",
+      "debut": "2027-07-02T14:00:00+02:00",
+      "note": "Lieu à confirmer - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/petit-quelqu-un-973"
+    },
+    {
+      "id": "nest-2027-07-02-1900-petit-quelqu-un",
+      "lieu": "NEST",
+      "ville": "Environs de Thionville",
+      "categorie": "spectacle",
+      "titre": "Petit quelqu'un",
+      "debut": "2027-07-02T19:00:00+02:00",
+      "note": "Lieu à confirmer - Théâtre",
+      "url": "https://www.nest-theatre.fr/saison/26-27/petit-quelqu-un-973"
     },
     {
       "id": "philharmonie-luxembourg-2027-07-03-2100-summerconcert-op-der-kinnekswiss",

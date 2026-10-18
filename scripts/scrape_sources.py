@@ -14,9 +14,9 @@ import sys
 import traceback
 
 import merge
-from sources import arsenal, philharmonie
+from sources import arsenal, nest, philharmonie
 
-SOURCES = [arsenal, philharmonie]
+SOURCES = [arsenal, philharmonie, nest]
 
 
 def main() -> int:
