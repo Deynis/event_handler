@@ -1,111 +1,6 @@
 {
-  "updated_at": "2026-10-17T18:57:00+02:00",
+  "updated_at": "2026-10-18T10:08:41+02:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-17-1320-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-17T13:20:00+02:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-17-1340-her-private-hell",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Her Private Hell",
-      "debut": "2026-10-17T13:40:00+02:00",
-      "duree_min": 110,
-      "version": "VOST",
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-17-1550-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-17T15:50:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-17-1600-au-fil-de-l-eau-de-l-insouciance-a-la-desobeissance",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "festival",
-      "titre": "Au fil de l'eau, de l'insouciance à la désobéïssance",
-      "debut": "2026-10-17T16:00:00+02:00",
-      "duree_min": 52,
-      "note": "Festival AlimenTerre",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-17-1740-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-17T17:40:00+02:00",
-      "duree_min": 117,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "l-arsenal-2026-10-17-1800-la-villanella",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "La Villanella",
-      "debut": "2026-10-17T18:00:00+02:00",
-      "note": "Grandes voix, Musiques du monde, Musique baroque - La naissance du chant napolitain - Découvrir - Dernières places",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/la-villanella"
-    },
-    {
-      "id": "la-scala-2026-10-17-1800-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-17T18:00:00+02:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-17-1950-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-17T19:50:00+02:00",
-      "duree_min": 159,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "l-arsenal-2026-10-17-2000-andrei-korobeinikov-rachmaninov",
-      "lieu": "L'Arsenal",
-      "ville": "Metz",
-      "categorie": "spectacle",
-      "titre": "Andreï Korobeinikov & Rachmaninov",
-      "debut": "2026-10-17T20:00:00+02:00",
-      "note": "Symphonique, Piano - Johannes Brahms, Béla Bartók, Orchestre national de Metz Grand Est, dirigé par Kevin John Edusei - Découvrir",
-      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/andrei-korobeinikov-rachmaninov"
-    },
-    {
-      "id": "la-scala-2026-10-17-2000-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-17T20:00:00+02:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "l-arsenal-2026-10-18-0000-polyphonies-du-monde",
       "lieu": "L'Arsenal",
@@ -529,6 +424,18 @@
       "jour_entier": true,
       "note": "Symphonique - dès 5 ans - Musiciennes et musiciens de l’Orchestre national de Metz Grand Est, Chloé Meyzie - 23 oct. - → - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/en-famille/le-bal-des-sorcieres"
+    },
+    {
+      "id": "l-arsenal-2026-10-24-0000-show-devant-les-enfants",
+      "lieu": "L'Arsenal",
+      "ville": "Metz",
+      "categorie": "festival",
+      "titre": "Show devant les enfants !",
+      "debut": "2026-10-24T00:00:00+02:00",
+      "fin": "2026-10-24T23:59:59+02:00",
+      "jour_entier": true,
+      "note": "21 oct. - → - Découvrir",
+      "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/festival/show-devant-les-enfants-3"
     },
     {
       "id": "theatre-2026-10-28-pillowgraphies",
