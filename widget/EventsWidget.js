@@ -327,7 +327,7 @@ const CATEGORY_LABELS = { cinema: "Cinéma", concert: "Concert", spectacle: "Spe
 
 // La liste est une page web (WebView) : c'est le seul moyen de gérer les swipes.
 // Swipe à gauche : masquer le film ; à droite : favori ★. La page envoie chaque geste
-// au script (file de messages lue par evaluateJavaScript), qui l'enregistre.
+// au script (navigation widget:// interceptée par shouldAllowRequest), qui l'enregistre.
 
 function listItems(data, prefs, now) {
   const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -413,13 +413,19 @@ var DATA = __DATA__;
 var items = DATA.items, prefs = DATA.prefs;
 var THRESHOLD = 80;
 
-// File de messages vers Scriptable : il appelle nextMessage(completion) en boucle.
-var queue = [], waiter = null;
+// Messages vers Scriptable : une navigation vers widget://msg?d=... que le script
+// intercepte (shouldAllowRequest) et annule. Espacées pour qu'aucune n'en annule une autre.
+var queue = [], flushing = false;
 function send(msg) {
-  var s = JSON.stringify(msg);
-  if (waiter) { var w = waiter; waiter = null; w(s); } else queue.push(s);
+  queue.push("widget://msg?d=" + encodeURIComponent(JSON.stringify(msg)));
+  if (!flushing) flush();
 }
-function nextMessage(cb) { if (queue.length) cb(queue.shift()); else waiter = cb; }
+function flush() {
+  if (!queue.length) { flushing = false; return; }
+  flushing = true;
+  location.href = queue.shift();
+  setTimeout(flush, 80);
+}
 
 function norm(s) { return String(s || "").normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().trim(); }
 function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -608,20 +614,18 @@ async function showList(initialFilter) {
   }
   const prefs = loadPrefs();
   const wv = new WebView();
-  await wv.loadHTML(listHtml(result, prefs, initialFilter));
-  let open = true;
-  const closed = wv.present(true).then(function () { open = false; return null; });
-  let errors = 0;
-  while (open && errors < 5) {
+  // Ne jamais laisser un evaluateJavaScript en attente : il bloque l'affichage de la page.
+  wv.shouldAllowRequest = function (req) {
+    const url = String(req.url || "");
+    if (url.indexOf("widget://msg") !== 0) return true;
     try {
-      const msg = await Promise.race([closed, wv.evaluateJavaScript("nextMessage(completion)", true)]);
-      if (!msg) break;
-      handleListMessage(JSON.parse(msg), prefs);
-      errors = 0;
-    } catch (e) {
-      errors += 1;
-    }
-  }
+      const d = url.match(/[?&]d=([^&]*)/);
+      if (d) handleListMessage(JSON.parse(decodeURIComponent(d[1])), prefs);
+    } catch (e) { /* message illisible : ignoré */ }
+    return false;
+  };
+  await wv.loadHTML(listHtml(result, prefs, initialFilter));
+  await wv.present(true);
 }
 
 // ---------- Mise à jour du script ----------

@@ -97,7 +97,7 @@ Principes :
 - Le script construit la page (`listHtml`) avec les événements à venir, y compris les masqués, et les choix de l'utilisateur. Le filtrage, le regroupement et les gestes se font ensuite dans la page.
 - Les données sont injectées avec `<` échappé, et tout le texte passe par `textContent`. Un titre récupéré sur un site ne peut donc pas injecter de HTML.
 - Swipe à gauche au-delà de 80 px : masquer. Swipe à droite : basculer le favori. Un toast propose « Annuler » pendant 4 s. Dans la vue « Masqués », un swipe dans un sens ou dans l'autre réaffiche le film.
-- La page empile ses messages (`hide`, `unhide`, `fav`, `unfav`, `open`). Le script les lit en boucle avec `evaluateJavaScript("nextMessage(completion)", true)` jusqu'à la fermeture de la vue, et enregistre chaque choix aussitôt. `open` ouvre la page de l'événement dans Safari.
+- La page envoie ses messages (`hide`, `unhide`, `fav`, `unfav`, `open`) en naviguant vers `widget://msg?d=<json>` (espacés de 80 ms). Le script les intercepte dans `shouldAllowRequest`, annule la navigation et enregistre chaque choix aussitôt. `open` ouvre la page de l'événement dans Safari. (Ne pas utiliser `evaluateJavaScript(..., true)` en attente d'un geste : il bloque l'affichage de la WebView.)
 - Les choix sont stockés dans `events-prefs.json`, dans les documents locaux de Scriptable : `{ "hidden": {clé: true}, "favorites": {clé: true} }`. La clé vaut `lieu|titre` normalisés (`eventKey`), donc un choix couvre toutes les séances d'un film dans un lieu. Ce fichier n'est pas touché par la mise à jour automatique du script.
 - Le widget lit les mêmes choix : il écarte les films masqués, préfixe les favoris d'une ★, et le terme de filtre `favoris` ne garde que ceux-ci.
 
