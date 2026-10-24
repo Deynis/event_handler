@@ -4,6 +4,7 @@
 
 // ============================================================
 //  Widget « Prochains événements culturels » (Scriptable)
+//  Version 1.1 - publiée le 24/10/2026
 //  Lit data/events.json hébergé sur GitHub Pages.
 //
 //  Paramètre du widget (facultatif) : filtre séparé par des virgules
