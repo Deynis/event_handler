@@ -1,7 +1,8 @@
 """Import du PDF hebdomadaire de La Scala (Thionville) vers data/events.json.
 
 Usage :
-    python scripts/extract_pdf.py                    # traite tous les pdf/*.pdf
+    python scripts/extract_pdf.py                    # traite tous les pdf/*.pdf et jpg/*.jpg
+    python scripts/extract_pdf.py jpg/grille.jpg     # grille publiée en image (OCR, voir extract_jpg.py)
     python scripts/extract_pdf.py pdf/mon-fichier.pdf
     python scripts/extract_pdf.py --dry-run pdf/mon-fichier.pdf   # affiche sans écrire
 
@@ -36,6 +37,7 @@ LIEU = "La Scala"
 VILLE = "Thionville"
 URL = "https://www.thionville.fr/scala/programmation-cinema"
 
+IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png"}
 TIME_RE = re.compile(r"^(\d{1,2})h(\d{2})$")
 DURATION_RE = re.compile(r"^(\d+)h(\d{2})$")
 VERSIONS = {"VOST", "VF", "VO", "VOSTFR"}
@@ -275,36 +277,50 @@ def parse_page(page) -> Page:
                     warnings.append(f"« {film.title} » : texte inattendu dans la grille : {w['text']!r}")
                     continue
                 film.times.append((col, int(m.group(1)), int(m.group(2))))
-            minutes, version, extras = film_summary(film)
-            category = "festival" if band_note and "festival" in norm(band_note) else "cinema"
-            note = ", ".join(x for x in [band_note, *extras] if x) or None
-            for col, hh, mm in sorted(film.times):
-                start = datetime.combine(week_start + timedelta(days=col), dtime(hh, mm))
-                events.append(_event(film.title, start, minutes, version, note, category))
+            events += grid_events(film, week_start, band_note)
         else:
             entries = parse_date_entries(group_lines(right), right_edge)
-            if len(entries) != len(films):
-                warnings.append(
-                    f"événements à venir ignorés : {len(films)} film(s) mais {len(entries)} date(s) "
-                    f"({[f.title for f in films]})")
-                continue
             heading, group_note = group_note, None  # le titre de groupe ne couvre que cette ligne
-            for film, entry in zip(films, entries):
-                minutes, version, extras = film_summary(film)
-                try:
-                    day = resolve_year(entry["month"], entry["day"], week_end, week_start)
-                    start = datetime.combine(day, dtime(entry["hour"], entry["minute"]))
-                except ValueError:
-                    warnings.append(f"date invalide pour « {film.title} »")
-                    continue
-                category = "festival" if heading and "festival" in norm(heading) else "cinema"
-                note = " - ".join(x for x in [heading, entry["note"], *extras] if x) or None
-                events.append(_event(film.title, start, minutes, version, note, category))
+            events += upcoming_events(films, entries, heading, week_start, week_end, warnings)
 
     return Page(week_start, week_end, events, warnings)
 
 
-def parse_date_entries(right_lines, right_edge: float) -> list[dict]:
+def grid_events(film: Film, week_start: date, band_note: str | None) -> list[dict]:
+    """Séances d'un film de la grille (film.times rempli)."""
+    minutes, version, extras = film_summary(film)
+    category = "festival" if band_note and "festival" in norm(band_note) else "cinema"
+    note = ", ".join(x for x in [band_note, *extras] if x) or None
+    return [_event(film.title, datetime.combine(week_start + timedelta(days=col), dtime(hh, mm)),
+                   minutes, version, note, category)
+            for col, hh, mm in sorted(film.times)]
+
+
+def upcoming_events(films, entries, heading, week_start, week_end, warnings) -> list[dict]:
+    """Ligne « Événements à venir » : chaque film associé à sa date."""
+    if len(entries) == 1 and len(films) > 1:  # double programme : une date pour tous les films
+        entries = entries * len(films)
+    if len(entries) != len(films):
+        warnings.append(
+            f"événements à venir ignorés : {len(films)} film(s) mais {len(entries)} date(s) "
+            f"({[f.title for f in films]})")
+        return []
+    events = []
+    for film, entry in zip(films, entries):
+        minutes, version, extras = film_summary(film)
+        try:
+            day = resolve_year(entry["month"], entry["day"], week_end, week_start)
+            start = datetime.combine(day, dtime(entry["hour"], entry["minute"]))
+        except ValueError:
+            warnings.append(f"date invalide pour « {film.title} »")
+            continue
+        category = "festival" if heading and "festival" in norm(heading) else "cinema"
+        note = " - ".join(x for x in [heading, entry["note"], *extras] if x) or None
+        events.append(_event(film.title, start, minutes, version, note, category))
+    return events
+
+
+def parse_date_entries(right_lines, right_edge: float, wrap_gap: float = 25) -> list[dict]:
     """Colonne de droite de « Événements à venir » : une date en gras, puis ses notes."""
     entries: list[dict] = []
     prev_line = None
@@ -321,7 +337,7 @@ def parse_date_entries(right_lines, right_edge: float) -> list[dict]:
         elif entries:
             notes = entries[-1]["note_lines"]
             # Ligne qui continue la précédente (retour à la ligne automatique) : on la colle
-            if notes and prev_line is not None and right_edge - prev_line[-1]["x1"] < 25:
+            if notes and prev_line is not None and right_edge - prev_line[-1]["x1"] < wrap_gap:
                 notes[-1] += " " + text
             else:
                 notes.append(text)
@@ -361,13 +377,20 @@ def parse_pdf(path: Path) -> Page:
     return result
 
 
+def parse_file(path: Path) -> Page:
+    if path.suffix.lower() in IMAGE_SUFFIXES:
+        import extract_jpg  # OCR : dépendances chargées seulement si besoin
+        return extract_jpg.parse_image(path)
+    return parse_pdf(path)
+
+
 def import_pdfs(paths: list[Path], dry_run: bool = False) -> int:
     doc = merge.load()
     events = doc["events"]
     status = 0
     for path in paths:
         try:
-            page = parse_pdf(path)
+            page = parse_file(path)
         except Exception as exc:  # noqa: BLE001
             print(f"::error::{path.name} : {exc}")
             status = 1
@@ -392,9 +415,12 @@ def import_pdfs(paths: list[Path], dry_run: bool = False) -> int:
 def main(argv: list[str]) -> int:
     dry_run = "--dry-run" in argv
     args = [a for a in argv if not a.startswith("--")]
-    paths = [Path(a) for a in args] or sorted((merge.ROOT / "pdf").glob("*.pdf"))
+    paths = [Path(a) for a in args] or sorted(
+        [*(merge.ROOT / "pdf").glob("*.pdf"),
+         *(p for p in (merge.ROOT / "jpg").glob("*") if p.suffix.lower() in IMAGE_SUFFIXES)],
+        key=lambda p: p.name)
     if not paths:
-        print("Aucun PDF à traiter (dossier pdf/ vide).")
+        print("Aucun PDF ni image à traiter (dossiers pdf/ et jpg/ vides).")
         return 0
     return import_pdfs(paths, dry_run)
 

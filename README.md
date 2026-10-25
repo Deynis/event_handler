@@ -8,7 +8,7 @@ Le principe : ce dépôt rassemble les programmes de chaque lieu dans un seul fi
 
 | Lieu | Ville | Contenu | Mise à jour |
 |---|---|---|---|
-| La Scala | Thionville | cinéma | dépôt du PDF hebdomadaire dans `pdf/` |
+| La Scala | Thionville | cinéma | dépôt du PDF hebdomadaire dans `pdf/` (ou de l'image dans `jpg/`) |
 | Kinepolis Thionville | Thionville | cinéma | script à lancer sur ton PC |
 | Théâtre de Thionville, Adagio | Thionville | spectacles, concerts | programme de saison saisi dans `json/` |
 | NEST (CDN) | Thionville et alentours | théâtre | automatique, chaque lundi |
@@ -76,7 +76,7 @@ Tu peux ajouter plusieurs widgets avec des paramètres différents, par exemple 
 
 La plupart des lieux se mettent à jour seuls. Il reste deux gestes manuels :
 
-- **La Scala, chaque semaine :** dépose le PDF des horaires dans le dossier `pdf/` du dépôt. Depuis l'iPhone : github.com dans Safari, dépôt > **Add file > Upload files** > **Commit changes**. L'import se fait tout seul en une minute.
+- **La Scala, chaque semaine :** dépose le PDF des horaires dans le dossier `pdf/` du dépôt, ou l'image JPG dans le dossier `jpg/`. Depuis l'iPhone : github.com dans Safari, dépôt > **Add file > Upload files** > **Commit changes**. L'import se fait tout seul en une minute.
 - **Kinepolis, idéalement chaque mercredi :** le site bloque les robots, donc le script ouvre un vrai navigateur sur ton PC. La première fois, installe les outils :
   ```
   pip install -r requirements-kinepolis.txt

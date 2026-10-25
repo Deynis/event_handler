@@ -11,6 +11,7 @@ culture-widget/
 │   └── philharmonie-cache.json   # cache des fiches de la Philharmonie
 ├── widget/EventsWidget.js        # script Scriptable (iPhone)
 ├── pdf/                          # PDF hebdomadaires de La Scala, déposés à la main
+├── jpg/                          # ou la même grille publiée en image (JPG)
 ├── json/                         # programmes de saison saisis à la main (Théâtre, Adagio)
 ├── scripts/
 │   ├── common.py                 # fuseau, normalisation de texte, identifiants, mois
@@ -22,6 +23,7 @@ culture-widget/
 │   │   └── nest.py
 │   ├── scrape_kinepolis.py       # Kinepolis : navigateur piloté, à lancer en local
 │   ├── extract_pdf.py            # import des PDF de La Scala
+│   ├── extract_jpg.py            # lecture des grilles en image (OCR Tesseract)
 │   ├── import_json.py            # import des json/*.json
 │   └── tests/test_scripts.py     # tests sans réseau
 ├── .github/workflows/
@@ -182,10 +184,11 @@ python scripts/scrape_kinepolis.py --headless         # sans fenêtre (bloqué �
 
 ### La Scala - `scripts/extract_pdf.py` (`import-pdf.yml`)
 
-- **Déclenchement :** chaque semaine, La Scala publie une grille horaire en PDF. Le workflow se lance à chaque fichier ajouté dans `pdf/` ou `json/`, ou à la main.
+- **Déclenchement :** chaque semaine, La Scala publie une grille horaire en PDF ou, depuis fin octobre 2026, en JPG. Le workflow se lance à chaque fichier ajouté dans `pdf/`, `jpg/` ou `json/`, ou à la main.
 - **Lecture :** `extract_pdf.py` lit la grille avec `pdfplumber`, puis :
   - remplace les séances de La Scala de la semaine du PDF ;
-  - ajoute les « Événements à venir » du bas de page (ciné-débats, avant-premières...).
+  - ajoute les « Événements à venir » du bas de page (ciné-débats, avant-premières...). Plusieurs films pour une seule date (double programme) reçoivent tous cette date.
+- **Grille en image :** `extract_jpg.py` retrouve la même géométrie à partir des pixels rouges (filets, bandeaux, séparateurs de colonnes), puis lit chaque case avec Tesseract (`tesseract-ocr-fra`, installé par le workflow). Les titres sont repérés au gras (épaisseur des traits). Les horaires sont lus colonne par colonne, limités aux chiffres et au « h ». Une image prend une quinzaine de secondes.
 - **Ce qui est repris :** titre, horaires par jour, durée et version. Les mentions des bandeaux (« Dernière semaine », « Jeune public », ciné-club, festival...) vont dans la note.
 - **Anciens PDF :** ils restent sans effet, puisque leurs séances sont passées et donc purgées.
 - **En cas d'échec :** si la mise en page n'est plus reconnue, le workflow échoue et `events.json` n'est pas modifié.
@@ -217,6 +220,7 @@ python -m unittest discover -s scripts/tests -v       # tests sans réseau
 python scripts/merge.py                                # purge + validation seules
 python scripts/scrape_sources.py                       # sources automatiques + purge
 python scripts/extract_pdf.py --dry-run pdf/x.pdf      # test d'un PDF de La Scala
+python scripts/extract_pdf.py --dry-run jpg/x.jpg      # idem pour une grille en image (Tesseract + langue fra requis)
 python scripts/import_json.py --dry-run json/x.json    # test d'un programme de saison
 ```
 

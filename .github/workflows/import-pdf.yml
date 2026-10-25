@@ -4,8 +4,10 @@ on:
   push:
     paths:
       - "pdf/**"
+      - "jpg/**"
       - "json/**"
       - "scripts/extract_pdf.py"
+      - "scripts/extract_jpg.py"
       - "scripts/import_json.py"
   workflow_dispatch:   # lancement manuel depuis l'onglet Actions
 
@@ -29,7 +31,10 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # Traite tous les PDF du dossier pdf/ : chacun remplace les séances de sa semaine.
+      # OCR des grilles publiées en image (jpg/)
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-fra
+
+      # Traite tous les PDF de pdf/ et images de jpg/ : chacun remplace les séances de sa semaine.
       # Les semaines passées sont purgées aussitôt, donc rejouer d'anciens PDF est sans risque.
       - name: Extraction + purge
         run: python scripts/extract_pdf.py

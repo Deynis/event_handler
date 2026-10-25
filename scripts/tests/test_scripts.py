@@ -179,6 +179,48 @@ class TestScalaPdf(unittest.TestCase):
         self.assertIn("Association Franco-Africaine de Moselle", buffet["note"])
 
 
+JPG = Path(__file__).resolve().parents[2] / "jpg" / "grille_horaire_scala_S44_A5.jpg"
+
+
+def has_tesseract_fra() -> bool:
+    try:
+        import pytesseract
+        return "fra" in pytesseract.get_languages()
+    except Exception:  # noqa: BLE001
+        return False
+
+
+@unittest.skipUnless(JPG.exists() and has_tesseract_fra(), "image d'exemple ou Tesseract (fra) absent")
+class TestScalaJpg(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import extract_jpg
+        cls.page = extract_jpg.parse_image(JPG)
+        cls.by_title = {}
+        for e in cls.page.events:
+            cls.by_title.setdefault(e["titre"], []).append(e)
+
+    def test_week_and_counts(self):
+        self.assertEqual((self.page.week_start, self.page.week_end), (date(2026, 10, 28), date(2026, 11, 3)))
+        in_week = [e for e in self.page.events if e["debut"][:10] <= "2026-11-03"]
+        self.assertEqual(len(in_week), 63)  # nombre d'heures dans la grille
+
+    def test_grid(self):
+        lucy = sorted(e["debut"][:16] for e in self.by_title["Le Mystère Lucy Lost"])
+        self.assertEqual(len(lucy), 14)
+        self.assertEqual((lucy[0], lucy[-1]), ("2026-10-28T10:00", "2026-11-03T18:15"))
+        sham = self.by_title["Sham"][0]
+        self.assertEqual((sham["duree_min"], sham["version"]), (129, "VOST"))
+        self.assertEqual(self.by_title["Les Salauds dorment en paix"][0]["note"], "Cycle Japanese Noire")
+        self.assertEqual(self.by_title["Chien bleu"][0]["note"], "Jeune public, dès 3 ans")
+
+    def test_upcoming_events(self):
+        self.assertEqual(self.by_title["La Marque du tueur"][0]["debut"], "2026-11-08T16:00:00+01:00")
+        # double programme : une seule date pour deux films
+        self.assertEqual(self.by_title["Série noire"][0]["debut"], "2026-11-13T19:30:00+01:00")
+        self.assertEqual(self.by_title["Le Juge Fayard dit le shériff"][0]["debut"], "2026-11-13T19:30:00+01:00")
+
+
 PHIL_SITEMAP = """<urlset>
 <url><loc>https://www.philharmonie.lu/fr/programme/2026-27/mozart-requiem-000000e9001d169c</loc><lastmod>2026-10-01T00:00:00+02:00</lastmod></url>
 <url><loc>https://www.philharmonie.lu/fr/programme/2026-27/abonnements/pick-mix-0000013e0000057a</loc><lastmod>2026-10-01T00:00:00+02:00</lastmod></url>
