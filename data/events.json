@@ -1,116 +1,6 @@
 {
-  "updated_at": "2026-10-25T14:59:49+01:00",
+  "updated_at": "2026-10-26T09:52:30+01:00",
   "events": [
-    {
-      "id": "kinepolis-thionville-2026-10-25-1040-cine-relax-ducobu-et-le-fantome-de-saint",
-      "lieu": "Kinepolis Thionville",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Ciné Relax : Ducobu et le fantôme de Saint...",
-      "debut": "2026-10-25T10:40:00+01:00",
-      "duree_min": 89,
-      "version": "VF",
-      "note": "Salle 8",
-      "url": "https://kinepolis.fr/movies/detail/38877/HO00016639/0000000076/cine-relax-ducobu-et-le-fantome-de-saint..."
-    },
-    {
-      "id": "la-scala-2026-10-25-1320-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-25T13:20:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-25-1320-the-last-viking",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "The Last Viking",
-      "debut": "2026-10-25T13:20:00+01:00",
-      "duree_min": 116,
-      "version": "VOST",
-      "note": "Séance(s) de Rattrapage",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "kinepolis-thionville-2026-10-25-1445-bts-world-tour-arirang-in-buenos-aires-live",
-      "lieu": "Kinepolis Thionville",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "BTS World Tour 'Arirang' in Buenos Aires : Live",
-      "debut": "2026-10-25T14:45:00+01:00",
-      "duree_min": 195,
-      "version": "VO ST anglais",
-      "note": "Salle 3",
-      "url": "https://kinepolis.fr/movies/detail/39122/HO00016579/0000000005/bts-world-tour-arirang-in-buenos-aires-live"
-    },
-    {
-      "id": "la-scala-2026-10-25-1540-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-25T15:40:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-25-1555-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-25T15:55:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-25-1745-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-25T17:45:00+01:00",
-      "duree_min": 117,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-25-1805-betty",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Betty",
-      "debut": "2026-10-25T18:05:00+01:00",
-      "duree_min": 104,
-      "note": "Cycle Stéphane Audran (chez Claude Chabrol)",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-25-2005-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-25T20:05:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-25-2010-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-25T20:10:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "la-scala-2026-10-26-0945-betty",
       "lieu": "La Scala",
@@ -1316,7 +1206,7 @@
       "categorie": "cinema",
       "titre": "Buster Keaton, Steamboat Bill, Jr.",
       "debut": "2026-11-04T20:00:00+01:00",
-      "note": "Pierre Boespflug Trio - Découvrir",
+      "note": "Pierre Boespflug Trio - Découvrir - Dernières places",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/cine-cite/buster-keaton-steamboat-bill-jr"
     },
     {
@@ -1450,14 +1340,14 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/diner-de-gala-2"
     },
     {
-      "id": "philharmonie-luxembourg-2026-11-10-1930-coltrane-100-both-directions-at-once",
+      "id": "philharmonie-luxembourg-2026-11-10-1930-coltrane-100",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
       "categorie": "concert",
-      "titre": "Coltrane 100: Both Directions at Once",
+      "titre": "Coltrane 100",
       "debut": "2026-11-10T19:30:00+01:00",
       "note": "Grand Auditorium",
-      "url": "https://www.philharmonie.lu/fr/programme/2026-27/coltrane-100-both-directions-at-once-000000e9001c8b86"
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/coltrane-100-000000e9001c8b86"
     },
     {
       "id": "kinepolis-thionville-2026-11-10-1930-kultissime-hunger-games-la-ballade-du",
@@ -2033,14 +1923,14 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/patrick-muller-max-mausen-olivier-sliepen-000000e9001da9fc"
     },
     {
-      "id": "philharmonie-luxembourg-2026-11-21-2130-raftside-x-philharmonie-academy",
+      "id": "philharmonie-luxembourg-2026-11-21-2130-raftside-x-luxembourg-philharmonic-academy",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
       "categorie": "concert",
-      "titre": "RAFTSIDE x Philharmonie Academy",
+      "titre": "RAFTSIDE x Luxembourg Philharmonic Academy",
       "debut": "2026-11-21T21:30:00+01:00",
       "note": "Grand Auditorium",
-      "url": "https://www.philharmonie.lu/fr/programme/2026-27/raftside-x-philharmonie-academy-000000e9001da9f7"
+      "url": "https://www.philharmonie.lu/fr/programme/2026-27/raftside-x-luxembourg-philharmonic-academy-000000e9001da9f7"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-21-2230-sascha-ley",
@@ -4789,12 +4679,12 @@
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/extra-dimanche/bestiaire-medieval"
     },
     {
-      "id": "l-arsenal-2027-04-07-1900-academie-diotima",
+      "id": "l-arsenal-2027-04-07-1800-academie-diotima",
       "lieu": "L'Arsenal",
       "ville": "Metz",
       "categorie": "concert",
       "titre": "Académie Diotima",
-      "debut": "2027-04-07T19:00:00+02:00",
+      "debut": "2027-04-07T18:00:00+02:00",
       "note": "Symphonique, Création et crossover - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/academie-diotima-2"
     },

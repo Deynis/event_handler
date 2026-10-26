@@ -38,7 +38,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001d8fe8": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-19-1630-a-blaze-of-mutes",
    "lieu": "Philharmonie Luxembourg",
@@ -51,7 +51,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001da9d8": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1000-a-blaze-of-mutes",
    "lieu": "Philharmonie Luxembourg",
@@ -64,7 +64,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001da9d9": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-1130-a-blaze-of-mutes",
    "lieu": "Philharmonie Luxembourg",
@@ -77,7 +77,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/a-blaze-of-mutes-000000e9001da9da": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1000-a-blaze-of-mutes",
    "lieu": "Philharmonie Luxembourg",
@@ -154,7 +154,7 @@
   "event": null
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/andrew-watts-helena-rasker-miles-walter-000000e9001c8de4": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1900-andrew-watts-helena-rasker-miles-walter",
    "lieu": "Philharmonie Luxembourg",
@@ -232,7 +232,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/arditti-quartet-claude-lenners-000000e9001c8dee": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1500-arditti-quartet-claude-lenners",
    "lieu": "Philharmonie Luxembourg",
@@ -245,7 +245,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/arditti-quartet-yaron-deutsch-stefan-prins-fredi-reiter-000000e9001c8dc7": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1415-arditti-quartet-yaron-deutsch-stefan-prins-fredi-reiter",
    "lieu": "Philharmonie Luxembourg",
@@ -716,10 +716,6 @@
    "url": "https://www.philharmonie.lu/fr/programme/2026-27/celebrating-steve-reich-90-000000e9001cd541"
   }
  },
- "https://www.philharmonie.lu/fr/programme/2026-27/chantons-halloween-000000e9001e6578": {
-  "lastmod": "2026-10-07T00:00:00+02:00",
-  "event": null
- },
  "https://www.philharmonie.lu/fr/programme/2026-27/cherifa-kersit-justin-adams-000000e9001cbd26": {
   "lastmod": "2026-05-05T00:00:00+02:00",
   "event": {
@@ -745,6 +741,10 @@
    "note": "Grand Auditorium",
    "url": "https://www.philharmonie.lu/fr/programme/2026-27/chicago-symphony-orchestra-klaus-maekelae-000000e9001aabcc"
   }
+ },
+ "https://www.philharmonie.lu/fr/programme/2026-27/choraoke-000000e9001e8fe7": {
+  "lastmod": "2026-10-21T00:00:00+02:00",
+  "event": null
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/chreschtconcert-000000e9001be737": {
   "lastmod": "2026-09-24T00:00:00+02:00",
@@ -799,7 +799,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/coffee-with-composers-and-artists-000000e9001c8dc9": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1000-coffee-with-composers-and-artists",
    "lieu": "Philharmonie Luxembourg",
@@ -812,7 +812,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/coffee-with-composers-and-artists-000000e9001c8dda": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1000-coffee-with-composers-and-artists",
    "lieu": "Philharmonie Luxembourg",
@@ -824,17 +824,17 @@
    "url": "https://www.philharmonie.lu/fr/programme/2026-27/coffee-with-composers-and-artists-000000e9001c8dda"
   }
  },
- "https://www.philharmonie.lu/fr/programme/2026-27/coltrane-100-both-directions-at-once-000000e9001c8b86": {
-  "lastmod": "2026-06-04T00:00:00+02:00",
+ "https://www.philharmonie.lu/fr/programme/2026-27/coltrane-100-000000e9001c8b86": {
+  "lastmod": "2026-10-20T00:00:00+02:00",
   "event": {
-   "id": "philharmonie-luxembourg-2026-11-10-1930-coltrane-100-both-directions-at-once",
+   "id": "philharmonie-luxembourg-2026-11-10-1930-coltrane-100",
    "lieu": "Philharmonie Luxembourg",
    "ville": "Luxembourg",
    "categorie": "concert",
-   "titre": "Coltrane 100: Both Directions at Once",
+   "titre": "Coltrane 100",
    "debut": "2026-11-10T19:30:00+01:00",
    "note": "Grand Auditorium",
-   "url": "https://www.philharmonie.lu/fr/programme/2026-27/coltrane-100-both-directions-at-once-000000e9001c8b86"
+   "url": "https://www.philharmonie.lu/fr/programme/2026-27/coltrane-100-000000e9001c8b86"
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/concert-des-laureats-des-conservatoires-000000e9001be788": {
@@ -1042,7 +1042,7 @@
   "event": null
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/dergelbeklang-sounddramaturgien-000000e9001c8d8f": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-2130-der-gelbe-klang-sounddramaturgien-kollektiv",
    "lieu": "Philharmonie Luxembourg",
@@ -1055,7 +1055,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/dergelbeklang-sounddramaturgien-000000e9001da9ea": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-1830-der-gelbe-klang-sounddramaturgien-kollektiv",
    "lieu": "Philharmonie Luxembourg",
@@ -1253,7 +1253,7 @@
   "event": null
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/erwan-keravec-000000e9001daa07": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1730-erwan-keravec",
    "lieu": "Philharmonie Luxembourg",
@@ -1266,7 +1266,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/eunoia-trio-henri-vaexby-catherine-kontz-000000e9001daa03": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1615-eunoia-trio-henri-vaxby-catherine-kontz",
    "lieu": "Philharmonie Luxembourg",
@@ -1477,7 +1477,7 @@
   "event": null
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/for-real-000000e9001d8fe6": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-19-1715-for-real",
    "lieu": "Philharmonie Luxembourg",
@@ -1516,7 +1516,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/frin-wolter-000000e9001c8dea": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1130-frin-wolter",
    "lieu": "Philharmonie Luxembourg",
@@ -1542,7 +1542,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/genevieve-strosser-kp-werani-000000e9001c8dc3": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-19-2145-genevieve-strosser-kp-werani",
    "lieu": "Philharmonie Luxembourg",
@@ -1555,7 +1555,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/gertrude-stein-s-the-making-of-americans-000000e9001da9ef": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1145-gertrude-stein-s-the-making-of-americans",
    "lieu": "Philharmonie Luxembourg",
@@ -1581,7 +1581,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/guilherme-vaz-000000e9001c8de7": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1700-guilherme-vaz",
    "lieu": "Philharmonie Luxembourg",
@@ -1806,7 +1806,7 @@
   "event": null
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/herve-birolini-000000e9001c8da6": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-19-1830-herve-birolini",
    "lieu": "Philharmonie Luxembourg",
@@ -2249,7 +2249,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/l-enfant-soldat-nee-musique-000000e9001e0b3f": {
-  "lastmod": "2026-09-28T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-17-1930-l-enfant-soldat-nee-musique",
    "lieu": "Philharmonie Luxembourg",
@@ -2464,7 +2464,7 @@
   "event": null
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/lucilin-composition-academy-000000e9001c8dc1": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-1230-lucilin-composition-academy",
    "lieu": "Philharmonie Luxembourg",
@@ -2594,7 +2594,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/luxembourg-philharmonic-academy-xavier-de-maistre-000000e9001d4404": {
-  "lastmod": "2026-06-04T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2027-01-24-1930-luxembourg-philharmonic-academy-xavier-de-maistre",
    "lieu": "Philharmonie Luxembourg",
@@ -2607,7 +2607,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/luxembourg-philharmonic-jack-sheen-tamsin-waley-cohen-yarnwire-000000e9001c2156": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-19-1930-luxembourg-philharmonic-jack-sheen-tamsin-waley-cohen-yarn-wire",
    "lieu": "Philharmonie Luxembourg",
@@ -2761,7 +2761,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/mikolaj-rytowski-000000e9001c8dbf": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-2115-miko-aj-rytowski",
    "lieu": "Philharmonie Luxembourg",
@@ -2813,7 +2813,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/monica-germino-participants-of-the-threshold-frame-violin-project-jaap-peter-kronemeijer-000000e9001c8dcd": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1530-monica-germino-participants-of-the-threshold-frame-violin-project-jaap-peter-kronemeijer",
    "lieu": "Philharmonie Luxembourg",
@@ -2852,7 +2852,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/noise-watchers-x-musiques-recherches-000000e9001da9b3": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-1730-noise-watchers-x-musiques-recherches",
    "lieu": "Philharmonie Luxembourg",
@@ -2958,7 +2958,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/patrick-muller-max-mausen-olivier-sliepen-000000e9001da9fc": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-2045-patrick-muller-max-mausen-olivier-sliepen",
    "lieu": "Philharmonie Luxembourg",
@@ -3033,21 +3033,21 @@
   "lastmod": "2026-07-29T00:00:00+02:00",
   "event": null
  },
- "https://www.philharmonie.lu/fr/programme/2026-27/raftside-x-philharmonie-academy-000000e9001da9f7": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+ "https://www.philharmonie.lu/fr/programme/2026-27/raftside-x-luxembourg-philharmonic-academy-000000e9001da9f7": {
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
-   "id": "philharmonie-luxembourg-2026-11-21-2130-raftside-x-philharmonie-academy",
+   "id": "philharmonie-luxembourg-2026-11-21-2130-raftside-x-luxembourg-philharmonic-academy",
    "lieu": "Philharmonie Luxembourg",
    "ville": "Luxembourg",
    "categorie": "concert",
-   "titre": "RAFTSIDE x Philharmonie Academy",
+   "titre": "RAFTSIDE x Luxembourg Philharmonic Academy",
    "debut": "2026-11-21T21:30:00+01:00",
    "note": "Grand Auditorium",
-   "url": "https://www.philharmonie.lu/fr/programme/2026-27/raftside-x-philharmonie-academy-000000e9001da9f7"
+   "url": "https://www.philharmonie.lu/fr/programme/2026-27/raftside-x-luxembourg-philharmonic-academy-000000e9001da9f7"
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/rainy-days-cinema-000000e9001c8ddc": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1000-rainy-days-cinema",
    "lieu": "Philharmonie Luxembourg",
@@ -3060,7 +3060,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/rainy-days-cinema-000000e9001da9ff": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1000-rainy-days-cinema",
    "lieu": "Philharmonie Luxembourg",
@@ -3099,7 +3099,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/riot-ensemble-juliet-fraser-000000e9001c8d99": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-2015-riot-ensemble-juliet-fraser",
    "lieu": "Philharmonie Luxembourg",
@@ -3266,7 +3266,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/sandrine-cantoreggi-luigi-gaggero-000000e9001c8de0": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1400-sandrine-cantoreggi-luigi-gaggero",
    "lieu": "Philharmonie Luxembourg",
@@ -3279,7 +3279,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/sascha-ley-000000e9001c8dd8": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-2230-sascha-ley",
    "lieu": "Philharmonie Luxembourg",
@@ -3361,7 +3361,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/steam-release-000000e9001daa0f": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-1100-steam-release",
    "lieu": "Philharmonie Luxembourg",
@@ -3386,7 +3386,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/stijn-demeulenaere-000000e9001e0b41": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-18-1930-stijn-demeulenaere",
    "lieu": "Philharmonie Luxembourg",
@@ -3436,7 +3436,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0a": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-19-1630-black-hole-sun-lab",
    "lieu": "Philharmonie Luxembourg",
@@ -3449,7 +3449,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0c": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1000-black-hole-sun-lab",
    "lieu": "Philharmonie Luxembourg",
@@ -3462,7 +3462,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0d": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-1130-black-hole-sun-lab",
    "lieu": "Philharmonie Luxembourg",
@@ -3475,7 +3475,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/superflare-000000e9001daa0e": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1000-black-hole-sun-lab",
    "lieu": "Philharmonie Luxembourg",
@@ -3509,7 +3509,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/talkback-burnback-000000e9001c8d91": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-19-1630-talkback-burnback",
    "lieu": "Philharmonie Luxembourg",
@@ -3522,7 +3522,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/talkback-burnback-000000e9001c8d92": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-20-1130-talkback-burnback",
    "lieu": "Philharmonie Luxembourg",
@@ -3590,7 +3590,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/the-logbook-000000e9001daa11": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1100-the-log-book",
    "lieu": "Philharmonie Luxembourg",
@@ -3603,7 +3603,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/the-luxembourg-philharmonic-academy-000000e9001d47ad": {
-  "lastmod": "2026-09-24T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2027-06-10-1930-the-luxembourg-philharmonic-academy",
    "lieu": "Philharmonie Luxembourg",
@@ -3733,7 +3733,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/united-instruments-of-lucilin-ensemble-klang-000000e9001c8dd5": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-2000-united-instruments-of-lucilin-ensemble-klang",
    "lieu": "Philharmonie Luxembourg",
@@ -3746,7 +3746,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/varese-raasakkaparikka-000000e9001c8d96": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1100-varese-raasakka-parikka",
    "lieu": "Philharmonie Luxembourg",
@@ -3998,7 +3998,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/yarnwire-000000e9001c8dcb": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1930-yarn-wire",
    "lieu": "Philharmonie Luxembourg",
@@ -4193,7 +4193,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/zafraan-ensemble-000000e9001c8dcf": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-21-1800-zafraan-ensemble",
    "lieu": "Philharmonie Luxembourg",
@@ -4206,7 +4206,7 @@
   }
  },
  "https://www.philharmonie.lu/fr/programme/2026-27/zafraan-ensemble-000000e9001daa00": {
-  "lastmod": "2026-09-15T00:00:00+02:00",
+  "lastmod": "2026-10-21T00:00:00+02:00",
   "event": {
    "id": "philharmonie-luxembourg-2026-11-22-1230-zafraan-ensemble",
    "lieu": "Philharmonie Luxembourg",
