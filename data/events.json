@@ -1,562 +1,6 @@
 {
-  "updated_at": "2026-10-26T09:52:30+01:00",
+  "updated_at": "2026-10-30T18:22:41+01:00",
   "events": [
-    {
-      "id": "la-scala-2026-10-26-0945-betty",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Betty",
-      "debut": "2026-10-26T09:45:00+01:00",
-      "duree_min": 104,
-      "note": "Cycle Stéphane Audran (chez Claude Chabrol)",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-1000-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-26T10:00:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-1320-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-26T13:20:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-1330-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-26T13:30:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-1520-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-26T15:20:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-1545-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-26T15:45:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-1735-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-26T17:35:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-1755-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-26T17:55:00+01:00",
-      "duree_min": 117,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "philharmonie-luxembourg-2026-10-26-1930-wien-wien-nur-du-allein",
-      "lieu": "Philharmonie Luxembourg",
-      "ville": "Luxembourg",
-      "categorie": "concert",
-      "titre": "Wien, Wien, nur du allein",
-      "debut": "2026-10-26T19:30:00+01:00",
-      "note": "Salle de Musique de Chambre",
-      "url": "https://www.philharmonie.lu/fr/programme/2026-27/wien-wien-nur-du-allein-000000e9001c3e73"
-    },
-    {
-      "id": "la-scala-2026-10-26-2000-notre-salut",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Notre salut",
-      "debut": "2026-10-26T20:00:00+01:00",
-      "duree_min": 159,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-26-2015-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-26T20:15:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-0945-memoire-de-fille",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Mémoire de fille",
-      "debut": "2026-10-27T09:45:00+01:00",
-      "duree_min": 117,
-      "note": "Dernière semaine",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-1000-chien-bleu",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Chien bleu",
-      "debut": "2026-10-27T10:00:00+01:00",
-      "duree_min": 33,
-      "note": "Jeune public, dès 3 ans",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-1320-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-27T13:20:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-1345-betty",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Betty",
-      "debut": "2026-10-27T13:45:00+01:00",
-      "duree_min": 104,
-      "note": "Cycle Stéphane Audran (chez Claude Chabrol)",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-1550-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-27T15:50:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-1555-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-27T15:55:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-1740-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-27T17:40:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-1820-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-27T18:20:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "philharmonie-luxembourg-2026-10-27-1930-rising-stars-elionor-martinez",
-      "lieu": "Philharmonie Luxembourg",
-      "ville": "Luxembourg",
-      "categorie": "concert",
-      "titre": "Rising Stars | Elionor Martínez",
-      "debut": "2026-10-27T19:30:00+01:00",
-      "note": "Salle de Musique de Chambre",
-      "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-elionor-martinez-000000e9001c8026"
-    },
-    {
-      "id": "kinepolis-thionville-2026-10-27-1945-kultissime-hunger-games-la-revolte-part-1",
-      "lieu": "Kinepolis Thionville",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Kultissime : Hunger Games: La Révolte : Part 1",
-      "debut": "2026-10-27T19:45:00+01:00",
-      "duree_min": 123,
-      "version": "VF",
-      "note": "Salle 5",
-      "url": "https://kinepolis.fr/movies/detail/197/HO00010848/0000000035/kultissime-hunger-games-la-revolte-part-1"
-    },
-    {
-      "id": "kinepolis-thionville-2026-10-27-2000-mylene-farmer-egregore-l-avant-premiere",
-      "lieu": "Kinepolis Thionville",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "MYLÈNE FARMER – ÉGRÉGORE – L’AVANT-PREMIÈRE",
-      "debut": "2026-10-27T20:00:00+01:00",
-      "duree_min": 65,
-      "version": "VF",
-      "note": "Salle 1",
-      "url": "https://kinepolis.fr/movies/detail/39036/HO00016482/0000000027/mylene-farmer---egregore---l-avant-premiere"
-    },
-    {
-      "id": "la-scala-2026-10-27-2010-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-27T20:10:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-27-2015-the-last-viking",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "The Last Viking",
-      "debut": "2026-10-27T20:15:00+01:00",
-      "duree_min": 116,
-      "version": "VOST",
-      "note": "Séance(s) de Rattrapage",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-28-0945-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-28T09:45:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-28-1000-le-mystere-lucy-lost",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Mystère Lucy Lost",
-      "debut": "2026-10-28T10:00:00+01:00",
-      "duree_min": 89,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "kinepolis-thionville-2026-10-28-1345-lumiere-sur-moulin",
-      "lieu": "Kinepolis Thionville",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Lumière Sur... : Moulin",
-      "debut": "2026-10-28T13:45:00+01:00",
-      "duree_min": 134,
-      "version": "VF",
-      "note": "Salle 3",
-      "url": "https://kinepolis.fr/movies/detail/37316/HO00016477/0000000074/lumiere-sur...-moulin"
-    },
-    {
-      "id": "la-scala-2026-10-28-1350-chien-bleu",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Chien bleu",
-      "debut": "2026-10-28T13:50:00+01:00",
-      "duree_min": 33,
-      "note": "Jeune public, dès 3 ans",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-28-1400-le-mystere-lucy-lost",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Mystère Lucy Lost",
-      "debut": "2026-10-28T14:00:00+01:00",
-      "duree_min": 89,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-28-1445-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-28T14:45:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "theatre-2026-10-28-pillowgraphies",
-      "lieu": "Théâtre de Thionville",
-      "ville": "Thionville",
-      "categorie": "spectacle",
-      "titre": "Pillowgraphies",
-      "debut": "2026-10-28T15:00:00+01:00",
-      "note": "Danse - Danses pour fantômes et lumière noire (dès 6 ans)",
-      "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
-      "import": "theatre-adagio-2026-2027.json"
-    },
-    {
-      "id": "la-scala-2026-10-28-1600-le-mystere-lucy-lost",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Mystère Lucy Lost",
-      "debut": "2026-10-28T16:00:00+01:00",
-      "duree_min": 89,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-28-1640-chien-bleu",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Chien bleu",
-      "debut": "2026-10-28T16:40:00+01:00",
-      "duree_min": 33,
-      "note": "Jeune public, dès 3 ans",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "kinepolis-thionville-2026-10-28-1650-lumiere-sur-moulin",
-      "lieu": "Kinepolis Thionville",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Lumière Sur... : Moulin",
-      "debut": "2026-10-28T16:50:00+01:00",
-      "duree_min": 134,
-      "version": "VF",
-      "note": "Salle 3",
-      "url": "https://kinepolis.fr/movies/detail/37316/HO00016477/0000000074/lumiere-sur...-moulin"
-    },
-    {
-      "id": "la-scala-2026-10-28-1735-the-last-viking",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "The Last Viking",
-      "debut": "2026-10-28T17:35:00+01:00",
-      "duree_min": 116,
-      "version": "VOST",
-      "note": "Séance(s) de Rattrapage",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-28-1800-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-28T18:00:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "philharmonie-luxembourg-2026-10-28-1930-isaiah-collier-quartet",
-      "lieu": "Philharmonie Luxembourg",
-      "ville": "Luxembourg",
-      "categorie": "concert",
-      "titre": "Isaiah Collier Quartet",
-      "debut": "2026-10-28T19:30:00+01:00",
-      "note": "Salle de Musique de Chambre",
-      "url": "https://www.philharmonie.lu/fr/programme/2026-27/isaiah-collier-quartet-000000e9001cf9b6"
-    },
-    {
-      "id": "la-scala-2026-10-28-1955-sham",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Sham",
-      "debut": "2026-10-28T19:55:00+01:00",
-      "duree_min": 129,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "kinepolis-thionville-2026-10-28-2000-lumiere-sur-moulin",
-      "lieu": "Kinepolis Thionville",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Lumière Sur... : Moulin",
-      "debut": "2026-10-28T20:00:00+01:00",
-      "duree_min": 134,
-      "version": "VF",
-      "note": "Salle 3",
-      "url": "https://kinepolis.fr/movies/detail/37316/HO00016477/0000000074/lumiere-sur...-moulin"
-    },
-    {
-      "id": "la-scala-2026-10-28-2000-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-28T20:00:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1000-le-corset",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Corset",
-      "debut": "2026-10-29T10:00:00+01:00",
-      "duree_min": 90,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1000-le-mystere-lucy-lost",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Mystère Lucy Lost",
-      "debut": "2026-10-29T10:00:00+01:00",
-      "duree_min": 89,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1340-les-salauds-dorment-en-paix",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Les Salauds dorment en paix",
-      "debut": "2026-10-29T13:40:00+01:00",
-      "duree_min": 151,
-      "version": "VOST",
-      "note": "Cycle Japanese Noire",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1345-sham",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Sham",
-      "debut": "2026-10-29T13:45:00+01:00",
-      "duree_min": 129,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1620-le-mystere-lucy-lost",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Mystère Lucy Lost",
-      "debut": "2026-10-29T16:20:00+01:00",
-      "duree_min": 89,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1635-chien-bleu",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Chien bleu",
-      "debut": "2026-10-29T16:35:00+01:00",
-      "duree_min": 33,
-      "note": "Jeune public, dès 3 ans",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1730-minotaure",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Minotaure",
-      "debut": "2026-10-29T17:30:00+01:00",
-      "duree_min": 141,
-      "version": "VOST",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-1815-le-mystere-lucy-lost",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Le Mystère Lucy Lost",
-      "debut": "2026-10-29T18:15:00+01:00",
-      "duree_min": 89,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "philharmonie-luxembourg-2026-10-29-1930-cherifa-kersit-justin-adams",
-      "lieu": "Philharmonie Luxembourg",
-      "ville": "Luxembourg",
-      "categorie": "concert",
-      "titre": "Cherifa Kersit & Justin Adams",
-      "debut": "2026-10-29T19:30:00+01:00",
-      "note": "Salle de Musique de Chambre",
-      "url": "https://www.philharmonie.lu/fr/programme/2026-27/cherifa-kersit-justin-adams-000000e9001cbd26"
-    },
-    {
-      "id": "philharmonie-luxembourg-2026-10-29-1930-romeo-et-juliette",
-      "lieu": "Philharmonie Luxembourg",
-      "ville": "Luxembourg",
-      "categorie": "concert",
-      "titre": "Roméo et Juliette",
-      "debut": "2026-10-29T19:30:00+01:00",
-      "note": "Grand Auditorium",
-      "url": "https://www.philharmonie.lu/fr/programme/2026-27/romeo-et-juliette-000000e9001bc9e7"
-    },
-    {
-      "id": "la-scala-2026-10-29-2005-une-femme-aujourd-hui",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "Une femme aujourd'hui",
-      "debut": "2026-10-29T20:05:00+01:00",
-      "duree_min": 123,
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
-    {
-      "id": "la-scala-2026-10-29-2010-the-last-viking",
-      "lieu": "La Scala",
-      "ville": "Thionville",
-      "categorie": "cinema",
-      "titre": "The Last Viking",
-      "debut": "2026-10-29T20:10:00+01:00",
-      "duree_min": 116,
-      "version": "VOST",
-      "note": "Séance(s) de Rattrapage",
-      "url": "https://www.thionville.fr/scala/programmation-cinema"
-    },
     {
       "id": "la-scala-2026-10-30-1000-le-mystere-lucy-lost",
       "lieu": "La Scala",
@@ -599,6 +43,42 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-10-30-1530-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-10-30T15:30:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1540-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-10-30T15:40:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00015937/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1540-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-10-30T15:40:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
       "id": "la-scala-2026-10-30-1540-une-femme-aujourd-hui",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -619,6 +99,90 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-10-30-1550-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-10-30T15:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1550-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-10-30T15:50:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1600-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-10-30T16:00:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1630-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-10-30T16:30:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016766/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1640-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-10-30T16:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1645-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-10-30T16:45:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1710-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-10-30T17:10:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
       "id": "la-scala-2026-10-30-1735-sham",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -628,6 +192,54 @@
       "duree_min": 129,
       "version": "VOST",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1740-street-fighter",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Street Fighter",
+      "debut": "2026-10-30T17:40:00+01:00",
+      "duree_min": 120,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/34269/HO00015934/0/street-fighter"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1750-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-10-30T17:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1755-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-10-30T17:55:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1800-englouti",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Englouti",
+      "debut": "2026-10-30T18:00:00+01:00",
+      "duree_min": 106,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/36602/HO00016179/0/englouti"
     },
     {
       "id": "la-scala-2026-10-30-1805-le-corset",
@@ -640,6 +252,18 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-10-30-1820-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-10-30T18:20:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-10-30-1930-cat-power",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -648,6 +272,78 @@
       "debut": "2026-10-30T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/cat-power-000000e9001c92a0"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1930-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-10-30T19:30:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1935-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-10-30T19:35:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1940-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-10-30T19:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-1955-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-10-30T19:55:00+01:00",
+      "duree_min": 109,
+      "version": "VO",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00015937/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2000-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-10-30T20:00:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2000-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-10-30T20:00:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
     },
     {
       "id": "la-scala-2026-10-30-2000-minotaure",
@@ -671,6 +367,270 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-10-30-2015-heart-of-the-beast",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Heart of the Beast",
+      "debut": "2026-10-30T20:15:00+01:00",
+      "duree_min": 101,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38544/HO00016162/0/heart-of-the-beast"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2015-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-10-30T20:15:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2025-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-10-30T20:25:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2030-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-10-30T20:30:00+01:00",
+      "duree_min": 157,
+      "version": "VOST",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016766/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2215-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-10-30T22:15:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2220-englouti",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Englouti",
+      "debut": "2026-10-30T22:20:00+01:00",
+      "duree_min": 106,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/36602/HO00016179/0/englouti"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2220-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-10-30T22:20:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2220-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-10-30T22:20:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2230-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-10-30T22:30:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00015937/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2230-kraken",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kraken",
+      "debut": "2026-10-30T22:30:00+01:00",
+      "duree_min": 96,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/38964/HO00016395/0/kraken"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2235-resident-evil",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Resident Evil",
+      "debut": "2026-10-30T22:35:00+01:00",
+      "duree_min": 94,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/35830/HO00014589/0/resident-evil"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-30-2235-street-fighter",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Street Fighter",
+      "debut": "2026-10-30T22:35:00+01:00",
+      "duree_min": 120,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/34269/HO00015934/0/street-fighter"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1035-shaun-le-mouton-la-beeete-d-halloween",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Shaun le mouton : La Bêêête d'Halloween",
+      "debut": "2026-10-31T10:35:00+01:00",
+      "duree_min": 80,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/37659/HO00015879/0/shaun-le-mouton-la-beeete-d-halloween"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1040-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-10-31T10:40:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1040-tad-l-explorateur-et-la-lampe-magique",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Tad l'explorateur et la lampe magique",
+      "debut": "2026-10-31T10:40:00+01:00",
+      "duree_min": 94,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36997/HO00016236/0/tad-l-explorateur-et-la-lampe-magique"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1045-cars",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Cars",
+      "debut": "2026-10-31T10:45:00+01:00",
+      "duree_min": 116,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/3943/HO00016442/0/cars"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1045-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-10-31T10:45:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1050-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-10-31T10:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1050-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-10-31T10:50:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1050-la-pat-patrouille-le-film-mission-dino",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Pat'Patrouille : Le film mission Dino",
+      "debut": "2026-10-31T10:50:00+01:00",
+      "duree_min": 88,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/37494/HO00015813/0/la-pat-patrouille-le-film-mission-dino"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1050-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-10-31T10:50:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1055-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-10-31T10:55:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
       "id": "la-scala-2026-10-31-1330-le-mystere-lucy-lost",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -679,6 +639,114 @@
       "debut": "2026-10-31T13:30:00+01:00",
       "duree_min": 89,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1330-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-10-31T13:30:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1330-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-10-31T13:30:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1330-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-10-31T13:30:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1335-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-10-31T13:35:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1340-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-10-31T13:40:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1350-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-10-31T13:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1350-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-10-31T13:50:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1400-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-10-31T14:00:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1400-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-10-31T14:00:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
     },
     {
       "id": "la-scala-2026-10-31-1430-casper",
@@ -705,6 +773,18 @@
       "url": "https://kinepolis.fr/movies/detail/39123/HO00016580/0000000005/bts-world-tour-arirang-in-sao-paulo-live-vi"
     },
     {
+      "id": "kinepolis-thionville-2026-10-31-1530-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-10-31T15:30:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
       "id": "la-scala-2026-10-31-1530-mon-petit-halloween",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -716,6 +796,114 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-10-31-1540-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-10-31T15:40:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1550-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-10-31T15:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1600-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-10-31T16:00:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1600-le-roi-du-game",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le roi du game",
+      "debut": "2026-10-31T16:00:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38763/HO00016226/0/le-roi-du-game"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1615-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-10-31T16:15:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1640-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-10-31T16:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1700-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-10-31T17:00:00+01:00",
+      "duree_min": 157,
+      "version": "VOST",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1700-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-10-31T17:00:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1735-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-10-31T17:35:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
       "id": "la-scala-2026-10-31-1735-minotaure",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -725,6 +913,18 @@
       "duree_min": 141,
       "version": "VOST",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1750-street-fighter",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Street Fighter",
+      "debut": "2026-10-31T17:50:00+01:00",
+      "duree_min": 120,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/34269/HO00015934/0/street-fighter"
     },
     {
       "id": "kinepolis-thionville-2026-10-31-1800-halloween-coco",
@@ -807,6 +1007,66 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-blanket-hill-kill-the-innocent-000000e9001ce89c"
     },
     {
+      "id": "kinepolis-thionville-2026-10-31-1935-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-10-31T19:35:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1945-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-10-31T19:45:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1945-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-10-31T19:45:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-1955-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-10-31T19:55:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00016807/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2015-heart-of-the-beast",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Heart of the Beast",
+      "debut": "2026-10-31T20:15:00+01:00",
+      "duree_min": 101,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38544/HO00016162/0/heart-of-the-beast"
+    },
+    {
       "id": "la-scala-2026-10-31-2015-une-femme-aujourd-hui",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -815,6 +1075,30 @@
       "debut": "2026-10-31T20:15:00+01:00",
       "duree_min": 123,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2020-resident-evil",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Resident Evil",
+      "debut": "2026-10-31T20:20:00+01:00",
+      "duree_min": 94,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/35830/HO00014589/0/resident-evil"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2025-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-10-31T20:25:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
     },
     {
       "id": "kinepolis-thionville-2026-10-31-2030-halloween-malfaisante",
@@ -829,6 +1113,30 @@
       "url": "https://kinepolis.fr/movies/detail/36587/HO00016669/0000000027/halloween-malfaisante"
     },
     {
+      "id": "kinepolis-thionville-2026-10-31-2030-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-10-31T20:30:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2030-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-10-31T20:30:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
       "id": "la-scala-2026-10-31-2030-the-rocky-horror-picture-show",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -839,6 +1147,42 @@
       "version": "VOST",
       "note": "Soirée Halloween en partenariat avec Osmose",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2215-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-10-31T22:15:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2220-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-10-31T22:20:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2230-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-10-31T22:30:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00016807/0/clayface"
     },
     {
       "id": "kinepolis-thionville-2026-10-31-2230-halloween-heredite",
@@ -865,6 +1209,30 @@
       "url": "https://kinepolis.fr/movies/detail/37328/HO00016667/0000000027/halloween-obsession"
     },
     {
+      "id": "kinepolis-thionville-2026-10-31-2235-englouti",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Englouti",
+      "debut": "2026-10-31T22:35:00+01:00",
+      "duree_min": 106,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/36602/HO00016179/0/englouti"
+    },
+    {
+      "id": "kinepolis-thionville-2026-10-31-2235-kraken",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kraken",
+      "debut": "2026-10-31T22:35:00+01:00",
+      "duree_min": 96,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38964/HO00016395/0/kraken"
+    },
+    {
       "id": "kinepolis-thionville-2026-10-31-2240-halloween-malfaisante",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -875,6 +1243,126 @@
       "version": "VF",
       "note": "Salle 10",
       "url": "https://kinepolis.fr/movies/detail/36587/HO00016669/0000000027/halloween-malfaisante"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1035-shaun-le-mouton-la-beeete-d-halloween",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Shaun le mouton : La Bêêête d'Halloween",
+      "debut": "2026-11-01T10:35:00+01:00",
+      "duree_min": 80,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/37659/HO00015879/0/shaun-le-mouton-la-beeete-d-halloween"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1040-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-11-01T10:40:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1040-tad-l-explorateur-et-la-lampe-magique",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Tad l'explorateur et la lampe magique",
+      "debut": "2026-11-01T10:40:00+01:00",
+      "duree_min": 94,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36997/HO00016236/0/tad-l-explorateur-et-la-lampe-magique"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1045-cars",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Cars",
+      "debut": "2026-11-01T10:45:00+01:00",
+      "duree_min": 116,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/3943/HO00016442/0/cars"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1045-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-11-01T10:45:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1050-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-11-01T10:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1050-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-11-01T10:50:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1050-la-pat-patrouille-le-film-mission-dino",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Pat'Patrouille : Le film mission Dino",
+      "debut": "2026-11-01T10:50:00+01:00",
+      "duree_min": 88,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/37494/HO00015813/0/la-pat-patrouille-le-film-mission-dino"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1050-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-01T10:50:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1055-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-01T10:55:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
     },
     {
       "id": "la-scala-2026-11-01-1320-le-mystere-lucy-lost",
@@ -897,6 +1385,126 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-01-1330-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-01T13:30:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1340-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-11-01T13:40:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1340-le-roi-du-game",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le roi du game",
+      "debut": "2026-11-01T13:40:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38763/HO00016226/0/le-roi-du-game"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1340-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-01T13:40:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1340-shaun-le-mouton-la-beeete-d-halloween",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Shaun le mouton : La Bêêête d'Halloween",
+      "debut": "2026-11-01T13:40:00+01:00",
+      "duree_min": 80,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/37659/HO00015879/0/shaun-le-mouton-la-beeete-d-halloween"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1345-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-11-01T13:45:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1345-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-01T13:45:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1350-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-01T13:50:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1350-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-01T13:50:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1350-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-11-01T13:50:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
       "id": "la-scala-2026-11-01-1510-le-mystere-lucy-lost",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -917,6 +1525,114 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-01-1530-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-01T15:30:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1540-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-11-01T15:40:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00016807/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1540-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-01T15:40:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1550-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-11-01T15:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1550-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-11-01T15:50:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1600-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-11-01T16:00:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1630-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-11-01T16:30:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1640-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-01T16:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1645-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-01T16:45:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
       "id": "la-scala-2026-11-01-1700-les-salauds-dorment-en-paix",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -927,6 +1643,18 @@
       "version": "VOST",
       "note": "Cycle Japanese Noire",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1710-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-01T17:10:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
     },
     {
       "id": "la-scala-2026-11-01-1740-sham",
@@ -940,6 +1668,102 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-01-1740-street-fighter",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Street Fighter",
+      "debut": "2026-11-01T17:40:00+01:00",
+      "duree_min": 120,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/34269/HO00015934/0/street-fighter"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1745-avant-premiere-wild-horse-nine",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Avant Première : Wild Horse Nine",
+      "debut": "2026-11-01T17:45:00+01:00",
+      "duree_min": 117,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/37938/HO00016886/0000000001/avant-premiere-wild-horse-nine"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1750-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-11-01T17:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1800-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-01T18:00:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1820-mochy-le-chien-le-plus-moche-du-monde",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Mochy, le chien le plus moche du monde",
+      "debut": "2026-11-01T18:20:00+01:00",
+      "duree_min": 85,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38726/HO00016323/0/mochy-le-chien-le-plus-moche-du-monde"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1930-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-01T19:30:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1935-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-01T19:35:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1940-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-01T19:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
       "id": "la-scala-2026-11-01-1950-notre-salut",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -948,6 +1772,66 @@
       "debut": "2026-11-01T19:50:00+01:00",
       "duree_min": 159,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-1955-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-11-01T19:55:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00016807/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2000-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-01T20:00:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2015-heart-of-the-beast",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Heart of the Beast",
+      "debut": "2026-11-01T20:15:00+01:00",
+      "duree_min": 101,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38544/HO00016162/0/heart-of-the-beast"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2015-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-11-01T20:15:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2015-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-01T20:15:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
     },
     {
       "id": "la-scala-2026-11-01-2015-the-last-viking",
@@ -960,6 +1844,150 @@
       "version": "VOST",
       "note": "Séance(s) de Rattrapage",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2025-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-01T20:25:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2030-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-11-01T20:30:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2215-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-01T22:15:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2220-englouti",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Englouti",
+      "debut": "2026-11-01T22:20:00+01:00",
+      "duree_min": 106,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/36602/HO00016179/0/englouti"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2220-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-01T22:20:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2220-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-01T22:20:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2230-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-11-01T22:30:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00016807/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2230-kraken",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kraken",
+      "debut": "2026-11-01T22:30:00+01:00",
+      "duree_min": 96,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/38964/HO00016395/0/kraken"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2235-resident-evil",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Resident Evil",
+      "debut": "2026-11-01T22:35:00+01:00",
+      "duree_min": 94,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/35830/HO00014589/0/resident-evil"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-01-2235-street-fighter",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Street Fighter",
+      "debut": "2026-11-01T22:35:00+01:00",
+      "duree_min": 120,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/34269/HO00015934/0/street-fighter"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-0800-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T08:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-0900-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T09:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
     },
     {
       "id": "la-scala-2026-11-02-0945-sham",
@@ -983,6 +2011,54 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-02-1000-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T10:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1100-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T11:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1200-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T12:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1300-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T13:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
       "id": "la-scala-2026-11-02-1325-le-corset",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -993,6 +2069,126 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-02-1330-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-02T13:30:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1330-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-02T13:30:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1340-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-02T13:40:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1340-verity",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Verity",
+      "debut": "2026-11-02T13:40:00+01:00",
+      "duree_min": 117,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/35938/HO00016078/0/verity"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1345-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-02T13:45:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1350-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-02T13:50:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1350-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-02T13:50:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1350-le-roi-du-game",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le roi du game",
+      "debut": "2026-11-02T13:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38763/HO00016226/0/le-roi-du-game"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1400-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T14:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1500-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T15:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
       "id": "la-scala-2026-11-02-1520-une-femme-aujourd-hui",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -1001,6 +2197,78 @@
       "debut": "2026-11-02T15:20:00+01:00",
       "duree_min": 123,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1530-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-02T15:30:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1540-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-02T15:40:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1550-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-02T15:50:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1600-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-02T16:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1610-le-roi-du-game",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le roi du game",
+      "debut": "2026-11-02T16:10:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38763/HO00016226/0/le-roi-du-game"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1630-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-11-02T16:30:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016766/0/hope"
     },
     {
       "id": "la-scala-2026-11-02-1630-minotaure",
@@ -1014,6 +2282,78 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-02-1640-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-02T16:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1645-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-02T16:45:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1710-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-11-02T17:10:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1710-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-02T17:10:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1715-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-11-02T17:15:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00015937/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1740-street-fighter",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Street Fighter",
+      "debut": "2026-11-02T17:40:00+01:00",
+      "duree_min": 120,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/34269/HO00015934/0/street-fighter"
+    },
+    {
       "id": "la-scala-2026-11-02-1750-le-mystere-lucy-lost",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -1022,6 +2362,66 @@
       "debut": "2026-11-02T17:50:00+01:00",
       "duree_min": 89,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1800-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-02T18:00:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1810-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-11-02T18:10:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1820-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-02T18:20:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1940-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-02T19:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-1945-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-02T19:45:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
     },
     {
       "id": "la-scala-2026-11-02-1945-the-last-viking",
@@ -1036,6 +2436,42 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-02-1950-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-02T19:50:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-2000-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-02T20:00:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-2000-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-02T20:00:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
       "id": "la-scala-2026-11-02-2000-wild-horse-nine",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -1046,6 +2482,90 @@
       "version": "VOST",
       "note": "Avant-première",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-2010-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-11-02T20:10:00+01:00",
+      "duree_min": 109,
+      "version": "VO",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00015937/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-2015-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-11-02T20:15:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-2020-heart-of-the-beast",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Heart of the Beast",
+      "debut": "2026-11-02T20:20:00+01:00",
+      "duree_min": 101,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38544/HO00016162/0/heart-of-the-beast"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-2025-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-11-02T20:25:00+01:00",
+      "duree_min": 157,
+      "version": "VOST",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016766/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-02-2025-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-02T20:25:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-0800-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T08:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-0900-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T09:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
     },
     {
       "id": "la-scala-2026-11-03-0945-the-last-viking",
@@ -1060,6 +2580,18 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-03-1000-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T10:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
       "id": "la-scala-2026-11-03-1000-minotaure",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -1071,6 +2603,42 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-03-1100-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T11:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1200-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T12:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1300-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T13:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
       "id": "la-scala-2026-11-03-1320-une-femme-aujourd-hui",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -1079,6 +2647,102 @@
       "debut": "2026-11-03T13:20:00+01:00",
       "duree_min": 123,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1330-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-03T13:30:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1330-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-03T13:30:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1340-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-03T13:40:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1340-le-roi-du-game",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le roi du game",
+      "debut": "2026-11-03T13:40:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38763/HO00016226/0/le-roi-du-game"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1340-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-03T13:40:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1345-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-03T13:45:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1350-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-03T13:50:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1350-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-03T13:50:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
     },
     {
       "id": "la-scala-2026-11-03-1350-minotaure",
@@ -1092,6 +2756,54 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-03-1400-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T14:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1500-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T15:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1540-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-11-03T15:40:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00016807/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1540-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-03T15:40:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
       "id": "la-scala-2026-11-03-1540-sham",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -1101,6 +2813,66 @@
       "duree_min": 129,
       "version": "VOST",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1545-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-03T15:45:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1600-englouti",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Englouti",
+      "debut": "2026-11-03T16:00:00+01:00",
+      "duree_min": 106,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/36602/HO00016179/0/englouti"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1600-maintenance",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Maintenance",
+      "debut": "2026-11-03T16:00:00+01:00",
+      "duree_min": 30,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/1439/HO00000546/0/maintenance"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1620-le-roi-du-game",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le roi du game",
+      "debut": "2026-11-03T16:20:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38763/HO00016226/0/le-roi-du-game"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1630-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-11-03T16:30:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
     },
     {
       "id": "la-scala-2026-11-03-1630-les-salauds-dorment-en-paix",
@@ -1115,6 +2887,90 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-03-1640-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-03T16:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1700-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-03T17:00:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1710-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-03T17:10:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1715-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-03T17:15:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1740-street-fighter",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Street Fighter",
+      "debut": "2026-11-03T17:40:00+01:00",
+      "duree_min": 120,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/34269/HO00015934/0/street-fighter"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1750-la-maison-de-nos-reves",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La maison de nos rêves",
+      "debut": "2026-11-03T17:50:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/38385/HO00015949/0/la-maison-de-nos-reves"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1800-malfaisante",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Malfaisante",
+      "debut": "2026-11-03T18:00:00+01:00",
+      "duree_min": 93,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/36587/HO00016346/0/malfaisante"
+    },
+    {
       "id": "la-scala-2026-11-03-1815-le-mystere-lucy-lost",
       "lieu": "La Scala",
       "ville": "Thionville",
@@ -1123,6 +2979,30 @@
       "debut": "2026-11-03T18:15:00+01:00",
       "duree_min": 89,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1820-ducobu-et-le-fantome-de-saint-potache",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ducobu et le fantôme de Saint-Potache",
+      "debut": "2026-11-03T18:20:00+01:00",
+      "duree_min": 89,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/38877/HO00016339/0/ducobu-et-le-fantome-de-saint-potache"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1820-verity",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Verity",
+      "debut": "2026-11-03T18:20:00+01:00",
+      "duree_min": 117,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/35938/HO00016078/0/verity"
     },
     {
       "id": "la-scala-2026-11-03-1930-notre-salut",
@@ -1135,6 +3015,30 @@
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
+      "id": "kinepolis-thionville-2026-11-03-1940-moulin",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Moulin",
+      "debut": "2026-11-03T19:40:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/37316/HO00015155/0/moulin"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-1945-le-fantome-de-l-opera",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Fantôme de L'Opéra",
+      "debut": "2026-11-03T19:45:00+01:00",
+      "duree_min": 134,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36999/HO00016349/0/le-fantome-de-l-opera"
+    },
+    {
       "id": "kinepolis-thionville-2026-11-03-1950-kultissime-hunger-games-la-revolte-part-2",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -1145,6 +3049,18 @@
       "version": "VF",
       "note": "Salle 5",
       "url": "https://kinepolis.fr/movies/detail/1371/HO00010849/0000000035/kultissime-hunger-games---la-revolte-part-2"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-2000-les-miserables",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Misérables",
+      "debut": "2026-11-03T20:00:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36821/HO00014610/0/les-miserables"
     },
     {
       "id": "nest-2026-11-03-2000-terre-ville",
@@ -1177,6 +3093,78 @@
       "debut": "2026-11-03T20:05:00+01:00",
       "duree_min": 123,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-2015-heart-of-the-beast",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Heart of the Beast",
+      "debut": "2026-11-03T20:15:00+01:00",
+      "duree_min": 101,
+      "version": "VF",
+      "note": "Salle 4",
+      "url": "https://kinepolis.fr/movies/detail/38544/HO00016162/0/heart-of-the-beast"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-2015-l-ile-des-souvenirs",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "L'île des souvenirs",
+      "debut": "2026-11-03T20:15:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36220/HO00015815/0/l-ile-des-souvenirs"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-2020-clayface",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Clayface",
+      "debut": "2026-11-03T20:20:00+01:00",
+      "duree_min": 109,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/35545/HO00016807/0/clayface"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-2025-quelques-mots-d-amour",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-03T20:25:00+01:00",
+      "duree_min": 97,
+      "version": "VF",
+      "note": "Salle 6",
+      "url": "https://kinepolis.fr/movies/detail/38531/HO00016060/0/quelques-mots-d-amour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-2030-hope",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hope",
+      "debut": "2026-11-03T20:30:00+01:00",
+      "duree_min": 157,
+      "version": "VF",
+      "note": "Salle 7",
+      "url": "https://kinepolis.fr/movies/detail/38656/HO00016810/0/hope"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-03-2050-karma",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Karma",
+      "debut": "2026-11-03T20:50:00+01:00",
+      "duree_min": 140,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/38707/HO00016385/0/karma"
     },
     {
       "id": "kinepolis-thionville-2026-11-04-1350-peppa-fete-noel",
@@ -1237,7 +3225,7 @@
       "categorie": "cinema",
       "titre": "Lorie Party 2026 au cinéma",
       "debut": "2026-11-05T20:00:00+01:00",
-      "duree_min": 105,
+      "duree_min": 108,
       "version": "VF",
       "note": "Salle 3",
       "url": "https://kinepolis.fr/movies/detail/38617/HO00016157/0000000038/lorie-party-2026-au-cinema"
@@ -1283,8 +3271,20 @@
       "debut": "2026-11-07T13:50:00+01:00",
       "duree_min": 50,
       "version": "VF",
-      "note": "Salle 4",
+      "note": "Salle 3",
       "url": "https://kinepolis.fr/movies/detail/39254/HO00016693/0000000049/peppa-fete-noel"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-07-1600-boum-des-tout-petits-peppa-fete-noel",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Boum des tout petits : Peppa fête Noël",
+      "debut": "2026-11-07T16:00:00+01:00",
+      "duree_min": 50,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/39254/HO00016785/0000000027/boum-des-tout-petits-peppa-fete-noel"
     },
     {
       "id": "kinepolis-thionville-2026-11-08-1350-peppa-fete-noel",
@@ -1577,10 +3577,34 @@
       "categorie": "cinema",
       "titre": "Kultissime : Le Labyrinthe de Pan",
       "debut": "2026-11-17T20:15:00+01:00",
-      "duree_min": 122,
+      "duree_min": 115,
       "version": "VF",
       "note": "Salle 5",
       "url": "https://kinepolis.fr/movies/detail/11873/HO00016691/0000000035/kultissime-le-labyrinthe-de-pan"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-18-1340-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-18T13:40:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-18-1650-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-18T16:50:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-18-1930-branford-marsalis-dianne-reeves",
@@ -1602,6 +3626,18 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/stijn-demeulenaere-000000e9001e0b41"
     },
     {
+      "id": "kinepolis-thionville-2026-11-18-1930-seance-super-fan-hunger-games-lever-de",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Séance Super Fan : Hunger Games:Lever de...",
+      "debut": "2026-11-18T19:30:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 3",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016788/0000000010/seance-super-fan-hunger-games-lever-de..."
+    },
+    {
       "id": "l-arsenal-2026-11-18-2000-tigran-hamasyan",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -1610,6 +3646,18 @@
       "debut": "2026-11-18T20:00:00+01:00",
       "note": "Jazz, Piano - Manifeste - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/tigran-hamasyan"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-19-1345-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-19T13:45:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-19-1630-a-blaze-of-mutes",
@@ -1640,6 +3688,18 @@
       "debut": "2026-11-19T16:30:00+01:00",
       "note": "Salon PhilaPhil",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/talkback-burnback-000000e9001c8d91"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-19-1655-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-19T16:55:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-19-1715-for-real",
@@ -1682,6 +3742,18 @@
       "version": "VOST",
       "note": "Salle 4",
       "url": "https://kinepolis.fr/movies/detail/38886/HO00016738/0000000038/george-michael-the-faith-tour"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-19-2005-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-19T20:05:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-19-2145-genevieve-strosser-kp-werani",
@@ -1743,6 +3815,30 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/lucilin-composition-academy-000000e9001c8dc1"
     },
     {
+      "id": "kinepolis-thionville-2026-11-20-1340-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-20T13:40:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-20-1650-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-20T16:50:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-20-1730-noise-watchers-x-musiques-recherches",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -1771,6 +3867,18 @@
       "debut": "2026-11-20T20:00:00+01:00",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-20-2000-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-20T20:00:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-20-2015-riot-ensemble-juliet-fraser",
@@ -1853,6 +3961,18 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/gertrude-stein-s-the-making-of-americans-000000e9001da9ef"
     },
     {
+      "id": "kinepolis-thionville-2026-11-21-1340-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-21T13:40:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-21-1415-arditti-quartet-yaron-deutsch-stefan-prins-fredi-reiter",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -1883,6 +4003,18 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/monica-germino-participants-of-the-threshold-frame-violin-project-jaap-peter-kronemeijer-000000e9001c8dcd"
     },
     {
+      "id": "kinepolis-thionville-2026-11-21-1650-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-21T16:50:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-21-1700-guilherme-vaz",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -1911,6 +4043,18 @@
       "debut": "2026-11-21T19:30:00+01:00",
       "note": "Espace Découverte",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/yarnwire-000000e9001c8dcb"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-21-2000-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-21T20:00:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-21-2045-patrick-muller-max-mausen-olivier-sliepen",
@@ -2037,6 +4181,18 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/zafraan-ensemble-000000e9001daa00"
     },
     {
+      "id": "kinepolis-thionville-2026-11-22-1340-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-22T13:40:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-22-1400-sandrine-cantoreggi-luigi-gaggero",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -2067,6 +4223,18 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/eunoia-trio-henri-vaexby-catherine-kontz-000000e9001daa03"
     },
     {
+      "id": "kinepolis-thionville-2026-11-22-1650-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-22T16:50:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-22-1730-erwan-keravec",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -2085,6 +4253,18 @@
       "debut": "2026-11-22T19:00:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/andrew-watts-helena-rasker-miles-walter-000000e9001c8de4"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-22-2000-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-22T20:00:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-22-2000-united-instruments-of-lucilin-ensemble-klang",
@@ -2107,6 +4287,30 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/mikolaj-rytowski-000000e9001c8dbf"
     },
     {
+      "id": "kinepolis-thionville-2026-11-23-1340-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-23T13:40:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-23-1650-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-23T16:50:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-23-1930-baroque-bellows-and-beyond",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -2115,6 +4319,18 @@
       "debut": "2026-11-23T19:30:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/baroque-bellows-and-beyond-000000e9001c3e77"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-23-2000-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-23T20:00:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-24-1230-lunch-concert",
@@ -2127,6 +4343,30 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-concert-000000e9001d0d71"
     },
     {
+      "id": "kinepolis-thionville-2026-11-24-1340-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-24T13:40:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-24-1650-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-24T16:50:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-24-1930-rising-stars-petar-pejcic",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -2135,6 +4375,18 @@
       "debut": "2026-11-24T19:30:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/rising-stars-petar-pejcic-000000e9001c80c1"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-24-2000-hunger-games-lever-de-soleil-sur-la-moisson",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Hunger Games : Lever de soleil sur la moisson",
+      "debut": "2026-11-24T20:00:00+01:00",
+      "duree_min": 158,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
       "id": "kinepolis-thionville-2026-11-24-2000-kultissime-taxi-driver",
@@ -2157,6 +4409,18 @@
       "debut": "2026-11-24T20:00:00+01:00",
       "note": "Théâtre de Thionville - petite salle - Théâtre",
       "url": "https://www.nest-theatre.fr/saison/26-27/pas-de-souci-959"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-25-1340-billie-a-la-coisee-des-mondes",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Billie à la coisée des mondes",
+      "debut": "2026-11-25T13:40:00+01:00",
+      "duree_min": 103,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/36898/HO00016212/0/billie-a-la-coisee-des-mondes"
     },
     {
       "id": "l-arsenal-2026-11-25-1400-visite-l-envers-du-decor",
@@ -2189,6 +4453,18 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/dmitry-shishkin-000000e9001cc1c0"
     },
     {
+      "id": "kinepolis-thionville-2026-11-25-1950-billie-a-la-coisee-des-mondes",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Billie à la coisée des mondes",
+      "debut": "2026-11-25T19:50:00+01:00",
+      "duree_min": 103,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36898/HO00016212/0/billie-a-la-coisee-des-mondes"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-26-1930-robert-schumann-dichterliebe",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -2207,6 +4483,18 @@
       "debut": "2026-11-26T20:00:00+01:00",
       "note": "Théâtre musical, Création et crossover - Compagnie Roland Furieux - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/antigonick"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-26-2000-kultissime-rocky",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kultissime : Rocky",
+      "debut": "2026-11-26T20:00:00+01:00",
+      "duree_min": 120,
+      "version": "VOST",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/3531/HO00016899/0000000035/kultissime-rocky"
     },
     {
       "id": "nest-2026-11-26-2000-pas-de-souci",
@@ -2291,6 +4579,30 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/heemspill-featured-lady-live-in-lux-000000e9001d04dc"
     },
     {
+      "id": "kinepolis-thionville-2026-11-29-1040-cine-relax-billie-a-la-coisee-des-mondes",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Ciné Relax : Billie à la coisée des mondes",
+      "debut": "2026-11-29T10:40:00+01:00",
+      "duree_min": 103,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36898/HO00016825/0000000076/cine-relax-billie-a-la-coisee-des-mondes"
+    },
+    {
+      "id": "kinepolis-thionville-2026-11-29-1045-matinee-magique-billie-a-la-coisee-des-mondes",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Matinée Magique : Billie à la coisée des mondes",
+      "debut": "2026-11-29T10:45:00+01:00",
+      "duree_min": 103,
+      "version": "VF",
+      "note": "Salle 1",
+      "url": "https://kinepolis.fr/movies/detail/36898/HO00016900/0000000017/matinee-magique-billie-a-la-coisee-des-mondes"
+    },
+    {
       "id": "nest-2026-11-29-1100-tadam",
       "lieu": "NEST",
       "ville": "Thionville",
@@ -2350,6 +4662,18 @@
       "debut": "2026-12-01T19:30:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/beethoven-4-strings-part-ii-000000e9001c3e60"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-01-1940-kultissime-le-seigneur-des-anneaux-1",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kultissime : Le Seigneur des anneaux 1",
+      "debut": "2026-12-01T19:40:00+01:00",
+      "duree_min": 178,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/4940/HO00003338/0000000035/kultissime-le-seigneur-des-anneaux-1"
     },
     {
       "id": "philharmonie-luxembourg-2026-12-02-1930-michel-reis-matthieu-bordenave",
@@ -2495,6 +4819,18 @@
       "debut": "2026-12-08T12:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/lunch-with-gustavo-gimeno-000000e9001d0d76"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-08-1930-kultissime-le-seigneur-des-anneaux-2",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kultissime : Le Seigneur des anneaux 2",
+      "debut": "2026-12-08T19:30:00+01:00",
+      "duree_min": 179,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/6404/HO00003361/0000000035/kultissime-le-seigneur-des-anneaux-2"
     },
     {
       "id": "philharmonie-luxembourg-2026-12-08-1930-oktett-fantasie",
@@ -2681,6 +5017,18 @@
       "url": "https://kinepolis.fr/movies/detail/36318/HO00016485/0000000001/avant-premiere-dune-troisieme-partie"
     },
     {
+      "id": "kinepolis-thionville-2026-12-15-1950-kultissime-le-seigneur-des-anneaux-3",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kultissime : Le seigneur des anneaux 3",
+      "debut": "2026-12-15T19:50:00+01:00",
+      "duree_min": 201,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/6366/HO00003355/0000000035/kultissime-le-seigneur-des-anneaux-3"
+    },
+    {
       "id": "theatre-2026-12-15-l-experience-theatrale",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -2704,16 +5052,28 @@
       "url": "https://kinepolis.fr/movies/detail/36318/HO00016485/0000000001/avant-premiere-dune-troisieme-partie"
     },
     {
-      "id": "kinepolis-thionville-2026-12-16-0005-avant-premiere-avengers-doomsday",
+      "id": "kinepolis-thionville-2026-12-16-0005-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
       "categorie": "cinema",
-      "titre": "Avant Première : Avengers : Doomsday",
+      "titre": "Avengers : Doomsday",
       "debut": "2026-12-16T00:05:00+01:00",
       "duree_min": 165,
       "version": "VF",
       "note": "Salle 1",
-      "url": "https://kinepolis.fr/movies/detail/23946/HO00016575/0000000001/avant-premiere-avengers-doomsday"
+      "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-16-1030-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-16T10:30:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 2",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
     },
     {
       "id": "kinepolis-thionville-2026-12-16-1040-avengers-doomsday",
@@ -2740,6 +5100,30 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-16-1350-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-16T13:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-16-1620-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-16T16:20:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-16-1630-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -2764,6 +5148,18 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00016638/0000000010/seance-super-fan-avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-16-1950-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-16T19:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "l-arsenal-2026-12-16-2000-le-magnificat-de-bach",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -2786,6 +5182,30 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-17-1350-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-17T13:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-17-1600-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-17T16:00:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-17-1655-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -2796,6 +5216,18 @@
       "version": "VF",
       "note": "Salle 1",
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-17-1950-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-17T19:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
     },
     {
       "id": "kinepolis-thionville-2026-12-17-2025-avengers-doomsday",
@@ -2832,6 +5264,30 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-18-1350-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-18T13:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-18-1600-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-18T16:00:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-18-1655-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -2862,6 +5318,18 @@
       "debut": "2026-12-18T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/home-alone-000000e9001c6828"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-18-1950-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-18T19:50:00+01:00",
+      "duree_min": 170,
+      "version": "VOST",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
     },
     {
       "id": "nest-2026-12-18-2000-d-autres-familles-que-la-mienne",
@@ -2910,6 +5378,30 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-19-1350-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-19T13:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-19-1600-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-19T16:00:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "nest-2026-12-19-1600-ultra-saucisse",
       "lieu": "NEST",
       "ville": "Thionville",
@@ -2940,6 +5432,18 @@
       "debut": "2026-12-19T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/maman-j-ai-rate-l-avion-000000e9001c6829"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-19-1950-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-19T19:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
     },
     {
       "id": "saint-pierre-2026-12-19-christmas-in-thionville",
@@ -2987,6 +5491,30 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-20-1350-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-20T13:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-20-1600-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-20T16:00:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-20-1655-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -3007,6 +5535,18 @@
       "debut": "2026-12-20T17:00:00+01:00",
       "note": "d'EAST Phare - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/arsenal/rap-classic-1"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-20-1950-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-20T19:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
     },
     {
       "id": "kinepolis-thionville-2026-12-20-2055-avengers-doomsday",
@@ -3033,6 +5573,30 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-21-1350-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-21T13:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-21-1600-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-21T16:00:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-21-1655-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -3053,6 +5617,18 @@
       "debut": "2026-12-21T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/chreschtconcert-000000e9001be737"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-21-1950-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-21T19:50:00+01:00",
+      "duree_min": 170,
+      "version": "VOST",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
     },
     {
       "id": "kinepolis-thionville-2026-12-21-2055-avengers-doomsday",
@@ -3079,6 +5655,30 @@
       "url": "https://kinepolis.fr/movies/detail/23946/HO00015288/0/avengers-doomsday"
     },
     {
+      "id": "kinepolis-thionville-2026-12-22-1350-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-22T13:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 9",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-22-1600-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-22T16:00:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
+    },
+    {
       "id": "kinepolis-thionville-2026-12-22-1655-avengers-doomsday",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -3099,6 +5699,18 @@
       "debut": "2026-12-22T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/chreschtconcert-000000e9001be738"
+    },
+    {
+      "id": "kinepolis-thionville-2026-12-22-1950-dune-troisieme-partie",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Dune : Troisième partie",
+      "debut": "2026-12-22T19:50:00+01:00",
+      "duree_min": 170,
+      "version": "VF",
+      "note": "Salle 10",
+      "url": "https://kinepolis.fr/movies/detail/36318/HO00015764/0/dune-troisieme-partie"
     },
     {
       "id": "kinepolis-thionville-2026-12-22-2055-avengers-doomsday",
@@ -3143,6 +5755,30 @@
       "jour_entier": true,
       "note": "Symphonique - Orchestre national de Metz Grand Est, David Reiland - 27 déc. - → - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/concert-du-nouvel-an-strauss-rossini-mahler-john-williams-mozart-elgar"
+    },
+    {
+      "id": "kinepolis-thionville-2027-01-03-1750-kultissime-rocky",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kultissime : Rocky",
+      "debut": "2027-01-03T17:50:00+01:00",
+      "duree_min": 120,
+      "version": "VOST",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/3531/HO00016899/0000000035/kultissime-rocky"
+    },
+    {
+      "id": "kinepolis-thionville-2027-01-05-2000-kultissime-rocky",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Kultissime : Rocky",
+      "debut": "2027-01-05T20:00:00+01:00",
+      "duree_min": 120,
+      "version": "VOST",
+      "note": "Salle 5",
+      "url": "https://kinepolis.fr/movies/detail/3531/HO00016899/0000000035/kultissime-rocky"
     },
     {
       "id": "philharmonie-luxembourg-2027-01-06-1930-neijoersconcert",
@@ -3295,6 +5931,18 @@
       "note": "Christian-Pierre La Marca & Yaman Okur",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "kinepolis-thionville-2027-01-16-1340-marathon-le-seigneur-des-anneaux-1-2-3",
+      "lieu": "Kinepolis Thionville",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Marathon : Le seigneur des anneaux 1+2+3",
+      "debut": "2027-01-16T13:40:00+01:00",
+      "duree_min": 558,
+      "version": "VF",
+      "note": "Salle 8",
+      "url": "https://kinepolis.fr/movies/detail/13584/HO00011253/0000000020/marathon-le-seigneur-des-anneaux-1-2-3"
     },
     {
       "id": "philharmonie-luxembourg-2027-01-16-1930-camille",
