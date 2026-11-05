@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:49:50+01:00",
+  "updated_at": "2026-11-05T18:50:56+01:00",
   "events": [
     {
       "id": "la-scala-2026-11-05-1320-la-gradiva",
@@ -3529,6 +3529,27 @@
       "url": "https://kinepolis.fr/movies/detail/38964/HO00016395/0/kraken"
     },
     {
+      "id": "la-scala-2026-11-11-1340-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-11T13:40:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-11-1350-le-mystere-lucy-lost",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Mystère Lucy Lost",
+      "debut": "2026-11-11T13:50:00+01:00",
+      "duree_min": 89,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "theatre-2026-11-11-tableaux-d-une-exposition",
       "lieu": "Théâtre de Thionville",
       "ville": "Thionville",
@@ -3538,6 +3559,49 @@
       "note": "Le Symphonique de Thionville-Moselle",
       "url": "https://www.thionville.fr/fileadmin/mediatheque/kiosque/Saison_2026-2027_Theatre___Adagio.pdf",
       "import": "theatre-adagio-2026-2027.json"
+    },
+    {
+      "id": "la-scala-2026-11-11-1540-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-11T15:40:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-11-1600-petite-casbah",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Petite Casbah",
+      "debut": "2026-11-11T16:00:00+01:00",
+      "duree_min": 84,
+      "note": "Jeune public, dès 6 ans",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-11-1745-la-gradiva",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Gradiva",
+      "debut": "2026-11-11T17:45:00+01:00",
+      "duree_min": 145,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-11-1755-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-11T17:55:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "nest-2026-11-11-1900-l-art-d-avoir-toujours-raison",
@@ -3558,6 +3622,105 @@
       "debut": "2026-11-11T19:30:00+01:00",
       "note": "Grand Foyer",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/huelgas-ensemble-000000e9001d37e0"
+    },
+    {
+      "id": "la-scala-2026-11-11-2015-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-11T20:15:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-11-2030-new-group",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "New Group",
+      "debut": "2026-11-11T20:30:00+01:00",
+      "duree_min": 82,
+      "version": "VOST",
+      "note": "Séance(s) de Rattrapage",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-0945-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-12T09:45:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-1320-la-gradiva",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Gradiva",
+      "debut": "2026-11-12T13:20:00+01:00",
+      "duree_min": 145,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-1325-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-12T13:25:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-1545-entre-le-ciel-et-l-enfer",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Entre le ciel et l'enfer",
+      "debut": "2026-11-12T15:45:00+01:00",
+      "duree_min": 143,
+      "version": "VOST",
+      "note": "Cycle Japanese Noire",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-1605-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-12T16:05:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-1805-une-femme-aujourd-hui",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Une femme aujourd'hui",
+      "debut": "2026-11-12T18:05:00+01:00",
+      "duree_min": 123,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-1830-new-group",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "New Group",
+      "debut": "2026-11-12T18:30:00+01:00",
+      "duree_min": 82,
+      "version": "VOST",
+      "note": "Séance(s) de Rattrapage",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-12-1930-evgeny-kissin-sir-andras-schiff",
@@ -3604,14 +3767,77 @@
       "url": "https://kinepolis.fr/movies/detail/8387/HO00016901/0000000035/kultissime-dune"
     },
     {
-      "id": "la-scala-2026-11-13-1930-le-juge-fayard-dit-le-sheriff",
+      "id": "la-scala-2026-11-12-2015-wild-horse-nine",
       "lieu": "La Scala",
       "ville": "Thionville",
       "categorie": "cinema",
-      "titre": "Le Juge Fayard dit le shériff",
-      "debut": "2026-11-13T19:30:00+01:00",
-      "duree_min": 112,
-      "note": "Le Cinéma Français c'est de la merde - présenté par Rurik Sallé",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-12T20:15:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-12-2025-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-12T20:25:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-13-1325-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-13T13:25:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-13-1415-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-13T14:15:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-13-1530-une-femme-aujourd-hui",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Une femme aujourd'hui",
+      "debut": "2026-11-13T15:30:00+01:00",
+      "duree_min": 123,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-13-1645-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-13T16:45:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-13-1755-le-mystere-lucy-lost",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Mystère Lucy Lost",
+      "debut": "2026-11-13T17:55:00+01:00",
+      "duree_min": 89,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3622,7 +3848,17 @@
       "titre": "Série noire",
       "debut": "2026-11-13T19:30:00+01:00",
       "duree_min": 111,
-      "note": "Le Cinéma Français c'est de la merde - présenté par Rurik Sallé",
+      "note": "\"Le Cinéma Français c'est de la merde!\"",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-13-1950-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-13T19:50:00+01:00",
+      "duree_min": 104,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3647,13 +3883,68 @@
       "import": "theatre-adagio-2026-2027.json"
     },
     {
+      "id": "la-scala-2026-11-13-2200-new-group",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "New Group",
+      "debut": "2026-11-13T22:00:00+01:00",
+      "duree_min": 82,
+      "version": "VOST",
+      "note": "Séance(s) de Rattrapage",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-13-2210-le-juge-fayard-dit-le-sheriff",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Juge Fayard dit le shériff",
+      "debut": "2026-11-13T22:10:00+01:00",
+      "duree_min": 112,
+      "note": "\"Le Cinéma Français c'est de la merde!\"",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-14-1325-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-14T13:25:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-14-1350-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-14T13:50:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "la-scala-2026-11-14-1600-la-verite-du-sol",
       "lieu": "La Scala",
       "ville": "Thionville",
       "categorie": "festival",
       "titre": "La vérité du sol",
       "debut": "2026-11-14T16:00:00+01:00",
-      "note": "Festival Permaculture 2026 - Documentaire - 0h52 – France",
+      "note": "Festival Permaculture 2026 |, 0h52 — France",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-14-1600-petite-casbah",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Petite Casbah",
+      "debut": "2026-11-14T16:00:00+01:00",
+      "duree_min": 84,
+      "note": "Jeune public, dès 6 ans",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3664,7 +3955,18 @@
       "titre": "Forêt Gourmande",
       "debut": "2026-11-14T17:30:00+01:00",
       "duree_min": 64,
-      "note": "Festival Permaculture 2026 - En présence de Claire Mauquié",
+      "note": "Festival Permaculture 2026 |",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-14-1750-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-14T17:50:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3685,7 +3987,7 @@
       "titre": "Cultiver la pluie",
       "debut": "2026-11-14T20:00:00+01:00",
       "duree_min": 70,
-      "note": "Festival Permaculture 2026 - Documentaire",
+      "note": "Festival Permaculture 2026 |",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3699,6 +4001,16 @@
       "url": "https://www.nest-theatre.fr/saison/26-27/l-art-d-avoir-toujours-raison-958"
     },
     {
+      "id": "la-scala-2026-11-14-2015-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-14T20:15:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "l-arsenal-2026-11-15-0000-cimarron",
       "lieu": "L'Arsenal",
       "ville": "Metz",
@@ -3709,6 +4021,48 @@
       "jour_entier": true,
       "note": "Charles Fréger - 13 sept. - → - Découvrir",
       "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/exposition/cimarron"
+    },
+    {
+      "id": "la-scala-2026-11-15-1320-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-15T13:20:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-15-1325-le-mystere-lucy-lost",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Mystère Lucy Lost",
+      "debut": "2026-11-15T13:25:00+01:00",
+      "duree_min": 89,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-15-1520-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-15T15:20:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-15-1540-petite-casbah",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Petite Casbah",
+      "debut": "2026-11-15T15:40:00+01:00",
+      "duree_min": 84,
+      "note": "Jeune public, dès 6 ans",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "l-arsenal-2026-11-15-1600-su",
@@ -3729,6 +4083,29 @@
       "debut": "2026-11-15T17:00:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/les-fous-de-vianden-000000e9001c787e"
+    },
+    {
+      "id": "la-scala-2026-11-15-1725-entre-le-ciel-et-l-enfer",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Entre le ciel et l'enfer",
+      "debut": "2026-11-15T17:25:00+01:00",
+      "duree_min": 143,
+      "version": "VOST",
+      "note": "Cycle Japanese Noire",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-15-1730-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-15T17:30:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-15-1930-britten-war-requiem",
@@ -3753,6 +4130,93 @@
       "url": "https://kinepolis.fr/movies/detail/38886/HO00016738/0000000038/george-michael-the-faith-tour"
     },
     {
+      "id": "la-scala-2026-11-15-1950-la-gradiva",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Gradiva",
+      "debut": "2026-11-15T19:50:00+01:00",
+      "duree_min": 145,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-15-2010-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-15T20:10:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-16-0945-entre-le-ciel-et-l-enfer",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Entre le ciel et l'enfer",
+      "debut": "2026-11-16T09:45:00+01:00",
+      "duree_min": 143,
+      "version": "VOST",
+      "note": "Cycle Japanese Noire",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-16-1320-new-group",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "New Group",
+      "debut": "2026-11-16T13:20:00+01:00",
+      "duree_min": 82,
+      "version": "VOST",
+      "note": "Séance(s) de Rattrapage",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-16-1505-la-gradiva",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Gradiva",
+      "debut": "2026-11-16T15:05:00+01:00",
+      "duree_min": 145,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-16-1620-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-16T16:20:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-16-1750-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-16T17:50:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-16-1825-le-mystere-lucy-lost",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Mystère Lucy Lost",
+      "debut": "2026-11-16T18:25:00+01:00",
+      "duree_min": 89,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-16-1930-klaus-makela-conducts-mahler-7",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -3761,6 +4225,91 @@
       "debut": "2026-11-16T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/klaus-maekelae-conducts-mahler-7-000000e9001a0e85"
+    },
+    {
+      "id": "la-scala-2026-11-16-2010-une-femme-aujourd-hui",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Une femme aujourd'hui",
+      "debut": "2026-11-16T20:10:00+01:00",
+      "duree_min": 123,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-16-2015-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-16T20:15:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-17-1320-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-17T13:20:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-17-1325-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-17T13:25:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-17-1520-la-gradiva",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Gradiva",
+      "debut": "2026-11-17T15:20:00+01:00",
+      "duree_min": 145,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-17-1545-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-17T15:45:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-17-1805-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-17T18:05:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-17-1805-une-femme-aujourd-hui",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Une femme aujourd'hui",
+      "debut": "2026-11-17T18:05:00+01:00",
+      "duree_min": 123,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-17-1930-l-enfant-soldat-nee-musique",
@@ -3794,6 +4343,17 @@
       "url": "https://kinepolis.fr/movies/detail/21341/HO00016904/0000000035/kultissime-dune-deuxieme-partie"
     },
     {
+      "id": "la-scala-2026-11-17-2010-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-17T20:10:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "kinepolis-thionville-2026-11-17-2015-kultissime-le-labyrinthe-de-pan",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -3804,6 +4364,18 @@
       "version": "VF",
       "note": "Salle 5",
       "url": "https://kinepolis.fr/movies/detail/11873/HO00016691/0000000035/kultissime-le-labyrinthe-de-pan"
+    },
+    {
+      "id": "la-scala-2026-11-17-2030-new-group",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "New Group",
+      "debut": "2026-11-17T20:30:00+01:00",
+      "duree_min": 82,
+      "version": "VOST",
+      "note": "Séance(s) de Rattrapage",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "kinepolis-thionville-2026-11-18-1340-hunger-games-lever-de-soleil-sur-la-moisson",
@@ -4835,6 +5407,30 @@
       "debut": "2026-11-27T20:00:00+01:00",
       "note": "Théâtre de Thionville - petite salle - Théâtre",
       "url": "https://www.nest-theatre.fr/saison/26-27/pas-de-souci-959"
+    },
+    {
+      "id": "la-scala-2026-11-27-2030-la-tarentule-au-ventre-noir",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Tarentule au ventre noir",
+      "debut": "2026-11-27T20:30:00+01:00",
+      "duree_min": 98,
+      "version": "VOST",
+      "note": "Le Retour du Bis - présenté par l'équipe de croiX2malte, le Podcast live",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-27-2030-torso",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Torso",
+      "debut": "2026-11-27T20:30:00+01:00",
+      "duree_min": 90,
+      "version": "VOST",
+      "note": "Le Retour du Bis - présenté par l'équipe de croiX2malte, le Podcast live",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "l-arsenal-2026-11-28-0000-born-bad-records",
