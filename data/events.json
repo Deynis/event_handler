@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:50:56+01:00",
+  "updated_at": "2026-11-05T19:14:34+01:00",
   "events": [
     {
       "id": "la-scala-2026-11-05-1320-la-gradiva",
@@ -2010,7 +2010,7 @@
       "debut": "2026-11-08T16:00:00+01:00",
       "duree_min": 92,
       "version": "VOST",
-      "note": "Ciné-club",
+      "note": "Ciné-club - Cycle Japanese Noire",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3933,7 +3933,8 @@
       "categorie": "festival",
       "titre": "La vérité du sol",
       "debut": "2026-11-14T16:00:00+01:00",
-      "note": "Festival Permaculture 2026 |, 0h52 — France",
+      "duree_min": 52,
+      "note": "Festival Permaculture 2026",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3955,7 +3956,7 @@
       "titre": "Forêt Gourmande",
       "debut": "2026-11-14T17:30:00+01:00",
       "duree_min": 64,
-      "note": "Festival Permaculture 2026 |",
+      "note": "Festival Permaculture 2026",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -3987,7 +3988,7 @@
       "titre": "Cultiver la pluie",
       "debut": "2026-11-14T20:00:00+01:00",
       "duree_min": 70,
-      "note": "Festival Permaculture 2026 |",
+      "note": "Festival Permaculture 2026",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -4718,7 +4719,8 @@
       "categorie": "cinema",
       "titre": "Il suffit d'une nuit",
       "debut": "2026-11-20T20:00:00+01:00",
-      "note": "Ouverture du festival Le Réel en Vue - 1h30 – France",
+      "duree_min": 90,
+      "note": "Ouverture du festival Le Réel en Vue",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -5055,6 +5057,17 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/sandrine-cantoreggi-luigi-gaggero-000000e9001c8de0"
     },
     {
+      "id": "la-scala-2026-11-22-1430-la-bataille-de-gaulle-partie-1-l-age-de-fer",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Bataille de Gaulle - Partie 1 : L'Âge de Fer",
+      "debut": "2026-11-22T14:30:00+01:00",
+      "duree_min": 160,
+      "note": "Ciné-débat - 17h30 : Table Ronde - 18h30 : Buffet dinatoire offert",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-22-1500-arditti-quartet-claude-lenners",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -5105,6 +5118,17 @@
       "debut": "2026-11-22T19:00:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/andrew-watts-helena-rasker-miles-walter-000000e9001c8de4"
+    },
+    {
+      "id": "la-scala-2026-11-22-1930-la-bataille-de-gaulle-partie-2-j-ecris-ton-nom",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+      "debut": "2026-11-22T19:30:00+01:00",
+      "duree_min": 160,
+      "note": "Ciné-débat - 17h30 : Table Ronde - 18h30 : Buffet dinatoire offert",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "kinepolis-thionville-2026-11-22-2000-hunger-games-lever-de-soleil-sur-la-moisson",
