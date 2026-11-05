@@ -135,8 +135,68 @@ class TestInfoLines(unittest.TestCase):
         minutes, version, _ = extract_pdf.film_summary(film)
         self.assertEqual((minutes, version), (None, "VOST"))
 
+    def test_any_dash_separates_infos(self):
+        import extract_pdf
+        for dash in "-–—":
+            film = extract_pdf.Film(["La vérité du sol"], [f"François Legrand - 0h52 {dash} France"])
+            (info,) = film.infos()
+            self.assertEqual((info["minutes"], info["country"], info["extras"]), (52, "France", []))
 
-PDF = Path(__file__).resolve().parents[2] / "pdf" / "scala-2026-09-30.pdf"
+
+def words(text: str, x1: float = 100) -> list[dict]:
+    return [{"text": text, "x1": x1}]
+
+
+class TestUpcomingSlots(unittest.TestCase):
+    """Une date sans heure, suivie d'une ligne par séance (« 14h30 : Partie 1 »)."""
+    WEEK = (date(2026, 11, 11), date(2026, 11, 17))
+
+    def setUp(self):
+        import extract_pdf
+        self.ep = extract_pdf
+        self.films = [
+            extract_pdf.Film(["La Bataille de Gaulle - Partie 1 :", "L'Âge de Fer"], ["Antonin Baudry - 2h40 - France"]),
+            extract_pdf.Film(["La Bataille de Gaulle - Partie 2 :", "J'écris ton nom"], ["Antonin Baudry - 2h40 - France"]),
+        ]
+
+    def parse(self, lines, films=None):
+        entries = self.ep.parse_date_entries([words(t) for t in lines], right_edge=500)
+        warnings = []
+        return self.ep.upcoming_events(films or self.films, entries, None, *self.WEEK, warnings), warnings
+
+    def test_each_film_gets_its_time(self):
+        events, warnings = self.parse([
+            "Dimanche 22 novembre", "Ciné-débat", "14h30 : Partie 1 : L'Âge de Fer", "17h30 : Table Ronde",
+            "18h30 : Buffet dînatoire offert", "19h30 : Partie 2 : J'écris ton nom"])
+        self.assertEqual(warnings, [])
+        self.assertEqual([e["debut"] for e in events], ["2026-11-22T14:30:00+01:00", "2026-11-22T19:30:00+01:00"])
+        self.assertEqual(events[0]["duree_min"], 160)
+        self.assertEqual(events[0]["note"], "Ciné-débat - 17h30 : Table Ronde - 18h30 : Buffet dînatoire offert")
+
+    def test_film_without_time_is_reported(self):
+        events, warnings = self.parse(["Dimanche 22 novembre", "14h30 : Partie 1 : L'Âge de Fer"])
+        self.assertEqual(events, [])
+        self.assertEqual(len(warnings), 1)
+
+    def test_several_dates_one_without_time_is_reported(self):
+        events, warnings = self.parse(["Dimanche 22 novembre", "Lundi 23 novembre à 20h"])
+        self.assertEqual(events, [])
+        self.assertEqual(len(warnings), 1)
+
+    def test_date_with_time_unchanged(self):
+        film = self.ep.Film(["Torso"], ["Sergio Martino - 1h30 - Italie - VOST"])
+        events, warnings = self.parse(["Vendredi 27 novembre à 20h30", "Le Retour du Bis"], [film])
+        self.assertEqual(warnings, [])
+        self.assertEqual((events[0]["debut"], events[0]["note"]), ("2026-11-27T20:30:00+01:00", "Le Retour du Bis"))
+
+    def test_date_inside_a_note_stays_a_note(self):
+        entries = self.ep.parse_date_entries(
+            [words("Vendredi 27 novembre à 20h30"), words("Samedi 28 novembre : rencontre")], right_edge=500)
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(entries[0]["note"], "Samedi 28 novembre : rencontre")
+
+
+PDF =Path(__file__).resolve().parents[2] / "pdf" / "scala-2026-09-30.pdf"
 
 
 @unittest.skipUnless(PDF.exists(), "PDF d'exemple absent")
@@ -179,7 +239,7 @@ class TestScalaPdf(unittest.TestCase):
         self.assertIn("Association Franco-Africaine de Moselle", buffet["note"])
 
 
-JPG = Path(__file__).resolve().parents[2] / "jpg" / "grille_horaire_scala_S44_A5.jpg"
+JPG = Path(__file__).resolve().parents[2] / "jpg" / "grille_horaire_scala_S46_A5_1.jpg"
 
 
 def has_tesseract_fra() -> bool:
@@ -201,24 +261,31 @@ class TestScalaJpg(unittest.TestCase):
             cls.by_title.setdefault(e["titre"], []).append(e)
 
     def test_week_and_counts(self):
-        self.assertEqual((self.page.week_start, self.page.week_end), (date(2026, 10, 28), date(2026, 11, 3)))
-        in_week = [e for e in self.page.events if e["debut"][:10] <= "2026-11-03"]
-        self.assertEqual(len(in_week), 63)  # nombre d'heures dans la grille
+        self.assertEqual((self.page.week_start, self.page.week_end), (date(2026, 11, 11), date(2026, 11, 17)))
+        self.assertEqual(self.page.warnings, [])
+        in_week = [e for e in self.page.events if e["debut"][:10] <= "2026-11-17"]
+        self.assertEqual(len(in_week), 58)  # nombre d'heures dans la grille
 
     def test_grid(self):
         lucy = sorted(e["debut"][:16] for e in self.by_title["Le Mystère Lucy Lost"])
-        self.assertEqual(len(lucy), 14)
-        self.assertEqual((lucy[0], lucy[-1]), ("2026-10-28T10:00", "2026-11-03T18:15"))
-        sham = self.by_title["Sham"][0]
-        self.assertEqual((sham["duree_min"], sham["version"]), (129, "VOST"))
-        self.assertEqual(self.by_title["Les Salauds dorment en paix"][0]["note"], "Cycle Japanese Noire")
-        self.assertEqual(self.by_title["Chien bleu"][0]["note"], "Jeune public, dès 3 ans")
+        self.assertEqual(len(lucy), 4)
+        self.assertEqual((lucy[0], lucy[-1]), ("2026-11-11T13:50", "2026-11-16T18:25"))
+        wild = self.by_title["Wild Horse Nine"][0]
+        self.assertEqual((wild["duree_min"], wild["version"]), (118, "VOST"))
+        self.assertEqual(self.by_title["Entre le ciel et l'enfer"][0]["note"], "Cycle Japanese Noire")
+        self.assertEqual(self.by_title["Petite Casbah"][0]["note"], "Jeune public, dès 6 ans")
+
+    def test_band_note_and_any_dash(self):
+        sol = self.by_title["La vérité du sol"][0]
+        self.assertEqual((sol["duree_min"], sol["note"], sol["categorie"]), (52, "Festival Permaculture 2026", "festival"))
 
     def test_upcoming_events(self):
-        self.assertEqual(self.by_title["La Marque du tueur"][0]["debut"], "2026-11-08T16:00:00+01:00")
+        # une date, puis une heure par film sur les lignes suivantes
+        self.assertEqual(self.by_title["La Bataille de Gaulle - Partie 1 : L'Âge de Fer"][0]["debut"], "2026-11-22T14:30:00+01:00")
+        self.assertEqual(self.by_title["La Bataille de Gaulle - Partie 2 : J'écris ton nom"][0]["debut"], "2026-11-22T19:30:00+01:00")
         # double programme : une seule date pour deux films
-        self.assertEqual(self.by_title["Série noire"][0]["debut"], "2026-11-13T19:30:00+01:00")
-        self.assertEqual(self.by_title["Le Juge Fayard dit le shériff"][0]["debut"], "2026-11-13T19:30:00+01:00")
+        self.assertEqual(self.by_title["Torso"][0]["debut"], "2026-11-27T20:30:00+01:00")
+        self.assertEqual(self.by_title["La Tarentule au ventre noir"][0]["debut"], "2026-11-27T20:30:00+01:00")
 
 
 PHIL_SITEMAP = """<urlset>

@@ -187,7 +187,7 @@ python scripts/scrape_kinepolis.py --headless         # sans fenêtre (bloqué �
 - **Déclenchement :** chaque semaine, La Scala publie une grille horaire en PDF ou, depuis fin octobre 2026, en JPG. Le workflow se lance à chaque fichier ajouté dans `pdf/`, `jpg/` ou `json/`, ou à la main.
 - **Lecture :** `extract_pdf.py` lit la grille avec `pdfplumber`, puis :
   - remplace les séances de La Scala de la semaine du PDF ;
-  - ajoute les « Événements à venir » du bas de page (ciné-débats, avant-premières...). Plusieurs films pour une seule date (double programme) reçoivent tous cette date.
+  - ajoute les « Événements à venir » du bas de page (ciné-débats, avant-premières...). Plusieurs films pour une seule date (double programme) reçoivent tous cette date. Une date sans heure (« Dimanche 22 novembre ») est suivie de lignes « 14h30 : Partie 1 » : chaque film prend l'heure de la ligne qui reprend la fin de son titre, les autres lignes (table ronde, buffet...) vont dans la note.
 - **Grille en image :** `extract_jpg.py` retrouve la même géométrie à partir des pixels rouges (filets, bandeaux, séparateurs de colonnes), puis lit chaque case avec Tesseract (`tesseract-ocr-fra`, installé par le workflow). Les titres sont repérés au gras (épaisseur des traits). Les horaires sont lus colonne par colonne, limités aux chiffres et au « h ». Une image prend une quinzaine de secondes.
 - **Ce qui est repris :** titre, horaires par jour, durée et version. Les mentions des bandeaux (« Dernière semaine », « Jeune public », ciné-club, festival...) vont dans la note.
 - **Anciens PDF :** ils restent sans effet, puisque leurs séances sont passées et donc purgées.

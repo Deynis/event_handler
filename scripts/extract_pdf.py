@@ -44,6 +44,10 @@ VERSIONS = {"VOST", "VF", "VO", "VOSTFR"}
 WEEKDAYS = ("lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche")
 DATE_LINE_RE = re.compile(
     r"^(?:%s)\s+(\d{1,2})(?:er)?\s+([^\W\d_]+)\s+(?:à\s+)?(\d{1,2})h(\d{2})?" % "|".join(WEEKDAYS), re.I)
+# Date seule (« Dimanche 22 novembre ») : les heures sont sur les lignes suivantes
+DAY_LINE_RE = re.compile(r"^(?:%s)\s+(\d{1,2})(?:er)?\s+([^\W\d_]+)$" % "|".join(WEEKDAYS), re.I)
+SLOT_RE = re.compile(r"^(\d{1,2})h(\d{2})\s*:\s*(.+)$")  # « 14h30 : Partie 1 : L'Âge de Fer »
+INFO_SEP_RE = re.compile(r"\s+[-–—]\s+")  # l'affiche mélange les tirets
 HEADER_RE = re.compile(
     r"Horaires du \w+\s+(\d{1,2})(?:er)?(?:\s+(?!au\b)([^\W\d_]+))?(?:\s+(\d{4}))?\s+au\s+\w+\s+(\d{1,2})(?:er)?\s+([^\W\d_]+)\s+(\d{4})",
     re.I)
@@ -112,7 +116,7 @@ class Film:
         records, buf = [], ""
         for line in self.info_lines:
             buf = (buf + " " + line).strip()
-            if any(DURATION_RE.match(t.strip()) for t in re.split(r"\s+-\s+", buf)):
+            if any(DURATION_RE.match(t.strip()) for t in INFO_SEP_RE.split(buf)):
                 records.append(parse_info(buf))
                 buf = ""
         if buf:
@@ -121,7 +125,7 @@ class Film:
 
 
 def parse_info(text: str) -> dict:
-    tokens = [t.strip() for t in re.split(r"\s+-\s+", clean(text)) if t.strip()]
+    tokens = [t.strip() for t in INFO_SEP_RE.split(clean(text)) if t.strip()]
     info = {"minutes": None, "version": None, "extras": [], "country": None}
     idx = next((i for i, t in enumerate(tokens) if DURATION_RE.match(t)), None)
     if idx is not None:
@@ -298,9 +302,11 @@ def grid_events(film: Film, week_start: date, band_note: str | None) -> list[dic
 
 def upcoming_events(films, entries, heading, week_start, week_end, warnings) -> list[dict]:
     """Ligne « Événements à venir » : chaque film associé à sa date."""
-    if len(entries) == 1 and len(films) > 1:  # double programme : une date pour tous les films
+    if len(entries) == 1 and entries[0]["hour"] is None:  # date seule : heures dans les lignes suivantes
+        entries = slot_entries(films, entries[0])
+    elif len(entries) == 1 and len(films) > 1:  # double programme : une date pour tous les films
         entries = entries * len(films)
-    if len(entries) != len(films):
+    if len(entries) != len(films) or any(e["hour"] is None for e in entries):
         warnings.append(
             f"événements à venir ignorés : {len(films)} film(s) mais {len(entries)} date(s) "
             f"({[f.title for f in films]})")
@@ -320,6 +326,26 @@ def upcoming_events(films, entries, heading, week_start, week_end, warnings) -> 
     return events
 
 
+def slot_entries(films, entry: dict) -> list[dict]:
+    """Date sans heure : chaque film prend l'heure de la ligne « 14h30 : <fin de son titre> ».
+    Les autres lignes (table ronde, buffet...) restent en note. Liste vide si un film n'a pas d'heure."""
+    slots, notes = [], []
+    for text in entry["notes"]:
+        m = SLOT_RE.match(text)
+        if m:
+            slots.append((int(m.group(1)), int(m.group(2)), norm(m.group(3))))
+        if not m or not any(norm(m.group(3)) in norm(f.title) for f in films):
+            notes.append(text)
+    note = " - ".join(notes) or None
+    out = []
+    for film in films:
+        slot = next((s for s in slots if s[2] in norm(film.title)), None)
+        if not slot:
+            return []
+        out.append({**entry, "hour": slot[0], "minute": slot[1], "note": note})
+    return out
+
+
 def parse_date_entries(right_lines, right_edge: float, wrap_gap: float = 25) -> list[dict]:
     """Colonne de droite de « Événements à venir » : une date en gras, puis ses notes."""
     entries: list[dict] = []
@@ -327,12 +353,15 @@ def parse_date_entries(right_lines, right_edge: float, wrap_gap: float = 25) -> 
     for line in right_lines:
         text = line_text(line)
         m = DATE_LINE_RE.match(text)
-        if m:
-            month = month_num(m.group(2))
+        day_only = None if m else DAY_LINE_RE.match(text)
+        if m or day_only:
+            found = m or day_only
+            month = month_num(found.group(2))
             if not month:
                 continue
-            entries.append({"day": int(m.group(1)), "month": month, "hour": int(m.group(3)),
-                            "minute": int(m.group(4) or 0), "note_lines": []})
+            entries.append({"day": int(found.group(1)), "month": month,
+                            "hour": int(m.group(3)) if m else None,
+                            "minute": int(m.group(4) or 0) if m else None, "note_lines": []})
             prev_line = None
         elif entries:
             notes = entries[-1]["note_lines"]
@@ -343,7 +372,8 @@ def parse_date_entries(right_lines, right_edge: float, wrap_gap: float = 25) -> 
                 notes.append(text)
             prev_line = line
     for e in entries:
-        e["note"] = " - ".join(e.pop("note_lines")) or None
+        e["notes"] = e.pop("note_lines")
+        e["note"] = " - ".join(e["notes"]) or None
     return entries
 
 

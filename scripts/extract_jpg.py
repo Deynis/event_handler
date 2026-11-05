@@ -87,7 +87,8 @@ class Scan:
 
 
 def text_of(lines) -> str:
-    return ep.clean(" ".join(ep.line_text(l) for l in lines))
+    # Le bord d'un bandeau est parfois lu comme un « | » en fin de texte
+    return ep.clean(" ".join(ep.line_text(l) for l in lines)).strip(" |")
 
 
 def build_films(img: Image_, lines) -> list[ep.Film]:
