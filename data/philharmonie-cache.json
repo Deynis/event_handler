@@ -2838,6 +2838,19 @@
    "url": "https://www.philharmonie.lu/fr/programme/2026-27/mozart-requiem-000000e9001d169c"
   }
  },
+ "https://www.philharmonie.lu/fr/programme/2026-27/mozart-requiem-000000e9001e655f": {
+  "lastmod": "2026-11-09T00:00:00+01:00",
+  "event": {
+   "id": "philharmonie-luxembourg-2027-03-05-1930-mozart-requiem",
+   "lieu": "Philharmonie Luxembourg",
+   "ville": "Luxembourg",
+   "categorie": "concert",
+   "titre": "Mozart Requiem",
+   "debut": "2027-03-05T19:30:00+01:00",
+   "note": "Grand Auditorium",
+   "url": "https://www.philharmonie.lu/fr/programme/2026-27/mozart-requiem-000000e9001e655f"
+  }
+ },
  "https://www.philharmonie.lu/fr/programme/2026-27/neijoersconcert-000000e9001be743": {
   "lastmod": "2026-06-04T00:00:00+02:00",
   "event": {
