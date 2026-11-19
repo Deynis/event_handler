@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-11-19T09:39:54+01:00",
+  "updated_at": "2026-11-19T09:44:51+01:00",
   "events": [
+    {
+      "id": "la-scala-2026-11-19-0945-quelques-mots-d-amour",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-19T09:45:00+01:00",
+      "duree_min": 97,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-19-1320-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-19T13:20:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-19-1340-quelques-mots-d-amour",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-19T13:40:00+01:00",
+      "duree_min": 97,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
     {
       "id": "kinepolis-thionville-2026-11-19-1345-hunger-games-lever-de-soleil-sur-la-moisson",
       "lieu": "Kinepolis Thionville",
@@ -12,6 +42,26 @@
       "version": "VF",
       "note": "Salle 1",
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "la-scala-2026-11-19-1540-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-19T15:40:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-19-1550-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-19T15:50:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-19-1630-a-blaze-of-mutes",
@@ -66,6 +116,29 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/for-real-000000e9001d8fe6"
     },
     {
+      "id": "la-scala-2026-11-19-1755-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-19T17:55:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-19-1810-le-vagabond-de-tokyo",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Vagabond de Tokyo",
+      "debut": "2026-11-19T18:10:00+01:00",
+      "duree_min": 83,
+      "version": "VOST",
+      "note": "Cycle Japanese Noire",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-19-1830-herve-birolini",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -84,6 +157,16 @@
       "debut": "2026-11-19T19:30:00+01:00",
       "note": "Grand Auditorium",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/luxembourg-philharmonic-jack-sheen-tamsin-waley-cohen-yarnwire-000000e9001c2156"
+    },
+    {
+      "id": "la-scala-2026-11-19-1955-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-19T19:55:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "kinepolis-thionville-2026-11-19-2000-george-michael-the-faith-tour",
@@ -110,6 +193,16 @@
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
+      "id": "la-scala-2026-11-19-2015-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-19T20:15:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-19-2145-genevieve-strosser-kp-werani",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -118,6 +211,17 @@
       "debut": "2026-11-19T21:45:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/genevieve-strosser-kp-werani-000000e9001c8dc3"
+    },
+    {
+      "id": "la-scala-2026-11-20-0945-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-20T09:45:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-20-1100-steam-release",
@@ -169,6 +273,27 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/lucilin-composition-academy-000000e9001c8dc1"
     },
     {
+      "id": "la-scala-2026-11-20-1320-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-20T13:20:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-20-1325-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-20T13:25:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "kinepolis-thionville-2026-11-20-1340-hunger-games-lever-de-soleil-sur-la-moisson",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -179,6 +304,26 @@
       "version": "VF",
       "note": "Salle 1",
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "la-scala-2026-11-20-1525-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-20T15:25:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-20-1540-quelques-mots-d-amour",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-20T15:40:00+01:00",
+      "duree_min": 97,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "kinepolis-thionville-2026-11-20-1650-hunger-games-lever-de-soleil-sur-la-moisson",
@@ -201,6 +346,27 @@
       "debut": "2026-11-20T17:30:00+01:00",
       "note": "Espace Découverte",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/noise-watchers-x-musiques-recherches-000000e9001da9b3"
+    },
+    {
+      "id": "la-scala-2026-11-20-1735-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-20T17:35:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-20-1755-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-20T17:55:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-20-1830-der-gelbe-klang-sounddramaturgien-kollektiv",
@@ -235,14 +401,24 @@
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
-      "id": "la-scala-2026-11-20-2000-il-suffit-d-une-nuit",
+      "id": "la-scala-2026-11-20-2000-il-a-suffi-d-une-nuit",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "festival",
+      "titre": "Il a suffi d'une nuit",
+      "debut": "2026-11-20T20:00:00+01:00",
+      "duree_min": 90,
+      "note": "Ouverture du festival Le Réel en vue",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-20-2015-les-braves-coward",
       "lieu": "La Scala",
       "ville": "Thionville",
       "categorie": "cinema",
-      "titre": "Il suffit d'une nuit",
-      "debut": "2026-11-20T20:00:00+01:00",
-      "duree_min": 90,
-      "note": "Ouverture du festival Le Réel en Vue",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-20T20:15:00+01:00",
+      "duree_min": 127,
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -349,6 +525,28 @@
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
+      "id": "la-scala-2026-11-21-1345-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-21T13:45:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-21-1355-petite-casbah",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Petite Casbah",
+      "debut": "2026-11-21T13:55:00+01:00",
+      "duree_min": 84,
+      "note": "Jeune public, dès 6 ans",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-21-1415-arditti-quartet-yaron-deutsch-stefan-prins-fredi-reiter",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -379,6 +577,27 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/monica-germino-participants-of-the-threshold-frame-violin-project-jaap-peter-kronemeijer-000000e9001c8dcd"
     },
     {
+      "id": "la-scala-2026-11-21-1540-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-21T15:40:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-21-1605-le-mystere-lucy-lost",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Mystère Lucy Lost",
+      "debut": "2026-11-21T16:05:00+01:00",
+      "duree_min": 89,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "kinepolis-thionville-2026-11-21-1650-hunger-games-lever-de-soleil-sur-la-moisson",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -401,6 +620,17 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/guilherme-vaz-000000e9001c8de7"
     },
     {
+      "id": "la-scala-2026-11-21-1755-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-21T17:55:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-21-1800-zafraan-ensemble",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -409,6 +639,17 @@
       "debut": "2026-11-21T18:00:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/zafraan-ensemble-000000e9001c8dcf"
+    },
+    {
+      "id": "la-scala-2026-11-21-1810-le-corset",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Corset",
+      "debut": "2026-11-21T18:10:00+01:00",
+      "duree_min": 90,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-21-1930-yarn-wire",
@@ -431,6 +672,26 @@
       "version": "VF",
       "note": "Salle 1",
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "la-scala-2026-11-21-2000-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-21T20:00:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-21-2015-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-21T20:15:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-21-2045-patrick-muller-max-mausen-olivier-sliepen",
@@ -569,6 +830,16 @@
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
+      "id": "la-scala-2026-11-22-1345-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-22T13:45:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-22-1400-sandrine-cantoreggi-luigi-gaggero",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -586,7 +857,7 @@
       "titre": "La Bataille de Gaulle - Partie 1 : L'Âge de Fer",
       "debut": "2026-11-22T14:30:00+01:00",
       "duree_min": 160,
-      "note": "Ciné-débat - 17h30 : Table Ronde - 18h30 : Buffet dinatoire offert",
+      "note": "Ciné-débat - La Bataille de Gaulle",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -598,6 +869,16 @@
       "debut": "2026-11-22T15:00:00+01:00",
       "note": "Salle de Musique de Chambre",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/arditti-quartet-claude-lenners-000000e9001c8dee"
+    },
+    {
+      "id": "la-scala-2026-11-22-1550-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-22T15:50:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-22-1615-eunoia-trio-henri-vaxby-catherine-kontz",
@@ -632,6 +913,18 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/erwan-keravec-000000e9001daa07"
     },
     {
+      "id": "la-scala-2026-11-22-1820-le-vagabond-de-tokyo",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Vagabond de Tokyo",
+      "debut": "2026-11-22T18:20:00+01:00",
+      "duree_min": 83,
+      "version": "VOST",
+      "note": "Cycle Japanese Noire",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-22-1900-andrew-watts-helena-rasker-miles-walter",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -649,7 +942,7 @@
       "titre": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
       "debut": "2026-11-22T19:30:00+01:00",
       "duree_min": 160,
-      "note": "Ciné-débat - 17h30 : Table Ronde - 18h30 : Buffet dinatoire offert",
+      "note": "Ciné-débat - La Bataille de Gaulle",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -675,6 +968,17 @@
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/united-instruments-of-lucilin-ensemble-klang-000000e9001c8dd5"
     },
     {
+      "id": "la-scala-2026-11-22-2005-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-22T20:05:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-22-2115-miko-aj-rytowski",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -683,6 +987,26 @@
       "debut": "2026-11-22T21:15:00+01:00",
       "note": "Grand Foyer",
       "url": "https://www.philharmonie.lu/fr/programme/2026-27/mikolaj-rytowski-000000e9001c8dbf"
+    },
+    {
+      "id": "la-scala-2026-11-23-0945-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-23T09:45:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-23-0945-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-23T09:45:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "kinepolis-thionville-2026-11-23-1340-hunger-games-lever-de-soleil-sur-la-moisson",
@@ -697,6 +1021,37 @@
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
+      "id": "la-scala-2026-11-23-1350-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-23T13:50:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-23-1615-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-23T16:15:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-23-1615-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-23T16:15:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "kinepolis-thionville-2026-11-23-1650-hunger-games-lever-de-soleil-sur-la-moisson",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -707,6 +1062,16 @@
       "version": "VF",
       "note": "Salle 1",
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "la-scala-2026-11-23-1815-quelques-mots-d-amour",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-23T18:15:00+01:00",
+      "duree_min": 97,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-23-1930-baroque-bellows-and-beyond",
@@ -731,6 +1096,27 @@
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
+      "id": "la-scala-2026-11-23-2010-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-23T20:10:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-23-2020-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-23T20:20:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "philharmonie-luxembourg-2026-11-24-1230-lunch-concert",
       "lieu": "Philharmonie Luxembourg",
       "ville": "Luxembourg",
@@ -753,6 +1139,48 @@
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
     },
     {
+      "id": "la-scala-2026-11-24-1340-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-24T13:40:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-24-1350-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-24T13:50:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-24-1600-quelques-mots-d-amour",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Quelques mots d'amour",
+      "debut": "2026-11-24T16:00:00+01:00",
+      "duree_min": 97,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-24-1615-le-vagabond-de-tokyo",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Vagabond de Tokyo",
+      "debut": "2026-11-24T16:15:00+01:00",
+      "duree_min": 83,
+      "version": "VOST",
+      "note": "Cycle Japanese Noire",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "kinepolis-thionville-2026-11-24-1650-hunger-games-lever-de-soleil-sur-la-moisson",
       "lieu": "Kinepolis Thionville",
       "ville": "Thionville",
@@ -763,6 +1191,27 @@
       "version": "VF",
       "note": "Salle 1",
       "url": "https://kinepolis.fr/movies/detail/34235/HO00016177/0/hunger-games-lever-de-soleil-sur-la-moisson"
+    },
+    {
+      "id": "la-scala-2026-11-24-1805-15-18",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "15/18",
+      "debut": "2026-11-24T18:05:00+01:00",
+      "duree_min": 104,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-24-1810-le-mystere-lucy-lost",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Le Mystère Lucy Lost",
+      "debut": "2026-11-24T18:10:00+01:00",
+      "duree_min": 89,
+      "note": "Dernière semaine",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "philharmonie-luxembourg-2026-11-24-1930-rising-stars-petar-pejcic",
@@ -799,6 +1248,16 @@
       "url": "https://kinepolis.fr/movies/detail/3532/HO00016735/0000000035/kultissime-taxi-driver"
     },
     {
+      "id": "la-scala-2026-11-24-2000-les-braves-coward",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Les Braves (Coward)",
+      "debut": "2026-11-24T20:00:00+01:00",
+      "duree_min": 127,
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
       "id": "nest-2026-11-24-2000-pas-de-souci",
       "lieu": "NEST",
       "ville": "Thionville",
@@ -807,6 +1266,17 @@
       "debut": "2026-11-24T20:00:00+01:00",
       "note": "Théâtre de Thionville - petite salle - Théâtre",
       "url": "https://www.nest-theatre.fr/saison/26-27/pas-de-souci-959"
+    },
+    {
+      "id": "la-scala-2026-11-24-2010-wild-horse-nine",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "Wild Horse Nine",
+      "debut": "2026-11-24T20:10:00+01:00",
+      "duree_min": 118,
+      "version": "VOST",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
       "id": "la-scala-2026-11-25-0945-un-bon-petit-soldat",
@@ -1089,7 +1559,7 @@
       "titre": "Éduquons nos fils",
       "debut": "2026-11-26T20:00:00+01:00",
       "duree_min": 52,
-      "note": "Ciné-débat organisé par la Communauté d'agglomération",
+      "note": "Organisé par la Communauté d'agglomération",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -1243,7 +1713,18 @@
       "titre": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
       "debut": "2026-11-27T20:15:00+01:00",
       "duree_min": 160,
-      "note": "Dernière semaine",
+      "note": "Pour les spectateurs n'ayant pas pu assister à la - 2 ème partie lors du ciné-débat du 22 novembre",
+      "url": "https://www.thionville.fr/scala/programmation-cinema"
+    },
+    {
+      "id": "la-scala-2026-11-27-2030-la-tarentule-au-ventre-noir",
+      "lieu": "La Scala",
+      "ville": "Thionville",
+      "categorie": "cinema",
+      "titre": "La Tarentule au ventre noir",
+      "debut": "2026-11-27T20:30:00+01:00",
+      "duree_min": 98,
+      "note": "Le Retour du Bis - présenté par l'équipe de croiX2malte, le Podcast live",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -1254,8 +1735,7 @@
       "titre": "Torso",
       "debut": "2026-11-27T20:30:00+01:00",
       "duree_min": 90,
-      "version": "VOST",
-      "note": "Le Retour du Bis",
+      "note": "Le Retour du Bis - présenté par l'équipe de croiX2malte, le Podcast live",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
