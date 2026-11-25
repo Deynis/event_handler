@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T20:37:49+01:00",
+  "updated_at": "2026-11-25T20:38:42+01:00",
   "events": [
     {
       "id": "la-scala-2026-11-25-0945-un-bon-petit-soldat",
@@ -4793,7 +4793,7 @@
       "debut": "2026-12-06T16:00:00+01:00",
       "duree_min": 92,
       "version": "VOST",
-      "note": "Ciné-club - Cycle Film Noir",
+      "note": "Dans le cadre de Nuit d'Encre / Puzzle-Thionville",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
     {
@@ -5146,8 +5146,6 @@
       "categorie": "cinema",
       "titre": "The Pillow Book",
       "debut": "2026-12-11T20:00:00+01:00",
-      "duree_min": 126,
-      "version": "VOST",
       "note": "Séance précédée d'une conférence sur la calligraphie par Dr. Jackie Helfgott, adjoint au Maire délégué aux affaires culturelles de la Ville de Thionville. - Dans le cadre de Nuit d'Encre / Puzzle-Thionville",
       "url": "https://www.thionville.fr/scala/programmation-cinema"
     },
